@@ -3,10 +3,10 @@
 ## Family
   * SCOM 
   * OMS 
-    ..* Log Analytics
-    ..* Azure Monitor
-    ..* Azure Automation
-    ..* Azure Security Center 
+      * Log Analytics
+      * Azure Monitor
+      * Azure Automation
+      * Azure Security Center 
   * Aplication Insights
 ---
 
@@ -37,13 +37,14 @@
 #Query
 
 ##Standard Query Language
-*  [Easy To Learn] (https://portal.loganalytics.io/demo#/discover/home)
+*  [Easy To Learn](https://portal.loganalytics.io/demo#/discover/home)
 *  [Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
 *  [SQL Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
+*  [Github Exampes](https://github.com/MicrosoftDocs/LogAnalyticsExamples)
 ---
 #Functions
 * Create Your Own
-*[Scalar Functions](https://docs.loganalytics.io/docs/Language-Reference/Scalar-functions)
+* [Scalar Functions](https://docs.loganalytics.io/docs/Language-Reference/Scalar-functions)
 * [Aggregate Functions](https://docs.loganalytics.io/docs/Language-Reference/Aggregation-functions/any())
 * [Special Functions](https://docs.loganalytics.io/docs/Language-Reference/Special-functions/materialize-function)
 * [Window Functions](https://docs.loganalytics.io/docs/Language-Reference/Window-functions/next())
