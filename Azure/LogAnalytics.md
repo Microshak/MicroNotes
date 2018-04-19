@@ -3,10 +3,10 @@
 ## Family
   * SCOM 
   * OMS 
-    ** Log Analytics
-    ** Azure Monitor
-    ** Azure Automation
-    ** Azure Security Center 
+    ..* Log Analytics
+    ..* Azure Monitor
+    ..* Azure Automation
+    ..* Azure Security Center 
   * Aplication Insights
 ---
 
