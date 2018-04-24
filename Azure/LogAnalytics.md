@@ -34,15 +34,15 @@
 * [Security OMS](https://docs.microsoft.com/en-us/azure/operations-management-suite/oms-security-getting-started)
 * [Much More](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-add-solutions)
 ---
-#Query
+# Query
 
-##Standard Query Language
+## Standard Query Language
 *  [Easy To Learn](https://portal.loganalytics.io/demo#/discover/home)
 *  [Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
 *  [SQL Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
 *  [Github Exampes](https://github.com/MicrosoftDocs/LogAnalyticsExamples)
 ---
-#Functions
+## Functions
 * Create Your Own
 * [Scalar Functions](https://docs.loganalytics.io/docs/Language-Reference/Scalar-functions)
 * [Aggregate Functions](https://docs.loganalytics.io/docs/Language-Reference/Aggregation-functions/any())
