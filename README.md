@@ -1,2 +1,2 @@
 # MicroNotes
-General Notes 
+[Log Analytics](https://microshak.github.io/MicroNotes/) 
