@@ -31,7 +31,7 @@ iface lo inet loopback
 ```
 
 
-------------------
+---
 nano -w /etc/default/isc-dhcp-server
 
 ```bash
