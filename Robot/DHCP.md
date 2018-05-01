@@ -65,6 +65,9 @@ INTERFACES="eth0"
 
 ---
 # Start and stop
+
 sudo service isc-dhcp-server restart
- sudo service isc-dhcp-server start
- sudo service isc-dhcp-server stop 
+
+sudo service isc-dhcp-server start
+
+sudo service isc-dhcp-server stop 
