@@ -11,3 +11,10 @@
 | [Translator Speech API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | [Bing Spell Check API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | 
 |  | [Translator Text API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | 
 |  | [Linguistic Analysis API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | 
+
+
+# Apache
+[Kafka IoTHub Connector](https://microshak.github.io/MicroNotes/Notes.html?path=Apache/IoTHubKafka) 
+
+# Robots
+[DHCP Server](https://microshak.github.io/MicroNotes/Notes.html?path=Robot/DHCP) 
