@@ -5,7 +5,7 @@ https://help.ubuntu.com/community/isc-dhcp-server
 
 nano -w /etc/dhcp/dhcpd.conf
 
-
+```bash
 # Sample /etc/dhcpd.conf
 # (add your comments here)
 default-lease-time 60000;
@@ -20,20 +20,21 @@ subnet 192.168.55.0 netmask 255.255.255.0 {
 range 192.168.55.10 192.168.55.100;
 range 192.168.55.150 192.168.55.200;
 }
-
+```
 ---
 nano -w /etc/network/interfaces
 
+```
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
-
+```
 
 
 ------------------
 nano -w /etc/default/isc-dhcp-server
 
-
+```
 # Defaults for isc-dhcp-server initscript
 # sourced by /etc/init.d/isc-dhcp-server
 # installed at /etc/default/isc-dhcp-server by the maintainer scripts
@@ -58,12 +59,12 @@ INTERFACES="eth0"
 
 
 
-
+```
 
 
 
 ---
-#Start and stop
+# Start and stop
 sudo service isc-dhcp-server restart
  sudo service isc-dhcp-server start
  sudo service isc-dhcp-server stop 
