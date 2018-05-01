@@ -24,7 +24,7 @@ range 192.168.55.150 192.168.55.200;
 ---
 nano -w /etc/network/interfaces
 
-```
+```bash
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
@@ -34,7 +34,7 @@ iface lo inet loopback
 ------------------
 nano -w /etc/default/isc-dhcp-server
 
-```
+```bash
 # Defaults for isc-dhcp-server initscript
 # sourced by /etc/init.d/isc-dhcp-server
 # installed at /etc/default/isc-dhcp-server by the maintainer scripts
