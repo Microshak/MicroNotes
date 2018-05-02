@@ -1,5 +1,5 @@
 # Azure
-[Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) 
+[Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs) 
 
 # Cortana
