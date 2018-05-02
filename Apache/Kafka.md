@@ -3,7 +3,9 @@
 # Installing
 
 Download the latest then
+
 tar -xzf kafka_2.XX.XX.XX.tgz
+
 cd kafka_2.XX.XX.XX
 
 ## Starting
