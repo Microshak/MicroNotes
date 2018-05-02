@@ -29,3 +29,9 @@ Send Message
 ~~~~
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 ~~~~
+
+# Azure VM Setup
+You need to open up the firewall.
+The easiest way is to Bing "What is my IP"
+Then Bing "Who Is [IP Address]"
+Look for the SIDR and put that in your filewall to allow traffic.
