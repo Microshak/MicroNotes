@@ -1,8 +1,10 @@
 see 
 https://help.ubuntu.com/community/isc-dhcp-server
 
+#
+Make sure that your machines network adapter is in static mode.
 
-
+---
 nano -w /etc/dhcp/dhcpd.conf
 
 ```bash
