@@ -9,7 +9,7 @@
 * Brands
 
 # Cost
-	$5 per 10,000 transactions
+  $5 per 10,000 transactions
   Approximately 1/10th the cost of video services
 
 # Demo
