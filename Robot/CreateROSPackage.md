@@ -26,15 +26,16 @@ $ cd ~/catkin_ws/src
 catkin_create_pkg package_1 std_msgs rospy roscpp
 ```
 
-
+Building
 
  ```bash
-
+cd ~/catkin_ws
+catkin_make
 ```
 
-
+Add workspace to ROS Environment
  ```bash
-
+. ~/catkin_ws/devel/setup.bash
 ```
 
 
