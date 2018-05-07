@@ -2,9 +2,12 @@
 
 aka:
   Microsoft Speech API
-  Cortana Speech API 
-  Bing Speech API
   
+  Cortana Speech API 
+  
+  Bing Speech API
+
+---
 # Capabilities
 | Use cases                                                                                          | [REST APIs] | [Client Libraries] |
 |----------------------------------------------------------------------------------------------------|-------------|--------------------|
