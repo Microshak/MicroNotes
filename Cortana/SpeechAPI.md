@@ -44,6 +44,6 @@ aka:
 
 ---
 
-![AI On Edge](https://github.com/Microshak/MicroNotes/blob/master/Images/Screenshot%20from%202018-05-07%2011-04-47.png?raw=true)
+![full](https://github.com/Microshak/MicroNotes/blob/master/Images/Screenshot%20from%202018-05-07%2011-04-47.png?raw=true)
 
 
