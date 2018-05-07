@@ -20,26 +20,17 @@ aka:
   [Client Libraries]: getstarted/getstartedclientlibraries  
   
   
-  ---
-  # Recognition modes
-  
+---
+# Recognition modes
+ 
    * Interactive mode
    * Conversation mode
    * Dictation mode
    
- ---
- # Output
+---
+# Output
   * Basic
   * N-Best
   
-  ---
-  # Profanity
-  
-  | *Profanity* value | Description                                                   |
-|-------------------|---------------------------------------------------------------|
-| `masked`          | Masks profanity with asterisks. This behavior is the default. |
-| `removed`         | Removes profanity from all results.                           |
-| `raw`             | Recognizes and returns profanity in all results.              |
-
-
 ---
+
