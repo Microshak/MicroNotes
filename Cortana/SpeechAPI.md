@@ -33,4 +33,14 @@ aka:
   * N-Best
   
 ---
+# Profanity
+  
+| *Profanity* value | Description                                                   |
+|-------------------|---------------------------------------------------------------|
+| `masked`          | Masks profanity with asterisks. This behavior is the default. |
+| `removed`         | Removes profanity from all results.                           |
+| `raw`             | Recognizes and returns profanity in all results.              |
+
+
+---
 
