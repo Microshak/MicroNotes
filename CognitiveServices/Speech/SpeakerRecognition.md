@@ -26,5 +26,7 @@ Verification
 
 ---
 
+[Demo](https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/)
+
 
 
