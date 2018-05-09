@@ -27,7 +27,7 @@ ___
 
 ---
 
-![full](../../../Images/Customization_CustomGIF.gif)
+![full](https://raw.githubusercontent.com/Microshak/MicroNotes/master/Images/Customization_CustomGIF.gif)
 
 ---
 
