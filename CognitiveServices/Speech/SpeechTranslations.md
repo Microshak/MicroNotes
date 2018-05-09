@@ -31,12 +31,14 @@ ___
 
 ---
 
-Can use custom voice
-
----
 
 # [Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator-speech-api/)
 
 * Free
 * Pay as you go
 * Dedicated
+---
+# Intergrations
+* Bot Service
+* Language Understanding
+* Custom Voice
