@@ -13,16 +13,14 @@
 * Your Equipment in your Environment
 * Local accents 
 
-___
+---
+
 
 # Custom Translations
 
 * Upload
-
 * Train
-
 * Test
-
 * Deploy 
 
 ---

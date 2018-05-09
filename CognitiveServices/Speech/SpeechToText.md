@@ -57,44 +57,19 @@ Overcome speech recognition barriers such as speaking style, vocabulary and back
 ---
 # Vocabulary
 * Industry Names (dianasours, ml, ect)
+
 * Product names 
 
+---
+
+  
+
 # Background Noise
+
 Your audio on your devices
-
-# Custom Speech Service
-
-Overcome speech recognition barriers such as speaking style, vocabulary and background noise.
-
----
-
-# Style
-* Elderly
-* Accents
-* Search, Dictation, Conversational
-
----
-# Vocabulary
-* Industry Names (dianasours, ml, ect)
-* Product names 
----
-# Background Noise
-Your audio on your devices
----
-# Comatibility
-* Uses Bing Speech API
-* Deploy to custom endpoint 
-* Supports English, German, Chinese
 ---
 
 # Architecture
-
-![full](/home/administrator/Source/MicroNotes/Images/ChatBot.png)
-
-
-
-
-
 
 ![full](https://github.com/Microshak/MicroNotes/blob/master/Images/Screenshot%20from%202018-05-07%2011-04-47.png?raw=true)
 ---
