@@ -9,12 +9,11 @@
 # Custom Speech Recognition 
 
 * Custom Speech Recognition
+* Your Domain
+* Your Equipment in your Environment
+* Local accents 
 
-  * Your Domain
-  * Your Equipment in your Environment
-  * Local accents 
-
-  ___
+___
 
   # Custom Translations
 
