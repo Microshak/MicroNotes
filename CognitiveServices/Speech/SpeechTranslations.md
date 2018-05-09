@@ -15,7 +15,7 @@
 
 ___
 
-  # Custom Translations
+# Custom Translations
 
 * Upload
 
@@ -27,7 +27,7 @@ ___
 
 ---
 
-![full](../../Images/Customization_CustomGIF.gif)
+![full](../../../Images/Customization_CustomGIF.gif)
 
 ---
 
