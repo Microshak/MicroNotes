@@ -1,6 +1,9 @@
 # Spell Check API v7
 1. Checks your spelling
+
 2. Helps out with grammer (too, two, to)
+
+---
 
 # Advanced Features
 * Word Break Detection
@@ -8,10 +11,13 @@
 * Names
 * Brands
 
+---
+
 # Cost
-  $5 per 10,000 transactions
-  
-  Approximately 1/10th the cost of video services
+* $5 per 10,000 transactions
+* Approximately 1/10th the cost of video services
+
+---
 
 # Demo
 

@@ -1,4 +1,4 @@
-# LUIS
+# Language Understanding
 
 * Natural language and Understanding
 * Intent
@@ -7,16 +7,13 @@
 # Prebuild Entities
 * Data Time
 * City 
-* 
-
 
 ---
-# Prebuild Domains Entities
+# Pre-build Domains Entities
 
 ---
 # Active Learning
 * Improve model over time
-
 
 ---
 # Enterprise Ready
@@ -35,18 +32,23 @@
 * Key Phrase
 * Regex entities
 * Patterns (interated with ML)
+
+---
 # Pattern Entities
 * Email
-* 
+
+---
 # Rows
 Same entity used differently
 City:From
 City:To
 
+---
 # Speech Priming
 * Send data to Speech to Text
 * Your trained model
 
+---
 
 # Demo
 
@@ -54,5 +56,5 @@ City:To
 
 [Demo](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/)
 
----
+
 
