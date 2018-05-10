@@ -1,6 +1,10 @@
 # Azure
 [Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs) 
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[30 Minuites of DevOps](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/Devops) 
+
+
 
 # Cognitive Services
 
