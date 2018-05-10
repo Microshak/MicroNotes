@@ -8,6 +8,34 @@ aka:
   Bing Speech API
 
 ---
+# Old Speech Lanscape
+
+* UWP
+
+* Cortana - Cortana
+
+* Windows 10 Speech
+
+* Microsoft 365
+
+* Online - Offline
+
+---
+
+  
+
+# New Speech Landscape
+* One speech SDK
+* Online or Offline
+* Trainable
+* Multi-Language
+* All Platforms
+
+---
+
+
+
+
 # Capabilities
 | Use cases                                                                                          | [REST APIs] | [Client Libraries] |
 |----------------------------------------------------------------------------------------------------|-------------|--------------------|
@@ -16,8 +44,7 @@ aka:
 | Stream audio with interim results desired                                                          | No          | Yes                |
 | Understand the text converted from audio using LUIS                                                | No          | Yes                |
 
-[REST APIs]: getstarted/getstartedrest
-[Client Libraries]: getstarted/getstartedclientlibraries
+
 
 ---
 # Recognition modes
@@ -66,10 +93,15 @@ Overcome speech recognition barriers such as speaking style, vocabulary and back
 
 # Background Noise
 
+
 Your audio on your devices
+
 ---
 
-# Architecture
+
+
+
+# Device Development Kit
 
 ![full](https://github.com/Microshak/MicroNotes/blob/master/Images/Screenshot%20from%202018-05-07%2011-04-47.png?raw=true)
 
