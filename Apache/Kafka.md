@@ -1,5 +1,16 @@
 # Kafka
 
+<<<<<<< HEAD
+=======
+# Installing
+
+Download the latest then
+
+tar -xzf kafka_2.XX.XX.XX.tgz
+
+cd kafka_2.XX.XX.XX
+
+>>>>>>> 34f4c728dc5e86be96c4349cfc803f9d2a56b5b0
 ## Starting
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
@@ -21,3 +32,10 @@ Send Message
 ~~~~
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 ~~~~
+~~~~
+
+# Azure VM Setup
+You need to open up the firewall.
+The easiest way is to Bing "What is my IP"
+Then Bing "Who Is [IP Address]"
+Look for the SIDR and put that in your filewall to allow traffic.

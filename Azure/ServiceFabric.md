@@ -1,6 +1,8 @@
 #Service Fabric
     * Used by Microsoft to update the way they do things
     * 30% of Azure runs on Service Fabric
+        * Sql Server
+        * Cosmos DB
 
 ---
 #Benifits
@@ -43,8 +45,14 @@
  * Measures RTOs (recover times objectives)
 
 ---
-#Deploy To
+#Run Anywhere
 * Win Server
 * Win Core
 * Rasberry Pi
 * Ubuntu
+---
+# Visual Studio Intergration
+ * Build 
+ * Test
+ * Debug
+ * Deploy
