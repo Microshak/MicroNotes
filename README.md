@@ -1,19 +1,16 @@
 # Azure
 [Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs) 
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[30 Minuites of DevOps](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/Devops) 
 
+# Cortana
 
-
-# Cognitive Services
-
-| Speech        | Language  |
-| ------------- | -------------|
-| [Speech to Text](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Speech/SpeechToText) | [Text Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Language/TextAnalytics) |
-| [Speaker Recognition](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Speech/SpeakerRecognition) | [Translator Text](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Language/TraslatorText) |
-| [Text To Speech](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Speech/TextToSpeech) | [Language Understanding](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Language/LanguageUnderstanding) |
-| [Speech Translations](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Speech/SpeechTranslations) | [Spell Check](https://microshak.github.io/MicroNotes/Notes.html?path=CognitiveServices/Language/SpellCheck) |
+| Speech                                                       | Language                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Speech API](https://microshak.github.io/MicroNotes/Notes.html?path=Cortana/SpeechAPI) | [Text Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) |
+| [Speaker Recognition API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | [Language Understanding](https://microshak.github.io/MicroNotes/Notes.html?path=C/LogAnalytics) |
+| [Custom Speech Service](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | [Bing Spell Check API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) |
+| [Translator Speech API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) | [Translator Text API](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics) |
+|                                                              |                                                              |
 
 
 
