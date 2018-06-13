@@ -1,17 +1,19 @@
 # Kafka
 
-<<<<<<< HEAD
-=======
-# Installing
 
-Download the latest then
-
+Download the latest version of Kafka then
+      
+      If you are ssh'ed into a machine then use "wget [download url]"
+      
 tar -xzf kafka_2.XX.XX.XX.tgz
 
 cd kafka_2.XX.XX.XX
 
->>>>>>> 34f4c728dc5e86be96c4349cfc803f9d2a56b5b0
-## Starting
+     May need to install java --
+     sudo add-apt-repository ppa:webupd8team/java
+     sudo apt update; sudo apt install oracle-java8-installer
+     sudo apt install oracle-java8-set-default
+
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
