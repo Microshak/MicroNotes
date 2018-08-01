@@ -11,3 +11,8 @@
 * [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
 * [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
 * [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
+
+---
+
+* (Azure Security Best Practices)[https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns]
+
