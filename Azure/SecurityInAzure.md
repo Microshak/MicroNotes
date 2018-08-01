@@ -14,5 +14,8 @@
 
 ---
 
+* [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
 * [Azure Security Best Practices](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
+
+---
 
