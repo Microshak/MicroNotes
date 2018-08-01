@@ -14,5 +14,5 @@
 
 ---
 
-* (Azure Security Best Practices)[https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns]
+* [Azure Security Best Practices](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
 
