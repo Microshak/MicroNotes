@@ -1,25 +1,31 @@
-# Automate
+
+
+# Proactive Monitoring
 * [Azure Security Center](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0)
 * [Azure DevOps Kit](https://github.com/azsk/DevOpsKit)
 
-
----
-# Secure Internal Users
-* [Azure Key Vault](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.KeyVault%2Fvaults)
-* [MSI](https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/overview)
-
----
-# Monitor
-* [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
+# Reactive Monitoring
 * [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
+* [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
+* [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
+TODO:Event GRid
+
+
+# Assume Breach
+TODO: Alerts
+Run Book
+Disaster Recovery
 * [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
 
----
-# Automate
-* [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
+
+# Governance
+
+TODO Rbac
+* [Terraform](https://www.terraform.io/docs/providers/azurerm/)
+* [MSI](https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/overview)
+
+# Further Reading
 * [Azure Security Best Practices](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
-
----
-# Repeatability
-[Terraform](https://www.terraform.io/docs/providers/azurerm/)
-
+* [Microsoft Secure](https://cloudblogs.microsoft.com/microsoftsecure/)
+* [Microsoft Security Responce Center Blog](https://blogs.technet.microsoft.com/msrc/)
+* [Azure Security](https://azure.microsoft.com/en-us/blog/topics/security/)
