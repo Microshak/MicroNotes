@@ -27,6 +27,7 @@ TODO: Alerts
 Run Book
 Disaster Recovery
 * [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
+* [Break Glass](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access)
 
 
 # Ongoing Review
