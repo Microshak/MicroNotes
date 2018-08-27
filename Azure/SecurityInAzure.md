@@ -9,7 +9,7 @@
 * [MSI](https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/overview)
 
 # Princeiple of Least Privledges
-* [Rbac](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
+* [RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
 * [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
 * [SQL Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview)
 
