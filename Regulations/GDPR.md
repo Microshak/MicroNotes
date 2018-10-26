@@ -7,27 +7,27 @@
   b. Delete personal data once legitamate purpose is fulfilled
 1. Rights
    1. Right to Information
-    - Customer can ask what informtion you have, why you have it, and who you are sharing it with.
+      - Customer can ask what informtion you have, why you have it, and who you are sharing it with.
    1. Right to Data Porability
-    - Customer can view their data
+      - Customer can view their data
    1. Right to rectification
-    - Customer can edit their data if inaccurate
+      - Customer can edit their data if inaccurate
    1. Right to withdraw concent
-    - 
+     
    1. Right to object
-    - While the customer is in court they can have certain processing stopped
+      - While the customer is in court they can have certain processing stopped
    1. Right to object to automated processing
-    - If for example a loan is being processed the customer can request that there is no automated processing
+      - If for example a loan is being processed the customer can request that there is no automated processing
    1. Right to be forgotten
-    - Right for customer to ask for deletion of data.  as long as retention is not appicable with other laws.
+      - Right for customer to ask for deletion of data.  as long as retention is not appicable with other laws.
   1. Consent
-    - If non-legitimate then clear and explicit concent must be given
+      - If non-legitimate then clear and explicit concent must be given
   1. Personal Data Breach
-    - Maintain a Data Breach Register
-    - Inform people within 72 hours
+      - Maintain a Data Breach Register
+      - Inform people within 72 hours
   1. Privacy by design
-    - RBAC
-    - Principle of least privledges
+      - RBAC
+      - Principle of least privledges
   1. Data Protection Impact Assessment
     - Describe Project
     - Identify Risks
