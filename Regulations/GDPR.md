@@ -41,7 +41,7 @@
       - Regular training for employees
     
     ## Fines and Enforcement
-Regulators have authority to issues files of  €10 million or 2% of the entity's global gross revenue for violations of record-keeping, security, breach notification, and privacy impact assessment obligations
+Regulators have authority to issues files of greater than €10 million or 2% of the entity's global gross revenue for violations of record-keeping, security, breach notification, and privacy impact assessment obligations
 
 
 However violations of obligations related to legal justification for processing (including consent…), data subject rights, and cross-border data transfers may result in penalties of the greater of €20 million or 4% of the entity's global gross revenue.
