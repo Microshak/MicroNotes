@@ -34,11 +34,11 @@
     - Identiry Complience 
     - Identify risk mitigation
   1.Data Transfers
-    - You are responsible to make sure data is transfered responsibly to 3rd parties
+      - You are responsible to make sure data is transfered responsibly to 3rd parties
   1. Data Protection Officer
-    - Organizations should have one
+      - Organizations should have one
   1. Awareness and Training
-    - Regular training for employees
+      - Regular training for employees
     
     ## Fines and Enforcement
 Regulators have authority to issues files of  €10 million or 2% of the entity's global gross revenue for violations of record-keeping, security, breach notification, and privacy impact assessment obligations
