@@ -8,6 +8,10 @@
 1. Rights
    1. Right to Information
       - Customer can ask what informtion you have, why you have it, and who you are sharing it with.
+      - example loans
+   1. Right to be forgotten
+      - Right for customer to ask for deletion of data.  as long as retention is not appicable with other laws.
+  
    1. Right to Data Porability
       - Customer can view their data
    1. Right to rectification
@@ -18,9 +22,7 @@
       - While the customer is in court they can have certain processing stopped
    1. Right to object to automated processing
       - If for example a loan is being processed the customer can request that there is no automated processing
-   1. Right to be forgotten
-      - Right for customer to ask for deletion of data.  as long as retention is not appicable with other laws.
-  1. Consent
+   1. Consent
       - If non-legitimate then clear and explicit concent must be given
   1. Personal Data Breach
       - Maintain a Data Breach Register
@@ -29,10 +31,10 @@
       - RBAC
       - Principle of least privledges
   1. Data Protection Impact Assessment
-    - Describe Project
-    - Identify Risks
-    - Identiry Complience 
-    - Identify risk mitigation
+     - Describe Project
+     - Identify Risks
+     - Identiry Complience 
+     - Identify risk mitigation
   1.Data Transfers
       - You are responsible to make sure data is transfered responsibly to 3rd parties
   1. Data Protection Officer
