@@ -22,7 +22,7 @@
       - While the customer is in court they can have certain processing stopped
    1. Right to object to automated processing
       - If for example a loan is being processed the customer can request that there is no automated processing
-   1. Consent
+  1. Consent
       - If non-legitimate then clear and explicit concent must be given
   1. Personal Data Breach
       - Maintain a Data Breach Register
