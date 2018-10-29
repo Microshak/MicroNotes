@@ -1,7 +1,7 @@
 
 1. Data Processing
- 1. Fair & Lawful - Legitimate purpose
- 1. Transparent - Information about when is being done with data on their website
+   1. Fair & Lawful - Legitimate purpose
+   1. Transparent - Information about when is being done with data on their website
 1. Storage
    1. data collected must have a legitimate purpose
    1. Delete personal data once legitamate purpose is fulfilled
