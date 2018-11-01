@@ -19,11 +19,12 @@
 * [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
 * [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
 * [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
-TODO:Event GRid
+
+Event GRid
 
 
 # Assume Breach
-TODO: Alerts
+Alerts
 Run Book
 Disaster Recovery
 * [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
