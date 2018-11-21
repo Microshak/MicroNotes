@@ -1,0 +1,1 @@
+[VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs) 

@@ -32,6 +32,8 @@ python manage.py migrate
 ```
 ```bash
  # Build the db files
+ python manage.py inspectdb
+ python manage.py inspectdb > models.py
 
 ```
 

@@ -1,0 +1,8 @@
+Mean absolute error (MAE)   measures how close the predictions are to the actual outcomes; thus, a lower score is better.
+Root mean squared error (RMSE)  creates a single value that summarizes the error in the model. By squaring the difference, the metric disregards the difference between over-prediction and under-prediction.
+Relative absolute error (RAE)    is the relative absolute difference between expected and actual values; relative because the mean difference is divided by the arithmetic mean.
+Relative squared error (RSE)     similarly normalizes the total squared error of the predicted values by dividing by the total squared error of the actual values.
+Mean Zero One Error (MZOE)  indicates whether the prediction was correct or not. In other words: ZeroOneLoss(x,y) = 1 when x!=y; otherwise 0
+Coefficient of determination     often referred to as R2, represents the predictive power of the model as a value between 0 and 1. Zero means the model is random (explains nothing); 1 means there is a perfect fit. However, caution should be used in interpreting R2 values, as low values can be entirely normal and high values can be suspect.
+
+

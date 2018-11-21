@@ -1,0 +1,3 @@
+Steps to make an estimator  train - evaluate - predict - export model
+Eager execution  imperative, define-by-run interface for advanced operations
+Estimator    Estimators can train large models on multiple machines 

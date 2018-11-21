@@ -1,0 +1,7 @@
+Accuracy    measures the goodness of a classification model as the proportion of true results to total cases.
+Precision   is the proportion of true results over all positive results.
+Recall  is the fraction of all correct results returned by the model.
+F-score is computed as the weighted average of precision and recall between 0 and 1, where the ideal F-score value is 1.
+AUC measures the area under the curve plotted with true positives on the y axis and false positives on the x axis. This metric is useful because it provides a single number that lets you compare models of different types.
+Average log loss    is a single score used to express the penalty for wrong results. It is calculated as the difference between two probability distributions – the true one, and the one in the model.
+Training log loss   is a single score that represents the advantage of the classifier over a random prediction.
