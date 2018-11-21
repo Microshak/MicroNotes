@@ -1,4 +1,4 @@
-template: inverse
+class: inverse
 # Speech To Text
 
 aka:
