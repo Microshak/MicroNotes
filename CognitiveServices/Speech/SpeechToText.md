@@ -1,4 +1,9 @@
-class: inverse
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+#remark
+[ri-mahrk]
 # Speech To Text
 
 aka:
