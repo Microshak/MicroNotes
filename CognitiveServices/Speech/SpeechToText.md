@@ -1,3 +1,4 @@
+template: inverse
 # Speech To Text
 
 aka:
