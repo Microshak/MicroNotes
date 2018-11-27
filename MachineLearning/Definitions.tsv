@@ -1,8 +1,6 @@
-Overfit 
-Underfit    
+Overfit corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably"
+Underfit     occurs when a statistical model cannot adequately capture the underlying structure of the data    
 feedforward neural  network is an artificial neural network wherein connections between the nodes do not form a cycle.
-weight
-Bias
 Activation function nonlinear(cruved) maping to layers
 Diferationable funciton that we can find its dirivitive
 Activation Potential    lets us know weather to activate a neuron or not
@@ -16,3 +14,6 @@ Naive Bayes     is considered “Naive” because it makes an assumption that is
 Type I error    is a false positive
 Type II error   is a false negative
 F1 score       is a measure of a model’s performance. It is a weighted average of the precision and recall of a model, with results tending to 1 being the best, and those tending to 0 being the worst
+Steps to make an estimator  train - evaluate - predict - export model
+Eager execution  imperative, define-by-run interface for advanced operations
+Estimator    Estimators can train large models on multiple machines 
