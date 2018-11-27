@@ -32,6 +32,8 @@
 
 
 # Azure
+
+[Security](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs) 
 
