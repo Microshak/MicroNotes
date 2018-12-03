@@ -1,8 +1,8 @@
 
-
+    
 # Spark
 [Spark and ML 1](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Spark/Spark1)
-
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [Spark and ML 1](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Spark/Spark2)
 
 # IoT Hub
@@ -10,13 +10,11 @@
 
 # Kafka
 [Kafka IoT](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/IoT)
-
-[Kafka Multi-Stream](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/Streams)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Kafka Multi-Stream](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/Streams)
 
 # Kafka
 [Kafka IoT](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/IoT)
-
-[Kafka Multi-Stream](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/Streams)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Kafka Multi-Stream](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/Kafka/Streams)
 
 # Kubernetties
 [Kubernetties](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetties/AKS)

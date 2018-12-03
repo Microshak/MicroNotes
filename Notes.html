@@ -24,6 +24,13 @@
         {
          width:100% !important;   
         }
+
+img[alt="right"]
+        {
+        float:right;
+        
+        }
+
     </style>
 </head>
 <body>
@@ -34,8 +41,12 @@
 
 
         var path = qs('path')
-        var slideshow = remark.create({
-            sourceUrl: 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'+path+'.md?ran=' + Math.random()
+        console.log(location)
+        base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
+            if(location.host == 'localhost')
+            base = 'http://localhost/'
+    slideshow = remark.create({
+            sourceUrl: base+path+'.md?ran=' + Math.random()
         });
 
 
