@@ -2,16 +2,18 @@
 
 ## Availability Set
 Availability Sets ensure that the Azure virtual machines are deployed across multiple isolated hardware nodes in a cluster.
+
  
 ---
 
 # Why Use Availability Sets
-* Unplanned Hardware Maintenance Events -  When Azure platform predicts that the hardware or any platform components associated to a physical machine is about to fail.
+* Unplanned Hardware Maintenance Events -- machine is about to fail
 * An unexpected downtime -- rarely occurs
-* Planned Maintenance events -- periodic updates made by Microsoft.
+* Planned Maintenance events -- periodic updates made by Microsoft
 
 ---
-# Fault Domain 
+
+## (Availability Sets) Fault Domain 
 Fault domains define the group of virtual machines that share a common power source and network switch.
 
 ![full](https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/availability-set-fault-domains-and-update-domains-in-azure-virtual-machie/Images/Screenshot_26.png "Logo Title Text 1")
@@ -20,7 +22,17 @@ Fault domains define the group of virtual machines that share a common power sou
 # Update Domains
 Virtual machines get update domains automatically once they are put inside availability set.
 All virtual machines within that update domain will reboot together.
+![full](/Images/updatedomains.png "update domains")
 
 ---
+
+
+# Availability Zone
+* Spread VM across Different Datacenters In a region
+* Have same update domains that Availability Sets do.
+
+SLA Availability Zone 99.99%
+SLA Availability Set 99.95%
+
 # Scale Sets
 Scale out VMs
