@@ -47,25 +47,43 @@
 * Examples
     * Battery Life Saver
     * Equipment Maintenance
-* Algorithms
-    * [Linear Regression](https://github.com/tensorflow/tensorflow/blob/r1.11/tensorflow/examples/get_started/regression/linear_regression.py)
-    * [Remaining Useful Life](https://github.com/umbertogriffo/Predictive-Maintenance-using-LSTM)
-
+   
 ---
 # Diagnostic
-
+* Examples
+    * Stethescope
+    * Crops
+* Examples
+    * [Multi-class Classifier](http://www.insightsbot.com/blog/G1Za1/keras-multi-class-classification-introduction)
+    * [Binary Classifier](https://visualstudiomagazine.com/articles/2018/08/30/neural-binary-classification-keras.aspx)
 
 ---
 # Predictive
 
+
+Algorithms
+    * [Linear Regression](https://github.com/tensorflow/tensorflow/blob/r1.11/tensorflow/examples/get_started/regression/linear_regression.py)
+    * [Remaining Useful Life](https://github.com/umbertogriffo/Predictive-Maintenance-using-LSTM)
+
 ---
 # Inferential
+* Basic correlation between different elements. 
+* Test new instraments
+* 
+* Example
+    * [Correlation](https://pythonfordatascience.org/correlation-python/)
+  ###### Warning
+* Icecream does not cause polio
 ---
 # Causal
-
-
+Changing one factor causes a change in another. Such as A/B Testing
+*  Example
+    * Amazon Recommendations
+    * Tensorflow serving
+    * Bettery Life Savings
+ 
 ---
-# Mechanistic
+
 
 
 ---
