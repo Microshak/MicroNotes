@@ -7,9 +7,9 @@
 
 ---
 # Define SKU
-1. Create a Offer (in [publshing portal](https://publish.windowsazure.com))
+1. Create a Offer (in [publishing portal](https://publish.windowsazure.com))
     *An offer is a parent of all its SKUs.*
-1. Define SKU (in [publshing portal](https://publish.windowsazure.com))
+1. Define SKU (in [publishing portal](https://publish.windowsazure.com))
    *A SKU is a single VM*
 
 <br />
@@ -43,14 +43,14 @@
 
 ---
 # Obtain certification for VM image
-1. From Gernalized VHD spin up VM
+1. From Generalized VHD spin up VM
 1. Download Azure Certified Test Tool
 https://jsonpickle.github.io/
 ---
 # Test Against VM
 ![full](/Images/vm-image-certification-test-sample-win.png)
 ---
-# Questionaire
+# Questionnaire
 ![full](/Images/vm-image-certification-questionnaire.png)
 
 --- 

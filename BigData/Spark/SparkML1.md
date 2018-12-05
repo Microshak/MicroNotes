@@ -26,11 +26,11 @@
 # Descriptive
 * Benefits
     * Understand Data
-    * Validate Insterment
+    * Validate Instrument
 * Examples
     * ANOVA
     * Descriptive Statistics
-    * Exploritory/Explanitory Factor Analysis
+    * Exploratory/Explanatory Factor Analysis
     * Correlation
 
 ---
@@ -51,7 +51,7 @@
 ---
 # Diagnostic
 * Examples
-    * Stethescope
+    * Stethoscope	
     * Crops
 * Examples
     * [Multi-class Classifier](http://www.insightsbot.com/blog/G1Za1/keras-multi-class-classification-introduction)
@@ -68,7 +68,7 @@ Algorithms
 ---
 # Inferential
 * Basic correlation between different elements. 
-* Test new instraments
+* Test new instruments
 * 
 * Example
     * [Correlation](https://pythonfordatascience.org/correlation-python/)
@@ -80,7 +80,7 @@ Changing one factor causes a change in another. Such as A/B Testing
 *  Example
     * Amazon Recommendations
     * Tensorflow serving
-    * Bettery Life Savings
+    * Battery Life Savings
  
 ---
 

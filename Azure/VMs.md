@@ -6,7 +6,7 @@ Availability Sets ensure that the Azure virtual machines are deployed across mul
 ---
 
 # Why Use Availability Sets
-* Unplanned Hardware Maintainance Events -  When Azure platform predicts that the hardware or any platform components associated to a physical machine is about to fail.
+* Unplanned Hardware Maintenance Events -  When Azure platform predicts that the hardware or any platform components associated to a physical machine is about to fail.
 * An unexpected downtime -- rarely occurs
 * Planned Maintenance events -- periodic updates made by Microsoft.
 
