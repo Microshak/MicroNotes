@@ -45,7 +45,7 @@
 # Obtain certification for VM image
 1. From Generalized VHD spin up VM
 1. Download Azure Certified Test Tool
-https://jsonpickle.github.io/
+
 ---
 # Test Against VM
 ![full](/Images/vm-image-certification-test-sample-win.png)
