@@ -29,7 +29,7 @@
 ---
 # Management Group
 
-![full](/Images/ManagementGroup.png)
+![full](Images/ManagementGroup.png)
 
 
 ---
