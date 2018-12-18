@@ -16,7 +16,7 @@ Availability Sets ensure that the Azure virtual machines are deployed across mul
 ## (Availability Sets) Fault Domain 
 Fault domains define the group of virtual machines that share a common power source and network switch.
 
-![full](https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/availability-set-fault-domains-and-update-domains-in-azure-virtual-machie/Images/Screenshot_26.png "Logo Title Text 1")
+![full](/Images/updatedomains.png "update domains")
 
 ---
 # Update Domains
@@ -33,6 +33,8 @@ All virtual machines within that update domain will reboot together.
 
 SLA Availability Zone 99.99%
 SLA Availability Set 99.95%
+
+--- 
 
 # Scale Sets
 Scale out VMs

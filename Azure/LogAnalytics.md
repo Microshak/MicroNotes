@@ -45,9 +45,9 @@
 ## Functions
 * Create Your Own
 * [Scalar Functions](https://docs.loganalytics.io/docs/Language-Reference/Scalar-functions)
-* [Aggregate Functions](https://docs.loganalytics.io/docs/Language-Reference/Aggregation-functions/any())
+* [Aggregate Functions](https://docs.loganalytics.io/docs/Language-Reference/Aggregation-functions/any(&#41;)
 * [Special Functions](https://docs.loganalytics.io/docs/Language-Reference/Special-functions/materialize-function)
-* [Window Functions](https://docs.loganalytics.io/docs/Language-Reference/Window-functions/next())
+* [Window Functions](https://docs.loganalytics.io/docs/Language-Reference/Window-functions/next(&#41;)
 * [Machine Learning](https://docs.loganalytics.io/docs/Language-Reference/Machine-Learning-and-Time-Series-Analysis/autocluster)
 * [Time Series](https://docs.loganalytics.io/docs/Language-Reference/Machine-Learning-and-Time-Series-Analysis/time-series-analysis/make-series-operator)
 
