@@ -3,54 +3,143 @@
 * Natural language and Understanding
 * Intent
 * Entities
+* Utterances
+
 ---
-# Prebuild Entities
+
+## Prebuilt Domain Intents
+
+* Calendar
+* Camera
+* Communication
+* Entertainment
+* Events
+* Fitness
+* Gaming
+* Home Automation
+* Movie
+* Music
+* Notes
+* On Device
+* Places
+* Utilities
+* Web
+* Shopping
+
+---
+
+## Prebuilt Entities
+
 * Data Time
-* City 
+* Geography
+* Calender
+* Phone Number
+* URL
+* Person Name
+* Number
+* Money
 
 ---
-# Pre-build Domains Entities
+
+## Prebuilt Domains Entities
+
+* Communication
+* Calendar
+* Camera
+* Entertainment
+* Fitness
+* Home Automation
+* On Device
+* Places
+* Shopping
 
 ---
-# Active Learning
-* Improve model over time
 
----
-# Enterprise Ready
-* HIPAA Complient
-* GDPR Complient
-* Multiple Pricing Tiers
-* 12 Language and 13 Azure Regions
----
-# Interated Experience
-* Speech build in
-* Sentiment Analytis
-* Multi Lingual (build in with language Translation)
+## Entity Rows
 
----
-# Core Language Understanding
-* Key Phrase
-* Regex entities
-* Patterns (interated with ML)
-
----
-# Pattern Entities
-* Email
-
----
-# Rows
 Same entity used differently
 City:From
 City:To
 
 ---
-# Speech Priming
+
+## Utterances
+* Call [Mike]
+* How many [employees] in [contoso]
+* Send [communication] in [contoso]
+
+---
+
+## Enterprise Ready
+
+* HIPAA Compliant
+* GDPR Compliant
+* Multiple Pricing Tiers
+* 12 Language and 13 Azure Regions
+
+---
+
+## Integrated Experience
+
+* Speech build in
+* Sentiment Analytics
+* Multi Lingual (build in with language Translation)
+
+---
+
+## Core Language Understanding
+
+* Key Phrase
+* Regex entities
+* Patterns (integrated with ML)
+
+---
+
+## Speech Priming
+
 * Send data to Speech to Text
 * Your trained model
 
 ---
 
-# Demo
+## Best Practices
+
+### Too complicated
+
+![full](/Images/toomuchLuis.png)
+
+---
+
+## Best Practices
+
+### Overlapping content
+
+![full](/Images/LUISOverlap.png)
+
+---
+
+
+## Best Practices
+
+### No Multi Intent
+
+I would like a [cheese burger] but hold the [pickles] and also add a [coke] but make that a [small]
+
+---
+
+## Best Practices
+
+### Tools
+
+* Pattern Matching
+* Regex
+* Versioning
+* Slots
+* Null intents
+
+
+
+## Demo
 
 [Demo](https://www.luis.ai/home)
 
