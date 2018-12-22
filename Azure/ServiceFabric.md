@@ -50,6 +50,7 @@
 * Win Core
 * Rasberry Pi
 * Ubuntu
+
 ---
 # Visual Studio Intergration
  * Build 
