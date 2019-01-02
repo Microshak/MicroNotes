@@ -1,8 +1,8 @@
-# Horizontal Scaling (a.k.a scarding)
+# Horizontal Scaling (a.k.a sharding)
 
 ## Sharding
-*  Splitting identially structured data across several indepandant databases
-*  Each Tenenant has its own shard key
+*  Splitting identically structured data across several independent databases
+*  Each Tenant has its own shard key
 *  Shardded Databaes are Called Shard Set
 ![d](/Images/Shardding.png)
  
@@ -20,7 +20,7 @@
 
 * **Sharded Tables**: Tables are split based on their sharded keys are called 
 * **Reference tables**: Tables that do not need to be sharded are called 
-* **Shardlet**: All of the data of a shardeing key on a shard.
+* **Shardlet**: All of the data of a sharding key on a shard.
 
 
 ---
@@ -96,7 +96,7 @@ using (MultiShardConnection conn = new MultiShardConnection(myShardMap.GetShards
 ---
 
 ## Splitting and Merging Shards
-* use the Slpit/Merge Service from Azure
+* use the Split/Merge Service from Azure
 * has Web, C#, and PowerShell interface
 
 [example code](http://www.gethynellis.com/2018/10/horizontal-scaling-in-azure-SQL-database.html)

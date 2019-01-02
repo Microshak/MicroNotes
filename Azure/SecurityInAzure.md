@@ -6,9 +6,9 @@
 ---
 # Secure By Design
 * [Terra Form](https://www.terraform.io/docs/providers/azurerm/)
-* [MSI](https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/overview)
+* [Managed Identities for Azure Resources](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
 ---
-# Princeiple of Least Privledges
+# Principle of Least Privileges
 * [RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
 * [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
 * [SQL Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview)
@@ -34,6 +34,6 @@ Disaster Recovery
 # Ongoing Review
 * [Azure Security Best Practices](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
 * [Microsoft Secure](https://cloudblogs.microsoft.com/microsoftsecure/)
-* [Microsoft Security Responce Center Blog](https://blogs.technet.microsoft.com/msrc/)
+* [Microsoft Security Response Center Blog](https://blogs.technet.microsoft.com/msrc/)
 * [Azure Security](https://azure.microsoft.com/en-us/blog/topics/security/)
 ---

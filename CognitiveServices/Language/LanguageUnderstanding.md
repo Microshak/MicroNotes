@@ -138,7 +138,7 @@ I would like a [cheese burger] but hold the [pickles] and also add a [coke] but 
 |:------------------:|:---------------:|:-----------:|
 | Regular Expression | Simple          | Pattern.any |
 | List               | Composite       | Prebuilt    |
-| Pattern*           | Heirarchical    |             |
+| Pattern*           | Hierarchical    |             |
 | Role*               | Phrase List*    |             |
 
 ``` * not entities but useful ``` 
