@@ -58,8 +58,11 @@
 ## Entity Rows
 
 Same entity used differently
+
+```sql
 City:From
 City:To
+```
 
 ---
 
@@ -129,10 +132,24 @@ I would like a [cheese burger] but hold the [pickles] and also add a [coke] but 
 
 ## Best Practices
 
+### Choose your entity types wisely
+
+|        Match       | Machine-Learned |    Mixed    |
+|:------------------:|:---------------:|:-----------:|
+| Regular Expression | Simple          | Pattern.any |
+| List               | Composite       | Prebuilt    |
+| Pattern*           | Heirarchical    |             |
+| Role*               | Phrase List*    |             |
+
+``` * not entities but useful ``` 
+
+---
+
+
+## Best Practices
+
 ### Tools
 
-* Pattern Matching
-* Regex
 * Versioning
 * Slots
 * Null intents
