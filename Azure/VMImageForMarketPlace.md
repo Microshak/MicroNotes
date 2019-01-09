@@ -26,8 +26,6 @@
    ```sysprep.exe /generalize /oobe /shutdown```
 
 
----
-## [demo](https://ms.portal.azure.com/#create/Microsoft.WindowsServer2016Datacenter-ARM)
 
 
 ---
