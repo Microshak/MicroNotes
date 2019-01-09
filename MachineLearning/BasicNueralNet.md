@@ -6,6 +6,6 @@
 * Features
  
 
-![full](/Images/Deep_Learning.gif)
+![full](https://microshak.github.io/MicroNotes/Images/Deep_Learning.gif)
 
 ---

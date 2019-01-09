@@ -48,10 +48,10 @@
 
 ---
 # Test Against VM
-![full](/Images/vm-image-certification-test-sample-win.png)
+![full](https://microshak.github.io/MicroNotes/Images/vm-image-certification-test-sample-win.png)
 ---
 # Questionnaire
-![full](/Images/vm-image-certification-questionnaire.png)
+![full](https://microshak.github.io/MicroNotes/Images/vm-image-certification-questionnaire.png)
 
 --- 
 
@@ -62,4 +62,4 @@ Use Blob Explorer to get a shared access token (list, read permissions)
 
 # Publishing Portal
 Upload VHD and Certification to publishing portal
-![small](/Images/pubportal-menu-solution-templates.png)
+![small](https://microshak.github.io/MicroNotes/Images/pubportal-menu-solution-templates.png)

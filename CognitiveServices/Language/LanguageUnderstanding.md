@@ -109,7 +109,7 @@ City:To
 
 ### Too complicated
 
-![full](/Images/toomuchLuis.png)
+![full](https://microshak.github.io/MicroNotes/Images/toomuchLuis.png)
 
 ---
 
@@ -117,7 +117,7 @@ City:To
 
 ### Overlapping content
 
-![full](/Images/LUISOverlap.png)
+![full](https://microshak.github.io/MicroNotes/Images/LUISOverlap.png)
 
 ---
 

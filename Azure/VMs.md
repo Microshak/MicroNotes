@@ -16,13 +16,13 @@ Availability Sets ensure that the Azure virtual machines are deployed across mul
 ## (Availability Sets) Fault Domain 
 Fault domains define the group of virtual machines that share a common power source and network switch.
 
-![full](/Images/updatedomains.png "update domains")
+![full](https://microshak.github.io/MicroNotes/Images/updatedomains.png "update domains")
 
 ---
 # Update Domains
 Virtual machines get update domains automatically once they are put inside availability set.
 All virtual machines within that update domain will reboot together.
-![full](/Images/updatedomains.png "update domains")
+![full](https://microshak.github.io/MicroNotes/Images/updatedomains.png "update domains")
 
 ---
 

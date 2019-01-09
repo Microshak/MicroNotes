@@ -2,7 +2,7 @@
 
 # Machine Learning and Big Data
 
-![full](/Images/deep-neural-networks.png)
+![full](https://microshak.github.io/MicroNotes/Images/deep-neural-networks.png)
 
 ---
 # Big Data
@@ -13,7 +13,7 @@
 ---
 #  Smart Data
 * Prescriptive
-![right](/Images/lightbulb.gif)
+![right](https://microshak.github.io/MicroNotes/Images/lightbulb.gif)
 * Diagnostic
 * Descriptive
 * Predictive

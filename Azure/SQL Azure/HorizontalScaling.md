@@ -4,7 +4,7 @@
 *  Splitting identically structured data across several independent databases
 *  Each Tenant has its own shard key
 *  Shardded Databaes are Called Shard Set
-![d](/Images/Shardding.png)
+![d](https://microshak.github.io/MicroNotes/Images/Shardding.png)
  
  ---
 
@@ -12,7 +12,7 @@
 
 *  There is a tale called the Shard Map which keeps track of Tenant and Shark Keys
 * The Shard Map Manager Keeps Track of at keeps track of the Shard Map in Azure 
-![ShardMap](/Images/ShardMap.png)
+![ShardMap](https://microshak.github.io/MicroNotes//Images/ShardMap.png)
 
 ---
 
@@ -82,7 +82,7 @@ using (MultiShardConnection conn = new MultiShardConnection(myShardMap.GetShards
 ## Elastic Database Query:
 
 
-![Elastic Database Query](/Images/ElasticDatabaseQuery.png)
+![Elastic Database Query](https://microshak.github.io/MicroNotes/Images/ElasticDatabaseQuery.png)
 
 [Example Queries](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-getting-started)
 
