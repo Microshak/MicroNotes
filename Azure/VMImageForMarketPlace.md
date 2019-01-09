@@ -16,7 +16,7 @@
 
    *A Offer can have multiple SKUs*
 
-   ---
+---
 
 #   Create VHD
 

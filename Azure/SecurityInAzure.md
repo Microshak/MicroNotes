@@ -15,13 +15,22 @@
 ---
 
 
+# Azure Governance
+
+* [Managed Groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
+* [Resource Graph](https://docs.microsoft.com/en-us/azure/governance/resource-graph/)
+* [Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
+* [Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/)
+
+---
+
+
 # Reactive Monitoring
 * [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
 * [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
+* Event Grid
 * [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
 ---
-Event GRid
-
 
 # Assume Breach
 * Alerts
