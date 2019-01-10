@@ -1,7 +1,8 @@
 
 # Azure Services
 
-[Security](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;[Governance](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/Governance) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[VM&nbsp;for&nbsp;Azure&nbsp;Marketplace](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMImageForMarketPlace) 
+[Security](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Log Analytics](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/LogAnalytics)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[VMs](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMs)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;[Governance](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/Governance) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[VM&nbsp;for&nbsp;Azure&nbsp;Marketplace](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/VMImageForMarketPlace)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Azure Search Service](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/AzureSearchService) 
 
 
 
