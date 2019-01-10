@@ -16,7 +16,7 @@
 
    *A Offer can have multiple SKUs*
 
-   ---
+---
 
 #   Create VHD
 
@@ -26,37 +26,44 @@
    ```sysprep.exe /generalize /oobe /shutdown```
 
 
----
-## [demo](https://ms.portal.azure.com/#create/Microsoft.WindowsServer2016Datacenter-ARM)
 
 
 ---
 # VM/VHD Tools
 [Create VM Images](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sa-copy-generalized?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json) ![small](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwEHBgkIAQgKCgkLDRYPDQUMDRsUFRAWIB0iIiAdHx8kKDQgJCYxJx8fLT0tMTUrOjo6Iys/ODM4QzQtOisBCgoKAQwNGg8PGjcdHx03NzcrNzc3Kzc3Kzc3Nzc3Nzc3Nys3Nys3Kzc3KzcrNzc3Kzc3NzcrNzc3Nzc3Nzc3N//AABEIABAAEAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAADBgcB/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBQQGEQASITEIE1EH/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EAB0RAAEDBQEAAAAAAAAAAAAAAAECQeEAAwYhURH/2gAMAwEAAhEDEQA/AKGictdyVdYvmpdQ2FlA2qxtPXOgy0rd8U9t/R6pSUqGW393Cx9GlGEX49AOSHliahx4ukphg2vnJzuUcday7nrolHqc2PVGqKletuMZp1pS2D1jI0mizjRWAzxQxvZcUnvupr//2Q==)
+
+
 [Generalize VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sa-copy-generalized?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json) ![small](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwEHBgkIAQgKCgkLDRYPDQUMDRsUFRAWIB0iIiAdHx8kKDQgJCYxJx8fLT0tMTUrOjo6Iys/ODM4QzQtOisBCgoKAQwNGg8PGjcdHx03NzcrNzc3Kzc3Kzc3Nzc3Nzc3Nys3Nys3Kzc3KzcrNzc3Kzc3NzcrNzc3Nzc3Nzc3N//AABEIABAAEAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAADBgcB/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBQQGEQASITEIE1EH/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EAB0RAAEDBQEAAAAAAAAAAAAAAAECQeEAAwYhURH/2gAMAwEAAhEDEQA/AKGictdyVdYvmpdQ2FlA2qxtPXOgy0rd8U9t/R6pSUqGW393Cx9GlGEX49AOSHliahx4ukphg2vnJzuUcday7nrolHqc2PVGqKletuMZp1pS2D1jI0mizjRWAzxQxvZcUnvupr//2Q==)
+
+
 [Manage VM Images](https://azure.microsoft.com/en-us/blog/vm-image-powershell-how-to-blog-post/) ![small](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwEHBgkIAQgKCgkLDRYPDQUMDRsUFRAWIB0iIiAdHx8kKDQgJCYxJx8fLT0tMTUrOjo6Iys/ODM4QzQtOisBCgoKAQwNGg8PGjcdHx03NzcrNzc3Kzc3Kzc3Nzc3Nzc3Nys3Nys3Kzc3KzcrNzc3Kzc3NzcrNzc3Nzc3Nzc3N//AABEIABAAEAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAADBgcB/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBQQGEQASITEIE1EH/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EAB0RAAEDBQEAAAAAAAAAAAAAAAECQeEAAwYhURH/2gAMAwEAAhEDEQA/AKGictdyVdYvmpdQ2FlA2qxtPXOgy0rd8U9t/R6pSUqGW393Cx9GlGEX49AOSHliahx4ukphg2vnJzuUcday7nrolHqc2PVGqKletuMZp1pS2D1jI0mizjRWAzxQxvZcUnvupr//2Q==)
 
 
 ---
-# Test Scaleset
-[demo](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/quick-create-template-windows)
 
----
 # Obtain certification for VM image
+
 1. From Generalized VHD spin up VM
-1. Download Azure Certified Test Tool
+1. Download [Azure Certified Test Tool](https://www.microsoft.com/en-us/download/details.aspx?id=44299)
 
 ---
+
 # Test Against VM
+
 ![full](https://microshak.github.io/MicroNotes/Images/vm-image-certification-test-sample-win.png)
+
 ---
+
 # Questionnaire
+
 ![full](https://microshak.github.io/MicroNotes/Images/vm-image-certification-questionnaire.png)
 
 --- 
 
 # Blob
-Use Blob Explorer to get a shared access token (list, read permissions)
+ 
+
+1. Use Blob Explorer to get a shared access token (list, read permissions)
 
 ---
 
