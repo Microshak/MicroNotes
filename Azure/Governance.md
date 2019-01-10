@@ -20,7 +20,7 @@
    1.  Enforce Https on Web Apps
 
 ---
-# [Policy](https://ms.portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Overview)  (demo)
+# [Policy](https://ms.portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Overview)  
    1. Define
    2. Assign
    3. Group with Initiaves
