@@ -1,17 +1,17 @@
 # Azure Search Service
 
-Import Multiple Platforms
-Files
-Data Sources
-Images
+* Import Multiple Platforms
+* Files
+* Data Sources
+* Images
 
 
 ---
 
 # AI
-Creates Facet Navigation and Filters
-synonyms
-Auto Complete (Suggestions)
+* Creates Facet Navigation and Filters
+* synonyms
+* Auto Complete (Suggestions)
 
 ---
 
