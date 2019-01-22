@@ -1,3 +1,7 @@
+# California Comsumer Protection Act
+* Goes into effect January 1, 2020
+ 
+
 ## Consumer Rights
 - The right to know all data collected by a business on you
 - The right to say no to the sale of your information
