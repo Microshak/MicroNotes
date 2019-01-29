@@ -1,3 +1,7 @@
+# Getting Started
+[Publishing Guide](https://docs.microsoft.com/en-us/azure/marketplace/become-publisher)
+
+
 # Must Contain:
 1. UI Definition File   --- createUiDefinition.json
 1. Template File --- mainTemplate.json
@@ -172,3 +176,10 @@
 ```
 
 
+## Publishing Options
+List aka contact me
+Trial - Limited Time
+Transact - Provision in the customers subscription
+
+## Registration Steps
+1. [Register ](https://docs.microsoft.com/en-us/partner-center/) in the Microsoft Center
