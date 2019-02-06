@@ -24,22 +24,28 @@ IoT
 ## IoT Hub
     1. Build ontop of Event Hubs
     1. Has Device Level Security
-    1. Has Device Twins
     1. Has Middle Ware options
         1. HTTP
-        1. AMQP
-        1. MQTT
+        2. AMQP
+        3. MQTT
 
 ## Architectures
     1. Event Based
     1. Big Data
     1. Reliable Actors
     1. Microservices
-    1. Lambda, Kappa, Hot/Cold
+    1. Lambda
+    1. Kappa
+    1. Hot/Cold
 
-## 
+## Digital Twin
+1. tags
+2. desired
+3. reported
 
 
 # Example
 
- [https://github.com/Azure-Samples/azure-iot-samples-python/](Code)
+ [https://github.com/Azure-Samples/azure-iot-samples-python](Code)
+
+ Quickstarts/simulated-device-2/
