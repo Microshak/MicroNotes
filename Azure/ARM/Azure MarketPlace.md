@@ -197,3 +197,16 @@ You can get the URL of the blob from portal.
 1. Now you will have to encode this URL , you can use https://www.urlencoder.org/ for this. The encoded URL looks like: https%3A%2F%2Ftonystoraget.blob.core.windows.net%2Ftony%2FcreateUiDefinition.json
 
 1. Now replace the URL in the text below: https://portal.azure.com/#blade/Microsoft_Azure_Compute/CreateMultiVmWizardBlade/internal_bladeCallId/anything/internal_bladeCallerParams/{“initialData”:{},”providerConfig”:{“createUiDefinition“:” URL from step 4 “}}
+
+
+
+#UI Elements
+https://docs.microsoft.com/en-us/azure/managed-applications/microsoft-common-passwordbox
+
+
+# ARM Functions
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions-string#tolower
+
+# Run Locally
+parameters.json
+
