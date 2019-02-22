@@ -197,3 +197,13 @@ You can get the URL of the blob from portal.
 1. Now you will have to encode this URL , you can use https://www.urlencoder.org/ for this. The encoded URL looks like: https%3A%2F%2Ftonystoraget.blob.core.windows.net%2Ftony%2FcreateUiDefinition.json
 
 1. Now replace the URL in the text below: https://portal.azure.com/#blade/Microsoft_Azure_Compute/CreateMultiVmWizardBlade/internal_bladeCallId/anything/internal_bladeCallerParams/{“initialData”:{},”providerConfig”:{“createUiDefinition“:” URL from step 4 “}}
+
+
+---
+# Market Place Portal
+
+* Azure Apps - Solution Template -- deploys to the customers resource group.
+
+* Azure Apps - Managed App - - if you are using a SI or 3rd party manage.  Creates a security principle to manage the resource group on behalf of the customer.
+
+
