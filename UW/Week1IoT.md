@@ -45,4 +45,17 @@
 * Databases
 * Distributed Systems
 
+---
+# Demo 
+![full](https://microshak.github.io/MicroNotes/Images/week1.png)
+
+
+# Demo
+
+[https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101.md](Slides)
+
+[https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted](IoT Hub Simulator)
+
+[https://github.com/Azure-Samples/azure-iot-samples-python](Advanced)
+
 

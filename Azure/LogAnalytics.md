@@ -38,9 +38,9 @@
 
 ## Standard Query Language
 *  [Easy To Learn](https://portal.loganalytics.io/demo#/discover/home)
-*  [Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
-*  [SQL Cheet Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
-*  [Github Exampes](https://github.com/MicrosoftDocs/LogAnalyticsExamples)
+*  [Cheat Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
+*  [SQL Cheat Sheet](https://docs.loganalytics.io/docs/Learn/References/SQL-to-Azure-Log-Analytics)
+*  [Github Examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples)
 ---
 ## Functions
 * Create Your Own

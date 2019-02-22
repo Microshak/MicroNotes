@@ -1,4 +1,4 @@
-# California Comsumer Protection Act
+# California Consumer Protection Act
 * Goes into effect January 1, 2020
  
 
