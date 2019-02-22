@@ -207,3 +207,13 @@ You can get the URL of the blob from portal.
 * Azure Apps - Managed App - - if you are using a SI or 3rd party manage.  Creates a security principle to manage the resource group on behalf of the customer.
 
 
+#UI Elements
+https://docs.microsoft.com/en-us/azure/managed-applications/microsoft-common-passwordbox
+
+
+# ARM Functions
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions-string#tolower
+
+# Run Locally
+parameters.json
+
