@@ -54,7 +54,7 @@
 * Edge/Fog systems
 * Databases
 * Distributed Systems
-
+ 
 ---
 # Demo 
 ![full](https://microshak.github.io/MicroNotes/Images/week1.png)
