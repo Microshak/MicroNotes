@@ -18,13 +18,15 @@
 # SQL Vs NoSQL
 ## NoSQL Tries to Solve
 1. Single Server Degradation
-2. Impedance Mismatch
-3. It just works
+1. Impedance Mismatch
+1. It just works
+
 ---
+
 ## NoSQL Tradeoffs
 1. Features
-2. Relationships
-3. Validation (schema on read vs on write)
+1. Relationships
+4. Validation (schema on read vs on write)
 
 ---
 # CosmosDB
