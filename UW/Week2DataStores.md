@@ -1,5 +1,37 @@
 # Big Data 230 Data Stores 1
 
+File Store,SQL VS, NO SQL, Key Value, Cache, Event Hub, Event Grid, Service Bus
+
+database
+    excel on steriods
+    more more sheets
+    inefficent
+
+no sql
+    fault tollerant replicate data
+    semlessly scale
+    
+
+Scatter/Gather 
+    Materialized View
+
+Transaction
+    ACID semantics 
+    ``` SQL
+    Start Trans
+
+    Roll back trans
+    Commit
+    ```
+
+    HA
+
+Scaling 
+    Pause vs no pause
+
+Durability
+    Replication
+    Accessability
 
 
 ---
