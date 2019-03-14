@@ -1,13 +1,140 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.js"></script>
 </head>
 <body>
-   <a id="open" href="Notes.html?path=Azure/LogAnalytics" >Log Analytics</a>  
+
+    <div id="repros"></div>
+
+    <script>
+$(document).ready(function () {
+    console.log(qs('sha'))
+    var sha = qs('sha') || "4d7053a1f435496f1dcadb85b3c02ab0161d9973"
+    var path = qs('path') || ""
+    
+    var api = "https://api.github.com/repos/Microshak/MicroNotes/git/trees/" + sha;
+    $.get(api, function (data) {
+        $.each(data.tree, function (idx, obj) {
+        
+                
+                if(obj.type =="blob")
+                {
+                    var template = $('#file').html();
+                            if(obj.path.endsWith('md'))
+                            {
+                                obj.fpath =   path + obj.path.replace('.md','') 
+                                obj.pp = obj.path.replace('.md','')
+                    var html = Mustache.to_html(template, obj);
+                    $('#butt').append(html);
+
+                            }
+                            
+                }
+                else{
+                                var template = $('#folder').html();
+                                obj.spath = obj.path + "/" + path
+                                        var html = Mustache.to_html(template, obj);
+
+                    $('#butt').append(html);
+
+                }
+
+        
+        
+        
+        
+        });
+    });
+});
+
+        function qs(key) {
+            key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars
+            var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+            return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+        }
+
+
+</script>
+    <section class="after-loop">
+        <div class="container">
+            <div class="row" id="butt">
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script id="folder" type="text/template">
+        
+        <a class="btn btn-primary" href="./index.html?sha={{sha}}&path={{spath}}" role="button"><i class="fas fa-folder"></i>{{path}}</a>
+
+</script>
+
+
+    <script id="file" type="text/template">
+
+        <a class="btn btn-secondary" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}" role="button"><i class="fas fa-file"></i>{{pp}}</a>
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+
+
+</style>
+
+
+
+
+
 
 
 </body>
-</html>
