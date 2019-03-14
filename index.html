@@ -33,7 +33,7 @@ $(document).ready(function () {
                     var template = $('#file').html();
                             if(obj.path.endsWith('md'))
                             {
-                                obj.fpath =   path + obj.path.replace('.md','') 
+                                obj.fpath =   path + "/" +obj.path.replace('.md','') 
                                 obj.pp = obj.path.replace('.md','')
                     var html = Mustache.to_html(template, obj);
                     $('#butt').append(html);
@@ -44,7 +44,12 @@ $(document).ready(function () {
                 else{
                                 var template = $('#folder').html();
                                 obj.spath =  path  + "/" + obj.path
-                                         var html = Mustache.to_html(template, obj);
+                                if(obj.spath.startsWith('/'))
+                                    obj.spath = obj.spath.substring(1,obj.spath.length + 2) 
+                                
+                                    console.log(path)
+
+                                    var html = Mustache.to_html(template, obj);
 
                     $('#butt').append(html);
 
