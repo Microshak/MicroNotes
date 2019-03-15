@@ -7,7 +7,7 @@ Definition: conformity with truth or fact - ACCURACY
 * Machine Learning
 
 # Probabilities
-
+![full](/../Images/ML/HeadsOrTails.gif)
 
 # Frequentist
 
