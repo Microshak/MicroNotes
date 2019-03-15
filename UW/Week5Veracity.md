@@ -7,7 +7,14 @@ Definition: conformity with truth or fact - ACCURACY
 * Machine Learning
 
 # Probabilities
-![full](/../Images/ML/HeadsOrTails.gif)
+![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
+
+---
+# Probabilities (dice)
+![full](![full](https://microshak.github.io/MicroNotes/Images/ML/Dice.gif)
+
+# Probabilities (dice)
+![full](![full](https://microshak.github.io/MicroNotes/Images/ML/CompoundProbability.gif)
 
 # Frequentist
 
