@@ -1,9 +1,14 @@
 Data Engineering for ML
 
-Flask
 
-H2O/Tensorflow
+# R vs Python
 
-R vs Python
 
-Sampling/Monte Carlo
+# H2O vs Tensorflow
+
+
+# Flask
+
+
+
+# Sampling/Monte Carlo
