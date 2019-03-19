@@ -57,9 +57,22 @@ Definition: conformity with truth or fact - ACCURACY
 [Sensor Correlation](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Exploring%20The%20Past/SensorCorrelation.ipynb)
 
 
+# ANOVA
+TODO
+
+# Regression
 
 
+* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
 
+* Regression analysis is widely used for prediction and forecasting,
+ can be used to infer causal relationship (can lead to error: correlation does not imply causation)
+
+* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
+
+
+TODO 
+Notebook regression
 
 
 Notes:

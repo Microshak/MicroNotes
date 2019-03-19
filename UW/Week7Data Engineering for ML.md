@@ -12,3 +12,5 @@ Data Engineering for ML
 
 
 # Sampling/Monte Carlo
+
+https://skymind.ai/wiki/markov-chain-monte-carlo
