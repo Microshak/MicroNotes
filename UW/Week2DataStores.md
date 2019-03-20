@@ -7,7 +7,7 @@
 1. Journal(Kafka, Event Hub) 
 1. Event Grid 
 1. Message Bus
-
+---
 # How do we store data
 1. Document Database  
 1. Key Value 
@@ -17,26 +17,65 @@
 2. HyperLogLogs 
 3. Ordered Set 
 4. Queue
-5. Hash
+5. Map
+6. Rows
+7. JSON
+8. Binary
+---
 
 # What do we need to consider 
-ACID (Atomicity, Consistency, Isolation, Durability)
-Availabiltity
-Speed
-Scaleup/Scale out
+ ACID Transaction(Atomicity, Consistency, Isolation, Durability)
 
+
+    ACID semantics 
+    ``` SQL
+    Start Trans
+
+    Roll back trans
+
+    Commit
+    ```
+
+# What do we need to consider 1
+
+* HA
+  * Geo Redundant
+  * Fault Tolerant
+  * Failover
+  * Load Balancing
+
+# What do we need to consider 2 
+* DR
+  * Recovery point objective 
+  * Recovery time objective
+  * Restore Testing
+* Performance
+* Scale up/Scale out
+* Analytics
+
+---
 
 ## What is Big Data
-
 1. Volume
 2. Velocity
 3. Verity
-4. Veracity
-5. Value
+
+---
+#SQL Sharding
+
+Azure/SQL Azure/HorizontalScaling.md
+
+---
+
+
+
+# Enforcing Policy's and Business Logic
+* Microservice Approach (single source of truth vs gatekeeping)
+* Triggers
+   
 ---
 
 # Data file type
-
 database
     excel on steriods
     more more sheets
@@ -47,28 +86,15 @@ no sql
     semlessly scale ( no pause)
 
 
-    
+
+
+
+
+
 Reporting
 Scatter/Gather 
     Materialized View
 
-Transaction
-    ACID semantics 
-    ``` SQL
-    Start Trans
-
-    Roll back trans
-    Commit
-    ```
-
-    HA
-
-Scaling 
-    Pause vs no pause
-
-Durability
-    Replication
-    Accessability
 
 
 ---

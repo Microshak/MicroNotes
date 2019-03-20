@@ -19,9 +19,38 @@
 
     <script>
 $(document).ready(function () {
+    
     console.log(qs('sha'))
-    var sha = qs('sha') || "4d7053a1f435496f1dcadb85b3c02ab0161d9973"
+    if(qs('sha') == null)
+    {
+        
+        NavBase()
+    }else
+    {
+        Nav(qs('sha'))
+    }
+    
+});
+
+
+function NavBase()
+{
+    var api = "https://api.github.com/repos/Microshak/MicroNotes/git/refs/heads/master";
+    $.get(api, function (data) {
+        console.log(data)
+        var sha = data.object.sha
+        console.log(sha)
+        Nav(sha)
+    })
+}
+
+function Nav(sha)
+{
+    
+   // var sha = qs('sha') || "a350a86994417e39c4488be8514901f24757e2a5"
     var path = qs('path') || ""
+
+    
     
     var api = "https://api.github.com/repos/Microshak/MicroNotes/git/trees/" + sha;
     $.get(api, function (data) {
@@ -61,7 +90,10 @@ $(document).ready(function () {
         
         });
     });
-});
+
+
+}
+
 
         function qs(key) {
             key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars
