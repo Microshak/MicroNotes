@@ -1,6 +1,41 @@
 # Big Data 230 Data Stores 1
 
-File Store,SQL VS, NO SQL, Key Value, Cache, Event Hub, Event Grid, Service Bus
+# Where do we store data
+1. SQL 
+2. No SQL 
+3. Cache
+1. Journal(Kafka, Event Hub) 
+1. Event Grid 
+1. Message Bus
+
+# How do we store data
+1. Document Database  
+1. Key Value 
+1. Cache
+1. Graph
+1. Set
+2. HyperLogLogs 
+3. Ordered Set 
+4. Queue
+5. Hash
+
+# What do we need to consider 
+ACID (Atomicity, Consistency, Isolation, Durability)
+Availabiltity
+Speed
+Scaleup/Scale out
+
+
+## What is Big Data
+
+1. Volume
+2. Velocity
+3. Verity
+4. Veracity
+5. Value
+---
+
+# Data file type
 
 database
     excel on steriods
@@ -9,9 +44,11 @@ database
 
 no sql
     fault tollerant replicate data
-    semlessly scale
-    
+    semlessly scale ( no pause)
 
+
+    
+Reporting
 Scatter/Gather 
     Materialized View
 
@@ -55,10 +92,15 @@ Durability
 
 ---
 
+## Pitfalls of no SQL
+1. Multi-master lag
+2. Multi-master concurency
+3. 
+
 ## NoSQL Tradeoffs
 1. Features
-1. Relationships
-4. Validation (schema on read vs on write)
+2. Relationships
+3. Validation (schema on read vs on write)
 
 ---
 # CosmosDB
