@@ -3,6 +3,19 @@
 I hear and I forget. I see and I remember. I do and I understand - Confucius
 
 ---
+# Goal of this course
+* Explore where/how big data is being used
+*  Cement concepts
+*  Match teaching with what big data engineers do
+
+
+# What do Big data engeneers do?
+* ETL 
+* Process pipelines
+* Analyze
+* ML 
+
+
 
 ## What is Big Data
 

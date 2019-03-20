@@ -24,6 +24,20 @@
 ---
 
 # What do we need to consider 
+* ACID VS BASE
+* HA
+* DR
+  
+  ---
+# BASE 
+
+* **B**acically **A**vaukabke
+* **S**oft state
+* **E**ventual Consistent
+
+---
+#ACID
+
  ACID Transaction(Atomicity, Consistency, Isolation, Durability)
 
 
@@ -35,16 +49,17 @@
 
     Commit
     ```
+---
 
-# What do we need to consider 1
+# High Availability
 
 * HA
   * Geo Redundant
   * Fault Tolerant
   * Failover
   * Load Balancing
-
-# What do we need to consider 2 
+---
+# Disaster Recovery 
 * DR
   * Recovery point objective 
   * Recovery time objective
@@ -55,19 +70,6 @@
 
 ---
 
-## What is Big Data
-1. Volume
-2. Velocity
-3. Verity
-
----
-#SQL Sharding
-
-Azure/SQL Azure/HorizontalScaling.md
-
----
-
-
 
 # Enforcing Policy's and Business Logic
 * Microservice Approach (single source of truth vs gatekeeping)
@@ -75,27 +77,22 @@ Azure/SQL Azure/HorizontalScaling.md
    
 ---
 
-# Data file type
-database
-    excel on steriods
-    more more sheets
-    inefficent
-
-no sql
-    fault tollerant replicate data
-    semlessly scale ( no pause)
-
-
-
-
-
-
-
-Reporting
-Scatter/Gather 
-    Materialized View
-
-
+# Reporting
+* Materialized View
+    * Batch Processing
+    * Stream Processing (Windowing)
+    * Store Meta Data 
+    * Query Aggregation & Filters
+* Data Mart
+  * Batch Processing
+  * Use SQL's Analytics properties
+  * ~~Live~~
+---
+# Reporting Data Warehouse
+* Star 
+* Snowflake
+* 3NF
+* Data Mart
 
 ---
 # Conceptually Data Stores
@@ -120,54 +117,29 @@ Scatter/Gather
 
 ## Pitfalls of no SQL
 1. Multi-master lag
-2. Multi-master concurency
-3. 
+2. Multi-master concurrency
+3. Creating a Jimmy 
 
 ## NoSQL Tradeoffs
 1. Features
 2. Relationships
 3. Validation (schema on read vs on write)
 
+
+# SQL Sharding
+
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling.md)
+
 ---
 # CosmosDB
-[Slides]([https://microshak.github.io/MicroNotes/Notes.html?path=Azure/cosmosDB.md](Slides))
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/CosmosDB)
 
-
-
-# Problems of big data
-1. Messy
-2. Expensive
-3. Difficult to derive value
 
 ---
-
-# Types of Data
-* Streaming
-* Unstructured
-* Relational
-* Graph
-
----
-
-# Advances in Big Data
-* IoT
-* Smart Data
-* Containerization
-* Edge/Fog systems
-* Databases
-* Distributed Systems
- 
----
-# Demo 
-![full](https://microshak.github.io/MicroNotes/Images/week1.png)
+# SQL Data Warehouse
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/DataWarehouse)
 
 
-# Demo
 
-[https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101.md](Slides)
-
-[https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted](IoT Hub Simulator)
-
-[https://github.com/Azure-Samples/azure-iot-samples-python](Advanced)
 
 

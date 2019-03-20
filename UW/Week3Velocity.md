@@ -1,10 +1,18 @@
 Maslos hammer
 
+# Why so fast
+
+``` Data can have a limited shelf life or age quickly  ```
+
  
-# Redis (Remote Dictionary Server)
+## Redis (Remote Dictionary Server)
+
 Distributed in Memory,Key Value Database with Optional Durability
+
 Binary Safe
+
 ACID (Atomicity, Consistency, Isolation, Durability)
+
 ---
 
 # Data Types
@@ -34,7 +42,7 @@ ACID (Atomicity, Consistency, Isolation, Durability)
 * Messaging 
 * Pub Sub
 
-
+---
 # Kafka
 Kafka is a message queueing system.
 Mantra: "Its just Java"
@@ -75,8 +83,24 @@ Consumer Group - subscribing to your messages off a journal
 * Web Sockets over AMQP, MQTT
 
 ---
-# 
+# Intermittent network
+* Store and Forward
+* Sneaker Net
+* File Transfer
+---
+# Metered or constrained network
+* Edge Processing
+* Fog Processing
+* Pattern Matching
+* Querable 
+---
+# Alternate Networks
+* White Space
+* SMS
+* LoRa (Long Range)
+* Zigbee (low power mesh)
+---
 
 
 
-
+TODO Uber vs Lyft approach

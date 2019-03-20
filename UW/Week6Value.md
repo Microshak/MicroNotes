@@ -8,6 +8,7 @@
 * Predicting The Future
 * Detecting Issues
 * Function Approximation
+* Proactive and Reactive analytics
 ---
 # Data Science
 * Unsupervised
