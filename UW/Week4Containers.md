@@ -44,6 +44,28 @@
 
 # Docker Compose
 
+[Docker Compose](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/DockerCompose/GettingStarted)
+
+---
+
+# What is a Node  
+
+![full](https://upload.wikimedia.org/wikipedia/commons/6/69/IBM_PC_5150.jpg)
+
+---
+
+# What is a Pod?
+![full](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
+
+---
+
+
+
+#Further Tutorials
+[Simulator](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/)
+
+
+
 
 
 Docker Hub
