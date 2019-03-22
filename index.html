@@ -103,8 +103,29 @@ function Nav(sha)
 
 
 </script>
+<style>
+.widecontainer
+{
+    width:90%;
+    margin: auto;
+}
+.cont
+{
+
+   
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 2; */
+    margin-top: 10px;
+    flex-flow: inherit;
+    /* flex: 6; */
+    padding-right: 20px;
+
+}
+
+</style>
     <section class="after-loop">
-        <div class="container">
+        <div class="widecontainer">
             <div class="row" id="butt">
 
 
@@ -118,17 +139,18 @@ function Nav(sha)
 
 
     <script id="folder" type="text/template">
-        
-        <a class="btn btn-primary" href="./index.html?sha={{sha}}&path={{spath}}" role="button"><i class="fas fa-folder"></i>{{path}}</a>
-
+        <div class="cont">
+        <a class="btn btn-primary directory" href="./index.html?sha={{sha}}&path={{spath}}" role="button"><i class="fas fa-folder"></i>{{path}}</a>
+        </div>
 </script>
 
 
     <script id="file" type="text/template">
+        <div class="cont">
+       
+        <a class="btn btn-secondary file" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}" role="button"><i class="fas fa-file"></i>{{pp}}</a>
 
-        <a class="btn btn-secondary" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}" role="button"><i class="fas fa-file"></i>{{pp}}</a>
-
-
+        </div>
 
 </script>
 
@@ -169,8 +191,7 @@ function Nav(sha)
 
 
 
-
-https://api.github.com/search/code?q=flask+in:file+language:md+repo:microshak/micronotes
+<a href="https://api.github.com/search/code?q=flask+in:file+language:md+repo:microshak/micronotes">TODO</a>
 
 
 </body>
