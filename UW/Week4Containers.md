@@ -58,6 +58,15 @@
 ![full](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
 
 ---
+# Hands on K8s
+
+[Kubernetes Basic](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetes/Basic)
+
+[Kubernetes  Commands](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetes/Commands)
+
+
+[Kubernetes Custom Image](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetes/CustomImage)
+
 
 
 
@@ -68,17 +77,6 @@
 
 
 
-Docker Hub
-
-Container Regiesty
-
-
-Containers
-
-Mobie
-
-
-Kubernetties
 
 https://projects.apache.org/projects.html?category
 
