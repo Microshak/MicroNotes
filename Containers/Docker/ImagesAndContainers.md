@@ -57,7 +57,16 @@ docker run -d -p 5000:5000 -v $(pwd):/app helloflask
 # Lets modify the container
 
 ```bash
-docker exec -it [🤚name of container🤚] /bin/bash
+docker exec -it  [☢️name of container️️️️️️️️☢] /bin/bash
 apt-get install nano
 nano app.py
 ```
+
+#Lets clean up
+docker kill [☢️name of container️️️️️️️️☢]
+docker system prune -a
+
+
+# Commands to remember
+docker [images](https://docs.docker.com/engine/reference/commandline/images/) -a # list all images
+docker [ps](https://docs.docker.com/engine/reference/commandline/ps/) -a # list all containers
