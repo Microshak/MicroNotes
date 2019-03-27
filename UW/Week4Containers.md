@@ -69,21 +69,19 @@
 
 
 
+---
+# Yaml vs JSON
+[Repo](https://github.com/Microshak/MicroNotes/tree/master/Containers/YamlVsJSON.md)
+
+TODO YAML multi
+
+
+# Usage Patterns
+* Side car
+* Premetheous
+* Graphana
+
+
 
 #Further Tutorials
 [Simulator](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/)
-
-
-
-
-
-
-https://projects.apache.org/projects.html?category
-
-Side car
-
-Premetheous
-Graphana
-
-Testing2
-sdf sdfs sdf 

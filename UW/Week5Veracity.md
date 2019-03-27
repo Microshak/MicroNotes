@@ -1,8 +1,7 @@
 
 
-SOMETIMES THE QUESTIONS ARE COMPLICATED AND THE ANSWERS ARE SIMPLE
-
-Dr. Seuss
+>SOMETIMES THE QUESTIONS ARE COMPLICATED AND THE ANSWERS ARE SIMPLE
+>Dr. Seuss
 
 ---
 # Veracity 
@@ -74,6 +73,14 @@ TODO
 TODO 
 Notebook regression
 
+TODO 
+PCA
+https://medium.com/sfu-big-data/principal-component-analysis-deciphered-79968b47d46c
+
+
 
 Notes:
 [A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100.pdf)
+
+
+

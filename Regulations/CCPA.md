@@ -24,5 +24,8 @@
    
    # Violations 
    $7500 per violation(customer)
+
+   in 2018 the biggest data breach [Mariot](https://blog.dashlane.com/data-breaches-2018/) would be liable for approximately  
+   $625,125,000,000
    
    

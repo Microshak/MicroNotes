@@ -1,8 +1,20 @@
 # Big Data 230
 
-I hear and I forget. I see and I remember. I do and I understand - Confucius
+> I hear and I forget. 
+> I see and I remember. 
+> I do and I understand. 
+> - Confucius
 
 ---
+# About Me
+
+![Right](https://microshak.github.io/MicroNotes/Images/Mike/MikeGermany.png)
+* Masters in Information Systems Management
+* PhD in IT Organization Management Dissertation In Cloud Computing
+* Over 15 years as a Analyst, Developer, Board Member, ect
+* Currently at IoT and AI Lab  
+
+
 # Goal of this course
 * Explore where/how big data is being used
 *  Cement concepts
@@ -21,7 +33,7 @@ I hear and I forget. I see and I remember. I do and I understand - Confucius
 
 1. Volume
 2. Velocity
-3. Verity
+3. Variety
 
 ---
 

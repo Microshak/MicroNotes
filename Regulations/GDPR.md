@@ -51,4 +51,8 @@ Regulators have authority to issues files of greater than €10 million or 2% of
 
 However violations of obligations related to legal justification for processing (including consent…), data subject rights, and cross-border data transfers may result in penalties of the greater of €20 million or 4% of the entity's global gross revenue.
     
-  
+  ---
+
+   in 2018 the biggest data breach [Mariot](https://www.forbes.com/sites/yiannismouratidis/2019/01/09/gdpr-may-add-up-to-8-8b-marriotts-data-breach-expenses/#149965ef62e1) would be liable for approximately  
+   $915,000,000
+   

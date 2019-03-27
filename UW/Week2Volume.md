@@ -31,7 +31,7 @@
   ---
 # BASE 
 
-* **B**acically **A**vaukabke
+* **B**acically **A**vailable 
 * **S**oft state
 * **E**ventual Consistent
 
@@ -130,15 +130,28 @@
 
 [Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling.md)
 
----
-# CosmosDB
-[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/CosmosDB)
-
 
 ---
 # SQL Data Warehouse
 [Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/DataWarehouse)
 
+
+---
+# CosmosDB
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/CosmosDB)
+
+[Demo](https://value-microshak2.notebooks.azure.com/j/notebooks/DataBricksQuery.ipynb)
+
+https://westus2.azuredatabricks.net/?o=104465683066888#notebook/1846713445666353/command/661668570689790
+
+
+---
+# Reporting Strategies
+* Batch
+* Cached
+* Just In Time
+* In memory
+* Iterative 
 
 
 

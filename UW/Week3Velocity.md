@@ -4,6 +4,34 @@ Maslos hammer
 
 ``` Data can have a limited shelf life or age quickly  ```
 
+---
+# 4 Types of Velocity
+* Real Time
+* Near Real-Time
+* Batch
+* Analytical Processing
+
+---
+# Real World Applications (Real-Time)
+* Fraud Detection
+    * [Square](https://cwiki.apache.org/confluence/display/KAFKA/Powered+By) has real time alerting using Splunk, Graphite, and Kafka
+* User Analytics 
+    * [Bing](https://azure.microsoft.com/en-us/blog/processing-trillions-of-events-per-day-with-apache-kafka-on-azure/) uses kafka to influence adds in real time
+    * [Data Shift](http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html) processes 1200 tweets per second for real time data mining
+* Speed System
+    * [Craigs List](https://blog.zawodny.com/2011/02/26/redis-sharding-at-craigslist/) use Redis to cashe data to speed up their website.
+    * [Stack Exchange](https://meta.stackexchange.com/questions/69164/does-stack-exchange-use-caching-and-if-so-how/69172#69172) speeds up their website with Redis.
+
+
+---
+# Real World Applications
+* Sensor Readings 
+    * FedEx uses [Sense Aware](https://www.senseaware.com/how-it-works/) to track packages in real time
+    * [Dynisco] uses IoT sensors to alert and insturment their solutions
+
+
+
+
  
 ## Redis (Remote Dictionary Server)
 
@@ -27,6 +55,7 @@ ACID (Atomicity, Consistency, Isolation, Durability)
 * Spatial Indexes 
 
 # Why Redis
+![right](https://microshak.github.io/MicroNotes/Images/Redis.png)
 *   Fast
 *   Not CPU intensive
 *   Scalable
@@ -78,10 +107,11 @@ Consumer Group - subscribing to your messages off a journal
 
 # Fast Reliable Web Communications
 * REST
-* GRPC
 * Web Sockets
 * Web Sockets over AMQP, MQTT
+* GRPC
 
+TODO Expand
 ---
 # Intermittent network
 * Store and Forward
@@ -94,6 +124,7 @@ Consumer Group - subscribing to your messages off a journal
 * Pattern Matching
 * Querable 
 ---
+
 # Alternate Networks
 * White Space
 * SMS
@@ -104,3 +135,6 @@ Consumer Group - subscribing to your messages off a journal
 
 
 TODO Uber vs Lyft approach
+
+
+TODO Spin up a redis cache

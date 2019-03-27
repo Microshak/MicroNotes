@@ -62,3 +62,16 @@
 * **Training log loss** is a single score that represents the advantage of the classifier over a random prediction.
  ---
  
+ #Binary Classifier
+ https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn
+
+ https://towardsdatascience.com/building-a-deployable-ml-classifier-in-python-46ba55e1d720
+
+ https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+
+
+# ROC
+https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
+
+# Databricks
+https://docs.databricks.com/spark/latest/mllib/binary-classification-mllib-pipelines.html
