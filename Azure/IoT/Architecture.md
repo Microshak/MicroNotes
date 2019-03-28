@@ -1,13 +1,49 @@
+## Architectures
+ 1. Lambda
+ 1. Kappa
+ 1. Event Based
+ 1. Big Data
+ 1. Microservices
+ 1. Reliable Actors
+   
+---
+# Lambda
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Lambda.png)
+---
+# Kappa
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Kappa.png)
+
+---
+
+# Microservices
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Microservice_Architecture.png)
+
+---
+
+# Big Data
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Kafka.png)
+
+
+---
 # IoT Official Reference Architecture
-![full](/Images/IoTRef/OfficialReferenceArchitecture.png)
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/OfficialReferenceArchitecture.png)
 
 ---
 # Basic
-![full](/Images/IoTRef/Basic.png)
-
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Basic.png)
 
 ---
 # Streaming Dashboards
-![full](/Images/IoTRef/StreamingDashboards.png)
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/StreamingDashboards.png)
+
+---
+# IoT using Cosmos DB
+[![Full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTCosmos.png)](https://azure.microsoft.com/en-us/solutions/architecture/iot-using-cosmos-db/)
+
+
+
+# Real Time
+
+[![Full](https://microshak.github.io/MicroNotes/Images/IoTRef/RealTime.png)](https://azure.microsoft.com/en-us/solutions/architecture/real-time-analytics/)
 
 

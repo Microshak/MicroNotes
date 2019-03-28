@@ -14,23 +14,32 @@
 * Over 15 years as a Analyst, Developer, Board Member, ect
 * Currently at IoT and AI Lab  
 
+---
+# Changes in Big Data
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.png)
+
+---
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.png)
+
+---
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.png)
+
+---
 
 # Goal of this course
 * Explore where/how big data is being used
 *  Cement concepts
-*  Match teaching with what big data engineers do
+*  Match teaching with what big data engineers 
+*  Work with End to End 
 
-
-# What do Big data engeneers do?
+---
+# What do Big data engineers do?
 * ETL 
 * Process pipelines
-* Analyze
-* ML 
-
-
-
+* Analyze Data
+* Trusted Advisor
+---
 ## What is Big Data
-
 1. Volume
 2. Velocity
 3. Variety
@@ -51,6 +60,7 @@
 ![Full](https://microshak.github.io/MicroNotes/Images/Cap.png)
 
 ---
+
 # Problems of big data
 1. Messy
 2. Expensive
@@ -75,16 +85,20 @@
 * Distributed Systems
 
 ---
+# IoT Architecture
+[Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
+
+
 # Demo 
 ![full](https://microshak.github.io/MicroNotes/Images/week1.png)
 
 
 # Demo
 
-[https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101.md](Slides)
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
 
-[https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted](IoT Hub Simulator)
+[IoT Hub Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted)
 
-[https://github.com/Azure-Samples/azure-iot-samples-python](Advanced)
+[Advanced](https://github.com/Azure-Samples/azure-iot-samples-python)
 
 
