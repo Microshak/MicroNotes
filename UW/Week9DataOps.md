@@ -1,13 +1,43 @@
+
 # Goals of DataOps
 * Improve Quality
 * Reduce Cycle time
+* Making the trains run on time
+* Iterating 
+* Inovating
 
+
+* Continous Improvement
+* Loving your errors
+* Fail Fast
+
+
+Cloud Virtualization
+Cattle Not pets
+Jimmy
+
+#
+Hero Role
+Technical Debt
+
+# Datapiplines
+
+Data Tools Support
+ * tableau
+ * access
+ * SLA
+
+# innovation pipeline
+
+#Testing
+20%
+Torrnado Report
 
 # Methodologies
 * Agile
 * Lean
 * Kanban
-
+--- We are all introverts
 ---
 
 #SDLC
@@ -15,6 +45,8 @@
 ---
 
 # Version Control
+Core IP
+
 [Git CLI](https://git-scm.com/downloads) [Git Gui](https://git-scm.com/downloads) [Git Clients](https://git-scm.com/download/gui/windows)
 * Collaboration
   * Larger Projects
@@ -40,6 +72,7 @@ Continuous Integration/Continuous Delivery
 * Automation
 
 # Blueprinting Deployments
+* Infrastructure as code
 * Ansible
 * [Terraform](https://www.terraform.io/)
   * [Simple](https://github.com/Microshak/terraform-azure-iot-reference-design-simple)

@@ -150,3 +150,6 @@ TODO Spin up a redis cache
 * Iterative Approach
 * [Background program](https://boinc.berkeley.edu/projects.php) 
 * [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
+
+# Case Study
+http://www.microsoftcloudshow.com/podcast/Episodes/296-have-i-been-pwned-an-interview-with-troy-hunt
