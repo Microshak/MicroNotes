@@ -127,13 +127,12 @@
 
 
 # SQL Sharding
-
-[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling.md)
-
+[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling)
 
 ---
 # SQL Data Warehouse
-[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/DataWarehouse)
+[Data Warehouse Philosophy](https://microshak.github.io/MicroNotes/Notes.html?path=Database/DataWarehouseDesign)
+[Azure Data Warehouse](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/DataWarehouse)
 
 
 ---
@@ -152,6 +151,14 @@ https://westus2.azuredatabricks.net/?o=104465683066888#notebook/1846713445666353
 * Just In Time
 * In memory
 * Iterative 
+
+
+# Batch
+
+
+# Cache
+[Analysis Services](https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-overview)
+[Tableau Caching](https://kb.tableau.com/articles/howto/warming-the-tableau-server-cache-using-subscriptions)
 
 
 

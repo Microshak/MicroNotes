@@ -31,7 +31,6 @@
 * Cloning
 * Diff
 (Cheat Sheet)[https://education.github.com/git-cheat-sheet-education.pdf]
-
 ---
 
 # CI/CD
@@ -40,20 +39,29 @@ Continuous Integration/Continuous Delivery
 * Automated Deployment
 * Automation
 
+# Blueprinting Deployments
+* Ansible
+* [Terraform](https://www.terraform.io/)
+  * [Simple](https://github.com/Microshak/terraform-azure-iot-reference-design-simple)
+  * [Complex](https://github.com/Microshak/Terraform-IoTHub-RA)
 
+
+# Security
+[]()
 
 # Disaster Recovery
-
+Kafka [Confluent Replicator](https://www.confluent.io/confluent-replicator/) or [Mirror Maker](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=27846330)
 
 # High Availability
+Kafka [Confluent Replicator](https://www.confluent.io/confluent-replicator/) or [Mirror Maker](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=27846330)
 
 # Global Scale out
 
 
-# Version Control
-
 # Monitoring
+
 
 # Alerting
 
-#
+
+

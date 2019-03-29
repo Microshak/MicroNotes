@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js" type="text/javascript" >  </script>
+<script
+src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>    
+</head>
+    <body>
+        <script type="text/javascript">
+
+$( document ).ready(function() {
+    
+    var path = qs('path')
+        console.log(location)
+        base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
+            if(location.host == 'localhost')
+            base = 'http://localhost/'
+    
+   //  $('#thinggy').html(html)
+    
+var filepath=    base+path+'.md?ran=' + Math.random()
+
+$.get( filepath, function( data ) {
+  
+    var converter = new showdown.Converter(),
+    html      = converter.makeHtml(data);
+ 
+  
+    $('#thinggy').html(html)
+ 
+});
+
+
+});
+
+        function qs(key) {
+            key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars
+            var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+            return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+        }
+
+    </script>
+    <div id="thinggy"></div>
+    
+
+        </body>

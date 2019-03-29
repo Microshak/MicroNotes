@@ -85,6 +85,8 @@ Consumer - subscribing to a topic
 Journal - time based topic
 Consumer Group - subscribing to your messages off a journal
 
+TODO: https://github.com/ches/docker-kafka
+
 ---
 # Main Features
 * Pub/Sub
@@ -138,3 +140,13 @@ TODO Uber vs Lyft approach
 
 
 TODO Spin up a redis cache
+
+# Message Message Offloading
+* Message Queues
+
+# Slow/Inexpensive Systems
+* Python Dataframes
+* Key Value Stores
+* Iterative Approach
+* [Background program](https://boinc.berkeley.edu/projects.php) 
+* [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
