@@ -9,6 +9,10 @@
 
 
 
+[GDPR]()
+[CCPA]()
+[HIPAA]()
+[HITECH]()
 
 
 
