@@ -150,6 +150,13 @@ TODO Spin up a redis cache
 * Iterative Approach
 * [Background program](https://boinc.berkeley.edu/projects.php) 
 * [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
+* Limited Tools
+---
+# Case Study - [Have I Been Pwned](https://haveibeenpwned.com/)
+ 
+* Large Volume 7.7 Billion records (spring 2019)
+* 50,000 - 5,000,000 unique users per day
+* Used Azure Table Store
+* Cost $50 per month
 
-# Case Study
-http://www.microsoftcloudshow.com/podcast/Episodes/296-have-i-been-pwned-an-interview-with-troy-hunt
+[[Podcast](http://www.microsoftcloudshow.com/podcast/Episodes/296-have-i-been-pwned-an-interview-with-troy-hunt)]

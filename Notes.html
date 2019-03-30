@@ -53,8 +53,9 @@ img[alt="right"]
             base = 'http://localhost/'
     slideshow = remark.create({
             sourceUrl: base+path+'.md?ran=' + Math.random()
+            
         });
-
+        document.title = path;
 
         function qs(key) {
             key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars

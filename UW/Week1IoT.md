@@ -8,21 +8,25 @@
 ---
 # About Me
 
-![Right](https://microshak.github.io/MicroNotes/Images/Mike/MikeGermany.png)
 * Masters in Information Systems Management
 * PhD in IT Organization Management Dissertation In Cloud Computing
 * Over 15 years as a Analyst, Developer, Board Member, ect
 * Currently at IoT and AI Lab  
 
 ---
+#Final Project
+* The final project will be due on the last class (June 6th)
+* The project will consist of a proposal, a presentation and a project write up including code if applicable
+* The project proposal will be due May 2nd
+
 # Changes in Big Data
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.png)
+![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
 
 ---
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.png)
+![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
 ---
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.png)
+![full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.jpg)
 
 ---
 
@@ -58,7 +62,6 @@
 ---
 
 ![Full](https://microshak.github.io/MicroNotes/Images/Cap.png)
-
 ---
 
 # Problems of big data
