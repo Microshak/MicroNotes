@@ -1,7 +1,5 @@
-
-
->SOMETIMES THE QUESTIONS ARE COMPLICATED AND THE ANSWERS ARE SIMPLE
->Dr. Seuss
+> If you touture the data long enough it will tell you anything.
+> Ronald Coase
 
 ---
 # Veracity 

@@ -27,7 +27,7 @@
 
 ---
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.jpg)
-
+https://youtu.be/1xzajqSBGvM
 ---
 
 # Goal of this course
@@ -42,6 +42,12 @@
 * Process pipelines
 * Analyze Data
 * Trusted Advisor
+
+```sh
+ python3 ~/Source/webminer_indeed/indeedminer.py --term="big data" --l="Seattle, WA" --type="as_ttl" --pages="6"
+
+```
+
 ---
 ## What is Big Data
 1. Volume

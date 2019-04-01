@@ -1,3 +1,16 @@
+
+>SOMETIMES THE QUESTIONS ARE COMPLICATED AND THE ANSWERS ARE SIMPLE
+>Dr. Seuss
+
+2016 1100 exabites
+
+
+- Knowedge is power
+- sir francis bacon
+# 
+Google trends can predict an outbreak 2 weeks before the CDC.
+
+
 Data Engineering for ML
 
 

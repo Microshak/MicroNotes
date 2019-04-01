@@ -1,4 +1,7 @@
 # Big Data 230 Data Stores 1
+* capurnicus todo
+* data captured chart
+* 
 
 # Where do we store data
 1. SQL 
