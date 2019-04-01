@@ -19,6 +19,8 @@
 * The project will consist of a proposal, a presentation and a project write up including code if applicable
 * The project proposal will be due May 2nd
 
+---
+
 # Changes in Big Data
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
 
