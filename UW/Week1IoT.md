@@ -26,11 +26,14 @@
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
 
 ---
+
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
 ---
+
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.jpg)
 https://youtu.be/1xzajqSBGvM
+
 ---
 
 # Goal of this course
@@ -40,6 +43,7 @@ https://youtu.be/1xzajqSBGvM
 *  Work with End to End 
 
 ---
+
 # What do Big data engineers do?
 * ETL 
 * Process pipelines
@@ -52,7 +56,8 @@ https://youtu.be/1xzajqSBGvM
 ```
 
 ---
-## What is Big Data
+
+# What is Big Data
 1. Volume
 2. Velocity
 3. Variety
@@ -62,6 +67,7 @@ https://youtu.be/1xzajqSBGvM
 ![Full](https://microshak.github.io/MicroNotes/Images/3-Vs-of-Big-Data.png)
 
 ---
+
 # Tradeoffs of Big Data
 ## Cap Theorem
 1. Consistency
@@ -71,6 +77,7 @@ https://youtu.be/1xzajqSBGvM
 ---
 
 ![Full](https://microshak.github.io/MicroNotes/Images/Cap.png)
+
 ---
 
 # Problems of big data
@@ -97,13 +104,17 @@ https://youtu.be/1xzajqSBGvM
 * Distributed Systems
 
 ---
+
 # IoT Architecture
 [Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
 
+---
 
 # Demo 
 ![full](https://microshak.github.io/MicroNotes/Images/week1.png)
 
+
+---
 
 # Demo
 
