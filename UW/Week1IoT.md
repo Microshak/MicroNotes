@@ -14,6 +14,7 @@
 * Currently at IoT and AI Lab  
 
 ---
+
 #Final Project
 * The final project will be due on the last class (June 6th)
 * The project will consist of a proposal, a presentation and a project write up including code if applicable
