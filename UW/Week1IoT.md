@@ -31,8 +31,7 @@
 
 ---
 
-![full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.jpg)
-https://youtu.be/1xzajqSBGvM
+[![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
 
 ---
 
@@ -42,6 +41,12 @@ https://youtu.be/1xzajqSBGvM
 *  Match teaching with what big data engineers 
 *  Work with End to End 
 
+
+```sh
+ python3 ~/Source/webminer_indeed/indeedminer.py --term="big data" --l="Seattle, WA" --type="as_ttl" --pages="6"
+
+```
+
 ---
 
 # What do Big data engineers do?
@@ -49,11 +54,6 @@ https://youtu.be/1xzajqSBGvM
 * Process pipelines
 * Analyze Data
 * Trusted Advisor
-
-```sh
- python3 ~/Source/webminer_indeed/indeedminer.py --term="big data" --l="Seattle, WA" --type="as_ttl" --pages="6"
-
-```
 
 ---
 
@@ -97,31 +97,34 @@ https://youtu.be/1xzajqSBGvM
 
 # Advances in Big Data
 * IoT
-* Smart Data
-* Containerization
-* Edge/Fog systems
 * Databases
-* Distributed Systems
+* Containerization
+* Smart Data
+* Edge/Fog systems
+* End-To-End
 
 ---
 
 # IoT Architecture
-[Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
+[Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/Architecture)
 
 ---
 
 # Demo 
-![full](https://microshak.github.io/MicroNotes/Images/week1.png)
+![full](https://microshak.github.io/MicroNotes/Images/Week1.png)
 
 
 ---
 
 # Demo
 
-[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
+[Basic IoT](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/Basic)
 
 [IoT Hub Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted)
 
-[Advanced](https://github.com/Azure-Samples/azure-iot-samples-python)
+[Advanced Python Simulator](https://github.com/Azure-Samples/azure-iot-samples-python)
 
+[My Python Simulator](https://github.com/Microshak/Azure-IoTHub-Data-Loader)
+
+[Basic SA](ttps://microshak.github.io/MicroNotes/Notes.html?path=Azure/SA)
 

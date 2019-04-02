@@ -19,4 +19,12 @@ Automatic Failover in regional outages
    2. user defined Function
    3. Manually with the conflicts feed
 
+# Partition Keys
+* Hot Partition
+* Synthetic Partition Key
+
+# Aggregations
+* Limited
+* No Group By
+
 
