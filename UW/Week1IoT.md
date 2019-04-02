@@ -14,20 +14,25 @@
 * Currently at IoT and AI Lab  
 
 ---
+
 #Final Project
 * The final project will be due on the last class (June 6th)
 * The project will consist of a proposal, a presentation and a project write up including code if applicable
 * The project proposal will be due May 2nd
 
+---
+
 # Changes in Big Data
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
 
 ---
+
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
 ---
-![full](https://microshak.github.io/MicroNotes/Images/Mike/RobotMike.jpg)
-https://youtu.be/1xzajqSBGvM
+
+[![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
+
 ---
 
 # Goal of this course
@@ -36,12 +41,6 @@ https://youtu.be/1xzajqSBGvM
 *  Match teaching with what big data engineers 
 *  Work with End to End 
 
----
-# What do Big data engineers do?
-* ETL 
-* Process pipelines
-* Analyze Data
-* Trusted Advisor
 
 ```sh
  python3 ~/Source/webminer_indeed/indeedminer.py --term="big data" --l="Seattle, WA" --type="as_ttl" --pages="6"
@@ -49,7 +48,16 @@ https://youtu.be/1xzajqSBGvM
 ```
 
 ---
-## What is Big Data
+
+# What do Big data engineers do?
+* ETL 
+* Process pipelines
+* Analyze Data
+* Trusted Advisor
+
+---
+
+# What is Big Data
 1. Volume
 2. Velocity
 3. Variety
@@ -59,6 +67,7 @@ https://youtu.be/1xzajqSBGvM
 ![Full](https://microshak.github.io/MicroNotes/Images/3-Vs-of-Big-Data.png)
 
 ---
+
 # Tradeoffs of Big Data
 ## Cap Theorem
 1. Consistency
@@ -68,6 +77,7 @@ https://youtu.be/1xzajqSBGvM
 ---
 
 ![Full](https://microshak.github.io/MicroNotes/Images/Cap.png)
+
 ---
 
 # Problems of big data
@@ -87,27 +97,34 @@ https://youtu.be/1xzajqSBGvM
 
 # Advances in Big Data
 * IoT
-* Smart Data
-* Containerization
-* Edge/Fog systems
 * Databases
-* Distributed Systems
+* Containerization
+* Smart Data
+* Edge/Fog systems
+* End-To-End
 
 ---
-# IoT Architecture
-[Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
 
+# IoT Architecture
+[Iot Architecture](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/Architecture)
+
+---
 
 # Demo 
-![full](https://microshak.github.io/MicroNotes/Images/week1.png)
+![full](https://microshak.github.io/MicroNotes/Images/Week1.png)
 
+
+---
 
 # Demo
 
-[Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/IoT101)
+[Basic IoT](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/IoT/Basic)
 
 [IoT Hub Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted)
 
-[Advanced](https://github.com/Azure-Samples/azure-iot-samples-python)
+[Advanced Python Simulator](https://github.com/Azure-Samples/azure-iot-samples-python)
 
+[My Python Simulator](https://github.com/Microshak/Azure-IoTHub-Data-Loader)
+
+[Basic SA](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SA)
 

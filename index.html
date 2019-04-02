@@ -1,10 +1,14 @@
 <head>
 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.5/dist/popper.js"></script>
+
+
     <script
         src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
-    
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        
         <link rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -148,7 +152,18 @@ function Nav(sha)
     <script id="file" type="text/template">
         <div class="cont">
        
-        <a class="btn btn-secondary file" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}" role="button"><i class="fas fa-file"></i>{{pp}}</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton{{pp}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{pp}}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton{{pp}}">
+              <a class="dropdown-item" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}">Slide</a>
+              <a class="dropdown-item" href="https://microshak.github.io/MicroNotes/doc.html?path={{fpath}}">Sheet</a>
+              <a class="dropdown-item" href="https://github.com/Microshak/MicroNotes/blob/master/{{fpath}}.md">Source</a>
+            </div>
+          </div>
+
+
 
         </div>
 
