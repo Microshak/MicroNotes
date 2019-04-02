@@ -126,5 +126,5 @@
 
 [My Python Simulator](https://github.com/Microshak/Azure-IoTHub-Data-Loader)
 
-[Basic SA](ttps://microshak.github.io/MicroNotes/Notes.html?path=Azure/SA)
+[Basic SA](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SA)
 
