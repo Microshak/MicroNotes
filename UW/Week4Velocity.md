@@ -134,6 +134,9 @@ TODO Expand
 * Zigbee (low power mesh)
 ---
 
+## Maybe Spark Structured Streaming
+https://github.com/Azure/mmlspark/blob/master/docs/mmlspark-serving.md
+
 
 
 TODO Uber vs Lyft approach

@@ -17,6 +17,20 @@
 * ~~GAN~~
   
 ---
+# Accruaacy
+Precision
+Recall 
+Confusion Matrix
+
+# Feature Extraction Time Series
+TFLean - Extrect time series dataset 
+    - Moving Averages
+    - ect
+
+# Dealing with Imballanced Data Sets
+
+
+
 # Anomaly Detection Conceptually
 
 * **Positive and negative trends:** For example, when monitoring memory usage in computing an upward trend may be of interest as it may be indicative of a memory leak,
