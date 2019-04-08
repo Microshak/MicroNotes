@@ -1,8 +1,36 @@
- (7 properties of secure computing)[https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/SevenPropertiesofHighlySecureDevices.pdf]
+ [7 properties of secure computing](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/SevenPropertiesofHighlySecureDevices.pdf)
  
+# Vulnerabillities
+* Hardware Trojans
+* Side-Channel Analysis
+
+
+# Hardware Trojans
+![Cisco](/Images/Security/HT.png)
+* can assist in software attachs such as backdoor, password theft and prviledge escalation
+---
+# Remedies
+* Multi foundry manufacturing
+* Logic Locking
+---
+# Side Channel Analysis
+* Differential Power Analysis
+* Correlation Power Analysis
+![SCA](/Images/Security/SCA.png)
+
+---
+
+# Attack Servaces
+* Sensor
+* Device Memory
+* Physical Memory
+* Firmware 
+* Formware Update Mechonism
+
+
  7 properties of highly secure devices
  
- 1. root of hardware trust - unique identifier
+ 1. Root of hardware trust - unique identifier
  	Chip aware of its own entropy
 		if somonne is freezing the chip to make random less 
 2. Defence in depth - Muleyer software OS
@@ -15,4 +43,5 @@
 5. Monitoring listening point for failure
    1. version
    2. software
-   3. 
+
+

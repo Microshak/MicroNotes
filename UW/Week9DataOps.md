@@ -70,6 +70,8 @@ Continuous Integration/Continuous Delivery
 * Testing
 * Automated Deployment
 * Automation
+* Unknown Unknowns
+* Known Unknowns
 
 # Blueprinting Deployments
 * Infrastructure as code

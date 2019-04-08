@@ -32,7 +32,7 @@ How is it configured?
 kubectl config view
 ```
 ---
-Can I expose the webite externally?
+Can I expose the website externally?
 ```sh
 kubectl expose deployment hello-node --type=LoadBalancer --port=8080
 

@@ -163,3 +163,8 @@ TODO Spin up a redis cache
 * Cost $50 per month
 
 [[Podcast](http://www.microsoftcloudshow.com/podcast/Episodes/296-have-i-been-pwned-an-interview-with-troy-hunt)]
+
+
+
+--kafka
+https://github.com/jcustenborder/kafka-connect-archtype
