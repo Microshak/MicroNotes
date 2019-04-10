@@ -36,6 +36,7 @@ curl $(minikube ip):$NODE_PORT
 kubectl rollout status  [☢️️️name of deployment☢️️️]
 kubectl describe pods
 ```
+---
 # Roll Back
 ```sh
 kubectl rollout undo [☢️️️name of deployment☢️️️]

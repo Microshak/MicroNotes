@@ -9,7 +9,6 @@ $ eval $(minikube docker-env)
 
 
 # Docker Images
-
 Create a flask app
 ```python
 
@@ -25,7 +24,7 @@ if __name__ == '__main__':
 ```
 ----
 
-Create a docker file
+# Create a docker file
 ```dockerfile
 FROM ubuntu:latest
 

@@ -143,7 +143,7 @@
 
 # Prometheus
 * Text Based Data Model
-* Wide Ddoption
+* Wide Adoption
 * Exports: Example my sql to Prometheus
 * Pull Based
 * Prometheus api 
@@ -174,13 +174,13 @@
 # Yaml vs JSON
 [Yarn VS JSON](https://github.com/Microshak/MicroNotes/tree/master/Containers/YamlVsJSON.md)
 
+---
+# Helm Charts
 
 
+[Helm](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetes/HelmCharts)
 
-
-
-
-
+---
 
 
 #Further Tutorials
