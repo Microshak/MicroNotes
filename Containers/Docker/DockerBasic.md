@@ -1,9 +1,13 @@
 #Docker VS Containers
 
-![left](/home/administrator/Source/MicroNotes/Images/Containers/Docker.png  "full")
+![max]( https://microshak.github.io/MicroNotes/Images/Containers/Docker.png "full")
 
-![right](/home/administrator/Source/MicroNotes/Images/Containers/VMs.png  "full")
 ---
+
+![max](https://microshak.github.io/MicroNotes/Images/Containers/VMs.png  "full")
+---
+
+
 
 #Benefits
 
@@ -12,6 +16,12 @@
 * Sandbox projects
 * Quick Start Projects
 * Scales Easy
+* No OS per instance over head
+* Package software and dependencies together
+* Distribution mechanism
+* Shared image or dockerfile
+    * Easy dev environments
+    * Easy CI/CD pipelines
 
 ---
 
@@ -19,7 +29,7 @@
 * Defined by a Dockerfile
 * Can have different docker files for production and dev
 * Compostable
-* Incrementatl Build
+* Incremental Build
 ---
 # Pipelines
 * CI/CD
@@ -38,8 +48,28 @@
 * Daemon (API)
 
 ---
+# Docker
 
+* multi stage builds
+* clean up
+* volume map
 
-#
+---
+
+# Docker Images 
+
+  * Modify
+  * Build
+  * Map to local directory (persistance)
+  * Upload to repository
+
+---
+
+# Docker Containers
+* Run (locally or remotely)
+* SSH Into 
+* Expose external ports
+* Setup a internal network
+  
 
 

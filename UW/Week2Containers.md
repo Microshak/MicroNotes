@@ -2,38 +2,42 @@
 
 > What was acceptable last year is not acceptable today.  What is acceptable now will not be acceptable next year.
 
-> Faster, Better, Cheaper. 
 ---
 
 # What is a container
-![full](https://microshak.github.io/MicroNotes/Images/dockervsvm.png)
+
+![max](https://microshak.github.io/MicroNotes/Images/dockervsvm.png)
 
 ---
 
 # Compared to VM
-![full](https://microshak.github.io/MicroNotes/Images/dockervsvm2.png)
+
+![max](https://microshak.github.io/MicroNotes/Images/dockervsvm2.png)
 
 ---
 
 # Containers and Orchestrators
+
 * Containers
   * Docker
   * Mobey
 * Orchistrators
-  * Kubernetties
-  * ~~DCOS~~
-  * ~~Docker Swarm~~
-  * ~~Apache Mesos~~
+  * Kubernetties,
+  * ~~DC/OS~~
+  * ~~Docker Swam~~,
+  * ~~Apache Mesos~~,
 
 ---
 
-# Why containers
+# Why containers,
+
 * You build it you own it
 * Cattle vs Pets
 
 ---
 
 # Evolution to Containers
+
 * Apps do not play nicely with others
   * DLL Hell
   * 1 app = 1 machine
@@ -43,6 +47,7 @@
 ---
 
 # Evolution of Containers
+
 * Silo Systems
   * ERP
   * CRM
@@ -51,9 +56,10 @@
 ---
 
 # Containers
+
 * No OS per instance over head
-* packaging software and dependencies together
-* Distribution mechonosms
+* Package software and dependencies together
+* Distribution mechanism
 * Shared image or dockerfile
     * Easy dev environments
     * Easy CI/CD pipelines
@@ -61,39 +67,12 @@
 
 ---
 
-
-# Docker
-* multi stage builds
-* clean up
-* volume map
----
-
-#Docker Run
-[Docker Run](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/DockerRun) 
-
----
-
-# Docker Images 
-
-  * Modify
-  * Build
-  * Map to local directory (persistance)
-  * Upload to repository
-
----
-
-# Docker Containers
-* Run (locally or remotely)
-* SSH Into 
-* Expose external ports
-* Setup a internal network
-  
----
-
 # Docker Images and Containers 
-[Docker Images and Containers](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/ImagesAndContainers)
+[Docker Basics](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerBasic)
 
+[Build Docker Images and Containers](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/ImagesAndContainers)
 
+[Docker Examples](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerRun)
 ---
 
 # Docker Compose
@@ -103,10 +82,11 @@
 ---
 
 
+mess# Kubernetes
 
----
-# Kubernetes
 * Defacto standard
+* Faster, Better, Cheaper. 
+
 
 # What is a Node  
 
