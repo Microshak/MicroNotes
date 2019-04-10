@@ -68,9 +68,9 @@
 ---
 
 # Docker Images and Containers 
-[Docker Basics](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerBasic)
+[Docker Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/DockerBasic)
 
-[Build Docker Images and Containers](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/ImagesAndContainers)
+[Build Docker Images and Containers](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/ImagesAndContainers)
 
 [Docker Examples](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerRun)
 ---
@@ -82,11 +82,12 @@
 ---
 
 
-mess# Kubernetes
+# Kubernetes
 
 * Defacto standard
 * Faster, Better, Cheaper. 
 
+---
 
 # What is a Node  
 
@@ -97,30 +98,38 @@ mess# Kubernetes
 # What is a Pod?
 ![full](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
 
+---
+
 # k8s vs Yarn
-*k8s 
+* k8s 
     * throttle cpu
-    * seperate process id space
+    * separate process id space
     * max memory limit
     * mountable volumes
-    * dependancies easily
+    * dependencies easily
     * complex deployment
 * Yarn
     * Security base64 decoding
     * Shared Conda Enviroment
     * Shared Packages
     * Admin Deployment
+
 ---
+
 # Big Data of k8s
 * Anti-afifinty
 * Easy Deployment ([Kafka](https://github.com/Yolean/kubernetes-kafka))
 * Last mile problem
+
+---
 
 # k8s Complex deployment
 * [12 factor apps](https://12factor.net/)
 * Side car
 * Prometheous/Graphana
 * Job type (terminate expire)
+
+---
 
 # k8s Complex deployment
 * Autoscale (cloud native)
@@ -129,29 +138,27 @@ mess# Kubernetes
 * Eviction 
 * Burst
 
-
+---
 
 
 # Prometheus
-* text based data model
-* wide adoption
-* exports example my sql to permitheous
-* pull based
-* Permethous api 
-    * graphana
+* Text Based Data Model
+* Wide Ddoption
+* Exports: Example my sql to Prometheus
+* Pull Based
+* Prometheus api 
+    * Graphana
     * pager duty
     * slack
 * PromQL 
 
+---
 
 # Testing Version control
 * Shift Left
 * Speed of feedback cycle
 
-
-
-
-
+---
 # Hands on K8s
 
 [Kubernetes Basic](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Kubernetes/Basic)
@@ -165,9 +172,9 @@ mess# Kubernetes
 
 ---
 # Yaml vs JSON
-[Repo](https://github.com/Microshak/MicroNotes/tree/master/Containers/YamlVsJSON.md)
+[Yarn VS JSON](https://github.com/Microshak/MicroNotes/tree/master/Containers/YamlVsJSON.md)
 
-TODO YAML multi
+
 
 
 

@@ -5,14 +5,6 @@ docker pull hello-world
 
 ```
  ---
-# Hello Docker
-## Run a docker image
-```bash
-docker run hello-world
-
-```
-
----
 
 # Hello Grafana
 

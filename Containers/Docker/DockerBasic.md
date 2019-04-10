@@ -26,50 +26,49 @@
 ---
 
 # Defined 
-* Defined by a Dockerfile
+* Defined by a [Dockerfile](https://github.com/apache/spark/blob/master/resource-managers/kubernetes/docker/src/main/dockerfiles/spark/Dockerfile)
 * Can have different docker files for production and dev
 * Compostable
 * Incremental Build
+* Map to local directory (persistance)
+* Upload to repository
+
 ---
+
 # Pipelines
 * CI/CD
 * Testing
 * Security Testing
 * Repeatability
 ---
+
 # Docker Hub
 * Login
 * Certified, Official, Verified
 * Upload Docker Builds
+  
 ---
+
 # Under the covers
 * Images
 * Containers
 * Daemon (API)
 
 ---
-# Docker
 
-* multi stage builds
-* clean up
-* volume map
+# Docker Development
 
----
-
-# Docker Images 
-
-  * Modify
-  * Build
-  * Map to local directory (persistance)
-  * Upload to repository
+* Multi Stage Builds
+* Clean Up
+* Volume Map
+* IDE Support
 
 ---
 
 # Docker Containers
 * Run (locally or remotely)
-* SSH Into 
 * Expose external ports
 * Setup a internal network
-  
+* SSH Into   
 
 

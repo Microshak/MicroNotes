@@ -60,7 +60,9 @@ docker-compose up
 
 ---
 #Docker Compose Cheatsheet
+
+```bash
 docker-compose up
 docker-compose ps       #List containers
 docker-compose down
-
+```
