@@ -1,4 +1,8 @@
 # Big Data 230 Data Stores 1
+ > Relational Databases are just Microsoft Excel on Steriods. 
+ > Eliot Horowitz co-creater of MongoDB 
+
+
 * capurnicus todo
 * data captured chart
 * 
@@ -166,3 +170,60 @@ https://westus2.azuredatabricks.net/?o=104465683066888#notebook/1846713445666353
 
 
 
+# Graph Database
+History
+Oritionally data was stored on punch cards
+![punchard](https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg
+)
+---
+flat files
+---
+relational databases
+ difficult to maintain and query
+ generated ids
+ but had acid
+ enpensive indexes 
+
+ ---
+ # later
+ Key/Value Pairs
+ Document database 
+    Indexed for faster retrieval
+Graph Database
+    Store data much more logical
+    Prioitize for discoverability, reprisentation, retainability of data relationships
+
+---
+Graph
+Intuative 
+Speed
+    schema optional
+    new nodes or create them. no more scema migrations
+---
+
+Case Study - neo4j
+ebay - up to 10,000 times faster
+10-100 times less code
+
+
+# Chosing the right database
+*  Intergration
+* Scaling
+* Support
+    * Security
+    * Installation
+    * Scaling
+Cost
+CAP
+---
+# ATOMIC
+* Atomnicity
+    *
+Consitency
+    * We promise to follow the rules
+    * Web Click vs Banks
+    * CAP Theorm
+* Isolation
+    * Different threads and data
+    * Do they see eachothers data
+* Durability

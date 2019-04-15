@@ -1,10 +1,9 @@
-[IoT Attacks Trippled in 2018](Attacks on IoT Devices Tripled in 2018 – Non-Standard Ports Increasingly Targeted)
 
-[Malware getting Smarter](https://arstechnica.com/information-technology/2019/03/mirai-botnet-aims-to-wrap-its-tentacles-around-a-new-crop-of-iot-devices/)
+* [IoT Attacks Trippled in 2018](https://www.cbronline.com/news/fake-ransomware-sonicwall)
+* [Malware getting Smarter](https://arstechnica.com/information-technology/2019/03/mirai-botnet-aims-to-wrap-its-tentacles-around-a-new-crop-of-iot-devices/)
+* [Digital Attack Map](http://www.digitalattackmap.com/)
 
-
-[Digital Attack Map](http://www.digitalattackmap.com/)
-
+---
 
 
 Between 2016-2017 identity theft increased by 1,000,000 in US 15.7 m to 16.7 m victims

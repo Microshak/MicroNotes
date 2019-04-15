@@ -74,8 +74,30 @@ TFLean - Extrect time series dataset
 * **Average log loss** is a single score used to express the penalty for wrong results. It is calculated as the difference between two probability distributions – the true one, and the one in the model.
 
 * **Training log loss** is a single score that represents the advantage of the classifier over a random prediction.
+
+# When to use
+Accuracy bad in unballanced datasets.
+Use Persision and Recall
+
+
+How much we value persision vs recall?
+
+
+F1 score waited persision vs recall equally
+
+F Score when we value persision vs recall
+
+
  ---
- 
+# Confusion Matrix
+Predicted label and true label
+
+# Ways to drive bad numbers down
+* density of predictions
+* change hyper parameters
+* Add freatures
+
+
  #Binary Classifier
  https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn
 
@@ -83,7 +105,12 @@ TFLean - Extrect time series dataset
 
  https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
 
+
+
+
 # Multi Class Classifier
+
+
 
 
 # ROC
