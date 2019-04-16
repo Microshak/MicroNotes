@@ -2,8 +2,8 @@ Maslos hammer
 
 # Why so fast
 
-``` Data can have a limited shelf life or age quickly  ```
-
+>> Data can have a limited shelf life or age quickly  
+bigger faster cheaper now
 ---
 # 4 Types of Velocity
 * Real Time

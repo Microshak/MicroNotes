@@ -1,12 +1,12 @@
 # Big Data 230 Data Stores 1
  > Relational Databases are just Microsoft Excel on Steriods. 
  > Eliot Horowitz co-creater of MongoDB 
-
+---
 
 * capurnicus todo
 * data captured chart
 * 
-
+---
 # Where do we store data
 1. SQL 
 2. No SQL 
@@ -125,7 +125,8 @@
 ## Pitfalls of no SQL
 1. Multi-master lag
 2. Multi-master concurrency
-3. Creating a Jimmy 
+3. Creating a Jimmy
+4. Difficutlt to model 
 
 ## NoSQL Tradeoffs
 1. Features
@@ -158,7 +159,7 @@ https://westus2.azuredatabricks.net/?o=104465683066888#notebook/1846713445666353
 * Just In Time
 * In memory
 * Iterative 
-
+---
 
 # Batch
 
