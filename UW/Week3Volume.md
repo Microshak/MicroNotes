@@ -1,19 +1,20 @@
 # Big Data 230 Data Stores 1
  > Relational Databases are just Microsoft Excel on Steriods. 
- > Eliot Horowitz co-creater of MongoDB 
+ 
+ > -Eliot Horowitz co-creater of MongoDB 
 ---
 # Copernicus 
 
-![full](../Images/Copernicus.webp)
+![full](https://microshak.github.io/MicroNotes/Images/Copernicus.webp)
 
 ---
 
 # History
 ### Originally data was stored on punch cards
 
-![full](Images/PunchCard.jpg)
+![full](https://microshak.github.io/MicroNotes/Images/PunchCard.jpg)
 
---- 
+---
 
 # Flat Files
 
@@ -24,6 +25,26 @@ Joe 3   Child
 
 ```
 ---
+# Hierarchical Databases
+* Had Parent Nodes and Child Nodes
+* 1960's
+* Stored  Drawings for Lunar Lander
+
+---
+
+# Network Database
+* Similar to Hierarchical database but child nodes could have multiple parents
+* Database became complicated, because it was difficult to maintain pointers
+
+---
+
+#Relational Databases
+* 1980s
+* Easily represented Business Data
+* Had an easy way of querying
+* Had Indexes to help performance
+
+---
 
 # Relational Databases
 * Difficult to Maintain and Query
@@ -32,20 +53,10 @@ Joe 3   Child
 * Expensive indexes 
 * Difficulty Scaling
 
- ---
-
- # later
- Key/Value Pairs
- 
- Document database 
-    Indexed for faster retrieval
-Graph Database
-    Store data much more logical
-    Prioritize for discoverability, reprisentation, retainability of data relationships
-
 ---
 
-# Huge Data 
+# Data Today
+
 * 53 percent of companies are adopting big data analytics. ([Forbes](https://www.forbes.com/sites/louiscolumbus/2017/12/24/53-of-companies-are-adopting-big-data-analytics/#3e7744d39a19), 2017)
 
 * More than 150 zettabytes (150 trillion gigabytes) of data will need analysis by 2025. ([Forbes](https://www.forbes.com/sites/rkulkarni/2019/02/07/big-data-goes-big/#4c2d305a20d7), 2019)
@@ -55,20 +66,29 @@ Graph Database
 
 ---
 
-# Where do we store data
+# Solutions for Large Data
+* Data Warehousing
+* Key/Value Databases
+* Document database 
+    All Fields Indexed for faster retrieval
+* Graph Database
+    Store data much more logical
+    Prioritize for Discoverability, Reprisentation, Retainability of data relationships
+* Cache
+
+---
+
+# Where Do We Store Data
 1. SQL 
 2. No SQL 
 3. Cache
-1. Journal(Kafka, Event Hub) 
-1. Event Grid 
-1. Message Bus
+4. Journal(Kafka, Event Hub) 
+5. Event Grid 
+6. Message Bus
 
 ---
-# How do we store data
-1. Document Database  
-1. Key Value 
-1. Cache
-1. Graph
+
+# How do We Store The Data
 1. Set
 3. Ordered Set 
 4. Queue
@@ -76,10 +96,13 @@ Graph Database
 6. Rows
 7. JSON
 8. Binary
-
+9. Parque
+10. Avro
+11. Protobuf
+12. Relations
 ---
 
-# What do we need to consider 
+# What Do We Need to Consider When Choosing a Database
 
 * Functional Requirements
   * ACID VS BASE
@@ -97,10 +120,10 @@ Graph Database
 ---
 
 # What do we need to consider 
-
 ## 3 Vs
-* Velocity 
-* Volume
+![right](/Images/NetworkTopology-Ring.png)
+* Velocity (Hot Partitions)
+* Volume 
 * Variance
 
 ---
@@ -114,7 +137,7 @@ Graph Database
 
 ---
 
-![Full](https://microshak.github.io/MicroNotes/Images/Cap.png)
+![right](https://microshak.github.io/MicroNotes/Images/Cap.png)
 
 ---
 # BASE 
@@ -139,7 +162,6 @@ Begin Trans
 * Consistency
   * We promise to follow the rules
   * Web Click vs Banks
-  * CAP Theorem
 
 ---
 * Isolation
@@ -151,16 +173,6 @@ Begin Trans
    - Committed Transactions Survive
 
 ---
-
-# ATOMIC
-* Atomnicity
-    *
-Consistency
-    * 
-
-* Durability
-
-
 
 # High Availability
 
@@ -243,18 +255,18 @@ Consistency
 
 [Demo](https://value-microshak2.notebooks.azure.com/j/notebooks/DataBricksQuery.ipynb)
 
-[Demo](https://westus2.azuredatabricks.net/?o=104465683066888#notebook/1846713445666353/command/661668570689790)
-
 [Mixed Demo](https://cdn2.hubspot.net/hubfs/438089/notebooks/spark2.0/ML%20persistence%20in%202.0.html)
 
 ---
 # Mongo DB
-TODO: What is Mongo
+[Mongo Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/MongoBasics)
+[Mongo to SQL comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
+[Geo Spacial Queries](https://docs.mongodb.com/manual/geospatial-queries/) with [GeoJSON](https://docs.mongodb.com/manual/reference/geojson/)
 [Demo](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Mongo)
 
 ---
 
-# Enforcing Policy's and Business Logic
+# NoSQL PaaS
 * Microservice Approach (single source of truth vs gatekeeping)
 * Triggers
    
@@ -271,10 +283,19 @@ Speed
     new nodes or create them. no more schema migrations
 ---
 
+# Graph DB Use cases
+* Fraud detection
+* Real-time recommendation engines
+* Master data management (MDM)
+* Network and IT operations
+  
+---
+
 # Case Study - neo4j
 [ebay](https://www.youtube.com/watch?v=g8DTqguvcwc) - up to 10,000 times faster
 with 10-100 times less code
-
+[Panama Papers](https://medium.com/neo4j/graph-visualization-of-panama-papers-data-in-neo4j-9c08ca17039c)
+[Source Files](https://offshoreleaks.icij.org/pages/database)
 
 ---
 

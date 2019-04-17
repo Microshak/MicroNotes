@@ -16,7 +16,7 @@
 # Multi-master
 1. Can write to any replica around the world.
 2. < 10 millisecond latency for reads and writes
-3. No Need to configure fail over
+3. No need to configure fail over
 4. Has different levels of conflict resolution
    1. Higher value
    2. User Defined Function
@@ -33,4 +33,13 @@
 # Aggregations
 * Limited
 * No Group By 
+
+---
+
+# Consistency Levels
+* Supports [5 Levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels) of Consistency
+* Consistency Over Ridable
+* No Partial Document Update
+
+
 
