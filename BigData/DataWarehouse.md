@@ -37,7 +37,6 @@
 
 CREATE CLUSTERED COLUMNSTORE INDEX cci ON Sales.Orders
 ```
-![Full](https://microshak.github.io/MicroNotes/Images/rowtoColumninar.png)
+![full](https://microshak.github.io/MicroNotes/Images/rowtoColumninar.png)
 
----
 

@@ -23,6 +23,7 @@ bigger faster cheaper now
     * [Stack Exchange](https://meta.stackexchange.com/questions/69164/does-stack-exchange-use-caching-and-if-so-how/69172#69172) speeds up their website with Redis.
 
 
+
 ---
 # Real World Applications
 * Sensor Readings 
@@ -140,7 +141,7 @@ https://github.com/Azure/mmlspark/blob/master/docs/mmlspark-serving.md
 
 
 TODO Uber vs Lyft approach
-
+https://eng.uber.com/uber-big-data-platform/
 
 TODO Spin up a redis cache
 
@@ -155,15 +156,6 @@ TODO Spin up a redis cache
 * [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
 * Limited Tools
 ---
-# Case Study - [Have I Been Pwned](https://haveibeenpwned.com/)
- 
-* Large Volume 7.7 Billion records (spring 2019)
-* 50,000 - 5,000,000 unique users per day
-* Used Azure Table Store
-* Cost $50 per month
-
-[[Podcast](http://www.microsoftcloudshow.com/podcast/Episodes/296-have-i-been-pwned-an-interview-with-troy-hunt)]
-
 
 
 --kafka
