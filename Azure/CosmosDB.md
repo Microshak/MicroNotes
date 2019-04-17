@@ -5,11 +5,11 @@
 ---
 
 # Globally distributed
-Transparent background replication
-Horizonal Scaleing does not need to "Pause" the service
-Multihoming/Multimaster APIs
-Low latency
-Automatic Failover in regional outages
+* Transparent background replication
+* Horizonal Scaleing does not need to "Pause" the service
+* Multihoming/Multimaster APIs
+* Low latency
+* Automatic Failover in regional outages
 
 ---
 
@@ -19,8 +19,8 @@ Automatic Failover in regional outages
 3. No Need to configure fail over
 4. Has different levels of conflict resolution
    1. Higher value
-   2. user defined Function
-   3. Manually with the conflicts feed
+   2. User Defined Function
+   3. Manually with the Conflicts Feed
 
 ---
 
@@ -32,6 +32,5 @@ Automatic Failover in regional outages
 
 # Aggregations
 * Limited
-* No Group By
+* No Group By 
 
----

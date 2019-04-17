@@ -4,9 +4,11 @@
 *  Splitting identically structured data across several independent databases
 *  Each Tenant has its own shard key
 *  Shardded Databaes are Called Shard Set
-![d](https://microshak.github.io/MicroNotes/Images/Shardding.png)
+
+---
+![ful](https://microshak.github.io/MicroNotes/Images/Shardding.png)
  
- ---
+---
 
 ## Shard Map
 
@@ -33,7 +35,7 @@
 public SqlConnection OpenConnectionForKey<TKey>(TKey key, string connectionString, ConnectionOptions options)
 
 ```
-
+---
 ###Update a Shard
 ```dotnet 
 int customerId = 12345; 
@@ -53,7 +55,7 @@ using (SqlConnection conn = customerShardMap.OpenConnectionForKey(customerId, Co
     cmd.ExecuteNonQuery(); 
 }  
 ```
-
+---
 ### Query All Shards
 ```dotnet
 using (MultiShardConnection conn = new MultiShardConnection(myShardMap.GetShards(), myShardConnectionString)) 
@@ -82,21 +84,15 @@ using (MultiShardConnection conn = new MultiShardConnection(myShardMap.GetShards
 ## Elastic Database Query:
 
 
-![Elastic Database Query](https://microshak.github.io/MicroNotes/Images/ElasticDatabaseQuery.png)
+![full](https://microshak.github.io/MicroNotes/Images/ElasticDatabaseQuery.png)
 
 [Example Queries](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-getting-started)
 
 ---
 
-## Elastic Database Jobs
-
-* allow you to run queries on schedule
-
-
----
-
 ## Splitting and Merging Shards
-* use the Split/Merge Service from Azure
-* has Web, C#, and PowerShell interface
+* Use the Split/Merge Service 
+* Data Offline
+
 
 [example code](http://www.gethynellis.com/2018/10/horizontal-scaling-in-azure-SQL-database.html)

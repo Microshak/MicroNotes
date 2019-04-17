@@ -1,17 +1,20 @@
+# What is Neo4j
 * Open Source
 * NoSQL
 * Since 2007
-* ACID Complient
+* ACID Compliant
 * Cluster Support
 * Runtime Failover
 
---- 
-Nodes
-Properteis - name/value pair
+---
+
+# Nodes
+
+* Properties - name/value pair
 * Relationships
 
+---
 
---- 
 # Relational vs Graphing
 * Joins are expensive and confusing
 * Constant time traversal
@@ -19,24 +22,18 @@ Properteis - name/value pair
     * In relational 
 ---
 
-    ![full](/images/jointedtable.png)
+    ![full](https://microshak.github.io/MicroNotes/Images/JoinedTables.png)
 ---
-    ![full](/images/GraphDBStruture.png)
-
-# SQL VS Cypher
-!!!todoneo1
-
+    ![full](https://microshak.github.io/MicroNotes/Images/GraphDBStructure.png)
 ---
-!!!todoneo2
+
+# PProgramming
+* Cypher
+* OGM
+* [Docs](https://neo4j.com/developer/docker-run-neo4j/)
+* [Tutorial](https://www.youtube.com/watch?v=QGUpXsTyyqY)
 
 # Demo
-```neo4j
-
-:play movies
-```
-
-
-https://neo4j.com/developer/docker-run-neo4j/
 
 ```docker
  docker run \
@@ -48,12 +45,16 @@ https://neo4j.com/developer/docker-run-neo4j/
      -v $HOME/neo4j/import:/var/lib/neo4j/import \
      -v $HOME/neo4j/plugins:/plugins \
      --env NEO4J_AUTH=neo4j/test \
----
-PRogramming
-Cypher
-OGM
-https://www.youtube.com/watch?v=QGUpXsTyyqY
-https://www.youtube.com/watch?v=djNJd1U2VR0
     
 
 ```
+---
+```neo4j
+
+:play movies
+```
+---
+
+
+
+

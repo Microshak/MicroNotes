@@ -1,18 +1,26 @@
-# Kimbal Approach
-* Star
-* Snowflake
-* Data Marts
-
-# Inmon Approach
-* All data goes into a single source of truth
-* 3nf
+#Inmon Approach (Enterprise Data Warehouse)
+* Integrated, Centralized Source of Truth
 * Meta, Summary, and Raw Data stores
-* Data Marts
+* Data Marts for each Department within the Organization
+* 3NF
+* Strategic
+* High Startup Costs
+
+---
+
+# Kimbal Approach (Dimensional Data Model)
+  * Star/Snowflake Schema
+  * Data Marts
+  * Individual Business Requirements
+  * Low Startup Costs
 
 
+---
 
 # Star Approach
 ![Full](https://microshak.github.io/MicroNotes/Images/star.png)
+
+---
 
 # Star Approach
 * Pros
@@ -22,9 +30,14 @@
 * Cons
   * Not a full representation of source system
 
+---
+
 # Snowflake
-![Full](https://microshak.github.io/MicroNotes/Images/Snowflake.png)
+![full](https://microshak.github.io/MicroNotes/Images/snowflake.png)
   
+
+---
+
 # Snowflake
 * Pros
   * Handles more complex data

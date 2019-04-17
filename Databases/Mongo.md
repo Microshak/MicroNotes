@@ -33,3 +33,25 @@ OR
 docker exec -it [☢️️️name of docker️ container️️️️☢] bash
 ```
 ---
+# Upload some data
+[Inventory Data](https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/inventory.crud.json)
+
+---
+# Mongo Crud
+```
+db.inventory.insertOne(
+   { "item" : "canvas",
+     "qty" : 100,
+     "tags" : ["cotton"],
+     "size" : { "h" : 28, "w" : 35.5, "uom" : "cm" }
+   }
+)
+```
+
+Find All
+```
+myCursor = db.inventory.find( {} )
+```
+[Docs](https://docs.mongodb.com/guides/)
+[Cheat Sheet](https://www.opentechguides.com/how-to/article/mongodb/118/mongodb-cheatsheat.html)
+
