@@ -18,20 +18,23 @@
 # Relational vs Graphing
 * Joins are expensive and confusing
 * Constant time traversal
-    * In relational ids must be linked
-    * In relational 
+    * In relational database ids must be linked
+    * In graph database objects are linked
 ---
 
     ![full](https://microshak.github.io/MicroNotes/Images/JoinedTables.png)
+
 ---
     ![full](https://microshak.github.io/MicroNotes/Images/GraphDBStructure.png)
 ---
 
-# PProgramming
+# Programming
 * Cypher
 * OGM
 * [Docs](https://neo4j.com/developer/docker-run-neo4j/)
 * [Tutorial](https://www.youtube.com/watch?v=QGUpXsTyyqY)
+
+---
 
 # Demo
 
@@ -48,6 +51,7 @@ docker run \
     neo4j:latest
 ```
 ---
+
 ```neo4j
 
 :play movies
