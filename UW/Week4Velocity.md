@@ -4,7 +4,9 @@ Maslos hammer
 
 >> Data can have a limited shelf life or age quickly  
 bigger faster cheaper now
+
 ---
+
 # 4 Types of Velocity
 * Real Time
 * Near Real-Time
@@ -12,6 +14,7 @@ bigger faster cheaper now
 * Analytical Processing
 
 ---
+
 # Real World Applications (Real-Time)
 * Fraud Detection
     * [Square](https://cwiki.apache.org/confluence/display/KAFKA/Powered+By) has real time alerting using Splunk, Graphite, and Kafka
@@ -25,12 +28,13 @@ bigger faster cheaper now
 
 
 ---
+
 # Real World Applications
 * Sensor Readings 
     * FedEx uses [Sense Aware](https://www.senseaware.com/how-it-works/) to track packages in real time
     * [Dynisco] uses IoT sensors to alert and insturment their solutions
 
-
+---
 
 
  
@@ -55,12 +59,14 @@ ACID (Atomicity, Consistency, Isolation, Durability)
 * Streams
 * Spatial Indexes 
 
+
+---
 # Why Redis
 ![right](https://microshak.github.io/MicroNotes/Images/Redis.png)
 *   Fast
 *   Not CPU intensive
 *   Scalable
-
+---
 # Use Cases
 * Cashe
 * Analytics
