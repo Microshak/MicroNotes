@@ -121,7 +121,7 @@ Joe 3   Child
 
 # What do we need to consider 
 ## 3 Vs
-![right](/Images/NetworkTopology-Ring.png)
+![right](https://microshak.github.io/MicroNotes/Images/NetworkTopology-Ring.png)
 * Velocity (Hot Partitions)
 * Volume 
 * Variance
@@ -211,7 +211,7 @@ Begin Trans
 ---
 
 
-# SQL Sharding
+# Database Sharding
 [Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling)
 
 * Who Shards?
@@ -259,9 +259,10 @@ Begin Trans
 
 ---
 # Mongo DB
-[Mongo Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/MongoBasics)
-[Mongo to SQL comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
-[Geo Spacial Queries](https://docs.mongodb.com/manual/geospatial-queries/) with [GeoJSON](https://docs.mongodb.com/manual/reference/geojson/)
+* [Mongo Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/MongoBasics)
+* [Mongo to SQL comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
+* [Geo Spacial Queries](https://docs.mongodb.com/manual/geospatial-queries/) with  [GeoJSON](https://docs.mongodb.com/manual/reference/geojson/)
+
 [Demo](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Mongo)
 
 ---
@@ -272,15 +273,10 @@ Begin Trans
    
 ---
 
-# Graph Database
-
-[Neo4J](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Neo4j)
----
-Graph
-Intuitive 
-Speed
-    schema optional
-    new nodes or create them. no more schema migrations
+# Graph Databases
+* Intuitive 
+* Speed
+* Schema Optional
 ---
 
 # Graph DB Use cases
@@ -294,13 +290,20 @@ Speed
 # Case Study - neo4j
 [ebay](https://www.youtube.com/watch?v=g8DTqguvcwc) - up to 10,000 times faster
 with 10-100 times less code
+
 [Panama Papers](https://medium.com/neo4j/graph-visualization-of-panama-papers-data-in-neo4j-9c08ca17039c)
+
 [Source Files](https://offshoreleaks.icij.org/pages/database)
 
 ---
+# Demo
 
-# Case Study - [Have I Been Pwned](https://haveibeenpwned.com/)
- 
+* [Neo4J](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Neo4j)
+---
+
+# Case Study - Key/Value Database 
+## [Have I Been Pwned](https://haveibeenpwned.com/)
+
 * Large Volume 7.7 Billion records (spring 2019)
 * 50,000 - 5,000,000 unique users per day
 * Used Azure Table Store
