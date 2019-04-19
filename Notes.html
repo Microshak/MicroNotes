@@ -46,7 +46,7 @@ img[alt="right"]
         }
     </style>
 </head>
-<body>
+<body id="body">
     
     <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
     </script>
@@ -69,6 +69,17 @@ img[alt="right"]
             var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
             return match && decodeURIComponent(match[1].replace(/\+/g, " "));
         }
+        const body = document.getElementById('body');
+        body.addEventListener('keydown', logKey);
+
+function logKey(e) {
+  if(e.code     =="Backquote")
+{
+    console.log('eee')
+}
+  console.log( ` ${e.code}`);
+}
+
 
     </script>
 </body>
