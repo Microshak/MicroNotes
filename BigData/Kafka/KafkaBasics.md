@@ -39,3 +39,10 @@ Streams API
 * All communications are done through existing security Mechonism
 * Streams live in the kafka computers, they do not execute on brokers.
 * Streams scale automatically on your cluster
+
+
+
+KQL Python
+https://pypi.org/project/ksql/
+
+

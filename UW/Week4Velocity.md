@@ -1,9 +1,7 @@
-Maslos hammer
-
 # Why so fast
 
->> Data can have a limited shelf life or age quickly  
-bigger faster cheaper now
+>> **The First Law of Data Quality:** 
+>> “Data is either being used or waiting to be used—or wasting storage and support.”
 
 ---
 
@@ -40,11 +38,9 @@ bigger faster cheaper now
  
 ## Redis (Remote Dictionary Server)
 
-Distributed in Memory,Key Value Database with Optional Durability
-
-Binary Safe
-
-ACID (Atomicity, Consistency, Isolation, Durability)
+* Distributed in Memory,Key Value Database with Optional Durability
+* Binary Safe
+* ACID (Atomicity, Consistency, Isolation, Durability)
 
 ---
 
@@ -59,14 +55,16 @@ ACID (Atomicity, Consistency, Isolation, Durability)
 * Streams
 * Spatial Indexes 
 
-
 ---
+
 # Why Redis
 ![right](https://microshak.github.io/MicroNotes/Images/Redis.png)
 *   Fast
 *   Not CPU intensive
 *   Scalable
+
 ---
+
 # Use Cases
 * Cashe
 * Analytics
@@ -79,18 +77,19 @@ ACID (Atomicity, Consistency, Isolation, Durability)
 * Pub Sub
 
 ---
+
 # Kafka
-Kafka is a message queueing system.
-Mantra: "Its just Java"
+* Kafka is a message queueing system.
+* Mantra: "Its just Java"
 
 ---
 
 # Kafka Terminology
-Topic
-Producer - Putting messages on a topic
-Consumer - subscribing to a topic
-Journal - time based topic
-Consumer Group - subscribing to your messages off a journal
+* Topic
+* Producer - Putting messages on a topic
+* Consumer - subscribing to a topic
+* Journal - time based topic
+* Consumer Group - subscribing to your messages off a journal
 
 TODO: https://github.com/ches/docker-kafka
 
@@ -166,3 +165,15 @@ TODO Spin up a redis cache
 
 --kafka
 https://github.com/jcustenborder/kafka-connect-archtype
+
+
+---
+# Pricing
+* enterprise based on nodes
+  * 3+3 nodes 
+  * each additional node $5000-$6000
+  * Typical Cost $60,000-$100,000
+* Cloud 
+    * Based on Throughput and Availabliltiy
+    * $2,000 + throughput
+
