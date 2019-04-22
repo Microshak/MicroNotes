@@ -18,23 +18,16 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 ```
 
-```java
-public class Hello {
-
-    public static void main(String[] args) {
-    System.out.println();
-        System.out.println("Hello World");
-    }
- }
-
-```
 
 #mvn
+Google Search: mvn + 
 ```
-org.apache.kafka
+
 kafka
 kafka-clients
+# these are in the org.apache.kafka namespace
 ```
+
 ```java
 
 public class Hello {

@@ -1,3 +1,10 @@
+# Coding
+
+
+# Java
+[Java Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/Language/Java/JavaBasics)
+
+
 # Why so fast
 
 >> **The First Law of Data Quality:** 
@@ -44,16 +51,8 @@
 
 ---
 
-# Data Types
-* Strings
-* Lists
-* Maps
-* Sets
-* Sorted Sets
-* Hyperloglogs
-* Bitmaps
-* Streams
-* Spatial Indexes 
+
+---
 
 ---
 
@@ -78,12 +77,19 @@
 
 ---
 
+
+
 # Kafka
 * Kafka is a message queueing system.
 * Mantra: "Its just Java"
 
 ---
+# Kafka
+[Kafka Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
+[Running Kafka Manually](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaManually)
 
+Community http://slackpass.io/confluentcommunity
+---
 # Kafka Terminology
 * Topic
 * Producer - Putting messages on a topic
@@ -102,6 +108,11 @@ TODO: https://github.com/ches/docker-kafka
   * Cache
 
 ---
+# Demo
+[Web Socket Charts](https://github.com/Microshak/Kafka-Websocket-Charts)
+[notes](https://microshak.github.io/MicroNotes/doc.html?path=Language/Java/SpringBoot)
+[Pi](https://github.com/Microshak/Kafka-SenseHat-IoTDevice)
+
 # Middle Ware
 * AMQP
 * MQTT
@@ -119,12 +130,12 @@ TODO: https://github.com/ches/docker-kafka
 * Web Sockets over AMQP, MQTT
 * GRPC
 
-TODO Expand
 ---
 # Intermittent network
 * Store and Forward
 * Sneaker Net
 * File Transfer
+
 ---
 # Metered or constrained network
 * Edge Processing
@@ -140,15 +151,11 @@ TODO Expand
 * Zigbee (low power mesh)
 ---
 
-## Maybe Spark Structured Streaming
-https://github.com/Azure/mmlspark/blob/master/docs/mmlspark-serving.md
+## Spark Structured Streaming
+[Structured Streaming](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python)
 
 
 
-TODO Uber vs Lyft approach
-https://eng.uber.com/uber-big-data-platform/
-
-TODO Spin up a redis cache
 
 # Message Message Offloading
 * Message Queues
@@ -168,7 +175,7 @@ https://github.com/jcustenborder/kafka-connect-archtype
 
 
 ---
-# Pricing
+# Confluent Prickign Pricing
 * enterprise based on nodes
   * 3+3 nodes 
   * each additional node $5000-$6000
@@ -176,4 +183,8 @@ https://github.com/jcustenborder/kafka-connect-archtype
 * Cloud 
     * Based on Throughput and Availabliltiy
     * $2,000 + throughput
+
+
+# Case Study: Uber vs Lyft approach
+(Kafka Approach)[https://eng.uber.com/uber-big-data-platform/]
 

@@ -1,3 +1,34 @@
+
+
+
+
+# Kafka Architeture
+ * Brokers
+    * Responsible for Pub/Sub
+    * Storing Messages
+    * Fail over
+    * Replication
+    * COnsistency
+    * ouses Keys to hash to send to partition
+    * 
+---
+# MEssages
+- Key/Value
+* Messages go to topic on Broker
+---
+# Producers/COnsumers
+* Producer
+    * API
+    * Wire Protecol
+    * Publishing APP
+* Consumer
+    * API
+    * Wire Proticol
+    * Subscriber APP
+---
+
+
+
 # Streams
 * A stream is an unbounced sequence of structured data
 
@@ -46,3 +77,21 @@ KQL Python
 https://pypi.org/project/ksql/
 
 
+---
+# KSQL
+
+Not SQL (but looks like it)
+* has streams
+* has tables 
+
+both streams and tables are abstracrions on a topic
+
+* ktable is just getting the most recent one of the key
+    materialized view of most recent in topic
+        ktable in mmeory
+
+todo: Stream creation ddl
+todo: Table creation ddl
+
+command line
+https://github.com/edenhill/kafkacat

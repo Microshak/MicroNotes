@@ -1,3 +1,6 @@
+
+# Big Data 230 Week 5 Veracity 
+
 > If you touture the data long enough it will tell you anything.
 > Ronald Coase
 
@@ -8,9 +11,16 @@ Definition: conformity with truth or fact - ACCURACY
 ---
 
 # Methodologies
+
 * Frequentist
 * Bayesian - Bell Curve
 * Machine Learning
+
+---
+
+
+
+
 ---
 
 # Probabilities
