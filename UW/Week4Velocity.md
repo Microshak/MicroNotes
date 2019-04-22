@@ -1,9 +1,23 @@
-# Coding
+# Learning to Code
 
+* [Interactive Tutorial Java](https://www.learnjavaonline.org/)
+* [Interactive Tutorial Python](https://www.learnpython.org/)
+* [Hacker Rank](https://www.hackerrank.com/)
+* The Docs [Kaka](https://kafka.apache.org/quickstart)
+* Books
+* YouTube
+* [Meetups](https://www.meetup.com/find/?allMeetups=false&keywords=data&radius=25&userFreeform=Seattle%2C+WA&mcId=c98101&mcName=Seattle%2C+WA&sort=default)
+* Interview Prep
+* Opensource providers [Spark](https://databricks.com/resources/type/example-notebook) [Kafka](https://docs.confluent.io/current/ksql/docs/index.html)
+---
 
-# Java
+# Languages
+
 [Java Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/Language/Java/JavaBasics)
 
+[Python Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/Language/Python/PythonBasics)
+
+---
 
 # Why so fast
 
@@ -12,11 +26,13 @@
 
 ---
 
+
 # 4 Types of Velocity
 * Real Time
 * Near Real-Time
-* Batch
+* Batch (micro)
 * Analytical Processing
+
 
 ---
 
@@ -37,30 +53,12 @@
 # Real World Applications
 * Sensor Readings 
     * FedEx uses [Sense Aware](https://www.senseaware.com/how-it-works/) to track packages in real time
-    * [Dynisco] uses IoT sensors to alert and insturment their solutions
+    * Dynisco uses IoT sensors to alert and instrument their solutions
 
 ---
 
-
- 
-## Redis (Remote Dictionary Server)
-
-* Distributed in Memory,Key Value Database with Optional Durability
-* Binary Safe
-* ACID (Atomicity, Consistency, Isolation, Durability)
-
----
-
-
----
-
----
-
-# Why Redis
-![right](https://microshak.github.io/MicroNotes/Images/Redis.png)
-*   Fast
-*   Not CPU intensive
-*   Scalable
+# Redis 
+* [Redis Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Redis/RedisBasics)
 
 ---
 
@@ -77,50 +75,36 @@
 
 ---
 
-
-
 # Kafka
-* Kafka is a message queueing system.
+* Kafka was a message queueing system
+* Evolved to be easier and programmable
 * Mantra: "Its just Java"
 
 ---
 # Kafka
-[Kafka Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
-[Running Kafka Manually](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaManually)
-
-Community http://slackpass.io/confluentcommunity
----
-# Kafka Terminology
-* Topic
-* Producer - Putting messages on a topic
-* Consumer - subscribing to a topic
-* Journal - time based topic
-* Consumer Group - subscribing to your messages off a journal
-
-TODO: https://github.com/ches/docker-kafka
+* [Kafka Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
+* [Running Kafka Manually](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaManually)
+* [Community](http://slackpass.io/confluentcommunity)
+* Confluent Kafka vs Opensource Kafka [link](https://www.confluent.io/download/)
 
 ---
-# Main Features
-* Pub/Sub
-* Kafka API
-  * K-Streams
-  * K-Tables
-  * Cache
+# Kafka Demo
+* Pi Hat Kafka 
+  * [Web](https://github.com/Microshak/Kafka-Websocket-Charts)
+  * [notes](https://microshak.github.io/MicroNotes/doc.html?path=Language/Java/SpringBoot)
+  * [Sense Hat](https://github.com/Microshak/Kafka-SenseHat-IoTDevice)
+* KSQL
+ * [Confluent Kafka](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/ConflientDocker)
+ * [Kafka Weather Streamer](https://github.com/Microshak/KafkaWeatherStreamer)
+ * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
+
 
 ---
-# Demo
-[Web Socket Charts](https://github.com/Microshak/Kafka-Websocket-Charts)
-[notes](https://microshak.github.io/MicroNotes/doc.html?path=Language/Java/SpringBoot)
-[Pi](https://github.com/Microshak/Kafka-SenseHat-IoTDevice)
 
-# Middle Ware
-* AMQP
-* MQTT
-* DDS
-  * QoS
-  * Fast-RTPS
-    * Kuberos
-    * LDAP
+# Kafka Components
+* KSQL -  Drop a file
+* Connectors [Archetypes](https://github.com/jcustenborder/kafka-connect-archtype)
+* Kafka Streams API [Docs](https://kafka.apache.org/22/documentation/streams/tutorial)
 
 ---
 
@@ -131,60 +115,24 @@ TODO: https://github.com/ches/docker-kafka
 * GRPC
 
 ---
-# Intermittent network
-* Store and Forward
-* Sneaker Net
-* File Transfer
 
----
-# Metered or constrained network
-* Edge Processing
-* Fog Processing
-* Pattern Matching
-* Querable 
----
+# Case Study: Uber vs Lyft approach
+[Uber Approach](https://eng.uber.com/uber-big-data-platform/)
+[Redis Approach](https://www.youtube.com/watch?v=U4WspAKekqM&t=1011s)
 
-# Alternate Networks
-* White Space
-* SMS
-* LoRa (Long Range)
-* Zigbee (low power mesh)
 ---
 
 ## Spark Structured Streaming
 [Structured Streaming](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python)
+~~~Spark Streaming~~~
 
-
-
-
-# Message Message Offloading
-* Message Queues
+---
 
 # Slow/Inexpensive Systems
 * Python Dataframes
+* [Juypter Notebooks](https://hub.docker.com/u/jupyter/)
 * Key Value Stores
 * Iterative Approach
 * [Background program](https://boinc.berkeley.edu/projects.php) 
 * [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
 * Limited Tools
----
-
-
---kafka
-https://github.com/jcustenborder/kafka-connect-archtype
-
-
----
-# Confluent Prickign Pricing
-* enterprise based on nodes
-  * 3+3 nodes 
-  * each additional node $5000-$6000
-  * Typical Cost $60,000-$100,000
-* Cloud 
-    * Based on Throughput and Availabliltiy
-    * $2,000 + throughput
-
-
-# Case Study: Uber vs Lyft approach
-(Kafka Approach)[https://eng.uber.com/uber-big-data-platform/]
-

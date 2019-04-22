@@ -1,97 +1,81 @@
 
+# Main Features
+* Pub/Sub
+* Kafka API
+  * K-Streams
+  * K-Tables
+  * Cache
 
+---
 
-
-# Kafka Architeture
+# Kafka Architecure
  * Brokers
     * Responsible for Pub/Sub
     * Storing Messages
     * Fail over
     * Replication
-    * COnsistency
-    * ouses Keys to hash to send to partition
-    * 
+    * Consistency
+    * Uses Keys to hash to send to partition
+
 ---
-# MEssages
-- Key/Value
+# MMessages
+* Key/Value
 * Messages go to topic on Broker
+
 ---
-# Producers/COnsumers
+# Producers/Consumers
 * Producer
     * API
-    * Wire Protecol
+    * Wire Protocol
     * Publishing APP
 * Consumer
     * API
-    * Wire Proticol
+    * Wire Protocol
     * Subscriber APP
 ---
 
+# Kafka Terminology
+* Topic
+* Producer - Putting messages on a topic
+* Consumer - subscribing to a topic
+* Journal - time based topic
+* Consumer Group - subscribing to your messages off a journal
+
+
+---
 
 
 # Streams
-* A stream is an unbounced sequence of structured data
+* A stream is an unbounded sequence of structured data
+* K streams is a class that creates an abstraction over the stream
+* Stream builder has an class stream that represents a topic
+* Elements in the stream stream can be called facts
+* Table is a collection of evolving facts
+* In KTables keyed facts overwrites the previous one
 
-K streams is a class that creates an abstraction over the stream
+---
 
-Stream builder has an class stream that represents a topic
+#Transforming data
+* Filter (stateless)
+* Map 
+  * Can use Lambdas 
+  * Used to change key
+* fact + dimension = enriched data
 
-elements in the stream stream can be called facts
-
-table is a collection of evolving facts
-
-kstream table
-keyed facts overrites the previous one
-
-#transforming data
-filter --- stateless
-map --- lambda --- change key
-
-map then we can joint to a table
-
-fact + demension = enriched data
-
-
-
-Streams API
-* Pre record stream processing
+---
+# Streams API
 * No Batching
-* Millisecond lagency
+* Millisecond Tatency
 * Stateless
 * Statefull
-    * windowning
-* Streams code runs inside your application
-
-* Streams scalable computation
-* Located with kafka - no seperate cluster
+    * Windowing
 * Works for big and small deployments
-
-* Supports Exactly once proccess symantics
-* All communications are done through existing security Mechonism
+* Supports Exactly once processing semantics
+* All communications are done through existing security Mechanism
 * Streams live in the kafka computers, they do not execute on brokers.
 * Streams scale automatically on your cluster
 
 
 
-KQL Python
-https://pypi.org/project/ksql/
 
 
----
-# KSQL
-
-Not SQL (but looks like it)
-* has streams
-* has tables 
-
-both streams and tables are abstracrions on a topic
-
-* ktable is just getting the most recent one of the key
-    materialized view of most recent in topic
-        ktable in mmeory
-
-todo: Stream creation ddl
-todo: Table creation ddl
-
-command line
-https://github.com/edenhill/kafkacat

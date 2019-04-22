@@ -1,25 +1,21 @@
-# Java
-* Learning Java
-*  (Interactive Tutorial)[https://www.learnjavaonline.org/]
-* Hackerrank
-* Interview Prep
----
 
 # Concepts
 
-**GroupId:** Java Naming convention for all java projects
+**GroupId:** Java Naming [convention](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) for all Java projects
 **ArtifactId:** Name of the Jar File
 
 ---
-# Dependancies
-MVN
-Grattel
+# Dependencies
+* Maven (MVN)
+* Grattel
 
 ---
 # The Docs
 
-(Kafka Streams API)[https://kafka.apache.org/documentation/streams/]
-(Spark Docs)[https://spark.apache.org/docs/latest/api/java/index.html]
+* [Kafka Streams API](https://kafka.apache.org/documentation/streams/)
+* [Spark Docs](https://spark.apache.org/docs/latest/api/java/index.html)
+
+---
 
 # Archtypes
 ```sh
@@ -32,7 +28,7 @@ mvn archetype:generate \
 #Spring boot
 
 1. goto https://start.spring.io/
-1. put in the dependancies then download the zip, unzip, and open in intellij
+1. put in the dependencies then download the zip, unzip, and open in Intellij
 1. mvn package 
 1. sudo mvn spring-boot:run
 

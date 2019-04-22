@@ -1,3 +1,23 @@
+# KSQL
+
+Not SQL (but looks like it)
+* Has Streams
+* Has Tables 
+
+``Both streams and tables are abstractions on a topic``
+
+* ktable is just getting the most recent one of the key
+    materialized view of most recent in topic KTable in memory
+---
+# Connecting to KSQL
+```
+docker exec -it [Name of Docker] bash
+
+```
+[command line](https://github.com/edenhill/kafkacat)
+
+[web](http://localhost:9021)
+
 # 2 Streams must have a time window
 # Drone
 ```sql
@@ -6,7 +26,7 @@ LEFT OUTER JOIN WEATHER w  WITHIN 1 HOURS
 on d.weatherstation = w.weatherstation;
 
 ```
-
+---
 # Table 
 ```sql
 CREATE STREAM vip_actions AS 
@@ -16,7 +36,7 @@ WHERE u.level = 'Platinum';
 
 
 ```
-
+---
 # Fraud Detection
 ```sql
 CREATE TABLE possible_fraud AS
@@ -25,6 +45,7 @@ CREATE TABLE possible_fraud AS
  GROUP BY card_number 
  HAVING count(*) > 3;
 ```
+---
 #DDL
 
 ```sql
@@ -38,6 +59,7 @@ CREATE STREAM clickstream
 WITH ( value_format = 'JSON', kafka_topic='my_clickstream_topic' ); 
 
 ```
+---
 ```sql
 CREATE TABLE users 
 ( user_id INTEGER
@@ -49,16 +71,7 @@ CREATE TABLE users
 WITH ( key = 'user_id', 'kafka_topic=‘clickstream_users', value_format='JSON'); 
 
 ```
+---
 ```sql
  list streams
-
-```
-```
-select * from movies_raw
-
-```
-
-```
-
-
 ```
