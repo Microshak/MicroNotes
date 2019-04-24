@@ -7,6 +7,9 @@
   * Cache
 
 ---
+# Kafka Partitions 
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/kafkarep.png)
 
 # Kafka Architecure
  * Brokers
@@ -18,7 +21,7 @@
     * Uses Keys to hash to send to partition
 
 ---
-# MMessages
+# Messages
 * Key/Value
 * Messages go to topic on Broker
 
@@ -37,9 +40,9 @@
 # Kafka Terminology
 * Topic
 * Producer - Putting messages on a topic
-* Consumer - subscribing to a topic
-* Journal - time based topic
-* Consumer Group - subscribing to your messages off a journal
+* Consumer - Subscribing to a topic
+* Journal - Time Based Topic
+* Consumer Group - Subscribing to your Messages off a Journal
 
 
 ---
@@ -47,7 +50,7 @@
 
 # Streams
 * A stream is an unbounded sequence of structured data
-* K streams is a class that creates an abstraction over the stream
+* Kstreams is a class that creates an abstraction over the stream
 * Stream builder has an class stream that represents a topic
 * Elements in the stream stream can be called facts
 * Table is a collection of evolving facts
@@ -60,12 +63,12 @@
 * Map 
   * Can use Lambdas 
   * Used to change key
-* fact + dimension = enriched data
+* Fact + Dimension = Enriched Data
 
 ---
 # Streams API
 * No Batching
-* Millisecond Tatency
+* Millisecond Latency
 * Stateless
 * Statefull
     * Windowing
@@ -74,8 +77,3 @@
 * All communications are done through existing security Mechanism
 * Streams live in the kafka computers, they do not execute on brokers.
 * Streams scale automatically on your cluster
-
-
-
-
-
