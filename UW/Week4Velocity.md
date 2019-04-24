@@ -97,7 +97,7 @@
 * KSQL
  * [Confluent Kafka](https://microshak.github.io/MicroNotes/doc.html?path=/BigData/Kafka/ConflientDocker)
  * [Kafka Weather Streamer](https://github.com/Microshak/KafkaWeatherStreamer)
- * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
+ * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KSQL)
 
 
 ---
@@ -107,7 +107,7 @@
 * Connectors [Archetypes](https://github.com/jcustenborder/kafka-connect-archtype)
 * Kafka Streams API [Docs](https://kafka.apache.org/22/documentation/streams/tutorial)
 
-[Getting Started](https://microshak.github.io/MicroNotes/Notes.html?path=/Languages/Java/Archtypes)
+[Getting Started](https://microshak.github.io/MicroNotes/Notes.html?path=/Language/Java/Archtypes)
 
 ---
 
@@ -134,9 +134,6 @@
 
 # Slow/Inexpensive Systems
 * Python Dataframes
+* Key/Value Stores
 * [Juypter Notebooks](https://hub.docker.com/u/jupyter/)
-* Key Value Stores
-* Iterative Approach
 * [Background program](https://boinc.berkeley.edu/projects.php) 
-* [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
-* Limited Tools
