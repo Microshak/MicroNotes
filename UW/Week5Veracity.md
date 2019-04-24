@@ -75,6 +75,27 @@ Customizedable and Dicission Support Systems
 
 
 
+# Root Cause Analysis
+Looks for Underlying Cause
+1. Problem statement
+    1. What
+    Where
+    When 
+    To what Extent
+    How Do I know
+
+Analyxin Process Basic tools
+Walk
+Brain Storming
+Work flow diagram 
+
+Other tools
+5 whys
+
+
+# Not my fault analysis
+
+# Continuous process Improvemetn
 
 
 # Probabilities
