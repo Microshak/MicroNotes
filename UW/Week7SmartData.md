@@ -39,3 +39,10 @@ R vs Python
 
 Sampling/Monte Carlo
     Must be unbiase
+
+
+    # Methodologies
+
+* Frequentest
+* Bayesian - Bell Curve
+* Machine Learning

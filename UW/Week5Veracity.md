@@ -9,19 +9,73 @@
 Definition: conformity with truth or fact - ACCURACY
 
 ---
+# Journey to Knowledge
+* Knowledge is Actionable Information
+* Discovering the Rooted Truth
+* Machine Learning != Magic Learning
 
-# Methodologies
+---
+# IoT Journey to Value
+* Duty Cycle
+* Factor Analysis
+  * Analysis of Varince
+  * Time Series Analysis
+* Feed Back Cycle
+  * Right Sizing Data points
+  * Enriching Data
+* Iterative Process
+---
+# Social Sciences Jounrey to Truth
+* Predictive Approaches
+    * Byesian
+    * Time Series
+    * Frequentist
+    * 
 
-* Frequentist
-* Bayesian - Bell Curve
-* Machine Learning
-
+---
+# Bias
+* Design Bias
+* Selection/Sampeling Bias (aka the reason we have  randomized double-blind placebo control studies)
+    * Omission Bias
+    * Inclusive Bias
+    * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
+* Procedural Bias
+* Confirmation Bias
+  * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
+  * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
 ---
 
 
 
-
 ---
+
+# Root Cause Analysis
+
+
+# Custom Dashboards
+* [Plotly](https://plot.ly/#/)
+* [Dash](https://dash.plot.ly/) 
+  * [Industrial](https://dash-gallery.plotly.host/dash-oil-and-gas/)
+  * [Discovery](https://dash-gallery.plotly.host/dash-object-detection/)
+* [Dash DAQ](https://www.dashdaq.io/python-data-acquisition)
+  * [controller](https://dash-gallery.plotly.host/dash-daq-omega-pid/)
+  * [Pressure Gage](https://dash-gallery.plotly.host/dash-daq-pressure-gauge-pv/)
+
+[Dash Gallery](https://dash.plot.ly/gallery)
+
+# Advanced Visualizations
+* [d3.js](https://github.com/d3/d3/wiki/Gallery)
+  *  [Auto Timeline](https://bost.ocks.org/mike/nations/)
+  *  [Cross Filtering](http://square.github.io/crossfilter/)
+*  [three.js](https://threejs.org/)
+   *  [STL Loader](https://threejs.org/examples/#webgl_loader_stl)
+* [Madeline](https://github.com/JinJunho/Madeleine.js/)
+* [Thingaverse](https://www.thingiverse.com/)
+Customizedable and Dicission Support Systems
+
+
+
+
 
 # Probabilities
 ![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
@@ -65,7 +119,7 @@ Definition: conformity with truth or fact - ACCURACY
 
 
 # ANOVA
-TODO
+
 
 # Regression
 
