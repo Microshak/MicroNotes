@@ -10,14 +10,14 @@ Is it a database or is it a cache?
 * Binary Safe
 * ACID (Atomicity, Consistency, Isolation, Durability)
 
-
 ---
 
-# Why Redis
+# Why Use Redis
 ![right](https://microshak.github.io/MicroNotes/Images/Redis.png)
 *   Fast
 *   Not CPU intensive
 *   Scalable
+*   Easy
 ---
 
 # What is Redis
@@ -26,15 +26,9 @@ Key/Value
 * In Memory
 * Data Structure Server
 * Open Source
-
----
-
-# Why use Redis
-* Fast
-* Not CPU Intensive
-* Well Documented
 * Simple and Versatile
 * Scalable
+
 ---
 # Persistance
 * Snapshot (default)
@@ -54,6 +48,7 @@ Key/Value
 * Expiry
 * Bucketing
 
+
 ---
 
 # Indexes
@@ -63,10 +58,10 @@ Key/Value
 ---
 
 # Use Cases
-* Scaling out reads on a sql database -- globally
-* Stabilize performance for real time apps
-* Real time adds
-* Real time recommendations
+* Scaling out reads on a SQL Database -- globally
+* Stabilize Performance for Real Time Apps
+* Real-time Ads
+* Real-time Recommendations
 
 ---
 
@@ -84,9 +79,18 @@ Key/Value
 * Streams
 * Spatial Indexes 
 ---
+# Hosted by Cloud Providers
+* [Google](https://cloud.google.com/memorystore/)
+* [Azure](https://azure.microsoft.com/en-us/services/cache/)
+* [AWS](https://aws.amazon.com/redis/)
+
+
+
+---
 
 # [Redis Modules](https://redis.io/modules)
 * Redis ML
 * Redis Search
 * Redis Graph
 * Time Series
+* [RedisJson](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Redis/RedisJSON)

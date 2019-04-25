@@ -4,7 +4,7 @@
 
 Download the latest version of Kafka then
       
- ~~~If you are ssh'ed into a machine then use "wget [download url]"~~~
+ *If you are ssh'ed into a machine then use "wget [download url]"*
 ---
 # Install
 ```sh      

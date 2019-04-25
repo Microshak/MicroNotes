@@ -57,8 +57,10 @@
 
 ---
 
-# Redis 
+# In Memory Key Value Stores 
+
 * [Redis Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Redis/RedisBasics)
+* [Memcache](https://memcached.org/)
 
 ---
 
@@ -91,12 +93,11 @@
 # Kafka Demo
 * Pi Hat Kafka 
   * [Web](https://github.com/Microshak/Kafka-Websocket-Charts)
-  * [notes](https://microshak.github.io/MicroNotes/doc.html?path=Language/Java/SpringBoot)
   * [Sense Hat](https://github.com/Microshak/Kafka-SenseHat-IoTDevice)
 * KSQL
- * [Confluent Kafka](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/ConflientDocker)
+ * [Confluent Kafka](https://microshak.github.io/MicroNotes/doc.html?path=/BigData/Kafka/ConflientDocker)
  * [Kafka Weather Streamer](https://github.com/Microshak/KafkaWeatherStreamer)
- * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
+ * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KSQL)
 
 
 ---
@@ -106,9 +107,11 @@
 * Connectors [Archetypes](https://github.com/jcustenborder/kafka-connect-archtype)
 * Kafka Streams API [Docs](https://kafka.apache.org/22/documentation/streams/tutorial)
 
+[Getting Started](https://microshak.github.io/MicroNotes/Notes.html?path=/Language/Java/Archtypes)
+
 ---
 
-# Fast Reliable Web Communications
+# Fast Reliable Communications
 * REST
 * Web Sockets
 * Web Sockets over AMQP, MQTT
@@ -117,22 +120,20 @@
 ---
 
 # Case Study: Uber vs Lyft approach
-[Uber Approach](https://eng.uber.com/uber-big-data-platform/)
-[Redis Approach](https://www.youtube.com/watch?v=U4WspAKekqM&t=1011s)
+* [Uber Approach](https://eng.uber.com/uber-big-data-platform/)
+* [Redis Approach](https://www.youtube.com/watch?v=U4WspAKekqM&t=1011s)
 
 ---
 
 ## Spark Structured Streaming
-[Structured Streaming](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python)
-~~~Spark Streaming~~~
+* [Structured Streaming](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python) 
+* ~~~Spark Streaming~~~
+* [Databricks Community Edition](https://community.cloud.databricks.com)
 
 ---
 
 # Slow/Inexpensive Systems
 * Python Dataframes
+* Key/Value Stores
 * [Juypter Notebooks](https://hub.docker.com/u/jupyter/)
-* Key Value Stores
-* Iterative Approach
 * [Background program](https://boinc.berkeley.edu/projects.php) 
-* [Screen Saver](https://www.harding.edu/fmccown/screensaver/screensaver.html)
-* Limited Tools

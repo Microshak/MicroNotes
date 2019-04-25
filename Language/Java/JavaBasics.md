@@ -5,11 +5,13 @@
 **ArtifactId:** Name of the Jar File
 
 ---
-# Dependencies
+
+# Dependencies Management
 * Maven (MVN)
 * Grattel
 
 ---
+
 # The Docs
 
 * [Kafka Streams API](https://kafka.apache.org/documentation/streams/)
@@ -32,4 +34,3 @@ mvn archetype:generate \
 1. mvn package 
 1. sudo mvn spring-boot:run
 
----
