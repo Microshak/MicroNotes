@@ -60,7 +60,10 @@ function Nav(sha)
     $.get(api, function (data) {
         $.each(data.tree, function (idx, obj) {
         
-                
+            obj.base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
+            if(window.location.host.includes( 'localhost'))
+                 obj.base = 'http://'+window.location.host
+  
                 if(obj.type =="blob")
                 {
                     var template = $('#file').html();
@@ -157,8 +160,8 @@ function Nav(sha)
               {{pp}}
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton{{pp}}">
-              <a class="dropdown-item" href="https://microshak.github.io/MicroNotes/Notes.html?path={{fpath}}">Slide</a>
-              <a class="dropdown-item" href="https://microshak.github.io/MicroNotes/doc.html?path={{fpath}}">Sheet</a>
+              <a class="dropdown-item" href="{{base}}/Notes.html?path={{fpath}}">Slide</a>
+              <a class="dropdown-item" href="{{base}}/doc.html?path={{fpath}}">Sheet</a>
               <a class="dropdown-item" href="https://github.com/Microshak/MicroNotes/blob/master/{{fpath}}.md">Source</a>
             </div>
           </div>

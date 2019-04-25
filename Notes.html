@@ -54,13 +54,15 @@ img[alt="right"]
 
 
         var path = qs('path')
-        console.log(location)
+        console.log(window.location.host)
+       
+        console.log('what what')
         base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
-            if(location.host == 'localhost')
-            base = 'http://localhost/'
-    slideshow = remark.create({
+            if(window.location.host.includes( 'localhost'))
+            base = 'http://'+window.location.host + '/'
+    
+        slideshow = remark.create({
             sourceUrl: base+path+'.md?ran=' + Math.random()
-            
         });
         document.title = path;
 
