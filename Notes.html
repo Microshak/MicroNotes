@@ -54,9 +54,8 @@ img[alt="right"]
 
 
         var path = qs('path')
-        console.log(window.location.host)
        
-        console.log('what what')
+ 
         base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
             if(window.location.host.includes( 'localhost'))
             base = 'http://'+window.location.host + '/'
@@ -75,11 +74,11 @@ img[alt="right"]
         body.addEventListener('keydown', logKey);
 
 function logKey(e) {
-  if(e.code     =="Backquote")
-{
-    console.log('eee')
-}
-  console.log( ` ${e.code}`);
+    if(e.code     =="Backquote")
+    {
+        console.log('eee')
+    }
+    console.log( ` ${e.code}`);
 }
 
 

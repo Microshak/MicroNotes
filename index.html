@@ -60,7 +60,7 @@ function Nav(sha)
     $.get(api, function (data) {
         $.each(data.tree, function (idx, obj) {
         
-            obj.base = 'https://raw.githubusercontent.com/Microshak/MicroNotes/master/'
+            obj.base = 'https://microshak.github.io/MicroNotes/'
             if(window.location.host.includes( 'localhost'))
                  obj.base = 'http://'+window.location.host
   
