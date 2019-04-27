@@ -99,7 +99,6 @@
  * [Kafka Weather Streamer](https://github.com/Microshak/KafkaWeatherStreamer)
  * [KSQL](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KSQL)
 
-
 ---
 
 # Kafka Components
