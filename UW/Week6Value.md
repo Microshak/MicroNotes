@@ -118,3 +118,28 @@ https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-cl
 
 # Databricks
 https://docs.databricks.com/spark/latest/mllib/binary-classification-mllib-pipelines.html
+
+
+
+# Regression
+
+
+* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
+
+* Regression analysis is widely used for prediction and forecasting,
+ can be used to infer causal relationship (can lead to error: correlation does not imply causation)
+
+* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
+
+
+TODO 
+Notebook regression
+
+TODO 
+PCA
+https://medium.com/sfu-big-data/principal-component-analysis-deciphered-79968b47d46c
+
+
+
+Notes:
+[A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100.pdf)

@@ -1,135 +1,22 @@
-# k8s
-defacto standard
+There are very few Veracity models available in the literature, one of which is the Big Data
+Veracity model: Objective, Truthful and Credible (OTC) 
 
-#### Containers
-
-* what was acceptable last year is not acceptable today
-what is acceptable today will not be acceptable next year.
-
-* You build it you own it
----
-Cattle pets
+ According to IBM Big Data & Analytics Hub [6], 27%
+of the respondents were not sure about the accuracy of the data and one in three decision-makers
+do not trust the information used for analyzing the data. 
 
 
-TRafik
-
---K8s scaling
-Auto Scale
-    Pods
-    Nodes
-Types of scaling
-    Horizontal
-    Vertial
-    Cloud Native
-
-?Eviction
-
-# k8s
-job type -- terminate expire
-
-# Docker 
-multi stage view
-clean up
-
---
-volumne map
---
-each processs single container
+Topic modeling refers to a generative model for analyzing large quantities of unlabeled
+data. A topic is a probability distribution over the collection of words and topic model is the
+statistical relationship between a group of observed and unknown random variables that specifies
+a probabilistic procedure to generate the topics [13]. One of the most popular topic modeling
+technique used is Latent Dirichlet Allocation (LDA) [13].
 
 
-#basic docker
--it 
--i
-run
-build
+There are many other similar models and techniques related to topic models like Latent Semantic
+Analysis (LSA), Probabilistic Latent Semantic Analysis (PLSA), Non-negative matrix
+factorization (NMF) and Correlated Topic Model (CTM). LSA is a statistical technique which deals
+with extracting and representing the relations between words in a large corpus. 
 
 
---kafka
-https://github.com/jcustenborder/kafka-connect-archtype
 
-
----
-## k8s vs yarn
-    k8s 
-        throttle cpu
-        seperate process id space
-        max memory limit
-        mountable volumes
-        dependancies easily
-            in yarn 
-                canda
-                admin 
-        complex deployment
-    yarn
-        base64 decoding
-# Testing Version control
-Shift Left
-speed of feedback cycle
-
-
-# CI/CD 
-Unknown Unknowns
-Known Unknowns
-
-12 factor app 
-https://12factor.net/
-
----
-#prometheus
-text based data model
-- wide adoption
-
--- IS A SHITE BOX 
-
-EXPORTerts example my sql to permitheous
-
-pull based
-    not over whenlmed
-
-Permethous api -> graphana, pager duty,slack
-
-promql
-
-# bigdata k8s
-anti affinity
-last mile problem
-    monitoring etc
-    Yolean  
-
-# helm
-tool that bolt on to k8s
-client 
-    Helm cli
-Server
-    tiller
-
---- 
-# helm cli
-runs on your coputer
-generates k8s templates
-sends request to tiller
-
-#tiller
-runs in k8s cluster
-manages releases and hisory
-
----
-#helm deploy
-to deploy make a chart in specific directory
-```file
-tld
-    - Chart.yaml # stores meta data and version information
-    - values.yaml # stores default confi values
-    - requirements.yaml # dependencies such as mongo or postgres
-    charts/ # where dependancies are stored
-            -
-    templates/ # where we store source templates
-        - some.yaml
-            key values
-            key functions
-https://github.com/helm/charts/tree/master/stable
-
-            
-
-
-```

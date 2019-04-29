@@ -9,6 +9,11 @@
 Definition: conformity with truth or fact - ACCURACY
 
 ---
+# Problem With Data
+* Use Case an After thought
+* garbage in garbage out
+
+
 # Journey to Knowledge
 * Knowledge is Actionable Information
 * Discovering the Rooted Truth
@@ -24,6 +29,8 @@ Definition: conformity with truth or fact - ACCURACY
   * Right Sizing Data points
   * Enriching Data
 * Iterative Process
+
+
 ---
 # Social Sciences Jounrey to Truth
 * Predictive Approaches
@@ -62,7 +69,7 @@ Definition: conformity with truth or fact - ACCURACY
   * [Pressure Gage](https://dash-gallery.plotly.host/dash-daq-pressure-gauge-pv/)
 
 [Dash Gallery](https://dash.plot.ly/gallery)
-
+----
 # Advanced Visualizations
 * [d3.js](https://github.com/d3/d3/wiki/Gallery)
   *  [Auto Timeline](https://bost.ocks.org/mike/nations/)
@@ -74,7 +81,7 @@ Definition: conformity with truth or fact - ACCURACY
 Customizedable and Dicission Support Systems
 
 
-
+----
 # Root Cause Analysis
 Looks for Underlying Cause
 1. Problem statement
@@ -91,12 +98,16 @@ Work flow diagram
 
 Other tools
 5 whys
-
+---
 
 # Not my fault analysis
 
+
+
+---
 # Continuous process Improvemetn
 
+---
 
 # Probabilities
 ![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
@@ -141,29 +152,7 @@ Other tools
 
 # ANOVA
 
-
-# Regression
-
-
-* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
-
-* Regression analysis is widely used for prediction and forecasting,
- can be used to infer causal relationship (can lead to error: correlation does not imply causation)
-
-* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
-
-
-TODO 
-Notebook regression
-
-TODO 
-PCA
-https://medium.com/sfu-big-data/principal-component-analysis-deciphered-79968b47d46c
-
-
-
-Notes:
-[A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100.pdf)
+---
 
 
 
