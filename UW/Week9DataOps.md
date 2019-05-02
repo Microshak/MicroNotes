@@ -100,3 +100,40 @@ Kafka [Confluent Replicator](https://www.confluent.io/confluent-replicator/) or 
 
 
 
+
+# Custom Dashboards
+* [Plotly](https://plot.ly/#/)
+* [Dash](https://dash.plot.ly/) 
+  * [Industrial](https://dash-gallery.plotly.host/dash-oil-and-gas/)
+  * [Discovery](https://dash-gallery.plotly.host/dash-object-detection/)
+* [Dash DAQ](https://www.dashdaq.io/python-data-acquisition)
+  * [controller](https://dash-gallery.plotly.host/dash-daq-omega-pid/)
+  * [Pressure Gage](https://dash-gallery.plotly.host/dash-daq-pressure-gauge-pv/)
+
+[Dash Gallery](https://dash.plot.ly/gallery)
+----
+# Advanced Visualizations
+* [d3.js](https://github.com/d3/d3/wiki/Gallery)
+  *  [Auto Timeline](https://bost.ocks.org/mike/nations/)
+  *  [Cross Filtering](http://square.github.io/crossfilter/)
+*  [three.js](https://threejs.org/)
+   *  [STL Loader](https://threejs.org/examples/#webgl_loader_stl)
+* [Madeline](https://github.com/JinJunho/Madeleine.js/)
+* [Thingaverse](https://www.thingiverse.com/)
+Customizedable and Dicission Support Systems
+
+
+----
+
+# Terraform
+
+
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/Lifecycle.gif)
+
+
+---
+# ETL Design
+* Assume Failure
+* Be Trasnparent (Dashboard Success and Failure)
+* 

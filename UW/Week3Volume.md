@@ -1,3 +1,8 @@
+
+https://blog.yugabyte.com/6-technical-challenges-developing-a-distributed-sql-database/
+
+
+
 # Big Data 230 Data Stores 1
  > Relational Databases are just Microsoft Excel on Steriods. 
  
