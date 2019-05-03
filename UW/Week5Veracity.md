@@ -40,12 +40,14 @@
 * Time Travel
 
 ---
-# How Do we get to ML Data
-![full](https://microshak.github.io/MicroNotes/Images/BigData/MLJob.png)
+# How do we get to smart data
+* According to a [white paper](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf) published by Google most of their Data Scientist spend most of their time not writing ML code.
+![full](https://microshak.github.io/MicroNotes/Images/BigData/MLJob.png) 
 
 ---
+# Intro into Data Analytics and ML
 
-# Probabilities
+## Probabilities
 ![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
 
 ---
@@ -63,9 +65,6 @@
 # Distributions
 [Distributions Charts](https://seeing-theory.brown.edu/probability-distributions/index.html#section2)
 
-[Distribution Chart Notebook](https://notebooks.azure.com/microshak2/projects/Veracity/html/Exploring%20The%20Past/FrequencyCharts.ipynb)
-
-[Distribution Tables](https://notebooks.azure.com/microshak2/projects/Veracity/html/Exploring%20The%20Past/FrequencyTables.ipynb)
 
 ---
 
@@ -73,12 +72,15 @@
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/SimpleNet.gif)
 
 ---
-
-# Social Sciences Jounrey to Truth
 * Predictive Approaches
-    * **Frequentist**
-    * Byesian
-    * Neural Nets
+    * **Frequentist** ([probabilities](https://en.wikipedia.org/wiki/Frequentist_inference))
+    * Byesian (Hypothesis Testing)
+    * Neural Nets (ML)
+---
+
+
+# Byesian Hypothesis Testing
+* Population Sampeling
 * Study Design
   * Review Boards
     * Ethics
@@ -114,43 +116,88 @@
 * Challenges it Solves
   * Data Quality 
   * Difficult to Build Application on Your Datalake
-* (Open Source)[https://www.youtube.com/watch?v=5I5pqDsvGEc&list=PLx0E0XfaCr-Y4MZJ0up77VPDbcSVX3xwX&index=15]
+* [Open Source](https://www.youtube.com/watch?v=5I5pqDsvGEc&list=PLx0E0XfaCr-Y4MZJ0up77VPDbcSVX3xwX&index=15)
 
 
 ---
+
 # Data Bricks Delta
-* (ACID)[https://docs.azuredatabricks.net/delta/isolation-level.html] transactions on data lakes
+* [ACID](https://docs.azuredatabricks.net/delta/isolation-level.html) transactions on data lakes
 * Schema enforcement
 * Mixing streaming and Batch
 * Scalable metatdata handeling
 * Time Travel Capabilities
 
 ---
+# Spark SQL
+* Abstraction Layer over Spark Core
+* Along with Python allows [Table Access Control](https://docs.databricks.com/administration-guide/admin-settings/table-acls/table-acl.html)
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/SparkSQL.jpg)
+---
+
+# Charts
+
+* Bar Chart
+    * Shape of data
+    * Trends
+    ![left](https://microshak.github.io/MicroNotes/Images/BigData/BarChart.jpg)
+* Scatter Plot
+    * Relationship between 2 variables
+   ![left](https://microshak.github.io/MicroNotes/Images/BigData/ScatterPlot.png)
+* Line Chart
+    * Changes Over Time
+  ![left](https://microshak.github.io/MicroNotes/Images/BigData/line-chart.png)
+
+---
+Charts
+
+* Area Charts
+    * Show Changes Over Time
+    * Stacked to show percenage of whole
+ ![left](https://microshak.github.io/MicroNotes/Images/BigData/area-chart.pnt)
+
+* Pie Chart
+  * Show Percentage of whole
+ ![left](https://microshak.github.io/MicroNotes/Images/BigData/pie-chart.png)
 
 
+---
+#Charts 
+* [Quantile](https://www.youtube.com/watch?v=IFKQLDmRK0Y) Plot
+  * Help determine population shape by spitting data into segments(quantiles)
+  * Common Quantiles: (25%, 50%, 75%) (33%, 66%), (5%, 95%) (%)
+![left](https://microshak.github.io/MicroNotes/Images/BigData/quartile.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Q-Q Plot (Quontile - Quantile Plot)
+  * Determine if 2 datasets come from populations with similar distributions
+* Pivot
+---
+# Recap
+* Different Methodologies of Validating Data
+* Charting Tools to Understand Data
+* Spark Tools to work with data
 
 ---
 
 
+# Inclass Excersize
 
+1. git clone https://github.com/Microshak/Databricks/tree/master/Veracity
+2. Upload your own data
+3. Run Excersize
+
+---
+
+# In This session
+* Bias
+* Root Cause Analysis
+* Probablities
+* Descriptive Statistics
+* Probabilities
+* Correlation
+
+---
 
 # Journey to Knowledge
 * Knowledge is Actionable Information
@@ -169,12 +216,9 @@
 * Confirmation Bias
   * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
   * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
+* Implicit Bias (I'm/Great)
 
 ---
-# Root Cause Analysis
-
-
-----
 # Root Cause Analysis
 Looks for Underlying Cause
 1. Problem statement
@@ -184,45 +228,30 @@ Looks for Underlying Cause
     To what Extent
     How Do I know
 
-Analyxin Process Basic tools
-Walk
-Brain Storming
-Work flow diagram 
-
-Other tools
-5 whys
----
-
-# Not my fault analysis
-
-
+1. 5 whys
 
 ---
-# Continuous process Improvemetn
-
 
 # Descriptive Statistics
-[Basics](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Basic/MinMaxMinMode.ipynb)
+[Summary Statistics](https://github.com/Microshak/Databricks/tree/master/Veracity)
+[Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+[3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+
 
 ---
 
 # Coefficent of Correlation
 * The relationship between 2 variables
-
-[Sensor Correlation](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Exploring%20The%20Past/SensorCorrelation.ipynb)
-
-
-# ANOVA
-
----
-
-
-
-
-
-
-# Probabilities
-[notebook](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Basic/Probability.ipynb)
+[Correlation](https://github.com/Microshak/Databricks/tree/master/Veracity)
 
 
 ---
+
+# Recap
+We have Talked about 
+* Summary Statistics
+* Frequencies
+* Charting
+* Correlation
+
+

@@ -137,3 +137,8 @@ Customizedable and Dicission Support Systems
 * Assume Failure
 * Be Trasnparent (Dashboard Success and Failure)
 * 
+
+# Infrastruction 
+
+
+# Monitoring
