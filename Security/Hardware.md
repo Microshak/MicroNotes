@@ -1,13 +1,12 @@
  [7 properties of secure computing](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/SevenPropertiesofHighlySecureDevices.pdf)
  
-# Vulnerabillities
+# Vulnerabilities
 * Hardware Trojans
 * Side-Channel Analysis
-
-
+* [Cold Boot Attack](https://en.wikipedia.org/wiki/Cold_boot_attack)
 # Hardware Trojans
 ![Cisco](/Images/Security/HT.png)
-* can assist in software attachs such as backdoor, password theft and prviledge escalation
+* can assist in software attaches such as backdoor, password theft and privileges escalation
 ---
 # Remedies
 * Multi foundry manufacturing
@@ -20,7 +19,7 @@
 
 ---
 
-# Attack Servaces
+# Attack Services
 * Sensor
 * Device Memory
 * Physical Memory

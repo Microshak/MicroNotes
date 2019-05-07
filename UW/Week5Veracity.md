@@ -15,26 +15,26 @@
 ---
 ## In this session
 * Trust in Data
-  * Bias
-  * Background into Statistics and ML
+  * Bias Data
+  * Data prepared for ML workloads
   * Data Management Lifecycle
 * Databricks
   * Delta Lake
-  * Schedualing Logging
+  * Scheduling Logging
 
 ---
-# Why We Dont Trust Data
+# Why We Don't Trust Data
 * Use Case is an After Thought
 * Garbage in Garbage Out
 * No Access and Transparency
-* Data Changes Over Time
+* Data Changes Over Time 
 
 ---
 
 # Big Data Value Development
 * Define Use Cases and Work Toward them
 * Validate Data
-* Clense
+* Cleanse
 * Add Schema
 * Make Access Easy and Transparent
 * Time Travel
@@ -63,6 +63,10 @@
 ---
 
 # Distributions
+
+* Spread 
+* Skew
+
 [Distributions Charts](https://seeing-theory.brown.edu/probability-distributions/index.html#section2)
 
 
@@ -80,7 +84,7 @@
 
 
 # Byesian Hypothesis Testing
-* Population Sampeling
+* Population Sampling
 * Study Design
   * Review Boards
     * Ethics
@@ -95,7 +99,7 @@
 # IoT Journey to Value
 * Duty Cycle
 * Factor Analysis
-  * Analysis of Varince
+  * Analysis of Variance
   * Time Series Analysis
 * Feed Back Cycle
   * Right Sizing Data points
@@ -103,10 +107,10 @@
 
 ---
 # Business Value
-* Confidance in ETL 
+* Confidence in ETL 
   * Record Operations
   * Dashboard Operations (Transparency)
-  * Failure Handeling
+  * Failure Handling
 * Time Travel
 
 ---
@@ -125,7 +129,7 @@
 * [ACID](https://docs.azuredatabricks.net/delta/isolation-level.html) transactions on data lakes
 * Schema enforcement
 * Mixing streaming and Batch
-* Scalable metatdata handeling
+* Scalable metadata handling
 * Time Travel Capabilities
 
 ---
@@ -154,7 +158,7 @@ Charts
 
 * Area Charts
     * Show Changes Over Time
-    * Stacked to show percenage of whole
+    * Stacked to show percentage of whole
  ![left](https://microshak.github.io/MicroNotes/Images/BigData/area-chart.pnt)
 
 * Pie Chart
@@ -169,7 +173,7 @@ Charts
   * Common Quantiles: (25%, 50%, 75%) (33%, 66%), (5%, 95%) (%)
 ![left](https://microshak.github.io/MicroNotes/Images/BigData/quartile.png)
 
-* Q-Q Plot (Quontile - Quantile Plot)
+* Q-Q Plot (Quantile - Quantile Plot)
   * Determine if 2 datasets come from populations with similar distributions
 * Pivot
 ---
@@ -185,11 +189,11 @@ Charts
 ---
 
 
-# Inclass Excersize
+# In-class Exercise
 
 1. git clone https://github.com/Microshak/Databricks/tree/master/Veracity
 2. Upload your own data
-3. Run Excersize
+3. Run Exercise
 
 ---
 
