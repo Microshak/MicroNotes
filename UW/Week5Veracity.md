@@ -76,23 +76,36 @@
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/SimpleNet.gif)
 
 ---
-* Predictive Approaches
-    * **Frequentist** ([probabilities](https://en.wikipedia.org/wiki/Frequentist_inference))
-    * Byesian (Hypothesis Testing)
-    * Neural Nets (ML)
+# Predictive Approaches
+* **Frequentist** ([probabilities](https://en.wikipedia.org/wiki/Frequentist_inference))
+* Bayesian (Hypothesis Testing)
+* Artificial Neural Nets (ML)
 ---
 
+# Population Samples
 
-# Byesian Hypothesis Testing
+![full](https://microshak.github.io/MicroNotes/Images/BigData/population_sample.png)
+
+
+---
+
+# [Bayesian](https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/) Hypothesis Testing
 * Population Sampling
 * Study Design
   * Review Boards
     * Ethics
-    * validation
+    * Validation
     * Bias
 * Pilot Study
 * Test Study
 * Study
+
+---
+# Bayesian Use Cases
+* Marketing
+* A/B Testing
+* Regulatory Restricted Domains
+* Business Change Cycle
 
 ---
 
@@ -100,18 +113,24 @@
 * Duty Cycle
 * Factor Analysis
   * Analysis of Variance
+  * Analysis of CoVariance
   * Time Series Analysis
 * Feed Back Cycle
   * Right Sizing Data points
   * **Enriching Data**
 
 ---
-# Business Value
+
+# Business Trust in Data
 * Confidence in ETL 
   * Record Operations
-  * Dashboard Operations (Transparency)
+  * Dashboard Operations 
   * Failure Handling
 * Time Travel
+* Transparency
+---
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/taylorswift.jpg)
 
 ---
 
@@ -119,7 +138,7 @@
 * Unified Analytics Platform - Data and AI need to be on the same platform
 * Challenges it Solves
   * Data Quality 
-  * Difficult to Build Application on Your Datalake
+  * Difficult to Build Application on your own datalake
 * [Open Source](https://www.youtube.com/watch?v=5I5pqDsvGEc&list=PLx0E0XfaCr-Y4MZJ0up77VPDbcSVX3xwX&index=15)
 
 
@@ -131,6 +150,7 @@
 * Mixing streaming and Batch
 * Scalable metadata handling
 * Time Travel Capabilities
+* 10X speed improvement
 
 ---
 # Spark SQL
