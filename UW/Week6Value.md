@@ -25,9 +25,9 @@
 * Proactive and Reactive analytics
 ---
 # [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
-* Stock market crash of 2018
+* Stock market crash of 2008
 * Highspeed trading
-* Sampeling asumed outliers were random and removed outliers
+* Sampling assumed outliers were random and removed outliers
 * Data Scientist saw low risk in over leveraging 
 
 ---
@@ -68,24 +68,26 @@ Simple Sampling
 * With Replacement
 * Sample Size
 * Seed
+* Outlier Detection 
 
-**[example](https://github.com/Microshak/Databricks/tree/master/Value)**
-Outlier Detection 
-Sampeling
 ---
-
 # Recap
 We Learned about 
 * Distributions
 * Outliers
 * Sampling Data
 ---
+
+**[Sampling Example](https://github.com/Microshak/Databricks/tree/master/Value)**
+---
+
+
 # We will learn
 - Anomaly Detection
 
-
+---
 # Data Science
-* Biasian
+* ~~Biasian~~
 * Unsupervised
 * Supervised
 * ~~Reinforcement Learning~~
@@ -94,12 +96,9 @@ We Learned about
 ---
 
 
-
-
 # Practical Data Science
-* 
-* Anolaly Detection
-* 
+* Anomaly Detection
+
 
 # Accruaacy
 Precision

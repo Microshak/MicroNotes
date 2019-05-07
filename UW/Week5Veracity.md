@@ -165,39 +165,47 @@
 * Bar Chart
     * Shape of data
     * Trends
-    ![left](https://microshak.github.io/MicroNotes/Images/BigData/BarChart.jpg)
-* Scatter Plot
-    * Relationship between 2 variables
-   ![left](https://microshak.github.io/MicroNotes/Images/BigData/ScatterPlot.png)
-* Line Chart
-    * Changes Over Time
+
+---
+![full](https://microshak.github.io/MicroNotes/Images/BigData/BarChart.jpg)
+---
+# Scatter Plot
+### Relationship between 2 variables
+![left](https://microshak.github.io/MicroNotes/Images/BigData/ScatterPlot.png)
+
+---
+# Line Chart
+### Changes Over Time
   ![left](https://microshak.github.io/MicroNotes/Images/BigData/line-chart.png)
 
 ---
-Charts
 
-* Area Charts
-    * Show Changes Over Time
-    * Stacked to show percentage of whole
- ![left](https://microshak.github.io/MicroNotes/Images/BigData/area-chart.pnt)
-
-* Pie Chart
-  * Show Percentage of whole
+# Pie Chart
+## Show Percentage of whole
  ![left](https://microshak.github.io/MicroNotes/Images/BigData/pie-chart.png)
 
 
 ---
-#Charts 
-* [Quantile](https://www.youtube.com/watch?v=IFKQLDmRK0Y) Plot
-  * Help determine population shape by spitting data into segments(quantiles)
-  * Common Quantiles: (25%, 50%, 75%) (33%, 66%), (5%, 95%) (%)
-![left](https://microshak.github.io/MicroNotes/Images/BigData/quartile.png)
 
-* Q-Q Plot (Quantile - Quantile Plot)
-  * Determine if 2 datasets come from populations with similar distributions
-* Pivot
+
+# Area Charts
+### Show Changes Over Time
+### Stacked to show percentage of whole
+ ![left](https://microshak.github.io/MicroNotes/Images/BigData/area-chart.png)
+
 ---
- ![full](https://microshak.github.io/MicroNotes/Images/BigData/graphs.png)
+
+# [Quantile](https://www.youtube.com/watch?v=IFKQLDmRK0Y) Plot
+***  Help determine population shape by spitting data into segments(quantiles)***
+```Common Quantiles:(25%, 50%, 75%)(33%, 66%)(5%, 95%)(%)```
+![left](https://microshak.github.io/MicroNotes/Images/BigData/quartile.png)
+---
+
+#Q-Q Plot (Quantile - Quantile Plot)
+### Determine if 2 datasets come from populations with similar distributions
+ ![left](https://microshak.github.io/MicroNotes/Images/BigData/qq.jpg)
+---
+ ![full](https://microshak.github.io/MicroNotes/Images/BigData/graphs.jpeg)
 
 
 ---
@@ -213,7 +221,7 @@ Charts
 
 1. git clone https://github.com/Microshak/Databricks/tree/master/Veracity
 2. Upload your own data
-3. Run Exercise
+3. Run Chart Frequency Exercise
 
 ---
 
@@ -222,15 +230,14 @@ Charts
 * Root Cause Analysis
 * Probabilities
 * Descriptive Statistics
-* Probabilities
 * Correlation
 
 ---
 
 # Journey to Knowledge
 * Knowledge is Actionable Information
-* Discovering the Rooted Truth
 * Machine Learning != Magic Learning
+* Discovering the Rooted Truth
 
 ---
 
@@ -244,32 +251,36 @@ Charts
 * Confirmation Bias
   * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
   * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
-* Implicit Bias (I'm/Great)
+* Implicit Bias (I'm Great)
 
 ---
 # Root Cause Analysis
 Looks for Underlying Cause
 1. Problem statement
     1. What
-    Where
-    When 
-    To what Extent
-    How Do I know
+    1. Where
+    1. When 
+    1. To what Extent
+    1. How Do I know
 
-1. 5 whys
+2. 5 Whys
+   1. Why
+   2. Why
+   3. Why
+   4. Why
+   5. Why
 
 ---
 
 # Descriptive Statistics
-[Summary Statistics](https://github.com/Microshak/Databricks/tree/master/Veracity)
-[Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
-[3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
-
+* [Summary Statistics](https://github.com/Microshak/Databricks/tree/master/Veracity)
+* [Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+* [3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
 
 ---
 
 # Coefficent of Correlation
-* The relationship between 2 variables
+### The relationship between 2 variables
 [Correlation](https://github.com/Microshak/Databricks/tree/master/Veracity)
 
 
