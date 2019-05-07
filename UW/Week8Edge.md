@@ -39,3 +39,10 @@
 
 # Message Message Offloading
 * Message Queues
+
+
+# Offloading Compute
+* [Android](https://www.tensorflow.org/lite/guide/android)
+* [Web](https://www.tensorflow.org/js)
+* [IoT](https://microsoft.github.io/ELL/tutorials/)
+

@@ -1,8 +1,22 @@
+
+# Big Data 230 Week 5 Value 
+
 > Difference between machine learning and AI:
 >  If it is written in Python, it's probably machine learning
 > If it is written in PowerPoint, it's probably AI 
 > -Mat Velloso
+
 ---
+# In this Section
+* Value from Data
+* Turning Big data into Small Data
+* Key Concepts of Getting Value
+  * Populations
+  * Sampeling
+  * Outlier Detection 
+  * Preparing Data for Analysis
+---
+
 # Value From our Data
 * Understanding Data
 * Predicting The Future
@@ -10,13 +24,83 @@
 * Function Approximation
 * Proactive and Reactive analytics
 ---
+# [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
+* Stock market crash of 2018
+* Highspeed trading
+* Sampeling asumed outliers were random and removed outliers
+* Data Scientist saw low risk in over leveraging 
+
+---
+# Why Sample
+* Compute is expensive and Slow
+* More data does not mean better results
+* Populations typically are used to represent the whole in statistics and ML
+
+---
+# [Normal Distributions](https://www.mathsisfun.com/data/standard-normal-distribution.html)
+* Have a percentage
+* Standard Deviation
+* Have a "normal" shape
+![full](https://microshak.github.io/MicroNotes/Images/BigData/normal-distrubution-large.svg) 
+
+---
+# [Standard Deviation](https://www.mathsisfun.com/data/standard-deviation.html)
+* Measure of Spread of Data
+* Low number means it is tightly clustered around the mean
+* Hi number means the data is more spread out
+* Is the Square Root of the Variation
+* **Uses**
+  * Determin if a data point is standard (expected)
+  * Determin if a data point is not standard (unexected)
+---
+# Confidence Intervals
+* Z-Scores
+* Tells us the percentage of values to that lie outside the range
+---
+# Why Detect Outliers
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/impact-of-outliers.png) 
+
+---
+# Turning Big data into Small Data
+
+Simple Sampling
+* With Replacement
+* Sample Size
+* Seed
+
+**[example](https://github.com/Microshak/Databricks/tree/master/Value)**
+Outlier Detection 
+Sampeling
+---
+
+# Recap
+We Learned about 
+* Distributions
+* Outliers
+* Sampling Data
+---
+# We will learn
+- Anomaly Detection
+
+
 # Data Science
+* Biasian
 * Unsupervised
 * Supervised
 * ~~Reinforcement Learning~~
 * ~~GAN~~
   
 ---
+
+
+
+
+# Practical Data Science
+* 
+* Anolaly Detection
+* 
+
 # Accruaacy
 Precision
 Recall 

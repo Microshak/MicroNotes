@@ -173,6 +173,10 @@ Charts
   * Determine if 2 datasets come from populations with similar distributions
 * Pivot
 ---
+ ![full](https://microshak.github.io/MicroNotes/Images/BigData/graphs.png)
+
+
+---
 # Recap
 * Different Methodologies of Validating Data
 * Charting Tools to Understand Data
@@ -192,7 +196,7 @@ Charts
 # In This session
 * Bias
 * Root Cause Analysis
-* Probablities
+* Probabilities
 * Descriptive Statistics
 * Probabilities
 * Correlation
@@ -208,7 +212,7 @@ Charts
 
 # Bias
 * Design Bias
-* Selection/Sampeling Bias (aka the reason we have  randomized double-blind placebo control studies)
+* Selection/Sampling Bias (aka the reason we have  randomized double-blind placebo control studies)
     * Omission Bias
     * Inclusive Bias
     * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
