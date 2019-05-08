@@ -12,7 +12,7 @@
 * Turning Big data into Small Data
 * Key Concepts of Getting Value
   * Populations
-  * Sampeling
+  * Sampling
   * Outlier Detection 
   * Preparing Data for Analysis
 ---
@@ -50,8 +50,8 @@
 * Hi number means the data is more spread out
 * Is the Square Root of the Variation
 * **Uses**
-  * Determin if a data point is standard (expected)
-  * Determin if a data point is not standard (unexected)
+  * Determine if a data point is standard (expected)
+  * Determine if a data point is not standard (unexecuted)
 ---
 # Confidence Intervals
 * Z-Scores
@@ -76,9 +76,16 @@ We Learned about
 * Distributions
 * Outliers
 * Sampling Data
----
 
+---
+# Recap
+* Sampeling
+* Distribuions 
+* Outliers
+---
+# In Class Excessive
 **[Sampling Example](https://github.com/Microshak/Databricks/tree/master/Value)**
+
 ---
 
 
@@ -87,30 +94,13 @@ We Learned about
 
 ---
 # Data Science
-* ~~Biasian~~
+* ~~Byasian~~
 * Unsupervised
 * Supervised
 * ~~Reinforcement Learning~~
 * ~~GAN~~
   
 ---
-
-
-# Practical Data Science
-* Anomaly Detection
-
-
-# Accruaacy
-Precision
-Recall 
-Confusion Matrix
-
-# Feature Extraction Time Series
-TFLean - Extrect time series dataset 
-    - Moving Averages
-    - ect
-
-# Dealing with Imballanced Data Sets
 
 
 
@@ -127,12 +117,36 @@ TFLean - Extrect time series dataset
 * Outlier Detection (Standard Deviation)
 * Spike Detection (&#9651; σ)‍
 * K-Means
-    * [K-Means Shape Assumption](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Anomaly%20Detection/K-Means%20Shape%20Assumptions.ipynb)
-    * [K-Means Number of Centroids](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Anomaly%20Detection/K-Means%20Number%20of%20Centroids.ipynb)
-* K-Nearest Neighbors
-* [Mean Shift](https://veracity-microshak2.notebooks.azure.com/j/notebooks/Anomaly%20Detection/MeanShift.ipynb)
+    * [K-Means Number of Centroids](https://github.com/Microshak/Databricks/tree/master/Value)
+    * [K-Means Shape Assumption](https://github.com/Microshak/Databricks/tree/master/Value)
+
+* [Mean Shift](https://notebooks.azure.com/microshak2/projects/Veracity/html/Anomaly%20Detection/MeanShift.ipynb)
+* [Windowing Functions](https://github.com/Microshak/Databricks/tree/master/Value) [ref](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-functions-windows.html#cume_dist)
+
 
 ---
+
+
+
+
+# Accuracy
+Precision
+Recall 
+Confusion Matrix
+
+---
+
+# Feature Extraction Time Series
+TFLean - Extrect time series dataset 
+    - Moving Averages
+    - ect
+
+---
+
+# Dealing with Imballanced Data Sets
+
+---
+
 # Classifiers
 * Supervised Learning
 * Binary Classifiers

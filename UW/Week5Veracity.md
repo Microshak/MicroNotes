@@ -133,6 +133,9 @@
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/taylorswift.jpg)
 
 ---
+![full](https://microshak.github.io/MicroNotes/Images/BigData/echosystem.png)
+
+---
 
 # Delta Lake (a.k.a Data Bricks Delta)
 * Unified Analytics Platform - Data and AI need to be on the same platform
