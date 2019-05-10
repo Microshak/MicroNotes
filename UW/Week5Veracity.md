@@ -246,10 +246,9 @@
 
 # Bias
 * Design Bias
-* Selection/Sampling Bias (aka the reason we have  randomized double-blind placebo control studies)
-    * Omission Bias
-    * Inclusive Bias
-    * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
+* Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
+   * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
+  * [Selection Bias](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
 * Procedural Bias
 * Confirmation Bias
   * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
@@ -297,3 +296,4 @@ We have Talked about
 * Correlation
 
 
+Google trends can predict an outbreak 2 weeks before the CDC.
