@@ -6,14 +6,6 @@
 > Mat Velloso
 
 
-2016 1100 exabites
-
-
-- Knowedge is power
-- sir francis bacon
-# 
-
-
 Data Engineering for ML
 
 
