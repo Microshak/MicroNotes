@@ -25,12 +25,12 @@
   * Preparing Data for Analysis
 ---
 
-# What Value Does Our Data Have
-* Understanding The Data Allows Us to Make Informed Changes
+# Value From our Data
+* Understanding Data
 * Predicting The Future
 * Detecting Issues
-* Use The Data to Replace Human Activities
-* Proactive and Reactive Actions
+* Function Approximation
+* Proactive and Reactive analytics
 
 ---
 
@@ -42,13 +42,6 @@
 * Compute is expensive and Slow
 * More data does not mean better results
 * Populations typically are used to represent the whole in statistics and ML
-
----
-# Issues with Sampling
-* Outliers affect Data (Good and Bad)
-* Bias
-* Not Representing of Whole Population
-
 
 ---
 # [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
@@ -125,7 +118,6 @@ We Learned about
 ---
 
 
-
 # Anomaly Detection Conceptually
 
 * **Positive and negative trends:** For example, when monitoring memory usage in computing an upward trend may be of interest as it may be indicative of a memory leak
@@ -133,8 +125,12 @@ We Learned about
 * **Changes in the dynamic range of values:** For example, when monitoring the exceptions thrown by a cloud service, any changes in the dynamic range of values could indicate instability in the health of the service
 
 * **Spikes and Dips:** For example, when monitoring the number of login failures in a service or number of checkouts in an e-commerce site, spikes or dips could indicate abnormal behavior
-
 ---
+# Recap
+* Anomaly Detection is can show somthing is out of place
+* Anomaly detection can be based on time or mean based
+* Anomaly Detection can't tell us what is wrong
+  ---
 
 # Anomaly Detection
 * Outlier Detection (Standard Deviation)
@@ -146,6 +142,7 @@ We Learned about
 * [Mean Shift](https://notebooks.azure.com/microshak2/projects/Veracity/html/Anomaly%20Detection/MeanShift.ipynb)
 
 [Reference](https://github.com/yzhao062/anomaly-detection-resources#43-graph--network-outlier-detection)
+
 ---
 # Real Applications
 
@@ -153,17 +150,93 @@ We Learned about
 ![right](https://microshak.github.io/MicroNotes/Images/BigData/RealtimeMonitoring.jpg)
 
 ---
-# Feature Engineering
+# In this Section
+* Feature Engineering
+* Leveraging Time based Feature Engineering Operations
+---
+
+
+# Feature Engeneering 
 * Mining Exiting Data
 * Time Based
     * Seasonal
     * Monthly
     * Time of Day
     * Moving Averages
+* Last Order Based
 * Reduce Dimensionality
 * Codify
 
 ---
+
+# ML Process
+* Define Problem
+* Obtain Data
+
+
+* Select
+* Clean
+* **Transform and Enrich**
+
+
+* Model Selection
+* Tuning and Evaluation
+* Feedback
+---
+# Transforming and Enriching
+* Build Features from Features
+  * Add
+  * Subtract
+  * Ratios
+* Relational Deferences
+* Encoding Catigorical Values
+* Scaling Numerical Values
+
+
+# dECOMPOSIion
+* sometimes our feature are too complex
+* Factor Analysis
+  * Quartiles
+  * ZScores
+  * Deviation/Varience
+  * Outliers
+
+---
+# One Hot Encoding
+* [One-Hot Encoding](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2799933550853697/3911469456159528/2202577924924539/latest.html)
+  * Turn Categories or Numerical Category into Binary Represenation 
+
+```
+Efficient Encoding
+1:Cat
+2:Car
+3:Can
+One Hot Encoding
+[0,0,1] =Cat
+[0,1,0]=Car
+[1,0,0]=Can
+
+```
+---
+# Finding Features
+1. Use Domain Knowledge
+2. Discover Factors
+   1. Form Hypothesis
+   2. Charting
+   3. Factor Analysis
+3. Meta Features 
+   1. Models that Make Feature for other Models
+   2. Risks [Inductive Bias](https://en.wikipedia.org/wiki/Inductive_bias)
+
+
+---
+# [Climage Change](https://en.wikipedia.org/wiki/List_of_scientists_who_disagree_with_the_scientific_consensus_on_global_warming)
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/ClimateWarming.svg)
+
+
+--- 
+
 # Time Series
 * [Windowing Functions](https://github.com/Microshak/Databricks/tree/master/Value) [ref](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-functions-windows.html#cume_dist) 
 
@@ -174,4 +247,3 @@ We Learned about
 
 
 ---
-# Recap
