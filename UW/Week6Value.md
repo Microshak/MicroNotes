@@ -25,12 +25,12 @@
   * Preparing Data for Analysis
 ---
 
-# Value From our Data
-* Understanding Data
+# What Value Does Our Data Have
+* Understanding The Data Allows Us to Make Informed Changes
 * Predicting The Future
 * Detecting Issues
-* Function Approximation
-* Proactive and Reactive analytics
+* Use The Data to Replace Human Activities
+* Proactive and Reactive Actions
 
 ---
 
@@ -42,6 +42,13 @@
 * Compute is expensive and Slow
 * More data does not mean better results
 * Populations typically are used to represent the whole in statistics and ML
+
+---
+# Issues with Sampling
+* Outliers affect Data (Good and Bad)
+* Bias
+* Not Representing of Whole Population
+
 
 ---
 # [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
@@ -126,6 +133,7 @@ We Learned about
 * **Changes in the dynamic range of values:** For example, when monitoring the exceptions thrown by a cloud service, any changes in the dynamic range of values could indicate instability in the health of the service
 
 * **Spikes and Dips:** For example, when monitoring the number of login failures in a service or number of checkouts in an e-commerce site, spikes or dips could indicate abnormal behavior
+
 ---
 
 # Anomaly Detection
@@ -145,7 +153,7 @@ We Learned about
 ![right](https://microshak.github.io/MicroNotes/Images/BigData/RealtimeMonitoring.jpg)
 
 ---
-# Feature Engeneering
+# Feature Engineering
 * Mining Exiting Data
 * Time Based
     * Seasonal
@@ -166,3 +174,4 @@ We Learned about
 
 
 ---
+# Recap
