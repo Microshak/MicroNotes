@@ -4,7 +4,7 @@
 > If it is written in PowerPoint, it's probably AI 
 > 
 > Mat Velloso
-
+---
 
 Data Engineering for ML
 
@@ -12,7 +12,7 @@ Data Engineering for ML
 
 # Lenear regression
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
-
+---
 # In this Section
 1. Supervised Learning
     Classificaiton
@@ -52,6 +52,8 @@ Confusion Matrix
 * **Average log loss** is a single score used to express the penalty for wrong results. It is calculated as the difference between two probability distributions – the true one, and the one in the model.
 
 * **Training log loss** is a single score that represents the advantage of the classifier over a random prediction.
+
+---
 
 # When to use
 Accuracy bad in unballanced datasets.
