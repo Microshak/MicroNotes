@@ -47,3 +47,7 @@ Disaster Recovery
 * [Microsoft Security Response Center Blog](https://blogs.technet.microsoft.com/msrc/)
 * [Azure Security](https://azure.microsoft.com/en-us/blog/topics/security/)
 ---
+# VMs
+[Azure Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/security/azure-threat-detection)
+
+![full](https://docs.microsoft.com/en-us/azure/security/media/azure-threat-detection/azure-threat-detection-fig1.png)
