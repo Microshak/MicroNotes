@@ -43,12 +43,6 @@
 * More data does not mean better results
 * Populations typically are used to represent the whole in statistics and ML
 
----
-# [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
-* Stock market crash of 2008
-* Highspeed trading
-* Sampling assumed outliers were random and removed outliers
-* Data Scientist saw low risk in over leveraging 
 
 ---
 
@@ -81,15 +75,25 @@
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/impact-of-outliers.png) 
 
 ---
+
+# [Case Study](https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383)
+* Stock market crash of 2008
+* Highspeed trading
+* Sampling assumed outliers were random and removed outliers
+* Data Scientist saw low risk in over leveraging 
+---
 # Turning Big data into Small Data
 
 Simple Sampling
 * With Replacement
+  * When you sample with replacement, your two items are independent. In other words, one does not affect the outcome of the other. 
 * Sample Size
 * Seed
+  * A number that allows you to repeat the experiment.  
 * Outlier Detection
 
 ---
+
 # Recap
 We Learned about 
 * Distributions
@@ -125,19 +129,17 @@ We Learned about
 * **Changes in the dynamic range of values:** For example, when monitoring the exceptions thrown by a cloud service, any changes in the dynamic range of values could indicate instability in the health of the service
 
 * **Spikes and Dips:** For example, when monitoring the number of login failures in a service or number of checkouts in an e-commerce site, spikes or dips could indicate abnormal behavior
+
 ---
-# Recap
-* Anomaly Detection is can show somthing is out of place
-* Anomaly detection can be based on time or mean based
-* Anomaly Detection can't tell us what is wrong
-  ---
+
+
 
 # Anomaly Detection
 * Outlier Detection (Standard Deviation)
 * Spike Detection (&#9651; σ)‍
 * K-Means
-    * [K-Means Number of Centroids](https://github.com/Microshak/Databricks/tree/master/Value)
-    * [K-Means Shape Assumption](https://github.com/Microshak/Databricks/tree/master/Value)
+    * [K-Means Number of Centroids](https://github.com/Microshak/Databricks/blob/master/Value/KMeansNumberOfCentroids.dbc)
+    * [K-Means Shape Assumption](https://github.com/Microshak/Databricks/blob/master/Value/KMeansAssumptions.dbc)
 
 * [Mean Shift](https://notebooks.azure.com/microshak2/projects/Veracity/html/Anomaly%20Detection/MeanShift.ipynb)
 
@@ -150,13 +152,19 @@ We Learned about
 ![right](https://microshak.github.io/MicroNotes/Images/BigData/RealtimeMonitoring.jpg)
 
 ---
+# Recap
+* Anomaly Detection is can show something is out of place
+* Anomaly detection can be based on time or mean based
+* Anomaly Detection can't tell us what is wrong
+---
+
 # In this Section
 * Feature Engineering
 * Leveraging Time based Feature Engineering Operations
 ---
 
 
-# Feature Engeneering 
+# Feature Engineering 
 * Mining Exiting Data
 * Time Based
     * Seasonal
@@ -188,25 +196,25 @@ We Learned about
   * Add
   * Subtract
   * Ratios
-* Relational Deferences
-* Encoding Catigorical Values
+* Relational Deference
+* Encoding Categorical Values
 * Scaling Numerical Values
+---
 
-
-# dECOMPOSIion
-* sometimes our feature are too complex
+# Decomposition
+* Sometimes our feature are too complex
 * Factor Analysis
   * Quartiles
   * ZScores
-  * Deviation/Varience
+  * Deviation/Variance
   * Outliers
 
 ---
 # One Hot Encoding
 * [One-Hot Encoding](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2799933550853697/3911469456159528/2202577924924539/latest.html)
-  * Turn Categories or Numerical Category into Binary Represenation 
+  * Turn Categories or Numerical Category into Binary Representation 
 
-```
+```json
 Efficient Encoding
 1:Cat
 2:Car
@@ -232,18 +240,25 @@ One Hot Encoding
 ---
 # [Climage Change](https://en.wikipedia.org/wiki/List_of_scientists_who_disagree_with_the_scientific_consensus_on_global_warming)
 
-![full](https://microshak.github.io/MicroNotes/Images/BigData/ClimateWarming.svg)
+![full](https://microshak.github.io/MicroNotes/Images/BigData/ClimateWarming.png)
 
-
---- 
+---
 
 # Time Series
-* [Windowing Functions](https://github.com/Microshak/Databricks/tree/master/Value) [ref](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-functions-windows.html#cume_dist) 
+* [Windowing Functions](https://github.com/Microshak/Databricks/blob/master/Value/LagLead.dbc) [ref](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-functions-windows.html#cume_dist) 
 
 * [Flint](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1281142885375883/1566406256250190/7729323681064935/latest.html?_ga=2.83809808.761276419.1557433735-322737440.1557433735)
 
 
-* [Time Series](https://github.com/Microshak/Databricks/tree/master/Value)
+* [Time Series](https://github.com/Microshak/Databricks/blob/master/Value/TimeSeries.dbc)
 
 
 ---
+# Recap
+* Feature Engineering is the process of Engineering new data from existing data
+* Time Series techniques can help add new features to a data.  Examples:
+  * Comparing the previous number to new number
+  * Averaging over a time window
+  * Converting Time into component elements such as Month or Day
+  * Adjusting for Seasonality
+* Adding meta data can enrich the data 
