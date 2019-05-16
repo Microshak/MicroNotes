@@ -6,13 +6,7 @@
 > Mat Velloso
 ---
 
-Data Engineering for ML
 
-
-
-# Lenear regression
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
----
 # In this Section
 1. Supervised Learning
     Classificaiton
@@ -54,6 +48,13 @@ Confusion Matrix
 * **Training log loss** is a single score that represents the advantage of the classifier over a random prediction.
 
 ---
+
+# Linear regression
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
+
+---
+---
+
 
 # When to use
 Accuracy bad in unballanced datasets.
