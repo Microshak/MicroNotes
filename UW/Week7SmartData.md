@@ -15,19 +15,22 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 # In this Section
 1. Supervised Learning
-    Classification
-* Needs a repepresentive sample of codified results
-* Is function approximation
+    Linear Regression
 
 
 ---
-# Accuracy
-Precision
-Recall 
-Confusion Matrix
+
+# Regression
+
+
+* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
+
+* Regression analysis is widely used for prediction and forecasting,
+ can be used to infer causal relationship (can lead to error: correlation does not imply causation)
+
+* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
 
 ---
-
 
 # Classifiers
 * Binary Classifiers
@@ -50,8 +53,6 @@ Confusion Matrix
 * **Support** the number of samples of the true response that lie in that class.
 
 
-
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4956263157365556/3053734569209167/3458139474939947/latest.html
 
 * **AUC** measures the area under the curve plotted with true positives on the y axis and false positives on the x axis. This metric is useful because it provides a single number that lets you compare models of different types.
 
@@ -147,19 +148,6 @@ https://docs.databricks.com/spark/latest/mllib/binary-classification-mllib-pipel
 
 
 
-# Regression
-
-
-* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
-
-* Regression analysis is widely used for prediction and forecasting,
- can be used to infer causal relationship (can lead to error: correlation does not imply causation)
-
-* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
-
-
-TODO 
-Notebook regression
 
 TODO 
 PCA
@@ -176,4 +164,6 @@ Notes:
 # Flask
 
 
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4956263157365556/3053734569209167/3458139474939947/latest.html
 
