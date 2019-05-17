@@ -28,6 +28,7 @@
 # Reactive Monitoring
 * [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
 * [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
+* [Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
 * Event Grid
 * [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
 ---
@@ -46,3 +47,7 @@ Disaster Recovery
 * [Microsoft Security Response Center Blog](https://blogs.technet.microsoft.com/msrc/)
 * [Azure Security](https://azure.microsoft.com/en-us/blog/topics/security/)
 ---
+# VMs
+[Azure Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/security/azure-threat-detection)
+
+![full](https://docs.microsoft.com/en-us/azure/security/media/azure-threat-detection/azure-threat-detection-fig1.png)
