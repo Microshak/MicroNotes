@@ -10,12 +10,12 @@ Data Engineering for ML
 
 
 
-# Lenear regression
+# Linear regression
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
 
 # In this Section
 1. Supervised Learning
-    Classificaiton
+    Classification
 * Needs a repepresentive sample of codified results
 * Is function approximation
 
@@ -47,33 +47,81 @@ Confusion Matrix
 
 * **F-score** is computed as the weighted average of precision and recall between 0 and 1, where the ideal F-score value is 1.
 
+* **Support** the number of samples of the true response that lie in that class.
+
+
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4956263157365556/3053734569209167/3458139474939947/latest.html
+
 * **AUC** measures the area under the curve plotted with true positives on the y axis and false positives on the x axis. This metric is useful because it provides a single number that lets you compare models of different types.
 
 * **Average log loss** is a single score used to express the penalty for wrong results. It is calculated as the difference between two probability distributions – the true one, and the one in the model.
 
 * **Training log loss** is a single score that represents the advantage of the classifier over a random prediction.
 
+
+---
+# Precision
+### **Precision** attempts to answer the following question:
+> What proportion of positive identifications was actually correct?
+
+
+
+```math
+Precision = TP/(TP-FP)
+```
+
+---
+# Recall
+### **Recall** attempts to answer the following question:
+
+> What proportion of actual positives was identified correctly?
+
+```math
+Recall = TP/(TP+FN)
+
+```
+
+---
+
+
+
 # When to use
-Accuracy bad in unballanced datasets.
+Accuracy bad in unbalanced datasets.
 Use Persision and Recall
 
+```
+What is an umbalnced dataset
+Total Observations = 1000
+Fraudulent  Observations = 20
+Non Fraudulent Observations = 980
 
-How much we value persision vs recall?
+Event Rate= 2 %
 
+```
+---
+# Should I use persision or recall?
 
-F1 score waited persision vs recall equally
-
-F Score when we value persision vs recall
-
+* F1 score waited persision vs recall equally
+* F1 score is the harmonic average of persision and recall
+* 1 is best
+* 0 is worst
 
  ---
 # Confusion Matrix
 Predicted label and true label
 
-# Ways to drive bad numbers down
-* density of predictions
-* change hyper parameters
-* Add freatures
+|                | Class 1 Predicted | Class 2 Predicted |
+|:--------------:|:-----------------:|:-----------------:|
+| Class 1 Actual | TP                | FN                |
+| Class 2 Actual | FP                | TN                |
+
+---
+
+
+
+
+
 
 
  #Binary Classifier
