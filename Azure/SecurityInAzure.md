@@ -50,4 +50,4 @@ Disaster Recovery
 # VMs
 [Azure Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/security/azure-threat-detection)
 
-![full](https://docs.microsoft.com/en-us/azure/security/media/azure-threat-detection/azure-threat-detection-fig1.png)
+![left](https://docs.microsoft.com/en-us/azure/security/media/azure-threat-detection/azure-threat-detection-fig1.png)

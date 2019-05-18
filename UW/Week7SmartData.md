@@ -6,7 +6,11 @@
 > Mat Velloso
 
 
-Data Engineering for ML
+---
+# In this class
+* Binary Classifiers
+    * Logistic Regression
+    * Decision Trees
 
 
 
@@ -15,14 +19,17 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 # In this Section
 1. Supervised Learning
-    Linear Regression
+     Regression
 
 
 ---
 
 # Regression
+* When you need to make a binary decision 
+* Great when the data is simple
 
 
+---
 * **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
 
 * Regression analysis is widely used for prediction and forecasting,
@@ -119,11 +126,29 @@ Predicted label and true label
 
 ---
 
+# Decision Trees
+
+* Binary Classifier
+* Use when the data is complex
+
+
+---
 
 
 
 
 
+
+
+---
+![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_radial.png)
+![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_radial.png)
+
+
+---
+![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_linear.png)
+![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_linear.png)
+---
 
  #Binary Classifier
  https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn
