@@ -164,7 +164,20 @@
 ---
 
 # Charts
+* Charts tell a story about data
+  * Data has context 
+  * Gives data insights
+  * Help discover meaning of data
 
+---
+#Charts show
+
+* Relationship
+* Comparion
+* Composition
+* Distribution
+
+---
 * Bar Chart
     * Shape of data
     * Trends

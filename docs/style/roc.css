@@ -1,0 +1,23 @@
+.area1 {
+    fill: steelblue;
+  }
+  
+  .area2 {
+    fill: red;
+  }
+  
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  
+  #slider {
+      border: 2px solid;
+      padding: 10px;
+      width:250px;
+  }
+  
+  #slider_input {
+      width:200px;
+  }

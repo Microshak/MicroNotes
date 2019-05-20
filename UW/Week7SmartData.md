@@ -12,19 +12,28 @@
     * Logistic Regression
     * Decision Trees
 
-
-
-# Linear regression
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
+---
 
 # In this Section
 1. Supervised Learning
-     Regression
+     Logistic Regression
 
 
 ---
+# Classifiers
+* **Binary Classifiers**
+* Multi-class Classifiers
+* ~~Time Series~~
+* ~~Vision~~
+* ~~Speech~~
 
-# Regression
+---
+# Binary Classifiers
+
+![left](https://microshak.github.io/MicroNotes/Images/ML/binaryVSmulticlass.png)
+
+---
+# Logistic Regression
 * When you need to make a binary decision 
 * Great when the data is simple
 
@@ -32,21 +41,15 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 ---
 * **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
 
-* Regression analysis is widely used for prediction and forecasting,
- can be used to infer causal relationship (can lead to error: correlation does not imply causation)
+* Regression analysis is widely used for **prediction** and **forecasting**
+ 
+ * Can be used to infer causal relationship 
 
-* regression may refer specifically to the estimation of continuous response variables, as opposed to the discrete response variables used in classification
 
----
-
-# Classifiers
-* Binary Classifiers
-* Multi-class Classifiers
-* ~~Time Series~~
-* ~~Vision~~
-* ~~Speech~~
 
 ---
+
+
 # Algorithm Score
 
 * **Accuracy:** measures the goodness of a classification model as the proportion of true results to total cases.
@@ -59,7 +62,7 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 * **Support** the number of samples of the true response that lie in that class.
 
-
+---
 
 * **AUC** measures the area under the curve plotted with true positives on the y axis and false positives on the x axis. This metric is useful because it provides a single number that lets you compare models of different types.
 
@@ -69,6 +72,12 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 
 ---
+
+# In class exersize
+
+
+---
+
 # Precision
 ### **Precision** attempts to answer the following question:
 > What proportion of positive identifications was actually correct?
@@ -94,12 +103,14 @@ Recall = TP/(TP+FN)
 
 
 
-# When to use
+# When to use Accuracy vs Persission and Recall
+
 Accuracy bad in unbalanced datasets.
+
 Use Persision and Recall
 
-```
-What is an umbalnced dataset
+```txt
+What is an umbalnced dataset?
 Total Observations = 1000
 Fraudulent  Observations = 20
 Non Fraudulent Observations = 980
@@ -107,7 +118,9 @@ Non Fraudulent Observations = 980
 Event Rate= 2 %
 
 ```
+
 ---
+
 # Should I use persision or recall?
 
 * F1 score waited persision vs recall equally
@@ -115,7 +128,7 @@ Event Rate= 2 %
 * 1 is best
 * 0 is worst
 
- ---
+---
 # Confusion Matrix
 Predicted label and true label
 
@@ -125,6 +138,22 @@ Predicted label and true label
 | Class 2 Actual | FP                | TN                |
 
 ---
+# Recap
+* Logistic regression is a good choice when:
+    * You have a simple data set
+    * You need a binary decision
+    * When you want to predict somthing or gain further insights on data
+* We Learned:
+    * How to make a basic binary classifier
+        * Preparing the data
+        * Performing the classifier
+        * Judging the results
+---
+# In this section
+* 
+* Decision Trees
+* Roc Curves/AUC
+
 
 # Decision Trees
 
@@ -133,7 +162,7 @@ Predicted label and true label
 
 
 ---
-
+Exa
 
 
 
@@ -141,11 +170,13 @@ Predicted label and true label
 
 
 ---
+# Radial Boundry Data Set
 ![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_radial.png)
 ![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_radial.png)
 
 
 ---
+# Linear Boundry Data Set
 ![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_linear.png)
 ![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_linear.png)
 ---
@@ -157,9 +188,10 @@ Predicted label and true label
 
  https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
 
-
-
-
+---
+<iframe src="docs/roc.html" style="height:600px;">
+</iframe>
+---
 # Multi Class Classifier
 
 
@@ -191,4 +223,9 @@ Notes:
 
 
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4956263157365556/3053734569209167/3458139474939947/latest.html
+
+
+# Linear regression
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
+
 
