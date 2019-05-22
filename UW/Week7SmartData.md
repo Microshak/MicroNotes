@@ -64,8 +64,8 @@ Logistic Regression
 * One of the most commonly used algorithms for Binary Classification
 
 ---
-# In Class Excersize
-
+# In Class Exercise
+[Exercise](https://github.com/Microshak/Databricks/blob/master/SmartData/LogisticRegression.dbc)
 ![full](https://microshak.github.io/MicroNotes/Images/Mike/Providence.png)
 
 ---
@@ -96,9 +96,9 @@ Logistic Regression
 
 ---
 
-# In class exersize
+# In class Exercise
 
-
+[Exercise](https://github.com/Microshak/Databricks/blob/master/SmartData/DecisionTree.dbc)
 ---
 
 # Precision
@@ -133,7 +133,7 @@ Accuracy bad in unbalanced datasets.
 Use Precision and Recall
 
 ```txt
-What is an umbalnced dataset?
+What is an unbalanced dataset?
 Total Observations = 1000
 Fraudulent  Observations = 20
 Non Fraudulent Observations = 980
@@ -161,16 +161,18 @@ Predicted label and true label
 | Class 2 Actual | FP                | TN                |
 
 ---
-# Recap
+# Three Things
 * Logistic regression is a good choice when:
     * You have a simple data set
     * You need a binary decision
     * When you want to predict something or gain further insights on data
-* We Learned:
-    * How to make a basic binary classifier
-        * Preparing the data
-        * Performing the classifier
-        * Judging the results
+* To make a binary Classifier you need to:
+  * Preparing the data
+  * Performing the classifier
+  * Judging the results
+* Understanding your tolerance for TP, FN, FP, TN can help you choose the right classifier
+
+
 ---
 # In this section
 * Decision Trees
@@ -183,7 +185,6 @@ Predicted label and true label
 * Binary Classifier
 * Use when the data is complex
 
-[Excersize]()
 ---
 # Radial Boundary Data Set
 ![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_radial.png)
@@ -221,7 +222,6 @@ Specificity =  False Positive Rate
 * Decision trees are computationally faster.
 * Random forests is difficult to interpret, while a decision tree is easily interpretable and can be converted to rules.
 
-[Excersize]()
 
 ---
 
@@ -243,11 +243,10 @@ Specificity =  False Positive Rate
 
 ---
 
-# Recap
-* Decision Trees
-* Random Forests 
-* Over Fitting and Under Fitting
-* ROC Curve/AUC
+# Three Things
+* Decision Trees can help classify a problem when data is complex
+* There are different types of decision trees such as Random Forests with different characteristics. 
+* ROC Curve/AUC can help you determine the your threshold for false positive and false negatives
 ---
 # In this Section
 * Deep Learning
@@ -259,7 +258,7 @@ Specificity =  False Positive Rate
  * Types of artificial Neural Networks
 
 ---
-# History of Machile Learning
+# History of Machine Learning
 
 * 1950 - Touring Test
 * 1951 - First AI Program
@@ -380,7 +379,10 @@ If there is a lot of 0s in your data then it is **Sparse**.
 Else it is **Dense**
 
 ---
-# Bonus Excersize
+# Exercise
+[Exercise](https://github.com/Microshak/Databricks/blob/master/SmartData/SimpleNeuralNetwork.dbc)
+
+### Bonus
 [Tensorflow Playground](https://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.001&regularizationRate=0&noise=0&networkShape=8,7,7,5,2&seed=0.30542&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=true&xSquared=true&ySquared=true&cosX=false&sinX=true&cosY=false&sinY=true&collectStats=false&problem=classification&initZero=false&hideText=false)
 
 ---
