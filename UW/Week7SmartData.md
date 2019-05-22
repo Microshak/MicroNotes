@@ -15,8 +15,9 @@
 ---
 
 # In this Section
-1. Supervised Learning
-     Logistic Regression
+Supervised Learning
+
+Logistic Regression
 
 
 ---
@@ -30,22 +31,26 @@
 ---
 # Binary Classifiers
 
-![left](https://microshak.github.io/MicroNotes/Images/ML/binaryVSmulticlass.png)
+![full](https://microshak.github.io/MicroNotes/Images/ML/binarVSmulticlass.png)
 
 ---
+# Regression
+* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
+
+ 
+* Can be used for:
+  * Inferring causal relationship 
+  * Predictions
+  * Forecasting
+
+
+---
+
 # Logistic Regression
 * When you need to make a binary decision 
 * Great when the data is simple
-
-
----
-* **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
-
-* Regression analysis is widely used for **prediction** and **forecasting**
- 
- * Can be used to infer causal relationship 
-
-
+* Great as a base line for other ML algorithms
+* One of the most commonly used algorithms for Binary Classification
 
 ---
 
@@ -63,7 +68,10 @@
 * **Support** the number of samples of the true response that lie in that class.
 
 ---
+# Algorithm Score
 
+* **ROC (Receiver Operating Characteristics) Curve** is created by plotting the true positive rate against the false positive rate.
+  
 * **AUC** measures the area under the curve plotted with true positives on the y axis and false positives on the x axis. This metric is useful because it provides a single number that lets you compare models of different types.
 
 * **Average log loss** is a single score used to express the penalty for wrong results. It is calculated as the difference between two probability distributions – the true one, and the one in the model.
@@ -107,7 +115,7 @@ Recall = TP/(TP+FN)
 
 Accuracy bad in unbalanced datasets.
 
-Use Persision and Recall
+Use Precision and Recall
 
 ```txt
 What is an umbalnced dataset?
@@ -121,10 +129,10 @@ Event Rate= 2 %
 
 ---
 
-# Should I use persision or recall?
+# Should I use precision or recall?
 
-* F1 score waited persision vs recall equally
-* F1 score is the harmonic average of persision and recall
+* F1 score waited permission vs recall equally
+* F1 score is the harmonic average of permission and recall
 * 1 is best
 * 0 is worst
 
@@ -142,7 +150,7 @@ Predicted label and true label
 * Logistic regression is a good choice when:
     * You have a simple data set
     * You need a binary decision
-    * When you want to predict somthing or gain further insights on data
+    * When you want to predict something or gain further insights on data
 * We Learned:
     * How to make a basic binary classifier
         * Preparing the data
@@ -152,80 +160,217 @@ Predicted label and true label
 # In this section
 * 
 * Decision Trees
+* Decision Forrest
 * Roc Curves/AUC
 
-
+---
 # Decision Trees
 
 * Binary Classifier
 * Use when the data is complex
 
-
+[Excersize]()
 ---
-Exa
-
-
-
-
-
-
----
-# Radial Boundry Data Set
+# Radial Boundary Data Set
 ![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_radial.png)
 ![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_radial.png)
 
 
 ---
-# Linear Boundry Data Set
+# Linear Boundary Data Set
 ![left](https://microshak.github.io/MicroNotes/Images/ML/lr_boundary_linear.png)
 ![right](https://microshak.github.io/MicroNotes/Images/ML/model_boundary_linear.png)
+
 ---
+# ROC Curve/AUC
 
- #Binary Classifier
- https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn
+When making a prediction for a binary or two-class classification problem, there are two types of errors that we could make.
 
- https://towardsdatascience.com/building-a-deployable-ml-classifier-in-python-46ba55e1d720
+False Positive. Predict an event when there was no event.
+False Negative. Predict no event when in fact there was an event.
 
- https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+> True Positive Rate = True Positives / (True Positives + False Negatives)
+
+> False Positive Rate = False Positives / (False Positives + True Negatives)
+
+Sensitivity = True Positive Rate 
+Specificity =  False Positive Rate 
 
 ---
 <iframe src="docs/roc.html" style="height:600px;">
 </iframe>
 ---
-# Multi Class Classifier
+
+# Random Forrest
+* Random forests is a set of multiple decision trees.
+* Deep decision trees may suffer from overfitting, but random forests prevents overfitting by creating trees on random subsets.
+* Decision trees are computationally faster.
+* Random forests is difficult to interpret, while a decision tree is easily interpretable and can be converted to rules.
+
+[Excersize]()
+
+---
+
+# Overfitting/Underfitting
+![full](https://microshak.github.io/MicroNotes/Images/ML/overunder.png)
+
+
+---
 
 
 
 
-# ROC
-https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
 
-# Databricks
-https://docs.databricks.com/spark/latest/mllib/binary-classification-mllib-pipelines.html
+# Other methods
+* ML on the images directly [link](https://www.pyimagesearch.com/2019/02/18/breast-cancer-classification-with-keras-and-deep-learning/)
+* Principle Component Analysis (PCA) [link](https://towardsdatascience.com/dive-into-pca-principal-component-analysis-with-python-43ded13ead21)
+* K-Nearest Neighbor [link](https://www.kaggle.com/georgiost77/breast-cancer-machine-learning-prediction)
+* Deep Learning
+
+---
+
+# Recap
+* Decision Trees
+* Random Forests 
+* Over Fitting and Under Fitting
+* ROC Curve/AUC
+---
+# In this Section
+* Deep Learning
+* Artificial Neural Networks    
+  * Activation Functions
+  * Drop Out
+  * Sparse/Dense
+ * Tensorflow
+ * Types of artificial Neural Networks
+
+---
+# History of Machile Learning
+
+1950 - Touring Test
+1951 - First AI Program
+1955 - First AI Game play created
+1958 - first [Preceptron](https://en.wikipedia.org/wiki/Perceptron) and Activation 
+
+---
+
+
+---
+# Neural Networks
+### Artificial Neural Networks are roughly based on our brains Neural Network.
+* Multi Node are interconnected
+* Signals can pass through these nodes
+* Has a hiarchical structrue
+* When we model rules on computers we get similar results to humans
+---
+![full](https://microshak.github.io/MicroNotes/Images/ML/Neuronanimation.png)
+---
+
+![full](https://microshak.github.io/MicroNotes/Images/ML/simple.gif)
+---
+![full](https://microshak.github.io/MicroNotes/Images/ML/neural_network.png)
+---
+![full](https://microshak.github.io/MicroNotes/Images/ML/Mark_1_preceptron.jpeg)
+---
+#### RULES
+1. Start off with a Perceptron having random weights and a training set
+2. For the inputs of an example in the training set, compute the Perceptron’s output
+3. If the output of the Perceptron does not match the output that is known to be correct for the example: * If the output should have been 0 but was 1, decrease the weights that had an input of 1. * If the output should have been 1 but was 0, increase the weights that had an input of 1.
+4. Go to the next example in the training set and repeat steps 2-4 until the Perceptron makes no more mistakes
+
+---
+#### Rules more simply
+1.  Input X Weights + Bias
+2.  Apply Activation Function
+3.  Pass Value to Next Layer
+4.  On Final Layer find errors and Update Weights of previous layers
+
+# Activation Function
+### Problem with Machine Learning
+Any Series of matrix multiplication can be condensed down to one matrix multiplication.
+
+Activation Functions are non linear functions that prevent condensing.
+
+
+Must complex data has non linearity
+
+---
+# Activation Functions)
+
+---
+# Sigmoid
+Takes some number and squashes it between 0 and 1.
+0 means no fire
+1 means fire
+* problems
+    * causes vanishing gradient (makes no data fill fire)
+    * causes exploding gradients(makes all data fire)
+
+---
+# TanH
+* Squashes the number between 1 and -1 
+* Easier to train than Sigmoid but also has the vanishing gradient problem
+
+---
+# ReLU (Rectified Linear Unit)
+* Popular 
+* Simple 
+* Fast
+* Rules
+  * Linear where X is > 0
+  * 0 when X > 0
+* Avoids vanishing gradient problem
+* Simple but has a 6X improvement over Tanh on Imagenet classification.
+* Has many variations
+* **Only used for hidden layers**
+---
+# Leaky ReLU
+* Issue on ReLu negative numbers turn into 0.  A large update can make the neuron die.  No activation.
+* Leaky ReLU introduces a small slope to keep the update alive
+  ![full](https://microshak.github.io/MicroNotes/Images/ML/leakyrelu.png)
+
+---
+
+# SoftMax
+* Squishes values between 0 and 1 like Sigmoid
+* Makes sure all output values sum up to 1
+* **Generally used for Output layers doing classification**
+  ![full](https://microshak.github.io/MicroNotes/Images/ML/softmax.png)
+---
+# Drop Out
+* Drop some data on each training loop which
+  * Prevents over fitting
+  * Encourages all the use of all nodes
+---
+# Loss Functions
+A method of evaluating how well your algorithm models your dataset
+May different types of Loss functions depending on what you are doing
+
+* Mean SQuared Error - Common evaluation takes difference between predictions and data
+* Cross Entropy - tries to minimize the entropy/prevents overfitting
+
+---
+#Optomizer
+While Loss Functions tell you how far you are off Optomizers tell you how to reduce errors.
+  ![full](https://microshak.github.io/MicroNotes/Images/ML/problomaticOptomizer.gif)
+
+Different way of surveying the land and pushing through local issues.
+
+---
+
+# Matrices
+If there is a lot of 0s in your data then it is **Sparse**.
+
+Else it is **Dense**
 
 
 
 
-TODO 
-PCA
-https://medium.com/sfu-big-data/principal-component-analysis-deciphered-79968b47d46c
 
 
-
-Notes:
-[A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100.pdf)
-
-
-
-
-# Flask
-
-
-
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4956263157365556/3053734569209167/3458139474939947/latest.html
-
-
-# Linear regression
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8212401599125843/1970242992222722/2169675290918992/latest.html
-
-
+---
+# Learn More
+* [ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/)
+* Ean Goodfellow's [Book](https://www.deeplearningbook.org)
+* Siraj Raval [Channel](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
+* Andrew NG [Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-US&campaignid=685340575&adgroupid=32639001341&device=c&keyword=coursera%20machine%20learning%20course&matchtype=b&network=g&devicemodel=&adpostion=1t1&creativeid=243289762778&hide_mobile_promo&gclid=Cj0KCQjww47nBRDlARIsAEJ34bk0cRqeO-zp-6v__lKcxMmY55uKAJQveZWzwerrUfMShH_6yWto_SUaAlxrEALw_wcB)
