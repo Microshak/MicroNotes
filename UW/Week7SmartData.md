@@ -11,6 +11,8 @@
 * Binary Classifiers
     * Logistic Regression
     * Decision Trees
+    * Simple Artificial Neural Networks
+
 
 ---
 
@@ -24,9 +26,16 @@ Logistic Regression
 # Classifiers
 * **Binary Classifiers**
 * Multi-class Classifiers
-* ~~Time Series~~
-* ~~Vision~~
-* ~~Speech~~
+
+
+
+
+**Classifiers work on**
+* Data
+* Images
+* Sound
+* Video
+
 
 ---
 # Binary Classifiers
@@ -93,7 +102,7 @@ Logistic Regression
 
 
 ```math
-Precision = TP/(TP-FP)
+Precision = TP/(TP+FP)
 ```
 
 ---
@@ -111,7 +120,7 @@ Recall = TP/(TP+FN)
 
 
 
-# When to use Accuracy vs Persission and Recall
+# When to use Accuracy vs Precision and Recall
 
 Accuracy bad in unbalanced datasets.
 
@@ -129,10 +138,10 @@ Event Rate= 2 %
 
 ---
 
-# Should I use precision or recall?
+# Should I use Precision or Recall?
 
-* F1 score waited permission vs recall equally
-* F1 score is the harmonic average of permission and recall
+* F1 score waited Precision vs Recall equally
+* F1 score is the harmonic average of Precision and Recall
 * 1 is best
 * 0 is worst
 
@@ -158,9 +167,8 @@ Predicted label and true label
         * Judging the results
 ---
 # In this section
-* 
 * Decision Trees
-* Decision Forrest
+* Random Forrest
 * Roc Curves/AUC
 
 ---
@@ -247,12 +255,11 @@ Specificity =  False Positive Rate
 ---
 # History of Machile Learning
 
-1950 - Touring Test
-1951 - First AI Program
-1955 - First AI Game play created
-1958 - first [Preceptron](https://en.wikipedia.org/wiki/Perceptron) and Activation 
+* 1950 - Touring Test
+* 1951 - First AI Program
+* 1955 - First AI Game play created
+* 1958 - first [Preceptron](https://en.wikipedia.org/wiki/Perceptron) and Activation 
 
----
 
 
 ---
@@ -260,17 +267,17 @@ Specificity =  False Positive Rate
 ### Artificial Neural Networks are roughly based on our brains Neural Network.
 * Multi Node are interconnected
 * Signals can pass through these nodes
-* Has a hiarchical structrue
+* Has a hierarchical structure
 * When we model rules on computers we get similar results to humans
 ---
-![full](https://microshak.github.io/MicroNotes/Images/ML/Neuronanimation.png)
+![full](https://microshak.github.io/MicroNotes/Images/ML/Neuronanimation.gif)
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/ML/simple.gif)
 ---
-![full](https://microshak.github.io/MicroNotes/Images/ML/neural_network.png)
+![left](https://microshak.github.io/MicroNotes/Images/ML/neural_network.png)
 ---
-![full](https://microshak.github.io/MicroNotes/Images/ML/Mark_1_preceptron.jpeg)
+![left](https://microshak.github.io/MicroNotes/Images/ML/Mark_I_perceptron.jpeg)
 ---
 #### RULES
 1. Start off with a Perceptron having random weights and a training set
@@ -285,6 +292,8 @@ Specificity =  False Positive Rate
 3.  Pass Value to Next Layer
 4.  On Final Layer find errors and Update Weights of previous layers
 
+---
+
 # Activation Function
 ### Problem with Machine Learning
 Any Series of matrix multiplication can be condensed down to one matrix multiplication.
@@ -295,24 +304,22 @@ Activation Functions are non linear functions that prevent condensing.
 Must complex data has non linearity
 
 ---
-# Activation Functions)
-
----
-# Sigmoid
+# Activation Function  - Sigmoid
 Takes some number and squashes it between 0 and 1.
 0 means no fire
 1 means fire
-* problems
-    * causes vanishing gradient (makes no data fill fire)
-    * causes exploding gradients(makes all data fire)
+
+ **Problems with Sigmoid Functions**
+ 1. Causes vanishing gradient (makes no data fill fire)
+ 2. Causes exploding gradients(makes all data fire)
 
 ---
-# TanH
+# Activation Function  -  TanH
 * Squashes the number between 1 and -1 
 * Easier to train than Sigmoid but also has the vanishing gradient problem
 
 ---
-# ReLU (Rectified Linear Unit)
+# Activation Function  -  ReLU (Rectified Linear Unit)
 * Popular 
 * Simple 
 * Fast
@@ -324,35 +331,38 @@ Takes some number and squashes it between 0 and 1.
 * Has many variations
 * **Only used for hidden layers**
 ---
-# Leaky ReLU
+# Activation Function  -  Leaky ReLU
 * Issue on ReLu negative numbers turn into 0.  A large update can make the neuron die.  No activation.
 * Leaky ReLU introduces a small slope to keep the update alive
   ![full](https://microshak.github.io/MicroNotes/Images/ML/leakyrelu.png)
 
 ---
 
-# SoftMax
+# Activation Function  -  SoftMax
 * Squishes values between 0 and 1 like Sigmoid
 * Makes sure all output values sum up to 1
 * **Generally used for Output layers doing classification**
   ![full](https://microshak.github.io/MicroNotes/Images/ML/softmax.png)
 ---
+
 # Drop Out
 * Drop some data on each training loop which
   * Prevents over fitting
   * Encourages all the use of all nodes
 ---
+
 # Loss Functions
 A method of evaluating how well your algorithm models your dataset
 May different types of Loss functions depending on what you are doing
 
-* Mean SQuared Error - Common evaluation takes difference between predictions and data
-* Cross Entropy - tries to minimize the entropy/prevents overfitting
+* Mean Squared Error - Common evaluation takes difference between predictions and data
+* Cross Entropy - Tries to minimize the entropy/prevents overfitting
 
 ---
-#Optomizer
-While Loss Functions tell you how far you are off Optomizers tell you how to reduce errors.
-  ![full](https://microshak.github.io/MicroNotes/Images/ML/problomaticOptomizer.gif)
+
+#Optimizer
+While Loss Functions tell you how far you are off Optimizer tell you how to reduce errors.
+  ![full](https://microshak.github.io/MicroNotes/Images/ML/problematicOptomizer.gif)
 
 Different way of surveying the land and pushing through local issues.
 
@@ -363,11 +373,20 @@ If there is a lot of 0s in your data then it is **Sparse**.
 
 Else it is **Dense**
 
+---
+# Bonus Excersize
+[Tensorflow Playground](https://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.001&regularizationRate=0&noise=0&networkShape=8,7,7,5,2&seed=0.30542&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=true&xSquared=true&ySquared=true&cosX=false&sinX=true&cosY=false&sinY=true&collectStats=false&problem=classification&initZero=false&hideText=false)
 
+---
 
+# Regularization
+Helps solve overfitting issue by penalizing your loss function by adding a multiple of L1 LASSO or L2 Ridge to weights.
 
-
-
+---
+# Learning Rate
+* Learning rate controls how quickly or slowly a neural network model learns a problem.
+* How to configure the learning rate with sensible defaults, diagnose behavior, and develop a sensitivity analysis.
+* How to further improve performance with learning rate schedules, momentum, and adaptive learning rates.
 ---
 # Learn More
 * [ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/)
