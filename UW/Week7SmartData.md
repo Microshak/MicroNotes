@@ -16,6 +16,8 @@
 
 ---
 
+
+
 # In this Section
 Supervised Learning
 
@@ -62,7 +64,11 @@ Logistic Regression
 * One of the most commonly used algorithms for Binary Classification
 
 ---
+# In Class Excersize
 
+![full](https://microshak.github.io/MicroNotes/Images/Mike/Providence.png)
+
+---
 
 # Algorithm Score
 
