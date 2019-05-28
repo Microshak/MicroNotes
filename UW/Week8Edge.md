@@ -152,10 +152,73 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 * Microsoft IoT Edge
   * Deploy Models
   * Multiplexing
-  * 
-* Edge Compute
-* Fog Compute
-* 
+  * Gateway
+---
+# Demo
+
+
+
+---
+
+# Fog Compute
+
+Fog Computing
+    Fog Computing Consorsium
+    fog1.png
+---
+# Fog Computing
+
+Can trust network
+    Africa
+    Distance
+    Cars
+---
+# DDS
+Distrubuted data service
+
+Open DDS 
+Fast RCP
+---
+Pub Sub
+schema aware
+RTPS
+    Standard transpor
+
+---
+DDS Terms and concepts
+    DDS Global Data Space (cette)
+    everything can subscribe pub sub
+    Each reader or writer have a topic
+    toopics have a datatype
+---
+QoS
+
+dds ROS
+
+---
+Use Cases
+    Self Driving Cars
+    Self Flying Planes
+    Gran Colie Dam
+    Medical Simulators
+
+--- 
+Query topic for only the information
+Low latency push
+---
+
+Hirachys of data buses
+----
+ROS 
+
+https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtlebot-3-running-gazebo-simulation.html
+
+
+---
+# Composit Robots
+;;;dgo with arm
+---
+
 
 # Middle Ware
 * AMQP
@@ -193,6 +256,9 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 * File Transfer
 
 ---
+
+
+
 
 # Message Message Offloading
 * Message Queues
