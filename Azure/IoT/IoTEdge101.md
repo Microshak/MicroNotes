@@ -44,20 +44,22 @@ sudo iotedge list
 ```
 
 
----  
+---
+
 #Creating a Edge Module
 1. Open VS Code
 2. Install IoT Hub Extension
 3. Put in the IoT Hub Connection String
 4. Ctl+shift+P 
-5. ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/NewEdge.png)
-
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/NewEdge.png)
 
 ---
 
+
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/EdgeHub2.png)
 
---- 
+---
+
 
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge3.png)
 

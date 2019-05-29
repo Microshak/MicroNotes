@@ -28,16 +28,6 @@
 * Spark ODBC
 * Web Offloading Using IndexedDB
 
-# IndexedDB
-* Key Value Pari Database
-* Supports Transactions
-* Async'ish
-* Uses DOM event to notify when results are available
-* Object oriented
-* No SQL Language
-* Uses same-origin policy
-* [Simple Example](https://github.com/Microshak/IndexedDB)
----
 
 --------------------
 # Data driven organization

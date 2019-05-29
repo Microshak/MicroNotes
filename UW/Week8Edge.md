@@ -22,7 +22,7 @@ A representation of things that are connected
 It has:
 * Vertexes
 * Edges
-
+* Algorithms are inherently recursive 
 ---
 # What is Graph
 
@@ -56,7 +56,6 @@ The edges and nodes can have properties
 * Can map **Network flow** showing where there are missing node
 
 ---
-
 # Assumptions
 * Edges not random
 
@@ -97,9 +96,8 @@ Examples
 
 ---
 
-
 # Spark Graph Frames
-* Problem with Graph Databases
+* Graph Databases
     * Easy to use
     * Don't support complex operations
 * Graph Frames  
@@ -107,8 +105,13 @@ Examples
     * Can use Spark Graph QL
     * Can use graph algorithms
 
-# Graph X
+---
+
+# GraphX
    * Only supported in Java/Scala
+   * Built on top of Spark RDD
+
+[tutorial](http://ampcamp.berkeley.edu/big-data-mini-course/graph-analytics-with-graphx.html)
 
 ---
 
@@ -116,7 +119,7 @@ Examples
 # Spark Graph Frames
 * Large more than one machine
 * Parralizable
-* Integrates with Graphx
+* Integrates with GraphX
 * Fault tolerant
 * Integrates with data frames, python etc
     
@@ -132,34 +135,53 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 
 [Data and Files](https://github.com/Microshak/Databricks/tree/master/Graph)
 
+---
 
-----
 # Three Things to Remember
 * You can analyze data in different ways using Graph techniques
 * You can segment your data in different ways
 * Graph algorithms can be time consuming
 
-----
+---
 # This section IoT On The Edge
 * Microsoft IoT Edge
   * Deploy Models
   * Multiplexing
   * Gateway
 ---
-
-
-
-# Demo
-[Demo](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/IoT/IoTEdge101)
-
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge.png)
+# Data on the Cloud
+* Devices can have connectivity issues
+* The cloud is expensive
+* Networks can bottleneck
+* Compute on the Edge can be more cost effective
 
 
 ---
+# Device Updating
+* Complex and High Risk for devices (Bricked Devices)
+* Containerization Creates a separation of concerns
+* Containerization leads to Orchestration
+---
+# IoT Edge
+* Docker/Mobi containers
+* Internal Pub/Sub
+* Store and Forward
+* Has [Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules)
 
 
+---
+# [Demo](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/IoT/IoTEdge101)
+
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge.png)
+
+---
+# Three Things to Remember
+* Edge Devices allow you to offload computer and reduce bottlenecks.
+* OTA can be challenging
+* Dockerizing allows for greater control
 
 
+---
 # Fog Compute
 
 Fog Computing
@@ -181,9 +203,9 @@ Fog Computing
   * Medical Devices
   * Robots     
 ---
-# ROS Demo 
+# Fog Demo 
 
-https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtlebot-3-running-gazebo-simulation.html
+[Getting Started with ROS](http://wiki.ros.org/ROS/StartGuide)
 
 ---
 
@@ -199,7 +221,7 @@ https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtleb
 * Low latency push
 * Hierarchy's of data buses
 * Supports Kuberos and LDAP
-* 
+
 ---
 
 # Alternate Networks
@@ -218,8 +240,24 @@ https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtleb
 
 # Offloading Compute
 * [Android](https://www.tensorflow.org/lite/guide/android)
-* [Web](https://www.tensorflow.org/js)[example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false)
+* [Web](https://www.tensorflow.org/js) [example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false)
 * [Small Device](https://microsoft.github.io/ELL/tutorials/)
 
 ---
-# Offloading Data
+# Offloading Data on Web
+
+# IndexedDB
+* Key Value Pare Database
+* Supports Transactions
+* Async'ish
+* Uses DOM event to notify when results are available
+* Object oriented
+* No SQL Language
+* Uses same-origin policy
+* [Simple Example](https://github.com/Microshak/IndexedDB)
+---
+
+# PWA (Progressive Web Apps)
+* Manifest
+* IndexedDB
+* Service Worker
