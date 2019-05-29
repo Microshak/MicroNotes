@@ -1,42 +1,46 @@
 # This Class
 * Graph in Spark
 * IoT Edge
-* Using the Browser as an edge device
+* Fog
+* Deploy Models to Web/Mobile 
 ---
 
 # Spark Graph
+* Subgraphs
+* Motifs
+* Various Graph Algorithms
+* Spark Graph Frames
+* ~~GraphX~~
 
-
-
-# Graph
-Mathematical representation of things that are connected
 
 ---
 # What is Graph
+A representation of things that are connected
+
+
+![right](https://microshak.github.io/MicroNotes/Images/Graph/nodesedges.gif)
 It has:
 * Vertexes
 * Edges
 
-
-
-
-![right](https://microshak.github.io/MicroNotes/Images/Graph/nodesedges.gif)
 ---
 # What is Graph
 
 It can represent real world things
-![right](https://microshak.github.io/MicroNotes/Images/Graph/Basic.png)
-
+![full](https://microshak.github.io/MicroNotes/Images/Graph/Basic.png)
+---
 # What is a Graph
 It can be directed or not directed
-![right](https://microshak.github.io/MicroNotes/Images/Graph/directedgraph.png)
+![full](https://microshak.github.io/MicroNotes/Images/Graph/directedgraph.png)
 
 ---
 # What is Graph
 
 The edges and nodes can have properties
-![right](https://microshak.github.io/MicroNotes/Images/Graph/propertygraph.png)
+![full](https://microshak.github.io/MicroNotes/Images/Graph/propertygraph.png)
+
 ---
+
 # Why use graphs
 * Labeled data is often unavailable to you.
 * Can help you find **influence**
@@ -44,8 +48,8 @@ The edges and nodes can have properties
 * Can help you find **homophily** (birds of a feather stick together)
 * Can help you find **communities**
   * Fraud rings
-  * 
-* Can help find pair-wise relatationship between objects
+  * Overloaded Edges
+* Can help find pair-wise relationships between objects
 * Can help you find **Path and Search**
 * Can show **Importance** 
 * Show **Decomposition**
@@ -54,7 +58,7 @@ The edges and nodes can have properties
 ---
 
 # Assumptions
-Edges not random
+* Edges not random
 
 
 ---
@@ -76,35 +80,20 @@ Examples
 
 
 ---
-# Understand community Algorithms
-tranglel
-clustering coefficent
+# Terminology
 
-used to understand your community in general
-
-6 degrees of keven bacon example of a small world structure
-estimating stability (things that are stuck together)
-wholes in graph
-used to score how tighly a node is (used for ML) (example spam classification)
-
-
-https://www.youtube.com/watch?v=MTnozZ5Cy0E
-
---- 
-Tringle count: The count of traingles passing through a node in a graph
-Clustering coeeficent: is the probabliity that a neighbors of a particular node are connected to eachother
-
+* **Graph** — A data structure G = (V, E) where V and E are a set of vertices and edges.
+* **Vertex** — Represents a single entity such as a person or an object (e.g., a username on a social network).
+* **Edge** — Represents a relationship between two vertices (e.g., are these two vertices friends on a social network?).
+* **Directed Graph vs. Undirected Graph** — Denotes whether the relationship represented by edges is symmetric or not (e.g., Twitter user A can follow user B but B might not follow A).
 
 ---
 
-**Graph** — A data structure G = (V, E) where V and E are a set of vertices and edges.
-**Vertex** — Represents a single entity such as a person or an object (e.g., a username on a social network).
-**Edge** — Represents a relationship between two vertices (e.g., are these two vertices friends on a social network?).
-**Directed Graph vs. Undirected Graph** — Denotes whether the relationship represented by edges is symmetric or not (e.g., Twitter user A can follow user B but B might not follow A).
-**Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
-**Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
-**Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.
-**Shortest Path** — The fewest number of edges required to travel between two specific vertices.
+#Terminology
+* **Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
+* **Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
+* **Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.
+* **Shortest Path** — The fewest number of edges required to travel between two specific vertices.
 
 ---
 
@@ -117,35 +106,38 @@ Clustering coeeficent: is the probabliity that a neighbors of a particular node 
     * Can use a Spark SQL
     * Can use Spark Graph QL
     * Can use graph algorithms
----
+
 # Graph X
-    * Only supported in Java/Scala
+   * Only supported in Java/Scala
 
-
+---
 
 
 # Spark Graph Frames
-* lage more than one machine
-* parralizable
-* Intergrates with Graphx
+* Large more than one machine
+* Parralizable
+* Integrates with Graphx
 * Fault tolerant
-* Intergrates with data frames, python etc
+* Integrates with data frames, python etc
     
 ---
 # Graph Motif Queries
 ```py
 graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 ```
-![right](https://microshak.github.io/MicroNotes/Images/Graph/motif.gif)
+![right](https://microshak.github.io/MicroNotes/Images/Graph/motif.png)
 
+---
+# Demo
 
-
-
+[Data and Files](https://github.com/Microshak/Databricks/tree/master/Graph)
 
 
 ----
 # Three Things to Remember
-
+* You can analyze data in different ways using Graph techniques
+* You can segment your data in different ways
+* Graph algorithms can be time consuming
 
 ----
 # This section IoT On The Edge
@@ -154,89 +146,60 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
   * Multiplexing
   * Gateway
 ---
-# Demo
 
+
+
+# Demo
+[Demo](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/IoT/IoTEdge101)
+
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge.png)
 
 
 ---
+
+
+
 
 # Fog Compute
 
 Fog Computing
-    Fog Computing Consorsium
-    fog1.png
+    Fog Computing Consortium
+![full](https://microshak.github.io/MicroNotes/Images/Edge/fog1.png)
+    
 ---
-# Fog Computing
-
-Can trust network
-    Africa
-    Distance
-    Cars
+# Why use Fog
+* Can't trust internet
+  * Restricted Factories
+  * Secure Facilities
+* Internet connectivity
+  * Remote Locations
+  * Mobile Centers
+  * Planes
+* Speed/Amount of data 
+  * Cars
+  * Plains
+  * Medical Devices
+  * Robots     
 ---
-# DDS
-Distrubuted data service
-
-Open DDS 
-Fast RCP
----
-Pub Sub
-schema aware
-RTPS
-    Standard transpor
-
----
-DDS Terms and concepts
-    DDS Global Data Space (cette)
-    everything can subscribe pub sub
-    Each reader or writer have a topic
-    toopics have a datatype
----
-QoS
-
-dds ROS
-
----
-Use Cases
-    Self Driving Cars
-    Self Flying Planes
-    Gran Colie Dam
-    Medical Simulators
-
---- 
-Query topic for only the information
-Low latency push
----
-
-Hirachys of data buses
-----
-ROS 
+# ROS Demo 
 
 https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtlebot-3-running-gazebo-simulation.html
 
-
----
-# Composit Robots
-;;;dgo with arm
 ---
 
+# DDS (Distributed data service)
 
-# Middle Ware
-* AMQP
-* MQTT
-* DDS
-  * QoS
-  * Fast-RTPS
-    * Kuberos
-    * LDAP
-
-
-
----
-# Metered or constrained network
-* Edge Processing
-* Fog Processing
-* Pattern Matching
-* Querable 
+* Pub Sub
+* Schema Aware
+* Standard transport (RTPS)
+* Global Data Space
+* Each reader or writer have a topic
+* **QoS**
+* Query topic for only the information
+* Low latency push
+* Hierarchy's of data buses
+* Supports Kuberos and LDAP
+* 
 ---
 
 # Alternate Networks
@@ -246,23 +209,12 @@ https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtleb
 * Zigbee (low power mesh)
 ---
 
-![full](https://microshak.github.io/MicroNotes/Images/BigData/edge.png)
-
-
----
-# Intermittent network
-* Store and Forward
-* Sneaker Net
-* File Transfer
-
----
-
-
-
-
 # Message Message Offloading
 * Message Queues
+* IoT Hub
 
+
+---
 
 # Offloading Compute
 * [Android](https://www.tensorflow.org/lite/guide/android)
@@ -270,3 +222,4 @@ https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtleb
 * [Small Device](https://microsoft.github.io/ELL/tutorials/)
 
 ---
+# Offloading Data
