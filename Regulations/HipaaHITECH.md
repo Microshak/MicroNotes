@@ -7,15 +7,16 @@ Must Implement a [BAA](https://www.hipaajournal.com/azure-hipaa-compliant/) with
 # Cosmos DB 
 * Access
   * Service Endpoint [VNET](https://datica.com/academy/azure-cosmos-db-guide-how-to-configure-cosmos-db-to-comply-with-hipaa-and-hitrust/)
-  * Resource Based [Tokens](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
- * Audit Logs
-   * [Audit Logs](https://docs.microsoft.com/en-us/azure/cosmos-db/logging)
+  * Resource Based [Tokens](https://docs.microsoft.com/en-us/azure/cosmos-db/
+  * [Audit Logs](https://docs.microsoft.com/en-us/azure/cosmos-db/logging)
+* Logging and Monitoring
+  * Azure Monitor
+  * Log Analytics
+  * Azure Sentinel
+
 
 ---
 
-# Logging and Monitoring
-Monitor
-Log Analytics
 
 
 # Use Best Practices
@@ -24,4 +25,4 @@ Log Analytics
 * [Deploy MFA](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted)
 * Track [risky sign ons] (https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/enable)
 * User Roll based access control
-* Audit Users privledges
+* Audit Users privileges
