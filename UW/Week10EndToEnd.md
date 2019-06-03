@@ -1,16 +1,5 @@
 
 
-# Security
-* [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
-
-
-
-
-[GDPR]()
-[CCPA]()
-[HIPAA]()
-[HITECH]()
-
 
 
 

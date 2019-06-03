@@ -68,7 +68,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
   * Advanced Analytics
   * Reporting
   * Decision Support Systems
-* 
+
 ---
 
 # Collaboration Tools
@@ -102,7 +102,8 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * Stashing
 * Cloning
 * Diff
-(Cheat Sheet)[https://education.github.com/git-cheat-sheet-education.pdf]
+
+[Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ---
 
@@ -110,14 +111,6 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 [Git 101](https://microshak.github.io/MicroNotes/Notes.html?path=DevTools/Git)
 
----
-
-# Methodologies
-* Waterfall
-* Agile
-* Lean
-* Kanban
-* Lean Start-Up
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/sdlc.jpg)
@@ -166,6 +159,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 10. Simplicity—the art of maximizing the amount of work not done—is essential
 11. Best architectures, requirements, and designs emerge from self-organizing teams
 12. Regularly, the team reflects on how to become more effective, and adjusts accordingly
+
 ```
 ---
 # Scrum
@@ -225,7 +219,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
   * Improve
   * Structure how they are going to work together
 * Numerous tools exist to help collaboration
-
+* Most modern project methodologies involve improvement
 
 ---
 # This Section
@@ -268,19 +262,54 @@ Continuous Integration/Continuous Delivery
   * Incremental
 
 ---
+# ETL
+Tradition approach
 
+* Database -> Cron Job -> Data Warehouse
+* FTP Server -> Cron Job -> Database
+* Database -> Cron Job -> Data Lake
+* Data Lake -> Cron Job -> Data Lake
 
+---
+# Problems
+* Failures
+    * Retrys
+    * Alerting
+* Monitoring
+    * Last Successful run
+    * Current Status
+    * Error Condition
+* Scalability
+* Re-run Failed Jobs
 
+---
+* Traditional Big Data Approaches
+    * [Nifi](https://nifi.apache.org/docs/nifi-docs/html/getting-started.html#i-started-nifi-now-what)
+    * Airflow
+* Serverless
+    * Logic Apps
+    * Function Apps
+
+---
 # Security
 * [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
-* [Security](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
-
+* [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
+* [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
+* [Security Onion](https://securityonion.net/)
+ security information and event management (SIEM) 
 ---
 # Regulatory Compliance
 * [CCPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/CCPA)
 * [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
 * [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
 ---
+# Web Frameworks
+* Angular
+* ReactJS
+* Vue
+* Bootstrap
+
+
 
 # Custom Dashboards
 * [Plotly](https://plot.ly/#/)
@@ -313,42 +342,44 @@ Continuous Integration/Continuous Delivery
 
 
 ---
-# ETL Design
-* Assume Failure
-* Be Transparent (Dashboard Success and Failure)
-* 
+# This section
+* ML Lifecycle
+* ML Flow
+
 
 
 ---
-ML Flow
-3 major components
-Tracking
-Models
-Projects
+# ML Lifecycle
+* Raw Data
+* Data Prep
+* Training
+    * Tuning
+    * Frameworks
+    * Methologeis
+* Deploy
+
+---
+#ML Flow
+### 3 major components
+* Tracking
+* Models
+* Projects
 
 --- 
-ML FLOW Tracking
-Rest api for logging outcomes (key value)
-Query (rest api)
-Log artifacts
-    Images
-    Model
+#ML FLOW Tracking
+* Rest api for logging outcomes (key value)
+* Query (rest api)
+* Log artifacts
+  *  Images
+  *  Model
 
 
 ---
-ML Flow Project
--- Run locally
--- Run Cloud
-
+# ML Flow Project
+* Run locally
+* Run Cloud
+* [Docker](https://github.com/Ycallaer/mlflowdocker)
 
 ---
 
 
-# Infrastruction 
-
-
-# Monitoring
-
-# Spark Performance
-
-# Spark security
