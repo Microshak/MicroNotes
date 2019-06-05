@@ -4,7 +4,7 @@ You need to set the docker to run and build on minikube
 $ eval $(minikube docker-env)
 ```
 
---- 
+---
 
 
 
@@ -22,7 +22,7 @@ def hello_world():
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
 ```
-----
+---
 
 # Create a docker file
 ```dockerfile
@@ -49,7 +49,7 @@ docker build -t helloflask .
 # Create a repository
 [Create Repository](https://cloud.docker.com/repository/create)
 
-
+---
 # push local image to repository
 ```sh
 docker login

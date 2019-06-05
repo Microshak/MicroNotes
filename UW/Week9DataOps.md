@@ -74,8 +74,9 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 # Collaboration Tools
 * Git
+* Data Catalog/Data Dictionary
 * Azure Devops
-* [MLFlow](https://microshak.github.io/MicroNotes/Notes.html?path=ML/MLFlow)
+* ML Flow
 ---
 
 # Version Control
@@ -110,13 +111,24 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 # Demo
 
-[Git 101](https://microshak.github.io/MicroNotes/Notes.html?path=DevTools/Git)
+* [Git 101](https://microshak.github.io/MicroNotes/Notes.html?path=DevTools/Git)
+* [MLFlow](https://microshak.github.io/MicroNotes/Notes.html?path=ML/MLFlow)
+* [Data Catalog](https://azure.microsoft.com/en-us/services/data-catalog/)
+* Azure Devops
+---
+# 3 Things to Remember
+* Making a Data product is challenging
+* Tools can help with challenges
+* If you find yourself repeating the same task or making the same mistakes over and over again look for a solution
 
 ---
+
 
 ![full](https://microshak.github.io/MicroNotes/Images/sdlc.jpg)
 
 ---
+
+
 
 # Methodologies
 * Waterfall
@@ -264,6 +276,7 @@ Continuous Integration/Continuous Delivery
 
 ---
 # ETL
+
 Tradition approach
 
 * Database -> Cron Job -> Data Warehouse
@@ -274,7 +287,7 @@ Tradition approach
 ---
 # Problems
 * Failures
-    * Retrys
+    * Retry
     * Alerting
 * Monitoring
     * Last Successful run
@@ -314,7 +327,7 @@ Tradition approach
 
 ---
 # Custom Dashboards
-* [Plotly](https://plot.ly/#/)
+* [Plotly](https://plot.ly/organize/home)
 * [Dash](https://dash.plot.ly/) 
   * [Industrial](https://dash-gallery.plotly.host/dash-oil-and-gas/)
   * [Discovery](https://dash-gallery.plotly.host/dash-object-detection/)
@@ -341,5 +354,7 @@ Tradition approach
 
 
 ---
+
+
 
 
