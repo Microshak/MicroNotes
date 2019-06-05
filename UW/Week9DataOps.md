@@ -47,6 +47,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * Learn from errors
 * Fail Fast
 * Innovate
+* Eliminate Data Deserts
 
 ---
 
@@ -74,7 +75,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 # Collaboration Tools
 * Git
 * Azure Devops
- 
+* [MLFlow](https://microshak.github.io/MicroNotes/Notes.html?path=ML/MLFlow)
 ---
 
 # Version Control
@@ -296,13 +297,14 @@ Tradition approach
 * [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
 * [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
 * [Security Onion](https://securityonion.net/)
- security information and event management (SIEM) 
+*  Security information and event management (SIEM) 
 ---
 # Regulatory Compliance
 * [CCPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/CCPA)
 * [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
 * [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
 ---
+
 # Web Frameworks
 * Angular
 * ReactJS
@@ -310,7 +312,7 @@ Tradition approach
 * Bootstrap
 
 
-
+---
 # Custom Dashboards
 * [Plotly](https://plot.ly/#/)
 * [Dash](https://dash.plot.ly/) 
@@ -332,53 +334,11 @@ Tradition approach
    *  [STL Loader](https://threejs.org/examples/#webgl_loader_stl)
 * [Madeline](https://github.com/JinJunho/Madeleine.js/)
 * [Thingaverse](https://www.thingiverse.com/)
-
-
-
 ---
-
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/Lifecycle.png)
 
 
----
-# This section
-* ML Lifecycle
-* ML Flow
-
-
-
----
-# ML Lifecycle
-* Raw Data
-* Data Prep
-* Training
-    * Tuning
-    * Frameworks
-    * Methologeis
-* Deploy
-
----
-#ML Flow
-### 3 major components
-* Tracking
-* Models
-* Projects
-
---- 
-#ML FLOW Tracking
-* Rest api for logging outcomes (key value)
-* Query (rest api)
-* Log artifacts
-  *  Images
-  *  Model
-
-
----
-# ML Flow Project
-* Run locally
-* Run Cloud
-* [Docker](https://github.com/Ycallaer/mlflowdocker)
 
 ---
 
