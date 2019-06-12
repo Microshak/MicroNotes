@@ -1,76 +1,147 @@
+# Big Data 230 Week 10 
 
-
-# Web Offloading Options
-* Spark ODBC
-* Web Offloading Using IndexedDB
-
-# Digital transformation
-
-# Misconception about bigdata
- Need big apperatus
- Need $$$$$$
-
- Can make use of data within the organization
- Reliant on a platform
-
- ----
- # Easy Data
- SSIS
- Python
- Data Factory
-
- ---
-# Unsilo data--------------------
-# Data driven organization
-* how to implement data
-    *
-Data Catalog
-    Data Dictory
-        Wiki 
-        Mark Down
+## Presentations and Wrap up
 ---
-#Dark Data - 
-    Email 
-    Time Metrics
-    cross app
+# Announcements
+
+
+(1)    End-of-course – about your course specifically
+
+(2)    End-of-program – about the Big Data program as a whole
 
 ---
-# Add Value to Dark Data
-Gamificaation
-    Ranking
-    Leader boards
-    Certs
-Data Feedback
 
-----
+# Presentations
 
-# Low entry Costs
-Continueous emprove
-
-
-# Bring down Total cost of ownership
-
-
-# Reduce time to market
-Docker
-Kubernetes 
-Agility + Speed
 
 ---
-Life Cycle
-
-----
-
-
-# Dramatically upscale ll
-
-
-----
-Apple pi
+# Course Recap
+### Class 1 - Introduction to Big Data
+* Hortonworks
+* Spark
+  * Scala
+  * Zephlin Notebooks
+  * RDDs
+  * DataFrames
+* Ambari
+* HDFS
+* Graph
 
 ---
-# Block Chain
+### Class 2 - Building the data pipeline
+* Spark
+  * Stream Processing Semantics
+  * Performance Tuning
+* Kafka
+* Flink
+* Data formats
+  * Parquet
+  * Avro
+* Nifi
+* Scalablity
+* Architectures
+  * Lambda
+  * Kappa
 
-# Tangle
-https://github.com/iotaledger/iota.lib.py
 
+---
+
+# Class Recap
+### Internet of Things
+
+* IoT Hub
+* Streaming Analytics
+* Cosmos DB
+* Blob Storage
+---
+# Class 2 
+
+### Containers
+
+* Docker for Big Data
+* Docker Compose
+* Kubernetes
+---
+# Class 3
+### Data Stores
+
+* SQL
+* NoSQL
+* Data Warehousing
+* Graph DB
+
+---
+# Class 4
+* Fast Data
+* Redis
+* Confluent Kafka
+---
+# Class 5
+### Data Analysis
+
+* Data Bricks
+* Delta lake
+* Cleansing Data
+* Data Theory
+* Data Analysis
+---
+# Class 6
+### Value from Data
+
+* Sampling
+* Anomaly Detection
+* Feature Engineering with time series data
+---
+# Class 7
+### Smart Data
+
+* Binary Classifiers
+* Model Accuracy
+* Artificial Neural Nets
+---
+# Class 8
+### Edge
+
+* GraphFrames in Spark
+* IoT Edge
+* Fog Computing
+* Offloading workloads to Edge
+---
+
+# Class 9
+### DataOps
+
+* Data Ops
+* Collaboration Tools
+* Methodologies
+* Processes
+* ML Flow
+
+---
+
+
+# Security
+* [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
+* [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
+* [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
+* [Security Onion](https://securityonion.net/)
+*  Security information and event management (SIEM) 
+---
+# Regulatory Compliance
+* [CCPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/CCPA)
+* [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
+* [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
+
+
+---
+# Course Wrap-up
+
+### Misconceptions about Bigdata
+ * Big Data is Complex
+ * Big Data is Expensive
+ * Big Data little ROI
+---
+# 3 things to take away
+* Big data can be manageable
+* Big data can scale to meet the needs of an organization
+* Big Data can add meaningful data to an organization

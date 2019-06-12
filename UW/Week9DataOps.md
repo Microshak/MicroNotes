@@ -305,18 +305,7 @@ Tradition approach
     * Function Apps
 
 ---
-# Security
-* [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
-* [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
-* [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
-* [Security Onion](https://securityonion.net/)
-*  Security information and event management (SIEM) 
----
-# Regulatory Compliance
-* [CCPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/CCPA)
-* [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
-* [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
----
+
 
 # Web Frameworks
 * Angular
