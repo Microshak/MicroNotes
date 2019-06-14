@@ -5,6 +5,12 @@ minikube start
 kubectl get nodes
 kubectl get events
 kubectl get all
+
+---
+# Dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
+
+
 kubectl dashboard
 
 
