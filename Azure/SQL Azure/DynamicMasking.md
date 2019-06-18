@@ -1,3 +1,5 @@
+```sql
+
 CREATE USER Manager WITHOUT LOGIN;  
 
 -------------------
@@ -51,3 +53,4 @@ DROP TABLE Sales;
 
 
  
+```
