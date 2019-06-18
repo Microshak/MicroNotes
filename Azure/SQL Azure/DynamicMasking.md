@@ -31,8 +31,16 @@ GRANT SELECT ON Sales TO Manager;
 EXECUTE AS USER = 'Manager';  
 SELECT * FROM Sales;
 REVERT;  
-  
+
+GRANT UNMASK to Manager
+
+
+EXECUTE AS USER = 'Manager';  
 SELECT * FROM Sales;
+REVERT;  
+
+
+
   
 ---
 
@@ -43,5 +51,3 @@ DROP TABLE Sales;
 
 
  
-
-
