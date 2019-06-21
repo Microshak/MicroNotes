@@ -14,9 +14,19 @@
 * Currently at IoT and AI Lab  
 
 ---
+Survey
 
+[survey](https://docs.google.com/forms/d/e/1FAIpQLSf7F7VnMXXWwupU_KpE7_2y-RM4RDhmsbl1qxzRrp0pZyxZPA/viewform?usp=sf_link)
+Other Technologies:
+* Flink
+* Flume
+* Iota
+* BlockChain
+* Edgent
+* 
+---
 #Final Project
-* The final project will be due on the last class (June 6th)
+* The final project will be due on the last class 
 * The project will consist of a proposal, a presentation and a project write up including code
 * The project proposal will be due May 2nd
 
