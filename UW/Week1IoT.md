@@ -14,21 +14,20 @@
 * Currently at IoT and AI Lab  
 
 ---
-Survey
+3 Survey
 
 [survey](https://docs.google.com/forms/d/e/1FAIpQLSf7F7VnMXXWwupU_KpE7_2y-RM4RDhmsbl1qxzRrp0pZyxZPA/viewform?usp=sf_link)
+
 Other Technologies:
 * Flink
 * Flume
 * Iota
-* BlockChain
-* Edgent
-* 
+
 ---
 #Final Project
 * The final project will be due on the last class 
 * The project will consist of a proposal, a presentation and a project write up including code
-* The project proposal will be due May 2nd
+* The project proposal will be due July 24th
 
 ---
 
@@ -52,10 +51,6 @@ Other Technologies:
 *  Work with End to End 
 
 
-```sh
- python3 ~/Source/webminer_indeed/indeedminer.py --term="big data" --l="Seattle, WA" --type="as_ttl" --pages="6"
-
-```
 
 ---
 
@@ -75,6 +70,30 @@ Other Technologies:
 ---
 
 ![Full](https://microshak.github.io/MicroNotes/Images/3-Vs-of-Big-Data.png)
+
+---
+# What is Big Data
+1. Volume
+2. Velocity
+3. Variety
+4. Veracity
+5. Value
+
+---
+# This Quarter
+1. IoT
+2. Containers
+3. High Volume
+4. High Velocity
+5. Veracity
+---
+# This Quarter
+
+6. Value
+7. Smart Data
+8. Edge
+9. Data Ops
+10. Presentations
 
 ---
 

@@ -75,9 +75,3 @@
 * Service Bus
 * Blob Storage
 
----
-
-# IoT Topic
-#
-
-

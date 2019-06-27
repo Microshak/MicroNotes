@@ -13,7 +13,7 @@
 
 # Kappa
 
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Kappa.png)
+![Left](https://microshak.github.io/MicroNotes/Images/IoTRef/Kappa.png)
 
 ---
 # Microservices
@@ -24,7 +24,7 @@
 
 # Big Data
 
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Kafka.png)
+![left](https://microshak.github.io/MicroNotes/Images/IoTRef/Kafka.png)
 
 ---
 
@@ -53,7 +53,7 @@
 
 [![full](https://microshak.github.io/MicroNotes/Images/IoTRef/RealTime.png)](https://azure.microsoft.com/en-us/solutions/architecture/real-time-analytics/)
 
-
+---
 # IoT Issues
 * Transactions vs Telemetry
 *  Limits in Message Volumes
@@ -77,6 +77,7 @@
 
 # OTA Updates
   * Roll back
-  * Modularized Docker
+  * Modularized 
+  * Container Based
 
 
