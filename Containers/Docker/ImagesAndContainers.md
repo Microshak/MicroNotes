@@ -65,7 +65,7 @@ docker run -d -p 5000:5000 helloflask
 # Lets make it better
 
 ```bash
-docker build -t helloflask -v $(pwd):/app .
+docker build -t helloflask .
 docker run -d -p 5000:5000 -v $(pwd):/app helloflask
 ```
 
