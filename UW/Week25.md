@@ -4,7 +4,10 @@
 * [AWS Windows Containers](https://www.theregister.co.uk/2019/06/06/aws_goes_live_with_windows_containers/)
 
 ---
+# 'Reading Material'
+[Data Engineering Podcast ](https://www.dataengineeringpodcast.com/)
 
+---
 # Announcements
 * Help Discussion
 * More Group Activities
