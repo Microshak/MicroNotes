@@ -137,7 +137,7 @@
 
 ---
 
-# Delta Lake (a.k.a Data Bricks Delta)
+# Delta Lake
 * Unified Analytics Platform - Data and AI need to be on the same platform
 * Challenges it Solves
   * Data Quality 

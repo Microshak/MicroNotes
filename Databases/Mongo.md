@@ -1,5 +1,5 @@
 # Setup a DB
-stack.yml
+Create a file called docker-compose.yml
 ```yaml
 version: '3.1'
 
@@ -24,10 +24,11 @@ services:
 ---
 # Start and Run
 ```sh
-docker-compose -f stack.yml up
+docker-compose up
 
 ```
 GOTO http://localhost:8081
+
 OR
 ```
 docker exec -it [☢️️️name of docker️ container️️️️☢] bash
@@ -37,9 +38,16 @@ docker exec -it [☢️️️name of docker️ container️️️️☢] bash
 [Inventory Data](https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/inventory.crud.json)
 
 ---
-# Mongo Crud
+```js
+mongo --username root --password example
+use MikeDB
+ db.createCollection("MikeCollection", { capped : true, size : 280000, max : 1000 } )
+
 ```
-db.inventory.insertOne(
+
+# Mongo Crud
+```mongo
+db.MikeCollection.insertOne(
    { "item" : "canvas",
      "qty" : 100,
      "tags" : ["cotton"],
@@ -50,8 +58,30 @@ db.inventory.insertOne(
 
 Find All
 ```
-myCursor = db.inventory.find( {} )
+myCursor = db.MikeCollection.find( {} )
 ```
+
+
+
+Find All
+```
+myCursor = db.MikeCollection.find( {} )
+```
+
+Find All
+```
+
+ db.MikeCollection.find( {status:"A"} )
+
+```
+Aggregate
+```
+db.MikeCollection.aggregate([    { $match: { status: "A" } },    { $group: { _id: "$item", total: { $sum: "$qty" } } } ])
+
+
+```
+
+
 [Docs](https://docs.mongodb.com/guides/)
 [Cheat Sheet](https://www.opentechguides.com/how-to/article/mongodb/118/mongodb-cheatsheat.html)
 

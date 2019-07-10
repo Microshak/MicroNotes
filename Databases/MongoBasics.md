@@ -23,14 +23,13 @@ db.Employees.find({emp_name:/MOHIT/ });
 * Acid Complient throught [Transactions API](https://docs.mongodb.com/manual/core/transactions/)
 * Support for many languages
 * [Bulk Write](https://docs.mongodb.com/manual/core/write-operations-atomicity/)
-* [Write Isolation](https://docs.mongodb.com/manual/reference/read-concern/)
+* [Write Isolation](https://docs.mongodb.com/manual/core/read-isolation-consistency-recency/)
 * [Write Concerns](https://docs.mongodb.com/manual/reference/write-concern/)
 ---
 
 # Mongo Security
 ## Supports
-* Authentication ([multiple](https://docs.mongodb.com/manual/core/authentication/
-* ))
+* Authentication [multiple](https://docs.mongodb.com/manual/core/authentication/)
 * [Authorization](https://docs.mongodb.com/manual/core/authorization/) (database, collection, set of collections, or the cluster)
 * [Encryption at Rest](https://docs.mongodb.com/manual/core/security-encryption-at-rest/)
 
