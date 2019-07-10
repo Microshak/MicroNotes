@@ -227,6 +227,15 @@ Begin Trans
   * [Tableau Cache](https://kb.tableau.com/articles/issue/Set-Different-Caching-Settings-for-Different-Workbooks)
 * Live
 ---
+# [Amdahl’s Law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+
+* Suppose that:
+    * 80% of your program can be parallelized
+    * 4 machines are used to run your parallel version of 
+the program
+* The speedup you can get according to Amdahl’s law is 2.5 times
+
+---
 # Three things
 * Data is diverse
 * No free lunch
