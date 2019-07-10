@@ -1,8 +1,4 @@
 
-https://blog.yugabyte.com/6-technical-challenges-developing-a-distributed-sql-database/
-
-
-
 # Big Data 230 Data Stores 1
  > Relational Databases are just Microsoft Excel on Steriods. 
  
@@ -13,7 +9,12 @@ https://blog.yugabyte.com/6-technical-challenges-developing-a-distributed-sql-da
 ![full](https://microshak.github.io/MicroNotes/Images/Copernicus.webp)
 
 ---
+![full](https://microshak.github.io/MicroNotes/Images/BigData/Apparent_retrograde_motion.gif)
 
+
+
+
+---
 # History
 ### Originally data was stored on punch cards
 
