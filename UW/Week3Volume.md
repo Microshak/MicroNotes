@@ -2,16 +2,17 @@
 # Big Data 230 Data Stores 1
  > Relational Databases are just Microsoft Excel on Steriods. 
  
- > -Eliot Horowitz co-creater of MongoDB 
+ > -Eliot Horowitz co-creator of MongoDB 
 ---
 # Announcements
 
 * Surveys
 * In class participation
+* [Kafka](https://kafka.apache.org/quickstart)
 ---
 # In this section
 * Data Theory
-  * ACID vs BASE
+
 ---
 # Copernicus 
 
@@ -226,6 +227,19 @@ Begin Trans
   * [Tableau Cache](https://kb.tableau.com/articles/issue/Set-Different-Caching-Settings-for-Different-Workbooks)
 * Live
 ---
+# Three things
+* Data is diverse
+* No free lunch
+* Picking the right tool is half the job
+
+---
+# In Class Participation
+1. When have you used the wrong data store?
+2. What is your favorite/most used store (why)?
+
+
+---
+
 # Reporting Data Warehouse
 
 [Data Warehouse Philosophy](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/DataWarehouseDesign)
