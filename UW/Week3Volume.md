@@ -4,15 +4,21 @@
  
  > -Eliot Horowitz co-creater of MongoDB 
 ---
+# Announcements
+
+* Surveys
+* In class participation
+---
+# In this section
+* Data Theory
+  * ACID vs BASE
+---
 # Copernicus 
 
 ![full](https://microshak.github.io/MicroNotes/Images/Copernicus.webp)
 
 ---
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/Apparent_retrograde_motion.gif)
-
-
-
 
 ---
 # History
@@ -55,7 +61,7 @@ Joe 3   Child
 # Relational Databases
 * Difficult to Maintain and Query
 * Generated ids
-* Had ACID
+* Had ACID compliance
 * Expensive indexes 
 * Difficulty Scaling
 
@@ -89,16 +95,13 @@ Joe 3   Child
 2. No SQL 
 3. Cache
 4. Journal(Kafka, Event Hub) 
-5. Event Grid 
-6. Message Bus
+5. Message Bus
+6. HDFS
 
 ---
 
 # How do We Store The Data
-1. Set
-3. Ordered Set 
 4. Queue
-5. Map
 6. Rows
 7. JSON
 8. Binary
@@ -107,6 +110,20 @@ Joe 3   Child
 11. Protobuf
 12. Relations
 ---
+# Types of data
+
+* Structured Data
+* Unstructured Data
+* Dynamic Data (Rapidly Changing)
+* Static Data
+
+---
+# Why Classify Data
+
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/WhyClassify.png)
+---
+
 
 # What Do We Need to Consider When Choosing a Database
 
@@ -134,7 +151,6 @@ Joe 3   Child
 
 ---
 
-
 # Conceptually Data Stores
 ## Cap Theorem
 1. Consistency
@@ -144,7 +160,7 @@ Joe 3   Child
 ---
 
 ![right](https://microshak.github.io/MicroNotes/Images/Cap.png)
-
+![left](https://microshak.github.io/MicroNotes/Images/BigData/acidvsbase.jpg)
 ---
 # BASE 
 
@@ -191,7 +207,9 @@ Begin Trans
 
 # Disaster Recovery 
 * Recovery point objective ([RPO](https://www.druva.com/blog/understanding-rpo-and-rto/))
+    * Duration of time and a service level within which a business process must be restored 
 * Recovery time objective (RTO)
+  * Describes the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan’s maximum allowable threshold or “tolerance.”
 * Restore Testing
 
 ---
@@ -206,13 +224,11 @@ Begin Trans
   * Data Frames
   * [Azure Analysis Services](https://azure.microsoft.com/en-us/services/analysis-services/)
   * [Tableau Cache](https://kb.tableau.com/articles/issue/Set-Different-Caching-Settings-for-Different-Workbooks)
-* ~~Live~~
+* Live
 ---
 # Reporting Data Warehouse
 
 [Data Warehouse Philosophy](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/DataWarehouseDesign)
-
-
 
 ---
 
@@ -221,7 +237,7 @@ Begin Trans
 [Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SQL+Azure/HorizontalScaling)
 
 * Who Shards?
-  * [Facebook](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)
+  * ~~~[Facebook](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)~~~
   * [Pinterest](https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
 ---
 # SQL Data Warehouse
@@ -259,17 +275,37 @@ Begin Trans
 # CosmosDB
 [Slides](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/CosmosDB)
 
-[Demo](https://value-microshak2.notebooks.azure.com/j/notebooks/DataBricksQuery.ipynb)
+```py
+from datetime import datetime, timedelta, timezone
+import pandas as pd
+from functools import reduce
 
-[Mixed Demo](https://cdn2.hubspot.net/hubfs/438089/notebooks/spark2.0/ML%20persistence%20in%202.0.html)
+from pyspark.sql import *
+starttime =  (datetime.now()-timedelta(hours=2)).strftime("%Y-%m-%d-T%H:00:00:00000Z")
+endtime = (datetime.now()-timedelta(hours=1)).strftime("%Y-%m-%d-T%H:00:00:00000Z")
 
+readConfig = {
+  "Endpoint" : "https://reportingmiker.documents.azure.com:443/",
+  "Masterkey" : "[YOUR KEY HERE]",
+  "Database" : "IoTDB",
+  "preferredRegions" : "Central US;East US2",
+  "Collection" : "Telemetry",
+  "SamplingRatio" : "1.0",
+  "schema_samplesize" : "1000",
+  "query_pagesize" : "2147483647",
+ "query_custom" : "SELECT c.temperature, c.deviceId  FROM c WHERE c.EventProcessedUtcTime >= '" + starttime + "' AND c.EventProcessedUtcTime < '" + endtime + "'"
+
+hourlyData = spark.read.format("com.microsoft.azure.cosmosdb.spark").options(**readConfig).load()
+hourlyData.createOrReplaceTempView("hourly")
+
+}
+```
 ---
 # Mongo DB
 * [Mongo Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/MongoBasics)
 * [Mongo to SQL comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
 * [Geo Spacial Queries](https://docs.mongodb.com/manual/geospatial-queries/) with  [GeoJSON](https://docs.mongodb.com/manual/reference/geojson/)
-
-[Demo](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Mongo)
+* [Demo](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Mongo)
 
 ---
 

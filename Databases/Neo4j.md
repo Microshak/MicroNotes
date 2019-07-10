@@ -56,7 +56,7 @@ docker run \
 ```
 ---
 ---
-```
+```docker
 docker run \
     --name testneo4j \
     -p7474:7474 -p7687:7687 \
