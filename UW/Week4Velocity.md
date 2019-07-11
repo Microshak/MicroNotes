@@ -85,8 +85,8 @@
 ---
 # Kafka
 * [Kafka Basics](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaBasics)
-* [Running Kafka Manually](https://microshak.github.io/MicroNotes/Notes.html?path=/BigData/Kafka/KafkaManually)
 * [Community](http://slackpass.io/confluentcommunity)
+* 
 * Confluent Kafka vs Opensource Kafka [link](https://www.confluent.io/download/)
 
 ---

@@ -165,9 +165,16 @@ Joe 3   Child
 ---
 # BASE 
 
-* **B**acically **A**vailable 
-* **S**oft state
-* **E**ventual Consistent
+* **B**acically **A**vailable: the system guarantees Availability
+* **S**oft state: the state of the system may change over time
+* **E**ventual Consistent: the system will eventually 
+become consistent
+
+---
+# Eventual Consistency
+
+A database is termed as Eventually Consistent if:
+All replicas will gradually become consistent in the absence of updates
 
 ---
 
