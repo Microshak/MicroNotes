@@ -278,19 +278,8 @@ Begin Trans
    
 ---
 
-# Graph Databases
-* Intuitive 
-* Speed
-* Schema Optional
----
 
-# Graph DB Use cases
-* Fraud detection
-* Real-time recommendation engines
-* Master data management (MDM)
-* Network and IT operations
-  
----
+
 
 # Case Study - neo4j
 [ebay](https://www.youtube.com/watch?v=g8DTqguvcwc) - up to 10,000 times faster
@@ -302,6 +291,7 @@ with 10-100 times less code
 
 ---
 # Demo
+* [Intro to Graph](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Graph)
 
 * [Neo4J](https://microshak.github.io/MicroNotes/Notes.html?path=Databases/Neo4j)
 ---
