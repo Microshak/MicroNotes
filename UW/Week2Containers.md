@@ -113,12 +113,12 @@
     * Shared Conda Enviroment
     * Shared Packages
     * Admin Deployment
-
----
-
-# Big Data of k8s
-* Anti-afifinty
-* Easy Deployment ([Kafka](https://github.com/Yolean/kubernetes-kafka))
+s
+---s
+s
+# Big Data of k8ss
+* Anti-afifintys
+* Easy Deployment ([Ksafka](https://github.com/Yolean/kubernetes-kafka))
 * Last mile problem
 
 ---
