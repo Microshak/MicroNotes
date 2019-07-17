@@ -1,3 +1,9 @@
+# Big Data 230 Hi Speed Systems
+
+> From a certain point onward there is no longer any turning back. That is the point that must be reached. 
+> -- Kafka
+
+---
 # Learning to Code
 
 * [Interactive Tutorial Java](https://www.learnjavaonline.org/)
@@ -19,20 +25,34 @@
 
 ---
 
+
+# Podcast
+[Streaming Audio](https://podcasts.apple.com/us/podcast/streaming-audio-a-confluent-podcast-about-apache-kafka/id1401509765)
+* Exactly Once Semantics [Atomic broadcast Problem](https://en.wikipedia.org/wiki/Atomic_broadcast)
+* New with Kafka 2.3 Late Replicas
+* Performance Tuning with TCO
+  * Large Machines vs Small
+  * Compressed Messages
+  * No Partition
+  * Speed Improvements after v.11
+
+---
+
 # Why so fast
 
 >> **The First Law of Data Quality:** 
 >> “Data is either being used or waiting to be used—or wasting storage and support.”
 
 ---
-
+# This Class
+* Fast Systems
+* 
 
 # 4 Types of Velocity
 * Real Time
 * Near Real-Time
 * Batch (micro)
 * Analytical Processing
-
 
 ---
 
@@ -45,8 +65,6 @@
 * Speed System
     * [Craigs List](https://blog.zawodny.com/2011/02/26/redis-sharding-at-craigslist/) use Redis to cashe data to speed up their website.
     * [Stack Exchange](https://meta.stackexchange.com/questions/69164/does-stack-exchange-use-caching-and-if-so-how/69172#69172) speeds up their website with Redis.
-
-
 
 ---
 
@@ -133,6 +151,6 @@
 
 # Slow/Inexpensive Systems
 * Python Dataframes
-* Key/Value Stores
+* [Key/Value Stores](https://github.com/Microshak/IndexedDB)
 * [Juypter Notebooks](https://hub.docker.com/u/jupyter/)
 * [Background program](https://boinc.berkeley.edu/projects.php) 

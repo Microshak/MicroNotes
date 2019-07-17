@@ -19,6 +19,9 @@
 * General Security Recommendations
 
 ---
+[https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/DotNet_Security_Cheat_Sheet.md](Official Cheetsheet)
+
+---
 #Authentication
 
 
