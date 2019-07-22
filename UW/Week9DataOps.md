@@ -260,11 +260,7 @@ Continuous Integration/Continuous Delivery
 * [Terraform](https://www.terraform.io/)
   * [Simple](https://github.com/Microshak/terraform-azure-iot-reference-design-simple)
   * [Complex](https://github.com/Microshak/Terraform-IoTHub-RA)
----
-# Azure Tools
-* Log Analytics
-* Azure Monitor
-* Azure Alerts
+
 
 ---
 # Disaster Recovery - High Availability
