@@ -1,15 +1,16 @@
 # Pre Discussion
+* Feedback
 * Bookending
 * Slower
-* I Do, We Do, You Do
+* More Slides
 
 ---
 # Big Data Engineer VS Data Engineer
-* Data Engineer
+* [Data Engineer](https://www.indeed.com/jobs?q=title%3A%22data%20engineer%22&l=Seattle%2C%20WA&radius=25&vjk=7e1d3d87a81b0b63)
   * SQL Database/Data Warehouse
   * Reporting
   * ML
-* Big Data Engineer
+* [Big Data Engineer](https://www.indeed.com/jobs?as_and&as_phr&as_any&as_not&as_ttl=%22Big%20data%22&as_cmp&jt=all&st&as_src&salary&radius=25&l=Seattle%2C%20WA&fromage=any&limit=10&sort&psf=advsrch&vjk=138089f60e2e3b7d)
   * Java/Scala/Python
   * Apache Products
   * Architecture 
@@ -21,11 +22,21 @@
 
 
 ---
+# Alignment
 * Github
-* Linux
+
+---
+# Linux
+* Why Use Linux
   * Docs
   * Docker
-  * Troubleshooting 
+  * Troubleshooting
+  * Administration 
+* Use Cases
+  * [Kafka Replication Tools](https://cwiki.apache.org/confluence/display/KAFKA/Replication+tools)
+  * [Apache Pulsar](https://pulsar.apache.org/en/download/)
+  * [Hadoop](https://hadoop.apache.org/releases.html)
+--- 
 
 [Data Bricks Community](https://community.cloud.databricks.com/)
 ---
