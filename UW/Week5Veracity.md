@@ -1,7 +1,31 @@
 # Pre Discussion
 * Bookending
+* Slower
 * I Do, We Do, You Do
+
+---
+# Big Data Engineer VS Data Engineer
+* Data Engineer
+  * SQL Database/Data Warehouse
+  * Reporting
+  * ML
+* Big Data Engineer
+  * Java/Scala/Python
+  * Apache Products
+  * Architecture 
+    * ML
+    * API
+    * Monitoring
+  * Collaborating
+  * NoSQL
+
+
+---
 * Github
+* Linux
+  * Docs
+  * Docker
+  * Troubleshooting 
 
 [Data Bricks Community](https://community.cloud.databricks.com/)
 ---
