@@ -25,11 +25,13 @@
 
 ---
 #Authorization
+```
 [Authorize(Users = "admin,jsmith")] 
 public ActionResult AddArticle() 
 { 
  return View(); 
 } 
+```
 ---
 #Anti XSS
 
