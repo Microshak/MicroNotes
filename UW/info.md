@@ -36,10 +36,3 @@ Embed a video: https://docs.microsoft.com/en-us/stream/portal-embed-video
 
 
 ---
-Git Tools
-[Pulsar Tutorial](https://github.com/streamlio/pulsar-java-tutorial)
-[Kafka HDInsights](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming)
-[My IndexDB](https://github.com/Microshak/IndexedDB)
-[My Databricks](https://github.com/Microshak/Databricks)
-
-Homework?

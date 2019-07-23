@@ -3,6 +3,8 @@
 * Bookending
 * Slower
 * More Slides
+* ETL Tools
+* Feedback at the End
 
 ---
 # Big Data Engineer VS Data Engineer
@@ -20,12 +22,15 @@
   * Collaborating
   * NoSQL
 
+---
+# Github
+* [Pulsar Tutorial](https://github.com/streamlio/pulsar-java-tutorial)
+* [Kafka HDInsights](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming)
+* [My IndexDB](https://github.com/Microshak/IndexedDB)
+* [My Databricks](https://github.com/Microshak/Databricks)
 
 ---
-# Alignment
-* Github
 
----
 # Linux
 * Why Use Linux
   * Docs
@@ -36,9 +41,27 @@
   * [Kafka Replication Tools](https://cwiki.apache.org/confluence/display/KAFKA/Replication+tools)
   * [Apache Pulsar](https://pulsar.apache.org/en/download/)
   * [Hadoop](https://hadoop.apache.org/releases.html)
+  * [Casandra](https://cassandra.apache.org/download/)
 --- 
 
+# Databricks
+
 [Data Bricks Community](https://community.cloud.databricks.com/)
+
+---
+# Three Course Series
+* Veracity: Conformity to the facts; Accruacy
+  * Data Collection Design
+* Value
+  * Extracting Insights in Data
+  * Wrangling data
+  * Feature Engineering
+  * Anomaly Detection
+* Smart Data
+  * Decision Trees
+  * Artificial Neural Nets
+  * Tooling
+
 ---
 
 # Big Data 230 Week 5 Veracity 
@@ -86,31 +109,46 @@
 ![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
 
 ---
-# Probabilities (dice)
+# Probabilities 
 ![full](https://microshak.github.io/MicroNotes/Images/ML/Dice.gif)
 
 ---
 
-# Probabilities (dice)
+# Probabilities 
 ![full](https://microshak.github.io/MicroNotes/Images/ML/CompoundProbability.gif)
 
-
 ---
-
 # Distributions
-
 * Spread 
 * Skew
 
 [Distributions Charts](https://seeing-theory.brown.edu/probability-distributions/index.html#section2)
 
-
 ---
-
 # Neural Nets
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/SimpleNet.gif)
 
 ---
+# Bias
+* Design Bias
+* Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
+   * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
+  * [Selection Bias](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
+* Procedural Bias
+* Confirmation Bias
+  * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
+  * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
+* Implicit Bias (I'm Great)
+
+---
+# Probability Examples
+* Winner of the presidential election
+* Probability of Rain
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/election.png)
+
+---
+
 # Predictive Approaches
 * **Frequentist** ([probabilities](https://en.wikipedia.org/wiki/Frequentist_inference))
 * Bayesian (Hypothesis Testing)
@@ -163,6 +201,19 @@
   * Failure Handling
 * Time Travel
 * Transparency
+---
+
+
+# Group Question
+* Answer the question as a group
+* Put copy the question
+* Paste the question in main Window
+
+1. Where have you experienced data bias
+2. Where has analysis made an impact
+3. When have you had low trust in data
+
+
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/taylorswift.jpg)
@@ -277,9 +328,7 @@
 ---
 
 # In This session
-* Bias
 * Root Cause Analysis
-* Probabilities
 * Descriptive Statistics
 * Correlation
 
@@ -291,27 +340,14 @@
 * Discovering the Rooted Truth
 
 ---
-
-# Bias
-* Design Bias
-* Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
-   * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
-  * [Selection Bias](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
-* Procedural Bias
-* Confirmation Bias
-  * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
-  * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
-* Implicit Bias (I'm Great)
-
----
 # Root Cause Analysis
 Looks for Underlying Cause
 1. Problem statement
     1. What
-    1. Where
-    1. When 
-    1. To what Extent
-    1. How Do I know
+    2. Where
+    3. When 
+    4. To what Extent
+    5. How Do I know
 
 2. 5 Whys
    1. Why
@@ -344,4 +380,11 @@ We have Talked about
 * Correlation
 
 
-Google trends can predict an outbreak 2 weeks before the CDC.
+---
+# FeedBack
+* Every Student
+* Chat with Marius
+* Use your microphone
+* What questions do you have?
+* What’s the muddiest point?
+
