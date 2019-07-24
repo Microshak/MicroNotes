@@ -158,9 +158,16 @@ Scenario: Company wants to get into the Internet of Medical Things.  They have a
 
 ---
 # Understanding the Results
+* Results are often the models confidence
+* Machine Learning is Function ***Approximation*** 
+  * It uses scored data sets
+  * It gets close to predicting scored data sets
+* [Sentiment Analysis Example](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
 
-![right](https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/UW-President-Cauce.jpg)
-[Sentiment Analysis](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
+
+![full](https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/UW-President-Cauce.jpg)
+
+
 ---
 
 # Predictive Approaches
