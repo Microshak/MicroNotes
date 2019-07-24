@@ -4,6 +4,7 @@
 * Slower
 * More Slides
 * ETL Tools
+* Help Requests
 * Feedback at the End
 
 ---
@@ -42,11 +43,19 @@
   * [Apache Pulsar](https://pulsar.apache.org/en/download/)
   * [Hadoop](https://hadoop.apache.org/releases.html)
   * [Casandra](https://cassandra.apache.org/download/)
---- 
+---
 
 # Databricks
 
 [Data Bricks Community](https://community.cloud.databricks.com/)
+
+---
+# Group Discussion IoMT
+Scenario: Company wants to get into the Internet of Medical Things.  They have an in home cardiology monitoring solution using a heart monitor connected to a cellphone.  The data is binary but needs to get converted and have algorithms run on it.
+
+1. How to deal with streaming binary cardiology information.  The doctor needs to see real-time streaming data when the patient pushes a button on the device.
+2. Every day the device generates 8 GBs of data.  They patient sends the device back after a week one of a dozen processing centers.  The processing converts the 8gbs a day of binary to 16 gb of searchable medical data. With 10,000 devices the processing centers can't buy a internet pipe big enough to send it to the cloud.  What do they do?
+
 
 ---
 # Three Course Series
@@ -141,12 +150,17 @@
 * Implicit Bias (I'm Great)
 
 ---
-# Probability Examples
+# Our Own Bias
 * Winner of the presidential election
 * Probability of Rain
 
-![full](https://microshak.github.io/MicroNotes/Images/BigData/election.png)
+![full](https://microshak.github.io/MicroNotes/Images/BigData/election.jpg)
 
+---
+# Understanding the Results
+
+![right](https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/UW-President-Cauce.jpg)
+[Sentiment Analysis](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
 ---
 
 # Predictive Approaches
@@ -311,6 +325,12 @@
 
 
 ---
+# Excersize 
+* [Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+* [3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+
+
+---
 # Recap
 * Different Methodologies of Validating Data
 * Charting Tools to Understand Data
@@ -360,8 +380,6 @@ Looks for Underlying Cause
 
 # Descriptive Statistics
 * [Summary Statistics](https://github.com/Microshak/Databricks/tree/master/Veracity)
-* [Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
-* [3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
 
 ---
 
