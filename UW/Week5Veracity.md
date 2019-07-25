@@ -222,17 +222,6 @@ Scenario: Company wants to get into the Internet of Medical Things.  They have a
   * Failure Handling
 * Time Travel
 * Transparency
----
-
-
-# Group Question
-* Answer the question as a group
-* Put copy the question
-* Paste the question in main Window
-
-1. Where have you experienced data bias
-2. Where has analysis made an impact
-3. When have you had low trust in data
 
 
 ---
@@ -280,7 +269,7 @@ Scenario: Company wants to get into the Internet of Medical Things.  They have a
 #Charts show
 
 * Relationship
-* Comparion
+* Comparison
 * Composition
 * Distribution
 
@@ -350,7 +339,7 @@ Scenario: Company wants to get into the Internet of Medical Things.  They have a
 
 1. git clone https://github.com/Microshak/Databricks/tree/master/Veracity
 2. Upload your own data
-3. Run Chart Frequency Exercise
+3. Run Upload data Exercise
 
 ---
 
