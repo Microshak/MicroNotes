@@ -1,15 +1,19 @@
 # Pre Discussion
+* Feedback
 * Bookending
 * Slower
-* I Do, We Do, You Do
+* More Slides
+* ETL Tools
+* Help Requests
+* Feedback at the End
 
 ---
 # Big Data Engineer VS Data Engineer
-* Data Engineer
+* [Data Engineer](https://www.indeed.com/jobs?q=title%3A%22data%20engineer%22&l=Seattle%2C%20WA&radius=25&vjk=7e1d3d87a81b0b63)
   * SQL Database/Data Warehouse
   * Reporting
   * ML
-* Big Data Engineer
+* [Big Data Engineer](https://www.indeed.com/jobs?as_and&as_phr&as_any&as_not&as_ttl=%22Big%20data%22&as_cmp&jt=all&st&as_src&salary&radius=25&l=Seattle%2C%20WA&fromage=any&limit=10&sort&psf=advsrch&vjk=138089f60e2e3b7d)
   * Java/Scala/Python
   * Apache Products
   * Architecture 
@@ -19,15 +23,54 @@
   * Collaborating
   * NoSQL
 
+---
+# Github
+* [Pulsar Tutorial](https://github.com/streamlio/pulsar-java-tutorial)
+* [Kafka HDInsights](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming)
+* [My IndexDB](https://github.com/Microshak/IndexedDB)
+* [My Databricks](https://github.com/Microshak/Databricks)
 
 ---
-* Github
-* Linux
+
+# Linux
+* Why Use Linux
   * Docs
   * Docker
-  * Troubleshooting 
+  * Troubleshooting
+  * Administration 
+* Use Cases
+  * [Kafka Replication Tools](https://cwiki.apache.org/confluence/display/KAFKA/Replication+tools)
+  * [Apache Pulsar](https://pulsar.apache.org/en/download/)
+  * [Hadoop](https://hadoop.apache.org/releases.html)
+  * [Casandra](https://cassandra.apache.org/download/)
+---
+
+# Databricks
 
 [Data Bricks Community](https://community.cloud.databricks.com/)
+
+---
+# Group Discussion IoMT
+Scenario: Company wants to get into the Internet of Medical Things.  They have an in home cardiology monitoring solution using a heart monitor connected to a cellphone.  The data is binary but needs to get converted and have algorithms run on it.
+
+1. How to deal with streaming binary cardiology information.  The doctor needs to see real-time streaming data when the patient pushes a button on the device.
+2. Every day the device generates 8 GBs of data.  They patient sends the device back after a week one of a dozen processing centers.  The processing converts the 8gbs a day of binary to 16 gb of searchable medical data. With 10,000 devices the processing centers can't buy a internet pipe big enough to send it to the cloud.  What do they do?
+
+
+---
+# Three Course Series
+* Veracity: Conformity to the facts; Accruacy
+  * Data Collection Design
+* Value
+  * Extracting Insights in Data
+  * Wrangling data
+  * Feature Engineering
+  * Anomaly Detection
+* Smart Data
+  * Decision Trees
+  * Artificial Neural Nets
+  * Tooling
+
 ---
 
 # Big Data 230 Week 5 Veracity 
@@ -75,31 +118,58 @@
 ![full](https://microshak.github.io/MicroNotes/Images/ML/HeadsOrTails.gif)
 
 ---
-# Probabilities (dice)
+# Probabilities 
 ![full](https://microshak.github.io/MicroNotes/Images/ML/Dice.gif)
 
 ---
 
-# Probabilities (dice)
+# Probabilities 
 ![full](https://microshak.github.io/MicroNotes/Images/ML/CompoundProbability.gif)
 
-
 ---
-
 # Distributions
-
 * Spread 
 * Skew
 
 [Distributions Charts](https://seeing-theory.brown.edu/probability-distributions/index.html#section2)
 
-
 ---
-
 # Neural Nets
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/SimpleNet.gif)
 
 ---
+# Bias
+* Design Bias
+* Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
+   * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
+  * [Selection Bias](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
+* Procedural Bias
+* Confirmation Bias
+  * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
+  * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
+* Implicit Bias (I'm Great)
+
+---
+# Our Own Bias
+* Winner of the presidential election
+* Probability of Rain
+
+![full](https://microshak.github.io/MicroNotes/Images/BigData/election.jpg)
+
+---
+# Understanding the Results
+* Results are often the models confidence
+* Machine Learning is Function ***Approximation*** 
+  * It uses scored data sets
+  * It gets close to predicting scored data sets
+* [Sentiment Analysis Example](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
+
+
+![full](https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/UW-President-Cauce.jpg)
+
+
+---
+
 # Predictive Approaches
 * **Frequentist** ([probabilities](https://en.wikipedia.org/wiki/Frequentist_inference))
 * Bayesian (Hypothesis Testing)
@@ -152,6 +222,8 @@
   * Failure Handling
 * Time Travel
 * Transparency
+
+
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/taylorswift.jpg)
@@ -197,7 +269,7 @@
 #Charts show
 
 * Relationship
-* Comparion
+* Comparison
 * Composition
 * Distribution
 
@@ -249,6 +321,12 @@
 
 
 ---
+# Excersize 
+* [Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+* [3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
+
+
+---
 # Recap
 * Different Methodologies of Validating Data
 * Charting Tools to Understand Data
@@ -261,14 +339,12 @@
 
 1. git clone https://github.com/Microshak/Databricks/tree/master/Veracity
 2. Upload your own data
-3. Run Chart Frequency Exercise
+3. Run Upload data Exercise
 
 ---
 
 # In This session
-* Bias
 * Root Cause Analysis
-* Probabilities
 * Descriptive Statistics
 * Correlation
 
@@ -280,27 +356,14 @@
 * Discovering the Rooted Truth
 
 ---
-
-# Bias
-* Design Bias
-* Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
-   * Example: [Skull Size Research](http://blogs.discovermagazine.com/crux/2018/10/31/morton-skulls-brain-size-controversy/#.XL-orHX0mV4)
-  * [Selection Bias](https://www.math.upenn.edu/~deturck/m170/wk4/lecture/case1.html)
-* Procedural Bias
-* Confirmation Bias
-  * Confirmation bias occurs when a researcher takes the hypothesis that he or she starts out with ("marijuana is beneficial/detrimental") and shapes the study methodology or results to confirms that premise, whether or not it’s actually justified. 
-  * Example: Discovery of [N-Rays](https://www.aps.org/publications/apsnews/200708/history.cfm)
-* Implicit Bias (I'm Great)
-
----
 # Root Cause Analysis
 Looks for Underlying Cause
 1. Problem statement
     1. What
-    1. Where
-    1. When 
-    1. To what Extent
-    1. How Do I know
+    2. Where
+    3. When 
+    4. To what Extent
+    5. How Do I know
 
 2. 5 Whys
    1. Why
@@ -313,8 +376,6 @@ Looks for Underlying Cause
 
 # Descriptive Statistics
 * [Summary Statistics](https://github.com/Microshak/Databricks/tree/master/Veracity)
-* [Frequency Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
-* [3D Charts](https://github.com/Microshak/Databricks/tree/master/Veracity)
 
 ---
 
@@ -333,4 +394,11 @@ We have Talked about
 * Correlation
 
 
-Google trends can predict an outbreak 2 weeks before the CDC.
+---
+# FeedBack
+* Every Student
+* Chat with Marius
+* Use your microphone
+* What questions do you have?
+* What’s the muddiest point?
+
