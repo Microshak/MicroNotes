@@ -8,6 +8,26 @@
 
 
 ---
+# Before Class
+* Bigdata History
+* Nifi
+
+---
+# Big Data History
+* Started at Yahoo to searve adds in a distributed fasion
+* 2004 - MapReduce Framework released
+    -  programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster
+* 2006 - HDFS Apache Project
+    - Distributed File system
+* 2007 -  HBase, an open-source, non-relational, distributed database runs on top of HDFS.
+* 2008 - Pig, MapReduce abstraction layer
+* 2009 - Spark
+* 2010 - Hive
+---
+# Nifi
+[Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi.md)
+
+
 # In this class
 * Sampeling
 * Anomaly Detection

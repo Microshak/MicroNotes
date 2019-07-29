@@ -16,3 +16,10 @@
 * [Chromecast Commercial](https://www.zdnet.com/article/hacker-hijacks-thousands-of-chromecasts-and-smart-tvs-to-play-pewdiepie-ad/)
 * [Data Breaches](https://en.wikipedia.org/wiki/List_of_data_breaches)
 
+---
+
+[Arno.com](https://www.shodan.io/host/50.35.86.255)
+[seank.com](https://www.shodan.io/host/173.236.165.21)
+
+
+[microshak.com](https://www.shodan.io/host/216.239.32.21)
