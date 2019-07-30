@@ -14,22 +14,46 @@
 
 ---
 # Big Data History
-* Started at Yahoo to searve adds in a distributed fasion
-* 2004 - MapReduce Framework released
+* 2004 - Google Published paper on MapReduce 
     -  programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster
-* 2006 - HDFS Apache Project
-    - Distributed File system
-* 2007 -  HBase, an open-source, non-relational, distributed database runs on top of HDFS.
-* 2008 - Pig, MapReduce abstraction layer
+* 2006 - HDFS (Hadoop Distributed File System) becomes Apache Project
+
+---
+# What is Mapreduce
+* Map
+  * Worker node that turns files into key value pairs.
+  * Map Task can aggregate key value pairs. 
+* Reducer 
+  * Takes all of the map task results and aggregates them.
+
+---
+# Big Data History
+
+* 2007 - HBase, an open-source, non-relational, distributed database runs on top of HDFS.
+* 2008 - Pig
+
+---
+# What is Pig?
+* High level abstraction over map reduce
+* Uses a language called Pig Latin
+* Uses DAGs to transform data
+* Operations in 2 flavors
+  * Algebraic style operations such as join and filter
+  * Functional Programming with map and reduce 
+
+---
+# Big Data History
+
 * 2009 - Spark
 * 2010 - Hive
 ---
+
 # Nifi
-[Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi.md)
+[Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi)
 
 
 # In this class
-* Sampeling
+* Sampling
 * Anomaly Detection
 * Feature Engineering with Time Series Data
 
