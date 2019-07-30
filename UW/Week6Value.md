@@ -15,6 +15,8 @@
 ---
 # Big Data History
 * 2004 - Google Published paper on MapReduce 
+* Started at Yahoo to serve adds in a distributed fasion
+* 2004 - MapReduce Framework released
     -  programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster
 * 2006 - HDFS (Hadoop Distributed File System) becomes Apache Project
 
@@ -51,6 +53,7 @@
 # Nifi
 [Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi)
 
+---
 
 # In this class
 * Sampling
@@ -86,7 +89,6 @@
 * Compute is expensive and Slow
 * More data does not mean better results
 * Populations typically are used to represent the whole in statistics and ML
-
 
 ---
 
