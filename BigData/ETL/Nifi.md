@@ -8,6 +8,7 @@ NIFI_TOOLKIT_HOME=/opt/nifi/nifi-toolkit-current
 NIFI_PID_DIR=/opt/nifi/nifi-current/run
 NIFI_BASE_DIR=/opt/nifi
 ```
+---
 # exec in docker
 ```sh
 docker ps -a
@@ -34,4 +35,10 @@ Remote URL: https://jsonplaceholder.typicode.com/todos/1
 * Success
  ## Properties
 Directory: /opt/nifi/nifi-current
+
 ---
+# exec in docker
+```sh
+ls
+
+```

@@ -14,7 +14,7 @@
 
 ---
 # Big Data History
-* Started at Yahoo to searve adds in a distributed fasion
+* Started at Yahoo to serve adds in a distributed fasion
 * 2004 - MapReduce Framework released
     -  programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster
 * 2006 - HDFS Apache Project
@@ -25,8 +25,8 @@
 * 2010 - Hive
 ---
 # Nifi
-[Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi.md)
-
+[Nifi Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=BigData/ETL/Nifi)
+---
 
 # In this class
 * Sampeling
@@ -62,7 +62,6 @@
 * Compute is expensive and Slow
 * More data does not mean better results
 * Populations typically are used to represent the whole in statistics and ML
-
 
 ---
 
