@@ -80,9 +80,16 @@
 * Proactive and Reactive analytics
 
 ---
+# Common Apples to Apples Techniques
+* Mean (Average Number)
+* Median (Middle Number)
+* Mode (Number that occurs the most)
+* Max
+* Min
+
+---
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/population_sample.png)
-
 
 ---
 # Why Sample
@@ -103,7 +110,7 @@
 # [Standard Deviation](https://www.mathsisfun.com/data/standard-deviation.html)
 * Measure of Spread of Data
 * Low number means it is tightly clustered around the mean
-* Hi number means the data is more spread out
+* High number means the data is more spread out
 * Is the Square Root of the Variation
 * **Uses**
   * Determine if a data point is standard (expected)
@@ -114,6 +121,8 @@
 # Confidence Intervals
 * Z-Scores
 * Tells us the percentage of values to that lie outside the range
+* Allows us to compare apples to oranges comparison
+  * Example SAT scores VS ACT score
 ---
 
 # Why Detect Outliers
@@ -262,13 +271,13 @@ We Learned about
 
 ```json
 Efficient Encoding
-1:Cat
-2:Car
-3:Can
+1:Becky
+2:Jenny
+3:Jim
 One Hot Encoding
-[0,0,1] =Cat
-[0,1,0]=Car
-[1,0,0]=Can
+[0,0,1] =Becky
+[0,1,0]= Jenny
+[1,0,0]= Jim
 
 ```
 ---
@@ -291,13 +300,26 @@ One Hot Encoding
 ---
 
 # Time Series
+* Lag - Record Before
+* Lead - Record After
+* Rank - Sequential Value
 * [Windowing Functions](https://github.com/Microshak/Databricks/blob/master/Value/LagLead.dbc) [ref](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-functions-windows.html#cume_dist) 
-
-* [Flint](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1281142885375883/1566406256250190/7729323681064935/latest.html?_ga=2.83809808.761276419.1557433735-322737440.1557433735)
-
-
 * [Time Series](https://github.com/Microshak/Databricks/blob/master/Value/TimeSeries.dbc)
 
+
+---
+# Flint
+* TimeSeriesRDD
+* Group by Cycle
+* Group by Interval
+* leftJoin - temporal join
+* futureLeftJoin - inexact leftJoin (with tolerance)
+* Summarize
+  * Cycle
+  * Interval
+  * Window
+
+* [Flint](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1281142885375883/1566406256250190/7729323681064935/latest.html?_ga=2.83809808.761276419.1557433735-322737440.1557433735) [ref](https://databricks.com/blog/2018/09/11/introducing-flint-a-time-series-library-for-apache-spark.html)
 
 ---
 # Recap
