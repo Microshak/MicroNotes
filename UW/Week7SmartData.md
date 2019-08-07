@@ -18,21 +18,28 @@
 
 
 
-# In this Section
-Supervised Learning
-
-Logistic Regression
+# Road Map
+* Basic Concepts
+* Supervised Learning
+* Logistic Regression
 
 
 ---
-# Classifiers
-* **Binary Classifiers**
-* Multi-class Classifiers
+# An Example Application
+* A hospital puts a baby monitor on a newborn they measure 17 variables (blood pressure, age, heartrate)
+* ***A decision is needed:*** whether to alert the nurses of distress.
+* Solution: based on data from other infants where were in distress they used a classifier to alert the nurses.
 
+---
+# Two Flavors Classifiers
+* **Binary Classifiers** - Classifies between 2 things
+* Multi-class Classifiers - Classifies between many things
 
+![full](https://microshak.github.io/MicroNotes/Images/ML/binarVSmulticlass.png)
 
+---
 
-**Classifiers work on**
+# Classifiers work on
 * Data
 * Images
 * Sound
@@ -40,11 +47,7 @@ Logistic Regression
 
 
 ---
-# Binary Classifiers
 
-![full](https://microshak.github.io/MicroNotes/Images/ML/binarVSmulticlass.png)
-
----
 # Regression
 * **Regression analysis** is a statistical process for estimating the relationships among dependent and independent(predictor) variables.
 
@@ -56,7 +59,15 @@ Logistic Regression
 
 
 ---
+# Linear Regression
 
+![full](https://microshak.github.io/MicroNotes/Images/ML/linearregression.jpg)
+
+---
+# Logistic Regression
+![full](https://microshak.github.io/MicroNotes/Images/ML/logisticregression.png)
+
+---
 # Logistic Regression
 * When you need to make a binary decision 
 * Great when the data is simple
