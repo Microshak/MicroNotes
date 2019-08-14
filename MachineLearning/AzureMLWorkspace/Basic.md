@@ -16,3 +16,4 @@
     * Keyvault (shared keys)
     * Container Registry
     * Application Insights (counter for usage and what people are passing in)
+

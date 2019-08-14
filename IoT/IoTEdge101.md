@@ -63,5 +63,5 @@ sudo iotedge list
 
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge3.png)
 
----
+
 
