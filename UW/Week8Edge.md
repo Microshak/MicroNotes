@@ -61,7 +61,25 @@ The edges and nodes can have properties
 
 
 ---
-# Graph Algorithms
+
+# Terminology
+
+* **Graph** — A data structure G = (V, E) where V and E are a set of vertices and edges.
+* **Vertex** — Represents a single entity such as a person or an object (e.g., a username on a social network).
+* **Edge** — Represents a relationship between two vertices (e.g., are these two vertices friends on a social network?).
+* **Directed Graph vs. Undirected Graph** — Denotes whether the relationship represented by edges is symmetric or not (e.g., Twitter user A can follow user B but B might not follow A).
+
+---
+
+#Terminology
+* **Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
+* **Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
+* **Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.
+
+---
+
+
+# Graph Algorithms Examples
 
 Sequence of steps
 Examples
@@ -79,23 +97,33 @@ Examples
 
 
 ---
-# Terminology
-
-* **Graph** — A data structure G = (V, E) where V and E are a set of vertices and edges.
-* **Vertex** — Represents a single entity such as a person or an object (e.g., a username on a social network).
-* **Edge** — Represents a relationship between two vertices (e.g., are these two vertices friends on a social network?).
-* **Directed Graph vs. Undirected Graph** — Denotes whether the relationship represented by edges is symmetric or not (e.g., Twitter user A can follow user B but B might not follow A).
-
+# Graph Algorithms
+* DFS 
+  * Path Finding
+  * Finding Strongly Connected Components
+  * Maze
+* BFS
+  * Sortest path 
+  * P2P Networks
+  * Crawlers in Search Engines
+  * Social Networking Websites
+  * GPS Navigation
+  * Finding Nodes with 1 connected Component
 ---
-
-#Terminology
-* **Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
-* **Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
-* **Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.
-* **Shortest Path** — The fewest number of edges required to travel between two specific vertices.
-
+# Graph Algorithms
+* Graph Cycle
+  * Cycle Detection
+* Topological Sorting
+* Minimal Spanning Tree
+  * Algorithm that connects all vertices
+* Backtracking
+* Shortest Path
+* Connectivity
+* Maximum Flow
+ 
+ 
+  [more information on graph algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 ---
-
 # Spark Graph Frames
 * Graph Databases
     * Easy to use
@@ -170,7 +198,7 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 
 
 ---
-# [Demo](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/IoT/IoTEdge101)
+# [Demo](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTEdge101)
 
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge.png)
 
@@ -179,7 +207,26 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 * Edge Devices allow you to offload computer and reduce bottlenecks.
 * OTA can be challenging
 * Dockerizing allows for greater control
+* 
 
+
+---
+ 
+# Group Question
+>> How would you create an infrastructure to support Cern
+* Generates 1 PB per second 
+* Staff of 2,200 people with many scientist
+* Real-Time data needed
+* Analytics Data Needed
+![full](https://microshak.github.io/MicroNotes/Images/BigData/Cern.jpg)
+
+---
+
+* Grid/Edge Compute
+* Tape Drives
+* Spark
+* Scylladb - Real Time
+* Mongo(meta db) 50 Pb per year
 
 ---
 # Fog Compute
