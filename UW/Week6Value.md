@@ -330,3 +330,6 @@ One Hot Encoding
   * Converting Time into component elements such as Month or Day
   * Adjusting for Seasonality
 * Adding meta data can enrich the data 
+
+
+######30
