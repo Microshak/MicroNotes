@@ -128,8 +128,6 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 ---
 
-
-
 # Methodologies
 * Waterfall
 * Agile
@@ -340,6 +338,42 @@ Tradition approach
 
 ---
 
+# Monitoring
 
+* Prometheus
+  * Monitoring 
+  * Alerting
+  * PromQL query language
+  * Can publish time series data
+  *  [Exporters](https://github.com/prometheus/prometheus/wiki/Default-port-allocations) for services such as Graphana, HAProxy, [Kafka](https://github.com/braedon/prometheus-kafka-consumer-group-exporter) ect
+* Grafana
+  * Visualizer
 
+---
+# Prometheous
+![full](https://github.com/stefanprodan/dockprom)
 
+---
+# Why Prometheus
+* Scale 
+* Velocity
+* Change
+* Coherence
+
+---
+# We are moving away from 
+* All-in-one tools
+* tools that don't scale
+* tools that don't automate
+
+---
+# What is grafana
+• Open source software for time series analytics
+• Popular project and more company use it
+(intel,paypal,netapp…)
+• Advanced , visualize and rich metrics dashboard
+• Alert Notification feature
+
+---
+# Prometheus Grafana Demo
+[Demo](https://github.com/stefanprodan/dockprom)
