@@ -351,7 +351,7 @@ Tradition approach
 
 ---
 # Prometheous
-![full](https://github.com/stefanprodan/dockprom)
+![full](https://microshak.github.io/MicroNotes/Images/BigData/prom.png)
 
 ---
 # Why Prometheus
