@@ -31,8 +31,8 @@ Upload a video with Microsoft Stream: https://docs.microsoft.com/en-us/stream/po
 Share a video: https://docs.microsoft.com/en-us/stream/portal-share-video
 Embed a video: https://docs.microsoft.com/en-us/stream/portal-embed-video
  
-
-
-
-
 ---
+
+
+# Notes for Next Years
+Week 6 add 45 mins

@@ -1,12 +1,7 @@
 # Start Nifi Container
 
 ```bash
-docker run --rm --entrypoint /bin/bash apache/nifi:1.8.0 -c 'env | grep NIFI'
-NIFI_HOME=/opt/nifi/nifi-current
-NIFI_LOG_DIR=/opt/nifi/nifi-current/logs
-NIFI_TOOLKIT_HOME=/opt/nifi/nifi-toolkit-current
-NIFI_PID_DIR=/opt/nifi/nifi-current/run
-NIFI_BASE_DIR=/opt/nifi
+docker run --rm --entrypoint /bin/bash apache/nifi:1.8.0 -c 'env | grep NIFI' NIFI_HOME=/opt/nifi/nifi-current NIFI_LOG_DIR=/opt/nifi nifi-current/logs NIFI_TOOLKIT_HOME=/opt/nifi/nifi-toolkit-current NIFI_PID_DIR=/opt/nifi/nifi-current/run NIFI_BASE_DIR=/opt/nifi
 ```
 ---
 # exec in docker
