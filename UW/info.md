@@ -36,3 +36,4 @@ Embed a video: https://docs.microsoft.com/en-us/stream/portal-embed-video
 
 # Notes for Next Years
 Week 6 add 45 mins
+Week 8 add 40 mins
