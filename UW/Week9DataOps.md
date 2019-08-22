@@ -128,8 +128,6 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 ---
 
-
-
 # Methodologies
 * Waterfall
 * Agile
@@ -340,6 +338,27 @@ Tradition approach
 
 ---
 
+# Monitoring
+
+* Prometheus
+  * Monitoring 
+  * Alerting
+  * PromQL query language
+  * Can publish time series data
+  *  [Exporters](https://github.com/prometheus/prometheus/wiki/Default-port-allocations) for services such as Graphana, HAProxy, [Kafka](https://github.com/braedon/prometheus-kafka-consumer-group-exporter) ect
+* Grafana
+  * Visualizer
+
+---
+# Prometheous
+![full](https://microshak.github.io/MicroNotes/Images/BigData/prom.png)
+
+---
+# Why Prometheus
+* Scale 
+* Velocity
+* Change
+* Coherence
 
 # Security
 * [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
@@ -356,3 +375,6 @@ Tradition approach
 
 ---
 
+---
+# Prometheus Grafana Demo
+[Demo](https://github.com/stefanprodan/dockprom)
