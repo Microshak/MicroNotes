@@ -45,4 +45,3 @@ FROM table_name WHERE columnC > 1000;
 GRANT SELECT ON VIEW view_name to `user1@databricks.com`;
 
 ```
----
