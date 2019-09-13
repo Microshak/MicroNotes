@@ -32,12 +32,17 @@
 
 ---
 # [Access control](https://docs.databricks.com/administration-guide/admin-settings/table-acls/object-permissions.html)
-    * Tables    
-    ```sql
-Grant on Users to Mike SELECT
-    ```
+
+## Example view     
+
+
 ```sql
-CREATE OR REPLACE VIEW view_name AS SELECT columnA, columnB FROM table_name WHERE columnC > 1000;
+CREATE OR REPLACE VIEW view_name AS 
+SELECT columnA, columnB 
+FROM table_name WHERE columnC > 1000;
+
+
 GRANT SELECT ON VIEW view_name to `user1@databricks.com`;
+
 ```
 ---
