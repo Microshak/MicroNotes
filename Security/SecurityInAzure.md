@@ -10,11 +10,12 @@
 * [Managed Identities for Azure Resources](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
 ---
 # Securing Data
-* [CosmosDB]
+* CosmosDB
     * [Individual Accounts](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)   
     * [Resource Tokens](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data#resource-tokens)
-    * Backups
+    * [Backups](https://docs.microsoft.com/en-us/azure/cosmos-db/online-backup-and-restore)
 ---
+# Securing Data
 * SQL Azure
     * Network
         * [Firewall](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure)
