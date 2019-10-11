@@ -1,21 +1,52 @@
 
-
-# Proactive Monitoring
+# Security Monitoring
 * [Azure Security Center](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0)
 * [Azure DevOps Kit](https://github.com/azsk/DevOpsKit)
+
+
 ---
-# Secure By Design
+# Secure Via Template
 * [Terra Form](https://www.terraform.io/docs/providers/azurerm/)
 * [Managed Identities for Azure Resources](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
 ---
-# Principle of Least Privileges
+# Securing Data
+* CosmosDB
+    * [Individual Accounts](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)   
+    * [Resource Tokens](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data#resource-tokens)
+    * [Backups](https://docs.microsoft.com/en-us/azure/cosmos-db/online-backup-and-restore)
+---
+# Securing Data
+* SQL Azure
+    * Network
+        * [Firewall](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure)
+        * [Virtual Network Service Endpoint](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview) 
+    * Access Management 
+        * Authentication
+            * SQL Auth 
+            * AAD
+        * Authorization
+            * Roles, Schemas, Objects
+            * [Row Level Security](https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=sql-server-2017)
+            * [Dynamic Masking](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dynamic-data-masking-get-started)
+    * [Threat Protection](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing)
+    * [Auditing](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing)
+    * [Always Encrypted](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-2017)
+
+---
+# Securing Web
+* [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
+* [Web Application Firewall](https://azure.microsoft.com/en-us/blog/azure-web-application-firewall-waf-generally-available/)
+---
+# Securing Users
 * [RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
-* [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data)
-* [SQL Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview)
+* Key Rotation
+* [Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/basic-concepts)
+* [Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
+
 ---
 
 
-# Azure Governance
+# Governance
 
 * [Managed Groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
 * [Resource Graph](https://docs.microsoft.com/en-us/azure/governance/resource-graph/)
@@ -25,20 +56,18 @@
 ---
 
 
-# Reactive Monitoring
-* [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
+# Monitoring
 * [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
-* [Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
-* Event Grid
-* [Microsoft Graph Security API](https://www.microsoft.com/en-us/security/intelligence-security-api)
+* [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
+
 ---
 
 # Assume Breach
 * Alerts
 * Run Book
-Disaster Recovery
-* [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
 * [Break Glass](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access)
+
+
 ---
 
 # Ongoing Review
