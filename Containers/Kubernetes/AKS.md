@@ -21,9 +21,13 @@ az aks create --resource-group microRG --name microK8s --node-count 3 --generate
 
 ---
 
+# Credentials
+
+ az aks get-credentials --resource-group microaks --name k8s
+
+
 
  ## dashboard
- az aks get-credentials --resource-group microRG --name microK8s
  
  az aks browse --resource-group microRG --name microK8s
 
