@@ -37,8 +37,11 @@ Embed a video: https://docs.microsoft.com/en-us/stream/portal-embed-video
 # Notes for Next Years
 Week 1 Make sure perms
 Week 2 Redo too much repetive ness
+Week 3 Jerry done this....  Do somthing else
+Week 5 Jerry does basics.. Remove Delata Lake 
 Week 6 add 45 mins
 Week 8 add 40 mins
 Week 9 add 30 mins - clean up last 30 mins
 
+Remove redis basics
 

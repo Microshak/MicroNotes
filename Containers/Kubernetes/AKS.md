@@ -19,9 +19,17 @@ az aks create --resource-group microRG --name microK8s --node-count 3 --generate
 
 ---
 
+# Credentials
+
+ az aks get-credentials --resource-group microaks --name k8s
+
+
 
  ## dashboard
- az aks get-credentials --resource-group microRG --name microK8s
+<<<<<<< HEAD
+=======
+ az aks get-credentials --resource-group k8s --name microkube
+>>>>>>> 1040a81393b50473362ecebdf383f8fa5533a858
  
  az aks browse --resource-group microRG --name microK8s
 
@@ -57,3 +65,44 @@ az provider register --namespace Microsoft.ContainerInstance
 ```
 
 ---
+# Adding different Node Pools
+```
+az extension add --name aks-preview
+az extension update --name aks-preview
+az feature register --name MultiAgentpoolPreview --namespace Microsoft.ContainerService
+
+# Did that work?
+az feature list -o table --query "[?contains(name, 'Microsoft.ContainerService/MultiAgentpoolPreview')].{Name:name,State:properties.state}"
+# After that works
+az provider register --namespace Microsoft.ContainerService
+
+
+```
+
+```
+az aks nodepool add \
+    --resource-group k8s \
+    --cluster-name microkube \
+    --name gpunodepool \
+    --node-count 2 \
+    --node-vm-size Standard_NC6 \
+    --no-wait
+```
+# List Node Pools
+```
+ az aks nodepool list -g k8s --cluster-name MicroKube
+```
+
+# Delete Node pool
+```
+az aks nodepool delete -g k8s --cluster-name microkube --name gpunodepool --no-wait
+```
+
+
+helm install stable/nginx-ingress \
+    --namespace ingress-basic \
+    --set controller.replicaCount=2 \
+    --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux \
+    --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux \
+    --set controller.service.loadBalancerIP="104.42.172.118"
+
