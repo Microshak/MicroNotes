@@ -17,8 +17,8 @@
    1.  Require > SQL Server 12.0
    1.  Allowed Locations
    1.  Enforce tags (prod, test)
-   1.  Enforce Https on Web Apps
-
+   **1.  Enforce Https on Web Apps
+**
 ---
 # [Policy](https://ms.portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Overview)  
    1. Define

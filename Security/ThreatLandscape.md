@@ -20,6 +20,16 @@
 
 [Arno.com](https://www.shodan.io/host/50.35.86.255)
 [seank.com](https://www.shodan.io/host/173.236.165.21)
-
-
 [microshak.com](https://www.shodan.io/host/216.239.32.21)
+
+
+---
+# 2019 In the lab
+* 10 Already in production projects
+* 6 with security holes
+
+---
+* 2 Shared Keys
+* 3 Web UI Authorization
+* 1 Backend Keys in Web UI
+

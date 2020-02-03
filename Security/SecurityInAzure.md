@@ -34,10 +34,6 @@
     * [Always Encrypted](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-2017)
 
 ---
-# Securing Web
-* [DDOS Protection](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FddosProtectionPlans)
-* [Web Application Firewall](https://azure.microsoft.com/en-us/blog/azure-web-application-firewall-waf-generally-available/)
----
 # Securing Users
 * [RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
 * Key Rotation
