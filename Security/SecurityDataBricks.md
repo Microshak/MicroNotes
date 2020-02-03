@@ -3,8 +3,8 @@
     * Azure AD
     * Onprem with Azure Hybred AD
 * Audited
-    * follows security best practices
-    * only access from secure comuter in Microsoft
+    * Follows security best practices
+    * Engineers what work on databricks can only access the backen from secure computer in Microsoft
 ---
 # Networking
 

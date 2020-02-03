@@ -7,7 +7,8 @@
 ---
 # Secure Via Template
 * [Terra Form](https://www.terraform.io/docs/providers/azurerm/)
-* [Managed Identities for Azure Resources](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+* ARM Scripts
+* Ansible
 ---
 # Securing Data
 * CosmosDB

@@ -24,7 +24,7 @@
 * Device Memory
 * Physical Memory
 * Firmware 
-* Formware Update Mechonism
+* Formware Update Mechanism
 
 
  7 properties of highly secure devices
@@ -32,8 +32,8 @@
  1. Root of hardware trust - unique identifier
  	Chip aware of its own entropy
 		if somonne is freezing the chip to make random less 
-2. Defence in depth - Muleyer software OS
-3. Certificte based authenication and astestation
+2. Defence in depth - Multilayer software OS
+3. Certificte based authenication and attestation
    1. it is the device it say it is
    2. it is running the right software
    3. buHrn fuses so it cant run older version of software
