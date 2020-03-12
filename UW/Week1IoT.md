@@ -1,40 +1,4 @@
 
-# Goal of this course
-* Explore where/how big data is being used
-*  Cement concepts
-*  Match teaching with what big data engineers 
-*  Work with End to End 
-
-
-
----
-
-# What do Big data engineers do?
-* ETL 
-* Process pipelines
-* Analyze Data
-* Trusted Advisor
-
----
-
-# What is Big Data
-1. Volume
-2. Velocity
-3. Variety
-
----
-
-![Full](https://microshak.github.io/MicroNotes/Images/3-Vs-of-Big-Data.png)
-
----
-# What is Big Data
-1. Volume
-2. Velocity
-3. Variety
-4. Veracity
-5. Value
-
----
 # This Quarter
 1. IoT
 2. Containers
@@ -68,7 +32,7 @@
 1. Messy
 2. Expensive
 3. Difficult to derive value
-
+        
 ---
 
 # Types of Data

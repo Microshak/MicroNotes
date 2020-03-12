@@ -45,18 +45,18 @@
 
 
 
-# Changes in Big Data
-![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
+  # Changes in Big Data
+  ![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
 
----
+  ---
 
-![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
+  ![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
----
+  ---
 
-[![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
+  [![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
 
----
+  ---
 
 
 # Big Data 230 Week 2 Containers
@@ -131,9 +131,9 @@
 # Docker Images and Containers 
 [Docker Basics](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/DockerBasic)
 
-[Build Docker Images and Containers](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/ImagesAndContainers)
+  [Build Docker Images and Containers](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/ImagesAndContainers)
 
-[Docker Examples](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerRun)
+  [Docker Examples](https://microshak.github.io/MicroNotes/doc.html?path=Containers/Docker/DockerRun)
 ---
 
 # Docker Compose
