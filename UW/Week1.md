@@ -21,8 +21,8 @@ Currently: IoT/Cloud Architect Microsoft
 # Goal of this course
 * Explore where/how big data is being used
 *  Cement concepts
-*  Match teaching with what big data engineers 
-*  Work with End to End 
+*  Match teaching with what big data engineers do
+*  Work with more tools 
 
 ---
 
@@ -41,6 +41,14 @@ Currently: IoT/Cloud Architect Microsoft
 
 ---
     ![Full](https://microshak.github.io/MicroNotes/Images/3-Vs-of-Big-Data.png)
+
+---
+# What is Big Data
+1. Volume
+2. Velocity
+3. Variety
+4. **Veracity**
+5. **Value**
 
 ---
 # Course Recap
@@ -71,24 +79,7 @@ Currently: IoT/Cloud Architect Microsoft
   * Kappa
 
 ---
-# What is Big Data
-1. Volume
-2. Velocity
-3. Variety
-4. **Veracity**
-5. **Value**
 
----
-
-# Internet of Things
-
-* IoT Hub
-* Streaming Analytics
-* Cosmos DB
-* Blob Storage
-* Serverless
-
----
 
 # Containers
 
@@ -117,6 +108,16 @@ Currently: IoT/Cloud Architect Microsoft
 * Model Accuracy
 * Artificial Neural Nets
 ---
+# Internet of Things
+
+* IoT Hub
+* Streaming Analytics
+* Cosmos DB
+* Blob Storage
+* Serverless
+
+---
+
 # Edge
 
 * GraphFrames in Spark
@@ -176,23 +177,20 @@ Currently: IoT/Cloud Architect Microsoft
 
   # Changes in Big Data
   ![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
-
-  ---
+---
 
   ![full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
-
-  ---
+---
 
   [![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
-
-  ---
-
-
-# Big Data 230 Week 2 Containers
-
-> What was acceptable last year is not acceptable today.  What is acceptable now will not be acceptable next year.
-
 ---
+
+
+# Containers
+## By the end of this section you should know
+* How to use containers
+* How to spin up your own containers
+* How to test out big data tools
 
 # What is a container
 
@@ -245,31 +243,10 @@ Currently: IoT/Cloud Architect Microsoft
 * Scale Out Architecture
 ---
 
-# Containers
-
-* No OS per instance over head
-* Package software and dependencies together
-* Distribution mechanism
-* Shared image or dockerfile
-    * Easy dev environments
-    * Easy CI/CD pipelines
-    * Fast Scale out 
-
----
-
-#Docker VS Containers
-
-![max]( https://microshak.github.io/MicroNotes/Images/Containers/Docker.png "full")
-
----
-
-![max](https://microshak.github.io/MicroNotes/Images/Containers/VMs.png  "full")
----
-
-
 
 # Benefits
 
+* Package software and dependencies together
 * Isolated
 * Runs the same environment
 * Sandbox projects
@@ -281,20 +258,11 @@ Currently: IoT/Cloud Architect Microsoft
 * Shared image or dockerfile
     * Easy dev environments
     * Easy CI/CD pipelines
-
----
-
-# Defined 
-* Defined by a [Dockerfile](https://github.com/apache/spark/blob/master/resource-managers/kubernetes/docker/src/main/dockerfiles/spark/Dockerfile)
 * Can have different docker files for production and dev
 * Compostable
 * Incremental Build
 * Map to local directory (persistance)
 * Upload to repository
-
----
-
-# Pipelines
 * CI/CD
 * Testing
 * Security Testing
@@ -302,12 +270,12 @@ Currently: IoT/Cloud Architect Microsoft
 
 ---
 
-# Docker Hub
-* Login
-* Certified, Official, Verified
-* Upload Docker Builds
-  
+# Defined 
+* Defined by a [Dockerfile](https://github.com/apache/spark/blob/master/resource-managers/kubernetes/docker/src/main/dockerfiles/spark/Dockerfile)
+
 ---
+
+
 
 # Under the covers
 * Images
@@ -319,8 +287,10 @@ Currently: IoT/Cloud Architect Microsoft
 # Docker Development
 
 * Multi Stage Builds
-* Clean Up
-* Volume Map
+  * Increase Efficency
+  * Reduce Attach Surface
+* Easy to Clean Up
+* Volume Map local files
 * IDE Support
 
 ---
@@ -414,7 +384,7 @@ nano app.py
 ```
 ---
 
-#Lets clean up
+# Lets clean up
 
 ```bash
 docker kill [☢️️name of container️️️️️️️️☢️]
@@ -423,6 +393,26 @@ docker system prune -a
 ```
 
 ---
+# Class Question
+## Solar Panels as a Service
+* Company that works in developing countries has
+  * 30,000 devices that have sent 1 billion records (200 gbs a 1 year)
+  * Bug in code sent 10 retry messages for every message (duplications)
+  * **Can't afford expensive cloud services**
+  * They have
+    * Local computers (slow and unstable)
+    * Power BI
+  * Data is stored in Key Value store
+  * They need tools to analyze and reporting
+    * Aggregegation
+    * Deduplication
+    * Trends
+    * Spikes
+
+### Options?
+---
+
+
 
 # Commands to remember
 
@@ -445,7 +435,7 @@ LIST:  sudo docker ps -a
 
 ```bash
 
-$ cd folderODockerfile
+$ cd folder Dockerfile
 
 # for cpu
 $ docker build -f jupyter/tensorflow-notebook -t jupyter/tensorflow-notebook .
@@ -490,24 +480,34 @@ docker run --rm -t hey
 docker run -it -t hey bin/bash
 ```
 ---
+
+
 # Special Environemnts
 * [Machine Learning GPU](https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&pageNumber=0&query=&quickFilter=containers&filters=)
 * [Docker Hub](https://hub.docker.com/)
 ---
-# Class Question
-## Solar Panels as a Service
-* Company that works in devleoping countries has
-  * 30,000 devices that have sent 1 billion records (200 gbs a 1 year)
-  * Bug in code sent 10 retry messages for every message (duplications)
-  * **Can't afford expensive cloud services**
-  * They have
-    * Local computers (slow and unstable)
-    * Power BI
-  * Data is stored in Key Value store
-  * They need tools to analyze and reporting
-    * Aggregegation
-    * Deduplication
-    * Trends
-    * Spikes
+# Docker Hub
+* Login
+* Certified, Official, Verified
+* Upload Docker Builds
+ 
 ---
+# 3 Things
+* Docker allows you to run programs in a:
+  * Repeatable
+  * Sharable way
+* Docker consist of images and containers
+* Docker can be build locally shared and run everywhere
+---
+
+# Docker Excersize
+
+* [Kylin](https://github.com/apache/kylin/tree/master/docker) - Distributed Analytics
+* [Pulsar](https://pulsar.apache.org/docs/en/standalone-docker/) - Replacement for Kafka?
+* [Air FLow](https://hub.docker.com/r/apache/airflow) - Schedualing
+
+### Task
+Give me a elevator pitch for a big data project you ahve not used
+* [Apache Big Data](https://github.com/search?q=topic%3Abig-data+org%3Aapache&type=Repositories)
+
 
