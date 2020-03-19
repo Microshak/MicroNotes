@@ -27,7 +27,7 @@ Package manager like npm, pip, Maven
 
 ---
 
-#helm deploy
+#   helm deploy
 to deploy make a chart in specific directory
 ```file
 tld

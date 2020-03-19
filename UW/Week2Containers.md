@@ -174,9 +174,9 @@
     * Shared Conda Enviroment
     * Shared Packages
     * Admin Deployment
-s
----s
-s
+
+---
+
 # Big Data of k8ss
 * Anti-afifintys
 * Easy Deployment ([Ksafka](https://github.com/Yolean/kubernetes-kafka))
@@ -244,7 +244,7 @@ s
 ---
 
 
-#Further Tutorials
+# Further Tutorials
 [Simulator](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/)
 
 
