@@ -46,7 +46,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * Development
 * Production Support
 
-
+---
 # 5 Pillars of DataOps
 * Focus on Creating Data Products
 * Operationalizing Analytics and Data Science
@@ -200,7 +200,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 ---
 # Resources
-[Simulator](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/
+[Simulator](https://www.katacoda.com/courses/kubernetes/playground)
 [Reference](https://github.com/Microshak/MicroNotes/blob/master/Containers/Kubernetes/Walkthrough.md)
 
 ---
