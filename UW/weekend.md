@@ -12,24 +12,9 @@ Gatewat
 
 
 --------
-ML Lifecycle
-Raw Data
-Data Prep 
-Training
-Deploy
-
----
-ML Lifecycle
-Raw Data
-Data Prep + Tuning 
-Training + Tuning
-Deploy
----
-# ROI
-Metrics
-Lift
-Share Among other teams projects
-
-
-Azure Security Center for IoT
-https://azuremarketplace.microsoft.com/en-us/marketplace/apps/marketplace_iot.edge-ascforiot?tab=Overview
+  <div class="mermaid">
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+  </div>

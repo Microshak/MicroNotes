@@ -200,8 +200,8 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 ---
 # Resources
-[Simulator](https://www.katacoda.com/courses/kubernetes/playground)
-[Reference](https://github.com/Microshak/MicroNotes/blob/master/Containers/Kubernetes/Walkthrough.md)
+* [Simulator](https://www.katacoda.com/courses/kubernetes/playground)
+* [Reference](https://github.com/Microshak/MicroNotes/blob/master/Containers/Kubernetes/Walkthrough.md)
 
 ---
 # Homework

@@ -45,7 +45,7 @@
 * Rapid and Flexible Changes
 
 ---
-#Agile Manifesto
+# Agile Manifesto
 ```
 1. Customer satisfaction by early and continuous delivery of valuable software.
 2. Welcome changing requirements, even in late development.
@@ -189,13 +189,11 @@ Tradition approach
 
 ---
 
-
 # Web Frameworks
 * Angular
 * ReactJS
 * Vue
 * Bootstrap
-
 
 ---
 # Custom Dashboards
@@ -222,8 +220,6 @@ Tradition approach
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/Lifecycle.png)
-
-
 
 ---
 
