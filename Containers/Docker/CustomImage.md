@@ -49,5 +49,3 @@ docker login
 docker tag helloflask microshak/helloflask:v1
 docker push microshak/helloflask:v1
 ```
----
-

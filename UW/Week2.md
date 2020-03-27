@@ -156,9 +156,14 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * You can put your own project in Docker Hub
 
 ---
-# Tutorial
+# Tutorial 
+### Setting up your own repository
+* Create a repository
+* Build an Image
+* Push your image to the repository
 
-[Docker Hub 101](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/CustomImage)
+[Tutorial](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/CustomImage)  
+
 
 ---
 
@@ -166,7 +171,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 
 * [Basic Example](https://github.com/Microshak/MicroNotes/blob/master/Containers/DockerCompose/Dockcompose99.md)
 * [Redis Example](https://github.com/Microshak/MicroNotes/blob/master/Containers/DockerCompose/GettingStarted.md)
-[Kafka](https://github.com/Microshak/MicroNotes/blob/master/BigData/Kafka/ConflientDocker.md)
+* [Confluent Kafka](https://github.com/Microshak/MicroNotes/blob/master/BigData/Kafka/ConflientDocker.md)
 
 ---
 
@@ -217,7 +222,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * [Simulator](https://www.katacoda.com/courses/kubernetes/playground)
 * [Reference](https://github.com/Microshak/MicroNotes/blob/master/Containers/Kubernetes/Walkthrough.md)
 
----
+--- 
 
 # Homework
 ### Show me either

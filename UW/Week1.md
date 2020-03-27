@@ -196,6 +196,9 @@ Currently: IoT/Cloud Architect Microsoft
 * How to spin up your own containers
 * How to test out big data tools
 
+---
+
+
 # What is a container
 
 ![max](https://microshak.github.io/MicroNotes/Images/dockervsvm.png)
@@ -463,18 +466,28 @@ $ mkdir home
 $ docker run -d --rm -v $PWD/home:/home -p 81:80 --name jupyter/tensorflow-notebook TFNotebook
 
 ```
+
+---
+
 # Simple Excersize 
+### Create a Docker file
 ```sh
 FROM ubuntu:latest
 CMD echo Hey
 
 ```
+
+
 ---
+### Build Image
+
 ```sh
 docker build -t myapp .
 
 ```
 ---
+
+### Run Container
 ```sh
 docker run --rm -t hey
 
@@ -485,17 +498,19 @@ docker run --rm -t hey
 ```sh
 
 docker run -it -t hey bin/bash
-```
----
 
+```
+
+---
 
 # Special Environemnts
-* [Machine Learning GPU](https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&pageNumber=0&query=&quickFilter=containers&filters=)
-* [Docker Hub](https://hub.docker.com/)
+* [Machine Learning GPU](https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&pageNumber=0&query=&quickFilter=containers&filters=) for GPU systems
+* [Moby](https://mobyproject.org/) for small systems (IoT)
+
 
 ---
 
-# Docker Hub
+# [Docker Hub](https://hub.docker.com/)
 * Login
 * Certified, Official, Verified
 * Upload Docker Builds
@@ -532,7 +547,8 @@ Give me a elevator pitch for a big data project you ahve not used
 * Docker is just a set of base images and scripts
 * Docker examples in this class were all running on one machine.
 
---- 
+---
+
 # Next Class
 * Non-homogonous systems using Docker-compose
 * Scaling to big data with Kubernetes
