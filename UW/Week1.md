@@ -1,6 +1,7 @@
 # Big Data 230 Week 1
 
 ---
+
 # Bio
 ## Mike Roshak PhD
 Currently: IoT/Cloud Architect Microsoft 
@@ -12,12 +13,14 @@ Currently: IoT/Cloud Architect Microsoft
     ![Full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
 ---
+
 # Your Bio
 * What you do
 * Your background as it relates to big data
 * What do you do for fun
 
 ---
+
 # Goal of this course
 * Explore where/how big data is being used
 *  Cement concepts
@@ -167,6 +170,7 @@ Currently: IoT/Cloud Architect Microsoft
 *  Monitoring Cloud
 
 ---
+
 # Portfolio Project
 * The final project will be due on the last class 
 * The project will consist of a proposal, a presentation and a project write up including code
@@ -258,6 +262,11 @@ Currently: IoT/Cloud Architect Microsoft
 * Shared image or dockerfile
     * Easy dev environments
     * Easy CI/CD pipelines
+
+---
+
+# Benefits
+
 * Can have different docker files for production and dev
 * Compostable
 * Incremental Build
@@ -274,8 +283,6 @@ Currently: IoT/Cloud Architect Microsoft
 * Defined by a [Dockerfile](https://github.com/apache/spark/blob/master/resource-managers/kubernetes/docker/src/main/dockerfiles/spark/Dockerfile)
 
 ---
-
-
 
 # Under the covers
 * Images
@@ -300,6 +307,8 @@ Currently: IoT/Cloud Architect Microsoft
 * Expose external ports
 * Setup a internal network
 * SSH Into   
+
+---
 
 # Docker Images
 
@@ -334,8 +343,6 @@ WORKDIR /app
 RUN pip install Flask
 ENTRYPOINT ["python"]
 CMD ["app.py"]
-
-
 ```
 
 ---
@@ -393,8 +400,7 @@ docker system prune -a
 ```
 
 ---
-# Class Question
-## Solar Panels as a Service
+# Class Question  Solar Panels as a Service
 * Company that works in developing countries has
   * 30,000 devices that have sent 1 billion records (200 gbs a 1 year)
   * Bug in code sent 10 retry messages for every message (duplications)
@@ -408,11 +414,8 @@ docker system prune -a
     * Deduplication
     * Trends
     * Spikes
-
 ### Options?
 ---
-
-
 
 # Commands to remember
 
@@ -420,16 +423,20 @@ docker system prune -a
 docker [images](https://docs.docker.com/engine/reference/commandline/images/) -a # list all images
 
 docker [ps](https://docs.docker.com/engine/reference/commandline/ps/) -a # list all containers
+
 ---
 
-
 # Images
+
 LIST: sudo docker images -a
 
+---
 
 # Containers
 
 LIST:  sudo docker ps -a
+
+---
 
 ## Build
 
@@ -441,8 +448,10 @@ $ cd folder Dockerfile
 $ docker build -f jupyter/tensorflow-notebook -t jupyter/tensorflow-notebook .
 
 ```
+---
 
-### Run Locally
+
+### Run
 
 To Start the container
 
@@ -453,10 +462,8 @@ To Start the container
 $ mkdir home
 $ docker run -d --rm -v $PWD/home:/home -p 81:80 --name jupyter/tensorflow-notebook TFNotebook
 
-
-
 ```
-# Excersize 
+# Simple Excersize 
 ```sh
 FROM ubuntu:latest
 CMD echo Hey
@@ -485,29 +492,47 @@ docker run -it -t hey bin/bash
 # Special Environemnts
 * [Machine Learning GPU](https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&pageNumber=0&query=&quickFilter=containers&filters=)
 * [Docker Hub](https://hub.docker.com/)
+
 ---
+
 # Docker Hub
 * Login
 * Certified, Official, Verified
 * Upload Docker Builds
  
 ---
+
 # 3 Things
 * Docker allows you to run programs in a:
   * Repeatable
   * Sharable way
 * Docker consist of images and containers
 * Docker can be build locally shared and run everywhere
+
 ---
 
 # Docker Excersize
 
 * [Kylin](https://github.com/apache/kylin/tree/master/docker) - Distributed Analytics
 * [Pulsar](https://pulsar.apache.org/docs/en/standalone-docker/) - Replacement for Kafka?
-* [Air FLow](https://hub.docker.com/r/apache/airflow) - Schedualing
+* [Ignight](https://apacheignite.readme.io/docs/docker-deployment) - In Memory Computing Platform
+
+
+---
 
 ### Task
 Give me a elevator pitch for a big data project you ahve not used
 * [Apache Big Data](https://github.com/search?q=topic%3Abig-data+org%3Aapache&type=Repositories)
 
+---
 
+# Class Recap
+
+* Docker can help you spin and test big data systems.
+* Docker is just a set of base images and scripts
+* Docker examples in this class were all running on one machine.
+
+--- 
+# Next Class
+* Non-homogonous systems using Docker-compose
+* Scaling to big data with Kubernetes

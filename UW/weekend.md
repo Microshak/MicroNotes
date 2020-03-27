@@ -5,16 +5,26 @@ Too much data -> cloud
     Down sample
     classify
 ---
-Gatewat
 
+# Gatewat
 
+* test
+* test
 
+---
 
-
---------
   <div class="mermaid">
   graph LR
-      A --- B
+      IoTHub --- Stream Analytics
       B-->C[fa:fa-ban forbidden]
       B-->D(fa:fa-spinner);
   </div>
+
+---
+
+# Gatewat
+
+* test
+* test
+
+---

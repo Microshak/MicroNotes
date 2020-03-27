@@ -10,16 +10,17 @@
 77% of business [report](https://newvantage.com/wp-content/uploads/2018/12/Big-Data-Executive-Survey-2019-Findings.pdf) challenges in adoption of Big Data and AI 
 
 ---
+
 # Question of the day
 Have you have worked a fail project or a project that failed to meet expectations
 
 ---
+
 # What is DataOps
 
 Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, Operations participating together in the entire service lifecycle.
 
 ---
-
 
 # 3 Objectives
 * Lean how to build work together to develope a data product
@@ -47,6 +48,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * Production Support
 
 ---
+
 # 5 Pillars of DataOps
 * Focus on Creating Data Products
 * Operationalizing Analytics and Data Science
@@ -98,6 +100,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * KanBan Boards/Burn Down Charts
 * Slack  
 * Standups
+
 ---
 
 # Question
@@ -138,22 +141,27 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 # Demo
 
 * [Git 101](https://microshak.github.io/MicroNotes/Notes.html?path=DevTools/Git)
+
 ---
+
 # Recap
 * Git allows you to work collabratively
 * Allows Versioning of projects
 * Branching and Merging allows for bigger changes to the code base
 
 ---
+
 # Docker Hub
 * [recap] Similar to Github is a catalog of projects
 * You can put your own project in Docker Hub
 
 ---
 # Tutorial
+
 [Docker Hub 101](https://microshak.github.io/MicroNotes/Notes.html?path=Containers/Docker/CustomImage)
 
 ---
+
 # Docker Compose By Example
 
 * [Basic Example](https://github.com/Microshak/MicroNotes/blob/master/Containers/DockerCompose/Dockcompose99.md)
@@ -166,14 +174,18 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * Docker Compose let you quickly stitch togther docker containers
 * Works on 1 machine
 * Easy to set up
+
 ---
+
 # Class Discussion
 # Corona Maps (Inspired by Pokey Maps)
 * People that are exposes can list what public places they visited recently
 * That information shows up on a map
 * That information self deletes after 3 days
 * Highly Scalable
+
 ---
+
 # Kubernetes
 * Very similar to Docker Compose but works across a cluster of machines
 * Is fairly complex
@@ -186,6 +198,7 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
   * Multi-Cloud - With tools like [Rancher](https://rancher.com/)
  
 ---
+
 # Kubernetes (Continued)
 * Virtial Kubelet
 * Side Cars
@@ -199,11 +212,13 @@ Is the practices of Analyst, Data Scientist, Data Engineers, System Developers, 
 * KubeCTX
 
 ---
+
 # Resources
 * [Simulator](https://www.katacoda.com/courses/kubernetes/playground)
 * [Reference](https://github.com/Microshak/MicroNotes/blob/master/Containers/Kubernetes/Walkthrough.md)
 
 ---
+
 # Homework
 ### Show me either
 * Somthing you built using Docker Compose
