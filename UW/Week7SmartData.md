@@ -409,6 +409,6 @@ Helps solve overfitting issue by penalizing your loss function by adding a multi
 ---
 # Learn More
 * [ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/)
+* [Awesome List](https://github.com/ChristosChristofidis/awesome-deep-learning)
 * Ean Goodfellow's [Book](https://www.deeplearningbook.org)
-* Siraj Raval [Channel](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
 * Andrew NG [Course](https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-US&campaignid=685340575&adgroupid=32639001341&device=c&keyword=coursera%20machine%20learning%20course&matchtype=b&network=g&devicemodel=&adpostion=1t1&creativeid=243289762778&hide_mobile_promo&gclid=Cj0KCQjww47nBRDlARIsAEJ34bk0cRqeO-zp-6v__lKcxMmY55uKAJQveZWzwerrUfMShH_6yWto_SUaAlxrEALw_wcB)
