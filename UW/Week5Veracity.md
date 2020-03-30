@@ -1,17 +1,8 @@
-
-
-
-
-# Pre Discussion
-* Feedback
-* Bookending
-* Slower
-* More Slides
-* ETL Tools
-* Help Requests
-* Feedback at the End
+# Big Data 230 
+### Varacity
 
 ---
+
 # Big Data Engineer VS Data Engineer
 * [Data Engineer](https://www.indeed.com/jobs?q=title%3A%22data%20engineer%22&l=Seattle%2C%20WA&radius=25&vjk=7e1d3d87a81b0b63)
   * SQL Database/Data Warehouse
@@ -29,29 +20,7 @@
 
 ---
 # Github
-* [Pulsar Tutorial](https://github.com/streamlio/pulsar-java-tutorial)
-* [Kafka HDInsights](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming)
-* [My IndexDB](https://github.com/Microshak/IndexedDB)
 * [My Databricks](https://github.com/Microshak/Databricks)
-
----
-
-# Linux
-* Why Use Linux
-  * Docs
-  * Docker
-  * Troubleshooting
-  * Administration 
-* Use Cases
-  * [Kafka Replication Tools](https://cwiki.apache.org/confluence/display/KAFKA/Replication+tools)
-  * [Apache Pulsar](https://pulsar.apache.org/en/download/)
-  * [Hadoop](https://hadoop.apache.org/releases.html)
-  * [Casandra](https://cassandra.apache.org/download/)
----
-
-# Databricks
-
-[Data Bricks Community](https://community.cloud.databricks.com/)
 
 ---
 # Group Discussion IoMT
@@ -138,10 +107,12 @@ Scenario: Company wants to get into the Internet of Medical Things.  They have a
 [Distributions Charts](https://seeing-theory.brown.edu/probability-distributions/index.html#section2)
 
 ---
+
 # Neural Nets
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/SimpleNet.gif)
 
 ---
+
 # Bias
 * Design Bias
 * Selection Bias (aka the reason we have  randomized double-blind placebo control studies)
@@ -397,12 +368,4 @@ We have Talked about
 * Charting
 * Correlation
 
-
----
-# FeedBack
-* Every Student
-* Chat with Marius
-* Use your microphone
-* What questions do you have?
-* What’s the muddiest point?
 
