@@ -22,6 +22,10 @@
         .remark-code, .remark-inline-code {
             font-family: 'Ubuntu Mono';
         }
+        .label
+        {
+            font-size: "14px";
+        }
         iframe{
     border : 0px white;
     width:100%
@@ -91,13 +95,14 @@ function logKey(e) {
         console.log('eee')
     }
     console.log( ` ${e.code}`);
+    mermaid.initialize({startOnLoad:true,   fontSize:"40"});
+  
 }
 
 
     </script>
    <script>
   //the event occurred
-   mermaid.initialize({startOnLoad:true,   fontSize:"40"});
    </script>
     
 </body>
