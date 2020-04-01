@@ -15,7 +15,7 @@ Too much data -> cloud
 
   <div class="mermaid">
   graph LR
-      IoTHub --- Stream Analytics
+      A --- B
       B-->C[fa:fa-ban forbidden]
       B-->D(fa:fa-spinner);
   </div>
