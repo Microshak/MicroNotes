@@ -89,7 +89,10 @@ var config = {
     
         slideshow = remark.create({
             sourceUrl: base+path+'.md?ran=' + Math.random()
+      
         });
+        mermaid.initialize(config);
+  
         document.title = path;
 
         function qs(key) {
@@ -106,6 +109,7 @@ function logKey(e) {
         console.log('eee')
     }
     console.log( ` ${e.code}`);
+
     mermaid.initialize(config);
   
 }
