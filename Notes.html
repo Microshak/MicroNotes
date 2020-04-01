@@ -68,6 +68,17 @@ img[alt="right"]
     </script>
     <script type="text/javascript">
 
+var config = {
+    startOnLoad:true,
+    flowchart:{
+      useMaxWidth:true,
+      htmlLabels:true,
+      curve:'cardinal',
+      fontSize:'40',
+    },
+
+    securityLevel:'loose',
+  };
 
         var path = qs('path')
        
@@ -95,7 +106,7 @@ function logKey(e) {
         console.log('eee')
     }
     console.log( ` ${e.code}`);
-    mermaid.initialize({   fontSize:"40"});
+    mermaid.initialize(config);
   
 }
 
@@ -103,7 +114,7 @@ function logKey(e) {
     </script>
    <script>
   //the event occurred
-  mermaid.initialize({startOnLoad:true,   fontSize:"40"});
+  mermaid.initialize(config);
 
    </script>
     
