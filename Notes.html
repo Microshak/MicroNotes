@@ -92,8 +92,11 @@ var config = {
       
         });
         slideshow.on('showSlide', function (slide) {
-            mermaid.initialize(config);
+            setTimeout(function() {
+                mermaid.initialize(config);
   
+}, 1000);
+      
 });
    
         document.title = path;
