@@ -91,8 +91,11 @@ var config = {
             sourceUrl: base+path+'.md?ran=' + Math.random()
       
         });
-        mermaid.initialize(config);
+        slideshow.on('showSlide', function (slide) {
+            mermaid.initialize(config);
   
+});
+   
         document.title = path;
 
         function qs(key) {
