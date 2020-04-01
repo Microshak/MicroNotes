@@ -112,9 +112,9 @@
 # Minimal Setup
 <div class="mermaid">
   graph LR
-      A[IoT Device]<-> B[IoTHub]
-      A<->B
-      A<->B
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       C-->E[DataLake Store];
@@ -126,13 +126,13 @@
 ### We see this in about 80% of customers
 <div class="mermaid">
   graph LR
-      A[IoT Device]<-> B[IoTHub]
-      A<->B
-      A<->B
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C<->G[Function App] | Aggregation
+      C---G[Function App] | Aggregation
       C-->E[DataLake Store];
       
 </div>
@@ -142,13 +142,13 @@
 ### Some Customers Layer on ML
 <div class="mermaid">
   graph LR
-      A[IoT Device]<-> B[IoTHub]
-      A<->B
-      A<->B
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C<->G[Function App] | Aggregation
+      C---G[Function App] | Aggregation
       C-->E[DataLake Store]
       E---H[AML]
       E---I[Data Bricks];
@@ -161,26 +161,27 @@
 ### Some customers layer on device streaming
 <div class="mermaid">
   graph LR
-      A[IoT Device]<-> B[IoTHub]
-      A<->B
-      A<->B
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C<->G[Function App] | Aggregation
-      B<->F[Function App] | Device Streaming
+      C---G[Function App] | Aggregation
+      B---F[Function App] | Device Streaming
       C-->E[DataLake Store];
       
 </div>
 
 ---
+
 # Realistic Setup
 ### Some customers want a low cost solution
 <div class="mermaid">
   graph LR
-      A[IoT Device]<-> B[IoTHub]
-      A<->B
-      A<->B
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
       B-->C[Function App]
       C-->D[Table Store]
       D-->F[Web App]
