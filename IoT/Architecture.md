@@ -132,7 +132,7 @@
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C---G[Function App] | Aggregation
+      C---G[Function App] 
       C-->E[DataLake Store];
       
 </div>
@@ -148,7 +148,7 @@
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C---G[Function App] | Aggregation
+      C---G[Function App] 
       C-->E[DataLake Store]
       E---H[AML]
       E---I[Data Bricks];
@@ -167,8 +167,8 @@
       B-->C[Stream Analytics]
       C-->D[Cosmos DB]
       D-->F[Web App]
-      C---G[Function App] | Aggregation
-      B---F[Function App] | Device Streaming
+      C---G[Function App] 
+      B---F[Function App] 
       C-->E[DataLake Store];
       
 </div>
