@@ -10,6 +10,10 @@
     2. All devices can not use the same key (if I can touch it I can own it principle)
     3. Dealing with rogue devices 
     4. Encrypted Keys using a Trusted Platfor Module (TPM)
+
+---
+## Problem Space for IoT
+
  3. Device Management (Fleet management)
     1. Managing Device Configurations
     2. Keeping track of Devices in a querable way
@@ -102,6 +106,8 @@
   * Unstructured data
 * Data Lake Store
   * High volume
+ 
+ ---
 
 <div class="mermaid">
   graph LR
@@ -110,34 +116,17 @@
       Stream Analytics-->DataLake Store;
   </div>
 
-
-
 ---
-# Lambda
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/lambda.png)
----
-
-# Kappa
-
-![Left](https://microshak.github.io/MicroNotes/Images/IoTRef/Kappa.png)
-
----
-# Microservices
-
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Microservice_Architecture.png)
+# test
+<div class="mermaid">
+  graph LR
+      A-->B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+  </div>
 
 ---
 
-# Big Data
-
-![left](https://microshak.github.io/MicroNotes/Images/IoTRef/Kafka.png)
-
----
-
-# IoT Official Reference Architecture
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/OfficialReferenceArchitecture.png)
-
----
 
 # Basic
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Basic.png)
