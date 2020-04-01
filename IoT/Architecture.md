@@ -105,7 +105,7 @@
 
 <div class="mermaid">
   graph LR
-      IoTHub --> Stream Analytics
+      IoTHub-->Stream Analytics
       Stream Analytics-->Cosmos DB
       Stream Analytics-->DataLake Store;
   </div>
