@@ -3,6 +3,7 @@
 <head>
     <title>My Awesome Presentation</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
     
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -48,7 +49,7 @@ img[alt="right"]
      width:50%;    
         }
 
-        .remark-slide-content ul li {
+        .remark-slide-content.ul.li {
         font-size: 25px ;
         }
         .remark-slide-content h3 {
@@ -94,8 +95,11 @@ function logKey(e) {
 
 
     </script>
-   <script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
-   <script>mermaid.initialize({startOnLoad:true,   fontSize:"40"});</script>
+   <script>
+   $(document).ready(function() {
+   mermaid.initialize({startOnLoad:true,   fontSize:"40"});
+   })
+   </script>
     
 </body>
 </html>
