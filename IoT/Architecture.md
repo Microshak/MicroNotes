@@ -109,7 +109,7 @@
  
 ---
 # Test
-<iframe src="basic.mer" />
+<iframe src="IoT/basic.htm" />
 ---
 # Minimal Setup
 <div class="mermaid">
