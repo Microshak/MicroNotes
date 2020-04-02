@@ -5,7 +5,7 @@
    <script>
 
 var config = {
-    startOnLoad:true,
+    startOnLoad:false,
     flowchart:{
       useMaxWidth:true,
       htmlLabels:true,
@@ -20,14 +20,17 @@ function myFunction(){
 
   mermaid.initialize(config);
   console.log('yep')
-  mermaid.render()
+  var output = document.getElementById("output");
+  mermaid.render('thegraph', document.getElementById("mer").innerHTML,function(svgCode) {
+        output.innerHTML = svgCode;
+    }); 
 }
    </script>
     
 </head>
 <body onload="myFunction()">
   <h1>Im an Iframe</h1>
-<div class="mermaid">
+<div class="mermaid" id="mer">
   graph LR
       A[IoT Device]--- B[IoTHub]
       A---B
@@ -38,5 +41,6 @@ function myFunction(){
       C-->E[Blob Storage];
       
 </div>
-
+<div id="output"></div>
+</div>
 </body>
