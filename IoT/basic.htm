@@ -16,15 +16,16 @@ var config = {
     securityLevel:'loose',
   };
 
-
+function myFunction(){
 
   mermaid.initialize(config);
-
+  console.log('yep')
+}
    </script>
     
 </head>
-<body>
-  <h1>Im an Iframe</h1>>
+<body onload="myFunction()">
+  <h1>Im an Iframe</h1>
 <div class="mermaid">
   graph LR
       A[IoT Device]--- B[IoTHub]
