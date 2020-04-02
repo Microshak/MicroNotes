@@ -3,7 +3,6 @@
 <head>
     <title>My Awesome Presentation</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
     
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -21,10 +20,6 @@
 
         .remark-code, .remark-inline-code {
             font-family: 'Ubuntu Mono';
-        }
-        .label
-        {
-            font-size: "14px";
         }
         iframe{
     border : 0px white;
@@ -53,7 +48,7 @@ img[alt="right"]
      width:50%;    
         }
 
-        .remark-slide-content.ul.li {
+        .remark-slide-content {
         font-size: 25px ;
         }
         .remark-slide-content h3 {
@@ -68,18 +63,6 @@ img[alt="right"]
     </script>
     <script type="text/javascript">
 
-var config = {
-    startOnLoad:true,
-    flowchart:{
-      useMaxWidth:true,
-      htmlLabels:true,
-      curve:'cardinal',
-      fontSize:'40',
-    },
-
-    securityLevel:'loose',
-  };
-
         var path = qs('path')
        
  
@@ -91,14 +74,7 @@ var config = {
             sourceUrl: base+path+'.md?ran=' + Math.random()
       
         });
-        slideshow.on('showSlide', function (slide) {
-            setTimeout(function() {
-                mermaid.initialize(config);
-  
-  console.log('3')
-}, 1000);
-      
-});
+   
    
         document.title = path;
 
@@ -117,17 +93,11 @@ function logKey(e) {
     }
     console.log( ` ${e.code}`);
 
-    mermaid.initialize(config);
-  
+    
 }
 
 
     </script>
-   <script>
-  //the event occurred
-  mermaid.initialize(config);
-
-   </script>
     
 </body>
 </html>

@@ -107,8 +107,10 @@
 * Data Lake Store
   * High volume
  
- ---
-
+---
+# Test
+<iframe src="basic.mer" />
+---
 # Minimal Setup
 <div class="mermaid">
   graph LR
@@ -177,6 +179,7 @@
 
 # Realistic Setup
 ### Some customers want a low cost solution
+
 <div class="mermaid">
   graph LR
       A[IoT Device]--- B[IoTHub]

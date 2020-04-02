@@ -1,0 +1,39 @@
+<head>
+   <script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
+    
+ 
+   <script>
+
+var config = {
+    startOnLoad:true,
+    flowchart:{
+      useMaxWidth:true,
+      htmlLabels:true,
+      curve:'cardinal',
+      fontSize:'40px',
+    },
+
+    securityLevel:'loose',
+  };
+
+
+
+  mermaid.initialize(config);
+
+   </script>
+    
+</head>
+<body>
+<div class="mermaid">
+  graph LR
+      A[IoT Device]--- B[IoTHub]
+      A---B
+      A---B
+      B-->C[Function App]
+      C-->D[Table Store]
+      D-->F[Web App]
+      C-->E[Blob Storage];
+      
+</div>
+
+</body>
