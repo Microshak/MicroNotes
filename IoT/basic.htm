@@ -19,9 +19,11 @@ var config = {
 function myFunction(){
 
   mermaid.initialize(config);
-  console.log('yep')
+  
   var output = document.getElementById("output");
-  mermaid.render('thegraph', document.getElementById("mer").innerText,function(svgCode) {
+  var txt = document.getElementById("mer").value
+  console.log(txt)
+  mermaid.render('thegraph', txt,function(svgCode) {
         output.innerHTML = svgCode;
     }); 
 }
