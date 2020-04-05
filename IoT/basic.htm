@@ -96,12 +96,14 @@ function Reference()
    $('#webapp').prop( "checked", true )
    $('#datalakestore').prop( "checked", true )
    $('#signalr').prop( "checked", true )
-  
+   $('#sqlserver').prop( "checked", true )
+   $('#aadb2c').prop( "checked", true )
+   
    
   draw();
  
  }
- function IndustrialProduct()
+ function TypicalProduct()
  {
    reset()
    
@@ -110,7 +112,6 @@ function Reference()
    $('#iot').prop( "checked", true )
    $('#webapp').prop( "checked", true )
    $('#datalakestore').prop( "checked", true )
-   $('#powerbi').prop( "checked", true )
    $('#sqlserver').prop( "checked", true )
    
       
@@ -271,7 +272,7 @@ function draw()
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
       <a class="dropdown-item" onclick="Reference()" href="#">Reference Architecture</a>
 
-      <a class="dropdown-item" onclick="IndustrialProduct()" href="#">Typical Product Product</a>
+      <a class="dropdown-item" onclick="TypicalProduct()" href="#">Typical Product Product</a>
       <a class="dropdown-item" onclick="LiveStreaming()" href="#">Live Streaming</a>
       <a class="dropdown-item" onclick="SmartDevice()" href="#">Smart Devices</a>
      
