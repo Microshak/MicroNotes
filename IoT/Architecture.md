@@ -85,11 +85,14 @@
 ## Problem Space for IoT
 
 9. Machine learning value add
-   1.  Anomaly detection
-   2.  Predictive Maintenance
-   3.  Remaining Useful Life
-   4.  Vision/Voice
-   5.  Edge Deployment
+    1. Cloud model deployment
+    2. Edge model deployment
+    3. Predictive Maintenance
+    4. Computer vision
+    5. Natural language processing
+    6. Anomaly detection
+    7. Time series forecasting
+    8. Automatic retraining/deployment
 
 ---
 # Recommend Tools (High Level)
@@ -108,139 +111,10 @@
   * High volume
  
 ---
-# Test
-<iframe src="IoT/basic.htm" />
----
-# Minimal Setup
-<div class="mermaid">
-  graph LR
-      A[IoT Device]--- B[IoTHub]
-      A---B
-      A---B
-      B-->C[Stream Analytics]
-      C-->D[Cosmos DB]
-      C-->E[DataLake Store];
-  </div>
+# Reference Designs
 
----
-
-# Realistic Setup
-### We see this in about 80% of customers
-<div class="mermaid">
-  graph LR
-      A[IoT Device]--- B[IoTHub]
-      A---B
-      A---B
-      B-->C[Stream Analytics]
-      C-->D[Cosmos DB]
-      D-->F[Web App]
-      C---G[Function App] 
-      C-->E[DataLake Store];
-      
-</div>
-
----
-# Realistic Setup
-### Some Customers Layer on ML
-<div class="mermaid">
-  graph LR
-      A[IoT Device]--- B[IoTHub]
-      A---B
-      A---B
-      B-->C[Stream Analytics]
-      C-->D[Cosmos DB]
-      D-->F[Web App]
-      C---G[Function App] 
-      C-->E[DataLake Store]
-      E---H[AML]
-      E---I[Data Bricks];
-      
-</div>
-
----
-
-# Realistic Setup
-### Some customers layer on device streaming
-<div class="mermaid">
-  graph LR
-      A[IoT Device]--- B[IoTHub]
-      A---B
-      A---B
-      B-->C[Stream Analytics]
-      C-->D[Cosmos DB]
-      D-->F[Web App]
-      C---G[Function App] 
-      B---F[Function App] 
-      C-->E[DataLake Store];
-      
-</div>
-
----
-
-# Realistic Setup
-### Some customers want a low cost solution
-
-<div class="mermaid">
-  graph LR
-      A[IoT Device]--- B[IoTHub]
-      A---B
-      A---B
-      B-->C[Function App]
-      C-->D[Table Store]
-      D-->F[Web App]
-      C-->E[Blob Storage];
-      
-</div>
-
----
-
-
-
-# Basic
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Basic.png)
-
----
-# Streaming Dashboards
-
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/StreamingDashboards.png)
-
----
-# IoT using Cosmos DB
-
-[![Full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTCosmos.png)](https://azure.microsoft.com/en-us/solutions/architecture/iot-using-cosmos-db/)
+* [Interactive Tool](https://microshak.github.io/MicroNotes/IoT/basic.htm)
+* [Official Documentation](https://aka.ms/iotrefarchitecture)
 
 
 ---
-
-# Real Time
-
-[![full](https://microshak.github.io/MicroNotes/Images/IoTRef/RealTime.png)](https://azure.microsoft.com/en-us/solutions/architecture/real-time-analytics/)
-
----
-# IoT Issues
-* Transactions vs Telemetry
-*  Limits in Message Volumes
-* Connectivity
-  * Always
-  * Semi-Connected
-  * Disconnected
-  * Fall Back (sms)
-
----
-
-# Security
-* Cloud
-* Device
-  * TPM
-  * Certs/Keys
-  * Provisioning
-  * Ports
-
----
-
-# OTA Updates
-  * Roll back
-  * Modularized 
-  * Container Based
-
-
