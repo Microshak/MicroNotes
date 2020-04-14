@@ -4,7 +4,7 @@
 
 # IoT
 * [Architecture](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/Architecture)
-* [IoTHub]([Architecture](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTHub))
+* [IoTHub](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTHub)
 * [Stream Analytics](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/SA)
 * [Cosmos DB](https://microshak.github.io/MicroNotes//Notes.html?path=Databases/CosmosDB/CosmosDB)
-*  
+  

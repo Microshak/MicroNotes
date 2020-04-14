@@ -30,16 +30,12 @@
 
 ---
 
-# Aggregations
-* Limited
-* No Group By 
-
----
-
 # Consistency Levels
 * Supports [5 Levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels) of Consistency
 * Consistency Over Ridable
 * No Partial Document Update
 
-
+---
+# Change Feed
+* Streaming output of changes to the database.
 
