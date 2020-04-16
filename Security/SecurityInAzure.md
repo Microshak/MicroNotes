@@ -1,10 +1,23 @@
 
 # Security Monitoring
 * [Azure Security Center](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0)
+  * [VMs with Azure Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/security/azure-threat-detection)
+  * [Docker](https://azure.microsoft.com/en-us/blog/detecting-threats-targeting-containers-with-azure-security-center/)
+  * [IoT](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azure-security-center.edge-ascforiot?tab=Overview)
+
 * [Azure DevOps Kit](https://github.com/azsk/DevOpsKit)
+* [Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
 
 
 ---
+
+
+# Monitoring
+* [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
+* [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
+
+---
+
 # Secure Via Template
 * [Terra Form](https://www.terraform.io/docs/providers/azurerm/)
 * ARM Scripts
@@ -38,7 +51,6 @@
 * [RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
 * Key Rotation
 * [Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/basic-concepts)
-* [Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
 
 ---
 
@@ -50,12 +62,6 @@
 * [Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 * [Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/)
 
----
-
-
-# Monitoring
-* [Azure Log Analytics](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.OperationalInsights%2Fworkspaces)
-* [Azure Monitor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview)
 
 ---
 
@@ -74,6 +80,5 @@
 * [Azure Security](https://azure.microsoft.com/en-us/blog/topics/security/)
 ---
 # VMs
-[Azure Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/security/azure-threat-detection)
 
 ![left](https://docs.microsoft.com/en-us/azure/security/media/azure-threat-detection/azure-threat-detection-fig1.png)
