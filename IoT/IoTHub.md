@@ -42,3 +42,12 @@
   * [Security Center](https://azuremarketplace.microsoft.com/en/marketplace/apps/azure-security-center.edge-ascforiot?tab=Overview) 
   * [Anomaly Detection](https://azuremarketplace.microsoft.com/en/marketplace/apps/brframe-5175097.unsupervised-anomaly-detection-iot-edge-module?tab=Overview)
   * [SQL Server](https://azuremarketplace.microsoft.com/en/marketplace/apps/microsoft.edge-sql-server-2017?tab=Overview)
+
+---
+# Partitioning
+
+
+---
+# Routing
+
+---
