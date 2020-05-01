@@ -3,6 +3,8 @@
 
 
 # IoT
+* [Lab Visit](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTLab)
+
 * [Architecture](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/Architecture)
 * [IoTHub](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTHub)
 * [Stream Analytics](https://microshak.github.io/MicroNotes//Notes.html?path=Azure/SA)

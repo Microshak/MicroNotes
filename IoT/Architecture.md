@@ -1,10 +1,14 @@
-## Problem Space for IoT
+## Problem Space for IoT - Ingestion
  1. Ingestion
     1. Massive Data (millions of devices)
     2. Communications Unreliable (Wifi, LoRA, TV Whitespace, etc)
     3. Devices behind Firewalls in Factories
     4. Hi volume data (cameras, hi frequency (htz))
     5. Semi connected devices (store data when device is off line)
+
+---
+## Problem Space for IoT - Security
+
  2. Security
     1. Devices need Over the Air (OTA) Updates
     2. All devices can not use the same key (if I can touch it I can own it principle)
@@ -12,7 +16,7 @@
     4. Encrypted Keys using a Trusted Platfor Module (TPM)
 
 ---
-## Problem Space for IoT
+## Problem Space for IoT - Provisioning
 
  3. Device Management (Fleet management)
     1. Managing Device Configurations
@@ -28,7 +32,7 @@
 
 ---
 
-## Problem Space for IoT
+## Problem Space for IoT - Data
 4. Data processing
    1. Hyperscale data size
    2. Data uses different formats
@@ -47,7 +51,7 @@
 
 ---
 
-## Problem Space for IoT
+## Problem Space for IoT - Device Messaging
  
 6. Device Messages (Cloud to Device)
    1. Fire and forget
@@ -58,7 +62,7 @@
    3. Leaf devices
 
 ---
-## Problem Space for IoT
+## Problem Space for IoT - Management
 
 
 8. Cloud Management
@@ -69,7 +73,12 @@
       1. Test
       2. Staging
       3. Prod
-9. Cost Managment
+
+
+## Problem Space for IoT - Cost Management
+
+
+1.  Cost Managment
    1.  Understanding how choices affect cost
        1. Data store options
           1. Key/Value store
@@ -82,7 +91,7 @@
 
    
 ---
-## Problem Space for IoT
+## Problem Space for IoT - Analytics and ML
 
 9. Machine learning value add
     1. Cloud model deployment

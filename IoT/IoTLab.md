@@ -6,11 +6,22 @@
     * Cloud (Mike)
     * Apps (Josh)
     * Machine Learning (Conner)
-  * Intergrate customer feedback with Azure teams
-* Help customers navigate the large amount of choices in Azure
-* Help customers envision the North Star 
+* Intergrate customer feedback with Azure teams
 
 ---
+
+# Our Goal
+* Your Long term success
+  * Right Tools for your project
+  * Help you to learn to use those tools 
+* Learn from others mistakes 
+* **Help you navigate the large amount of choices in Azure**
+
+* **Help you envision the North Star**
+
+---
+
+
 
 # North Star
 * Secure 
@@ -42,4 +53,12 @@
 
 Because there are so many choices we tend to be prescriptive.
 
- 
+---
+
+# How the engagement looks
+* Group whiteboarding sessions
+* Breakout paired engeneering session
+* Breaks
+* Follow up
+
+---

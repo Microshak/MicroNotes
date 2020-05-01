@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>IoT</title>
   </head>
   
 <script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
@@ -164,11 +164,34 @@ function draw()
   if($('#streamanalytics').prop( "checked"))
   {
     document.getElementById("mer").value += "IH-->SA[Stream Analytics]\n"
-  }
   
-  if($('#cosmosdb').prop( "checked"))
+    if($('#cosmosdb').prop( "checked"))
   {
     document.getElementById("mer").value += "SA-->CDB[Cosmos DB]\n"
+  }
+  
+  if($('#datalakestore').prop( "checked"))
+  {
+    document.getElementById("mer").value += "SA-->DLS[DataLake Store]\n"
+  }
+
+  }
+  
+  if($('#functionapp').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IH-->FA[Function App]\n"
+    document.getElementById("mer").value += "FA-->IH\n"
+
+ 
+    if($('#cosmosdb').prop( "checked"))
+  {
+    document.getElementById("mer").value += "FA-->CDB[Cosmos DB]\n"
+  }
+  
+  if($('#datalakestore').prop( "checked"))
+  {
+    document.getElementById("mer").value += "FA-->DLS[DataLake Store]\n"
+  }
   }
   
   if($('#sqlserver').prop( "checked"))
@@ -188,12 +211,7 @@ function draw()
     document.getElementById("mer").value += "FA-->TS[Table Store]\n"
   }
   
-  if($('#functionapp').prop( "checked"))
-  {
-    document.getElementById("mer").value += "IH-->FA[Function App]\n"
-    document.getElementById("mer").value += "FA-->IH\n"
-
-  }
+  
   if($('#databricks').prop( "checked"))
   {
     document.getElementById("mer").value += "IH-->DB[Data Bricks]\n"
@@ -239,10 +257,6 @@ function draw()
     document.getElementById("mer").value += "SR-->FA\n"
     document.getElementById("mer").value += "SR---WA[Web App]\n"
 
-  }
-  if($('#datalakestore').prop( "checked"))
-  {
-    document.getElementById("mer").value += "SA-->DLS[DataLake Store]\n"
   }
 
 
