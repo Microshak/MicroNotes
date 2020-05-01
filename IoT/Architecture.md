@@ -21,7 +21,7 @@
        1. In Factories (using a pogo pin testing jig)
        2. On activation through website
        3. Changing owners
-       4. Assiciating Devices to IoT Hub
+       4. Associating Devices to IoT Hub
           1. having physical hardware go to right customers instance
           2. Having devices go to the right cloud (goverment, region)
    

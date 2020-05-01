@@ -8,21 +8,23 @@
 * Updates
 
 ---
-# C2D Messaging
+# IoT Messaging
+Problem IoT Messaging can be spotty, can drop, can be off line for periods of time.
 * Proticols
-  * MQTT (prefered)
-  * AMQP
+  * Message Queueing proticols
+    * Set up a bi-directional pipe for C2D and D2C mesages
+    * **MQ**TT (prefered)
+    * A**MQ**P
   * HTTP
-* Lost Messages
+    * Requires polling for messages
+    * Can result in duplicate messages
+* Lost connectivity
   * Exponential Backoff
   * MessageID for duplicate messages
+  * Store and forward
 
 ---
-# D2C Messaging
-* MQ Allows for bi-directional
-* HTTP use polling
 
----
 # Twins
 * Device Twins (similar to config files)
   * Tags
@@ -33,6 +35,7 @@
   * Uses IoT Edge
   * Related Messages
 ---
+
 # IoT Edge
 * Container Technology (Mobi)
 * Easy OTA
