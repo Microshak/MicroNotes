@@ -19,8 +19,6 @@ Create a new IoT Edge device and get the key
 ---
 
 
-
-
 # Setting the IoT Hub Connection String
 ```
 sudo nano /etc/iotedge/config.yaml

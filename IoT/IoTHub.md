@@ -48,9 +48,35 @@ Problem IoT Messaging can be spotty, can drop, can be off line for periods of ti
 
 ---
 # Partitioning
+* IoTHub --> EventHub --> Blob Storage
+* IoTHub
+  * Special features for IoT
+* Event Hub 
+  * Time Based Journal **Journal** (more on that later)
+* Blob Storage
+  * Saves files into 3 hard drives
+  * Each partition goes to a separate blob account
+### Why do we care?
+* Performance
+* Stream Analytics can parallelize data to CosmosDB
+
+---
+# Journal
+  * Data Stored from **1** to 7 days
+  * Similar to a topic can have multiple distinct consumers through consumer groups
+  * Is distributed (can keep track of what it has sent out)
+
 
 
 ---
 # Routing
+* Simple query to rout part of the data to another system.
+* Can separate alert data from telemetry data.
 
 ---
+
+# C2D Message vs Direct Method
+* C2D Message
+  * Queue of Messages for each device
+  * 2 Day ttl
+  * Max Message Queued per device 50

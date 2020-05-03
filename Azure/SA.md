@@ -38,8 +38,8 @@
 
 ---
 
-# Time Handeling
-* Early Arival
+# Time Handling
+* Early Arrival
 * Out of order tolerance
 * Watermark delay
 

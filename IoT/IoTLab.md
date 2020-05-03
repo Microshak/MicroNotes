@@ -6,7 +6,7 @@
     * Cloud (Mike)
     * Apps (Josh)
     * Machine Learning (Conner)
-* Intergrate customer feedback with Azure teams
+* Integrate customer feedback with Azure teams
 
 ---
 
@@ -29,10 +29,10 @@
   * On edge devices
   * On Hardware
 * Smart 
-  * Predictive Mainenance
+  * Predictive Maintenance
   * Remain Useful Life with IoT
-    * By Factory
-    * By BOM
+      * By Factory
+      * By BOM
 * Monitor 
   * Visual Monitoring
   * Querying
@@ -40,12 +40,12 @@
 
 ---
 
-# Chosing the right tools
+# Choosing the right tools
 * Cost 
   * **IoTHub** vs IoT Central vs Azure Blockchain Service  5x and 20x cost
   * Function App vs **Steam Analytics** vs Data Factory starts at $0, $80 & $1200 respectively
 * Functionality 
-  * Function App vs Stream Analytics (Reference table, windowing, error handeling)
+  * Function App vs Stream Analytics (Reference table, windowing, error handling)
   * SQL Server vs **CosmosDB** vs Table Store
 * Ease of Use  
   * IoTHub vs IoT Central
@@ -57,8 +57,6 @@ Because there are so many choices we tend to be prescriptive.
 
 # How the engagement looks
 * Group whiteboarding sessions
-* Breakout paired engeneering session
+* Breakout paired engineering session
 * Breaks
 * Follow up
-
----
