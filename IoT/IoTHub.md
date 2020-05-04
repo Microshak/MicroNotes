@@ -10,16 +10,16 @@
 ---
 # IoT Messaging
 Problem IoT Messaging can be spotty, can drop, can be off line for periods of time.
-* Proticols
-  * Message Queueing proticols
-    * Set up a bi-directional pipe for C2D and D2C mesages
-    * **MQ**TT (prefered)
+* Protocols
+  * Message Queueing protocols
+    * Set up a bi-directional pipe for C2D and D2C messages
+    * **MQ**TT (preferred)
     * A**MQ**P
   * HTTP
     * Requires polling for messages
     * Can result in duplicate messages
 * Lost connectivity
-  * Exponential Backoff
+  * Exponential backoff
   * MessageID for duplicate messages
   * Store and forward
 
@@ -31,9 +31,11 @@ Problem IoT Messaging can be spotty, can drop, can be off line for periods of ti
   * Desired Properties
   * Reported Properties
 * Digital Twins
-  * Higher telemetery Rates
+  * Higher telemetry Rates
   * Uses IoT Edge
   * Related Messages
+    ![full](https://microshak.github.io/MicroNotes/Images/twin.png)
+
 ---
 
 # IoT Edge
@@ -65,6 +67,7 @@ Problem IoT Messaging can be spotty, can drop, can be off line for periods of ti
   * Data Stored from **1** to 7 days
   * Similar to a topic can have multiple distinct consumers through consumer groups
   * Is distributed (can keep track of what it has sent out)
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/ConsumerGroups.png)
 
 
 
@@ -80,3 +83,11 @@ Problem IoT Messaging can be spotty, can drop, can be off line for periods of ti
   * Queue of Messages for each device
   * 2 Day ttl
   * Max Message Queued per device 50
+  * Json message you need to parse
+* Direct Method
+  * Fire and forget
+  * Calls methods directly
+
+# Preview Features
+* Distributed Tracing through correlation id
+* Streams

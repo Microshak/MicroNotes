@@ -25,10 +25,23 @@
 ---
 
 # Windowing
-* Tumbeling
+* Tumbling
 * Hopping
 * Sliding
 * Session
+
+---
+# Tumbling
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Tumbeling.png)
+
+
+---
+# Hopping
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Hopping.png)
+
+---
+# Sliding
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/slide.png)
 
 ---
 
