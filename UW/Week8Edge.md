@@ -290,6 +290,7 @@ How do they
 * Can use Opensource easily
 
 ---
+
 # [Demo](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTEdge101)
 
 ![full](https://microshak.github.io/MicroNotes/Images/IoTRef/IoTEdge.png)
@@ -299,8 +300,6 @@ How do they
 * Edge Devices allow you to offload computer and reduce bottlenecks.
 * OTA can be challenging
 * Dockerizing allows for greater control
-* 
-
 
 ---
  
@@ -317,10 +316,9 @@ How do they
 * Grid/Edge Compute
 * Tape Drives
 * Spark
-* Scylladb - Real Time
 * Mongo(meta db) 50 Pb per year
 
-
+---
 
 # Other ways of Offloading Compute
 * [Android](https://www.tensorflow.org/lite/guide/android)

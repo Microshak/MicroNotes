@@ -6,6 +6,7 @@
 4. High Velocity
 5. Veracity
 ---
+
 # This Quarter
 
 6. Value
