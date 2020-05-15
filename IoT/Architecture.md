@@ -107,19 +107,41 @@
 
 ---
 # Recommend Tools (High Level)
-* IoT Hub 
-  * Security
-  * OTA
-  * Telemetry
-  * Config
-* Streaming Analytics
-  * Routing Messages
-  * Aggregations
-* Cosmos DB
+* IoT Hub (Device Communication)
+* Stream Analytics (Data processing)
+* Cosmos DB (Hot Storage)
+* Data Lake Store (Cold Storage)
+
+---
+# IoT Hub
+* Security Built In
+* Over the Air (OTA) Update 
+* Telemetry
+ * Real Time
+ * Queued
+* Config in Cloud and On Device with Device Twins
+* Secure File Transfer
+* Offline support with Store and Forward
+  
+
+---
+# Stream Analytics
+* Routing Messages
+* Aggregations
+* SQL Interface
+* Handles different types of messages (unstructured)
+
+---
+# Cosmos DB
   * High volume
   * Unstructured data
-* Data Lake Store
-  * High volume
+  * Fast
+  * Can be globally distributed
+
+---
+# Data Lake Store
+  * High volume storage
+  * Low Cost
  
 ---
 # Reference Designs

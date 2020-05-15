@@ -1,17 +1,46 @@
 # Big Data 230 Week 9 Data Ops
 
-
-* [MLFlow](https://microshak.github.io/MicroNotes/Notes.html?path=ML/MLFlow)
-* [Data Catalog](https://azure.microsoft.com/en-us/services/data-catalog/)
-* Azure Devops
 ---
-# 3 Things to Remember
-* Making a Data product is challenging
-* Tools can help with challenges
+# Start with a Story
+>> METT-T (Mission, Enemy, Troupe, Terrain, Time)
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/plaines.jpg)
+
+
+---
+
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/camo1.JPG)
+
+---
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/camo2.jpeg)
+
+---
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/dismount.jpg)
+
+---
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/handset.jpg)
+
+---
+# Another Story
+
+### WW2
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/demming.jpeg)
+
+---
+
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/mazda.jpg)
+[* article](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate)
+
+
+---
+
+
+
+# 3 Concepts
+* Building Data Products are Challenging Tools can help with challenges
 * If you find yourself repeating the same task or making the same mistakes over and over again look for a solution
+* Always look to improve your position
 
 ---
-
 
 ![full](https://microshak.github.io/MicroNotes/Images/sdlc.jpg)
 
@@ -153,7 +182,7 @@ Continuous Integration/Continuous Delivery
 # Disaster Recovery - High Availability
 * Kafka [Confluent Replicator](https://www.confluent.io/confluent-replicator/) or [Mirror Maker](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=27846330)
 * Kubernetes MultiCloud
-* NoSQL
+* NoSQL Backups
   * Full 
   * Incremental
 
@@ -244,6 +273,9 @@ Tradition approach
 * Velocity
 * Change
 * Coherence
+
+
+---
 
 # Security
 * [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)

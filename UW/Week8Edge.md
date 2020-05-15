@@ -1,182 +1,273 @@
+# Big Data 230 Week 1
+# Internet of Things
+
+
+
+
+
+# Bio
+## Mike Roshak PhD
+Currently: IoT/Cloud Architect Microsoft 
+* Big Data
+* IoT 
+* Machine Learning
+* Robotics
+
+### I was your original instructor
+  
+![Full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
+
+---
+
+![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
+
+---
+
+[![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
+
+---
+
+
+# Course Objectives
+* Learning the basic tools
+* Learn problem solving the big data space
+* Learn tool evaluation
+* Learn how to design end-to-end solution
+
+---
+
+# How we are going to obtain those objectives
+* Discuss big data problem and solutions 
+* Familiarize with different industries and business segments that use big data
+* Practice Architecting solutions solutions
+
+---
+# Our end result
+* You can design end-to-end solutions
+* You can be trusted advisors
+* You can grow your career and skill set
+
+
+---
+# Home work
+Diagramming and explaining solutions.
+
+
+
+---
+
 # This Class
-* Graph in Spark
+*Note: IoT is a bit of a pivot from other classes*
+* IoT
+  * Problems and solutions
+  * Architectures
+  * Considerations
 * IoT Edge
-* Fog
-* Deploy Models to Web/Mobile 
+  * Dockerization 
+  * Hardware platforms
+  * Cloud 
+* Architecting Solutions
 ---
+# Scenario 
 
-# Spark Graph
-* Subgraphs
-* Motifs
-* Various Graph Algorithms
-* Spark Graph Frames
-* ~~GraphX~~
+#### Developing world off grid solar panel company has built a solution that has 30,000 device in a key value store (Partition key, Range Key).  The IoT Solution has been around for 3 years and has 1 billion records(Totaling 250 Gbs of data).  They have never done any analytics on the data and say they can't afford the cloud.  On-prem they have modernish laptops and desktops.
 
-
----
-# What is Graph
-A representation of things that are connected
-
-
-![right](https://microshak.github.io/MicroNotes/Images/Graph/nodesedges.gif)
-It has:
-* Vertexes
-* Edges
-* Algorithms are inherently recursive 
----
-# What is Graph
-
-It can represent real world things
-![full](https://microshak.github.io/MicroNotes/Images/Graph/Basic.png)
----
-# What is a Graph
-It can be directed or not directed
-![full](https://microshak.github.io/MicroNotes/Images/Graph/directedgraph.png)
+How do they 
+* Set up analytics 
+  * Monthly Usage Reports
+  * Develop statistics and KPIs
 
 ---
-# What is Graph
+# Scenario 
+### Robotics Company has mining robots.  The robots and servers are dropped down into the mine for a year at a time. They need real-time teleop  robots and servers, Dashboards of where all of the robots are. When the servers are brought back to the surface they need the data (100 TB) transfered to the cloud.
+How do they
+* Do Real-time teleop
+* Dashboard based on the real-time information
+* Transfer the data to the cloud
 
-The edges and nodes can have properties
-![full](https://microshak.github.io/MicroNotes/Images/Graph/propertygraph.png)
 
----
-
-# Why use graphs
-* Labeled data is often unavailable to you.
-* Can help you find **influence**
-  * Centrality Algorithms
-* Can help you find **homophily** (birds of a feather stick together)
-* Can help you find **communities**
-  * Fraud rings
-  * Overloaded Edges
-* Can help find pair-wise relationships between objects
-* Can help you find **Path and Search**
-* Can show **Importance** 
-* Show **Decomposition**
-* Can map **Network flow** showing where there are missing node
+## Problem Space for IoT - Ingestion
+ 1. Ingestion
+    1. Massive Data (millions of devices)
+    2. Communications Unreliable (Wifi, LoRA, TV Whitespace, etc)
+    3. Devices behind Firewalls in Factories
+    4. Hi volume data (cameras, hi frequency (htz))
+    5. Semi connected devices (store data when device is off line)
 
 ---
-# Assumptions
-* Edges not random
+## Problem Space for IoT - Security
 
+ 2. Security
+    1. Devices need Over the Air (OTA) Updates
+    2. All devices can not use the same key (if I can touch it I can own it principle)
+    3. Dealing with rogue devices 
+    4. Knowing when you have been hacked 
+   
+---
+## Problem Space for IoT - Provisioning
+
+ 3. Device Management (Fleet management)
+    1. Managing Device Configurations
+    2. Keeping track of Devices in a queryable way
+    3. Provisioning Devices
+       1. In Factories (using a pogo pin testing jig)
+       2. On activation through website
+       3. Changing owners
+       4. Associating Devices to IoT Hub
+          1. having physical hardware go to right customers instance
+          2. Having devices go to the right cloud (government, region)
+   
 
 ---
 
-# Terminology
-
-* **Graph** — A data structure G = (V, E) where V and E are a set of vertices and edges.
-* **Vertex** — Represents a single entity such as a person or an object (e.g., a username on a social network).
-* **Edge** — Represents a relationship between two vertices (e.g., are these two vertices friends on a social network?).
-* **Directed Graph vs. Undirected Graph** — Denotes whether the relationship represented by edges is symmetric or not (e.g., Twitter user A can follow user B but B might not follow A).
-
----
-
-#Terminology
-* **Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
-* **Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
-* **Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.
-
----
-
-
-# Graph Algorithms Examples
-
-Sequence of steps
-Examples
-* Page Rank
-  * Vertices web pages
-  * Edges are links
-  * Each link is a vote of importance
-  * Votes count for more if they come from an important page
-* Wikipedia
-   * Verticies users and pages
-   * Edges edits
-   * Users editing a page at a given time
-   * This creates a property graph
-   * Find pairs of users who collaborate often
-
+## Problem Space for IoT - Data
+4. Data processing
+   1. Hyperscale data size
+   2. Data uses different formats
+      1. Telemetry 
+      2. Alerts
+      3. Logs
+      4. Live Streams
+         1. Video/Audio
+         2. Data at a fast rate
+   3. Distributed aggregations (min, max, average)
+5. Data Storage Platform (database)
+   1. Built in Analytics
+   2. Ability to handle relationships
+   3. Ability to handle scale
+   4. Retrieve data fast (too much data can slow down systems)
 
 ---
-# Graph Algorithms
-* DFS 
-  * Path Finding
-  * Finding Strongly Connected Components
-  * Maze
-* BFS
-  * Sortest path 
-  * P2P Networks
-  * Crawlers in Search Engines
-  * Social Networking Websites
-  * GPS Navigation
-  * Finding Nodes with 1 connected Component
----
-# Graph Algorithms
-* Graph Cycle
-  * Cycle Detection
-* Topological Sorting
-* Minimal Spanning Tree
-  * Algorithm that connects all vertices
-* Backtracking
-* Shortest Path
-* Connectivity
-* Maximum Flow
+
+## Problem Space for IoT - Device Messaging
  
- 
-  [more information on graph algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
----
-# Spark Graph Frames
-* Graph Databases
-    * Easy to use
-    * Don't support complex operations
-* Graph Frames  
-    * Can use a Spark SQL
-    * Can use Spark Graph QL
-    * Can use graph algorithms
+6. Device Messages (Cloud to Device)
+   1. Fire and forget
+   2. Queue of message for the device
+7. Related Devices
+   1. Multiple devices that are part of a whole local system (hierarchical)
+   2. Geographically linked devices
+   3. Leaf devices
 
 ---
+## Problem Space for IoT - Management
 
-# GraphX
-   * Only supported in Java/Scala
-   * Built on top of Spark RDD
 
-[tutorial](http://ampcamp.berkeley.edu/big-data-mini-course/graph-analytics-with-graphx.html)
+8. Cloud Management
+   1. Throttling
+   2. Monitoring 
+   3. Alerting
 
 ---
 
+## Problem Space for IoT - Cost Management
 
-# Spark Graph Frames
-* Large more than one machine
-* Parralizable
-* Integrates with GraphX
-* Fault tolerant
-* Integrates with data frames, python etc
-    
+
+1.  Cost Management
+   1.  Understanding how choices affect cost
+       1. Data store options
+          1. Key/Value store
+          2. No SQL
+          3. SQL
+          4. Cold Storage
+       2. Data Volume Costs
+       3. Batch/Vs on demand costs
+    1. Monitoring/Alerting
+
+   
 ---
-# Graph Motif Queries
-```py
-graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
-```
-![right](https://microshak.github.io/MicroNotes/Images/Graph/motif.png)
 
+## Problem Space for IoT - Analytics and ML
+
+9. Machine learning value add
+    1. Cloud model deployment
+    2. Edge model deployment
+    3. Predictive Maintenance
+    4. Computer vision
+    5. Natural language processing
+    6. Anomaly detection
+    7. Time series forecasting
+    8. Automatic retraining/deployment
+
+---
+# Scenario
+#### Agricultural Company uses areal and satellite photos to do analyses of crop health and use machine learning to make fertilizer and pesticide recommendations.  They have over 1 PB of data per year.  
+* How do they process all of the photos
+* How do they store the data recommendations for fast retrieval by the web app.
+  
 ---
 # Demo
 
-[Data and Files](https://github.com/Microshak/Databricks/tree/master/Graph)
+---
+# Recommend Tools (High Level)
+* IoT Hub (Device Communication)
+* Stream Analytics (Data processing)
+* Cosmos DB (Hot Storage)
+* Data Lake Store (Cold Storage)
+
+---
+# IoT Hub
+* Security Built In
+* Over the Air (OTA) Update 
+* Telemetry
+ * Real Time
+ * Queued
+* Config in Cloud and On Device with Device Twins
+* Secure File Transfer
+* Offline support with Store and Forward
+* Edge Support
+
+---
+# Stream Analytics
+* Routing Messages
+* Aggregations
+* SQL Interface
+* Handles different types of messages (unstructured)
+
+---
+# Cosmos DB
+  * High volume
+  * Unstructured data
+  * Fast
+  * Can be globally distributed
+
+---
+# Data Lake Store
+  * High volume storage
+  * Low Cost
+ 
+---
+
+
+* [Interactive Tool](https://microshak.github.io/MicroNotes/IoT/basic.htm)
+
 
 ---
 
-# Three Things to Remember
-* You can analyze data in different ways using Graph techniques
-* You can segment your data in different ways
-* Graph algorithms can be time consuming
+# Scenario 
+#### Company has an IoT card reader for paid parking lot access.  People can pay via phone.  The parking lot gate needs to open within 2 seconds of badge scan.
+
+#### How would you implement this.
+
+---
+# Scenario - IoMT (Internet of Medical Things)
+#### Company has a remote patient monitoring solution. Every night 10 GB of binary data go into a SQL database per device (Direct connection shared key).  At 20 devices the system is not stable.  They also need a way of on-demand live streaming the patient data by the physician (this is currently handled by the SQL database through hammer polling).  
+
+##### How do you fix this?
+
+---
+# Scenario - IoMT (Internet of Medical Things) Part 2
+#### Hospitals will pay allot for device but medicare will not pay allot for monitoring patients.  At the current Cloud spend the project is not sustainable.
+
+##### How do you fix this.
 
 ---
 # This section IoT On The Edge
-* Microsoft IoT Edge
-  * Deploy Models
-  * Multiplexing
-  * Gateway
+*  IoT Edge
+* Edge Devices In General
+
 ---
+
 # Data on the Cloud
 * Devices can have connectivity issues
 * The cloud is expensive
@@ -190,12 +281,13 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 * Containerization Creates a separation of concerns
 * Containerization leads to Orchestration
 ---
+
 # IoT Edge
 * Docker/Mobi containers
 * Internal Pub/Sub
 * Store and Forward
-* Has [Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules)
-
+* Has [Edge Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules)
+* Can use Opensource easily
 
 ---
 # [Demo](https://microshak.github.io/MicroNotes//Notes.html?path=IoT/IoTEdge101)
@@ -228,83 +320,11 @@ graph.find("(a)-[]->(b); (b)-[]->(c); !(a)-[]->(c)")
 * Scylladb - Real Time
 * Mongo(meta db) 50 Pb per year
 
----
-# Fog Compute
-
-Fog Computing
-    Fog Computing Consortium
-![full](https://microshak.github.io/MicroNotes/Images/Edge/fog1.png)
-    
----
-# Why use Fog
-* Can't trust internet
-  * Restricted Factories
-  * Secure Facilities
-* Internet connectivity
-  * Remote Locations
-  * Mobile Centers
-  * Planes
-* Speed/Amount of data 
-  * Cars
-  * Plains
-  * Medical Devices
-  * Robots     
----
-# Fog Demo 
-
-[Getting Started with ROS](http://wiki.ros.org/ROS/StartGuide)
-
----
-
-# DDS (Distributed data service)
-
-* Pub Sub
-* Schema Aware
-* Standard transport (RTPS)
-* Global Data Space
-* Each reader or writer have a topic
-* **QoS**
-* Query topic for only the information
-* Low latency push
-* Hierarchy's of data buses
-* Supports Kuberos and LDAP
-
----
-
-# Alternate Networks
-* White Space
-* SMS
-* LoRa (Long Range)
-* Zigbee (low power mesh)
----
-
-# Message Message Offloading
-* Message Queues
-* IoT Hub
 
 
----
-
-# Offloading Compute
+# Other ways of Offloading Compute
 * [Android](https://www.tensorflow.org/lite/guide/android)
-* [Web](https://www.tensorflow.org/js) [example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false)
+* [Web Compute](https://www.tensorflow.org/js) [example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false)
+* [Web Storage](https://github.com/Microshak/IndexedDB)
 * [Small Device](https://microsoft.github.io/ELL/tutorials/)
 
----
-# Offloading Data on Web
-
-# IndexedDB
-* Key Value Pare Database
-* Supports Transactions
-* Async'ish
-* Uses DOM event to notify when results are available
-* Object oriented
-* No SQL Language
-* Uses same-origin policy
-* [Simple Example](https://github.com/Microshak/IndexedDB)
----
-
-# PWA (Progressive Web Apps)
-* Manifest
-* IndexedDB
-* Service Worker
