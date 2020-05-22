@@ -34,18 +34,42 @@
 ---
 
 
-
+---
 # 3 Concepts
 * Building Data Products are Challenging Tools can help with challenges
 * If you find yourself repeating the same task or making the same mistakes over and over again look for a solution
 * Always look to improve your position
 
 ---
+# Goal of this class
+* Building a data product (rather than on offs)
+  * Collaboration and organization theories
+  * Tools (git etc)
+* Increase trust in your data with: 
+  * High Availability
+  * Disaster Recovery
+* Bettering your position
+  * Training Resources
+    * Coding
+    * Vendor specific (Confluent, Databricks, etc)
+
+---
 
 ![full](https://microshak.github.io/MicroNotes/Images/sdlc.jpg)
 
 ---
+# Discussion Question
+The Obama Care website failed to work right when it was released.  It was slow, people could not sign up, it crashed ect.
 
+A post mortem revealed that the developers were given new requirements from the many policy makers up until launch introducing bugs at launch time. Also the site was designed for 50,000 concurrent users but got 250,000 and could not scale. They reported they overwhelmed their No-SQL database.
+
+### Question
+1. How would you solve the problem of late requirements
+2. You can't overwhelm no-sql databases, right?
+---
+# In this section
+Team organization strategies.
+---
 # Methodologies
 * Waterfall
 * Agile
@@ -142,6 +166,17 @@
 3. Mistakes are valuable 
 
 ---
+# Theory of Moral Reasoning
+
+1. Reward/Punishment
+2. Follow Philosophy
+3. Evaluate what would be good for the project/company/self
+
+---
+# Question
+How do yo make decisions with your projects?
+
+---
 # Three Things
 * Methodologies help teams:
   * Collaborate
@@ -210,14 +245,23 @@ Tradition approach
 
 ---
 * Traditional Big Data Approaches
+* Visual
     * [Nifi](https://nifi.apache.org/docs/nifi-docs/html/getting-started.html#i-started-nifi-now-what)
     * Airflow
 * Serverless
-    * Logic Apps
-    * Function Apps
+* Distributed Systems
+---
+# Group discussion
+Plastic Extruder company build a webstie that monitors the extruders.  They have real time dashboards that monitor the devices temperature ect.  If the device malfunction hours of material could need to be thrown away.
+
+They set up a website that hammer poles the website to get the last 15 minutes readings. They had to remove the feature from their website because it was too expensive.  Upon review of their system they had removed all of the indexes from their no-sql database.  They had also introduced an infinite loop in their database trigger.  But even after fixing that it was too expensive.  Also, their system kept going down which their customers told them about.
+
+### Questions
+1. How would you fix the problem of system going down?
+2. How would you fix the database cost issue?
+3. What if the web charts need to look like [this](https://danchitnis.github.io/webgl-plot-examples/index.html) 
 
 ---
-
 # Web Frameworks
 * Angular
 * ReactJS
@@ -292,6 +336,5 @@ Tradition approach
 
 ---
 
----
 # Prometheus Grafana Demo
 [Demo](https://github.com/stefanprodan/dockprom)

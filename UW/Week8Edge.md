@@ -1,10 +1,6 @@
 # Big Data 230 Week 1
 # Internet of Things
 
-
-
-
-
 # Bio
 ## Mike Roshak PhD
 Currently: IoT/Cloud Architect Microsoft 
