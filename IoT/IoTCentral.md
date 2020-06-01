@@ -13,7 +13,7 @@
 
 
 ---
-# Creating a Device
+#  Device
 ## Measurements
 *  ***Telemetry*** measurements are the numerical data points that your device collects over time. They're represented as a continuous stream. An example is temperature.
 * ***Event*** measurements are point-in-time data that represents something of significance on the device. A severity level represents the importance of an event. An example is a fan motor error.
@@ -41,6 +41,12 @@ Properties are metadata that's associated with the device, such as a fixed devic
 
 
 ---
+# Jobs
+Allows you to set a command do a device based on a defined threshold. Such as trigger alarms.
+
+---
+
+
 # Plug and Play
 * JSON file that is a representation of a device template.
 * Uses industry standard DTD format
@@ -65,3 +71,6 @@ Properties are metadata that's associated with the device, such as a fixed devic
   * [Through Azure Lighthouse](https://azure.microsoft.com/en-us/services/azure-lighthouse/) 
   * [Through API Service](https://youtu.be/PiDgSrzOVmg?t=86)
 
+---
+# Device Catalogue
+* **[Device Marketplace](https://catalog.azureiotsolutions.com/register)**:  Allows you to put a device in the market place. You sign up Microsoft Lead process. 
