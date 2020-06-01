@@ -32,8 +32,10 @@
 
 ---
 # Tumbling
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Tumbeling.png)
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/typical.png)
 
+---
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/central.png)
 
 ---
 # Hopping

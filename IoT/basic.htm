@@ -60,6 +60,8 @@ function Reference()
    $('#streamanalytics').prop( "checked", true )
    $('#cosmosdb').prop( "checked", true )
    $('#iot').prop( "checked", true )
+   $('#IoTHubz').prop( "checked", true )
+   
    $('#datalakestore').prop( "checked", true )
   
    
@@ -85,6 +87,22 @@ function Reference()
   draw();
  
  }
+
+
+ function  Central()
+ {
+   reset()
+   $('#IoTHubz').prop( "checked", false )
+   $('#IoTCentral').prop( "checked", true)
+     
+   $('#iotedge').prop( "checked", true )
+   $('#iot').prop( "checked", true )
+   
+   
+  draw();
+ 
+ }
+
 
  function LiveStreaming()
  {
@@ -141,8 +159,17 @@ function Reference()
 
 function draw()
 {
+  if($('#IoTHubz').prop( "checked"))
+{
   document.getElementById("mer").value = "graph LR\nIH[IoTHub]\n"
+  //$('#IoTCentral').prop( "checked",false) 
+}
+else
+{
+  document.getElementById("mer").value = "graph LR\nIH[IoT Central]\n"
+  $('#IoTHubz').prop( "checked",false) 
 
+}
   if($('#iot').prop( "checked"))
   {
     document.getElementById("mer").value += "IoT1[Device]-->IH\n"
@@ -159,6 +186,17 @@ function draw()
   }
 
 
+  if($('#IoTCentral').prop( "checked"))
+  {
+
+    if($('#cosmosdb').prop( "checked")){
+    document.getElementById("mer").value += "IH-->CDB[Cosmos DB]\n"
+  }
+  if($('#datalakestore').prop( "checked")){
+    document.getElementById("mer").value += "IH-->DLS[DataLake Store]\n"
+  }
+  
+  }
 
 
   if($('#streamanalytics').prop( "checked"))
@@ -169,9 +207,11 @@ function draw()
   {
     document.getElementById("mer").value += "SA-->CDB[Cosmos DB]\n"
   }
-  
+
+
   if($('#datalakestore').prop( "checked"))
   {
+    
     document.getElementById("mer").value += "SA-->DLS[DataLake Store]\n"
   }
 
@@ -291,11 +331,26 @@ function draw()
       <a class="dropdown-item" onclick="SmartDevice()" href="#">Smart Devices</a>
      
       <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
+      <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
   
     </div>
   </div>
 
 <br />
+<div class="boxes">
+  <div class="form-check">
+    <h5>Platform</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="IoTHubz">IoTHub
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="IoTCentral">IoT Central
+    </label>
+  </div>
+
+ </div>
 <div class="boxes">
   <div class="form-check">
     <h5>Devices</h5>
