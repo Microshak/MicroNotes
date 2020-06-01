@@ -3,9 +3,13 @@
 * Insights
 * Actions
 ---
-![full](https://microshak.github.io/MicroNotes/Images/IoTRef/Tumbeling.png)
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/typical.png)
+
+
+[Interactive Tool](https://microshak.github.io/MicroNotes/IoT/basic.htm)
 
 ---
+![full](https://microshak.github.io/MicroNotes/Images/IoTRef/central.png)
 
 
 ---
@@ -37,12 +41,27 @@ Properties are metadata that's associated with the device, such as a fixed devic
 
 
 ---
+# Plug and Play
+* JSON file that is a representation of a device template.
+* Uses industry standard DTD format
+* Connect a PnP Certified device and the template automatically pulls into IoT Central
 
+---
 
-# Create a new 
-* IoT C Embedded SDK
+# Certifying PnP
+* Join the Microsoft Partner network
+* Onboard to Certified for Azure IoT Portal
+* Submit Device
+* Pass tests
+* Publish to Catalog
+
+---
+
+# Feature 
+* IoT C Embedded SDK (Preview)
 * Public API Service
 * Multitendency
   * [Through CSP Portal](https://docs.microsoft.com/en-us/azure/iot-central/core/howto-create-and-manage-applications-csp)
   * [Through Azure Lighthouse](https://azure.microsoft.com/en-us/services/azure-lighthouse/) 
   * [Through API Service](https://youtu.be/PiDgSrzOVmg?t=86)
+
