@@ -10,21 +10,32 @@ Currently: IoT/Cloud Architect Microsoft
 * Robotics
 
 ### I was your original instructor
+---
+# ~~What is big data~~
+# Why does big data exist
+* Websites failed 
+* Business could no longer make data driven decisions
+* Log files were too massive
+* IoT
+
+---
+# This was big data
+![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
+
+
+---
+# Now this is also big data
   
 ![Full](https://microshak.github.io/MicroNotes/Images/Mike/ChiMike.jpg)
 
 ---
-
-![full](https://microshak.github.io/MicroNotes/Images/Mike/Servers.jpg)
-
----
-
+# Also this
 [![full](https://img.youtube.com/vi/1xzajqSBGvM/0.jpg)](https://www.youtube.com/watch?v=1xzajqSBGvM)
 
 ---
 
 
-# Course Objectives
+# 230 Objectives
 * Learning the basic tools
 * Learn problem solving the big data space
 * Learn tool evaluation
@@ -38,17 +49,22 @@ Currently: IoT/Cloud Architect Microsoft
 * Practice Architecting solutions solutions
 
 ---
+# Next week
+* Building out data products ie not being a sole contributor
+* Becoming a Trusted Advisor
+  * Knowing Basic Regulation
+  * Knowing how to architect solutions
+* Continue to grow your skill set after the course ends
+
+---
 # Our end result
 * You can design end-to-end solutions
 * You can be trusted advisors
 * You can grow your career and skill set
 
-
 ---
 # Home work
 Diagramming and explaining solutions.
-
-
 
 ---
 
@@ -66,7 +82,7 @@ Diagramming and explaining solutions.
 ---
 # Scenario 
 
-#### Developing world off grid solar panel company has built a solution that has 30,000 device in a key value store (Partition key, Range Key).  The IoT Solution has been around for 3 years and has 1 billion records(Totaling 250 Gbs of data).  They have never done any analytics on the data and say they can't afford the cloud.  On-prem they have modernish laptops and desktops.
+#### A company that makes off grid solar panel company has built a solution that has 30,000 device in a key value store (Partition key, Range Key).  The IoT last hear they had 1 billion records(Totaling 250 Gbs of data).  They have never done any analytics on the data and say they can't afford the cloud.  On-prem they have modernish laptops and desktops.
 
 How do they 
 * Set up analytics 
@@ -74,13 +90,15 @@ How do they
   * Develop statistics and KPIs
 
 ---
+
 # Scenario 
-### Robotics Company has mining robots.  The robots and servers are dropped down into the mine for a year at a time. They need real-time teleop  robots and servers, Dashboards of where all of the robots are. When the servers are brought back to the surface they need the data (100 TB) transfered to the cloud.
+### Robotics Company has mining robots.  The robots and servers are dropped down into the mine for a year at a time. They need real-time teleop  robots and servers, Dashboards of where all of the robots are. When the servers are brought back to the surface they need the data (100 TB) transferred to the cloud.
 How do they
 * Do Real-time teleop
 * Dashboard based on the real-time information
 * Transfer the data to the cloud
 
+---
 
 ## Problem Space for IoT - Ingestion
  1. Ingestion
@@ -112,13 +130,11 @@ How do they
        4. Associating Devices to IoT Hub
           1. having physical hardware go to right customers instance
           2. Having devices go to the right cloud (government, region)
-   
-
 ---
 
 ## Problem Space for IoT - Data
 4. Data processing
-   1. Hyperscale data size
+   1. Big data size
    2. Data uses different formats
       1. Telemetry 
       2. Alerts
@@ -148,8 +164,7 @@ How do they
 ---
 ## Problem Space for IoT - Management
 
-
-8. Cloud Management
+1.  Management
    1. Throttling
    2. Monitoring 
    3. Alerting
@@ -157,7 +172,6 @@ How do they
 ---
 
 ## Problem Space for IoT - Cost Management
-
 
 1.  Cost Management
    1.  Understanding how choices affect cost
@@ -169,7 +183,6 @@ How do they
        2. Data Volume Costs
        3. Batch/Vs on demand costs
     1. Monitoring/Alerting
-
    
 ---
 
@@ -191,16 +204,6 @@ How do they
 * How do they process all of the photos
 * How do they store the data recommendations for fast retrieval by the web app.
   
----
-# Demo
-
----
-# Recommend Tools (High Level)
-* IoT Hub (Device Communication)
-* Stream Analytics (Data processing)
-* Cosmos DB (Hot Storage)
-* Data Lake Store (Cold Storage)
-
 ---
 # IoT Hub
 * Security Built In
@@ -228,20 +231,34 @@ How do they
   * Can be globally distributed
 
 ---
-# Data Lake Store
+# Blob Storage
   * High volume storage
   * Low Cost
  
 ---
+# Demo
 
 
-* [Interactive Tool](https://microshak.github.io/MicroNotes/IoT/basic.htm)
+[IoT Hub Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted)
+
+[Advanced Python Simulator](https://github.com/Azure-Samples/azure-iot-samples-python)
+
+[My Python Simulator](https://github.com/Microshak/Azure-IoTHub-Data-Loader)
+
+
+[Interactive Tool](https://microshak.github.io/MicroNotes/IoT/basic.htm)
 
 
 ---
 
+# Three Takeaways
+* IoT has a set of unique problems
+* IoT Is cost sensitive
+* IoT often involves larger architectures and concerns
+
+---
 # Scenario 
-#### Company has an IoT card reader for paid parking lot access.  People can pay via phone.  The parking lot gate needs to open within 2 seconds of badge scan.
+#### A Global company has an IoT card reader for paid parking lot access.  People can pay via phone.  The parking lot gate needs to open within 2 seconds of badge scan.
 
 #### How would you implement this.
 
@@ -257,7 +274,10 @@ How do they
 
 ##### How do you fix this.
 
+
+
 ---
+
 # This section IoT On The Edge
 *  IoT Edge
 * Edge Devices In General
@@ -318,7 +338,7 @@ How do they
 
 # Other ways of Offloading Compute
 * [Android](https://www.tensorflow.org/lite/guide/android)
-* [Web Compute](https://www.tensorflow.org/js) [example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false)
+* [Web Compute](https://www.tensorflow.org/js) [example](https://magenta.tensorflow.org/demos/performance_rnn/index.html#3|2,0,1,0,1,1,0,1,0,1,0,1|1,1,1,1,1,1,1,1,1,1,1,1|1,1,1,1,1,1,1,1,1,1,1,1|false) [my example](https://github.com/PacktPublishing/Artificial-Intelligence-for-IoT-Cookbook/tree/master/Ch9/tensorflowjs)
 * [Web Storage](https://github.com/Microshak/IndexedDB)
-* [Small Device](https://microsoft.github.io/ELL/tutorials/)
+* [Small Device](https://www.tensorflow.org/lite)
 
