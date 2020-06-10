@@ -1,4 +1,37 @@
-# Big Data 230 Week 9 Data Ops
+<div style="text-align:center;" >
+
+<h1> Big Data 230 </h1>
+
+<h2> Week 9 <br/><br/><br/>Tools</h2>
+  
+</div>
+---
+# Discussion Question
+The Obama Care website failed to work right when it was released.  It was slow, people could not sign up, it crashed ect.
+
+A post mortem revealed that the developers were given new requirements from the many policy makers up until launch introducing bugs at launch time. Also the site was designed for 50,000 concurrent users but got 250,000 and could not scale. They reported they overwhelmed their No-SQL database.
+
+### Question
+1. How would you solve the problem of late requirements
+2. You can't overwhelm no-sql databases, right?
+
+---
+
+---
+# This Class
+Tools for success
+
+or
+
+How not to be a failure
+
+---
+# Things that can increase Success
+* Organizational tools
+* Techno Tools
+* Knowing Regularitory Lanscape
+* Security
+* Growth of your skillset
 
 ---
 # Start with a Story
@@ -11,8 +44,10 @@
 ![Full](https://microshak.github.io/MicroNotes/Images/Mike/camo1.JPG)
 
 ---
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/camo2.jpeg)
-
+<img src="https://microshak.github.io/MicroNotes/Images/Mike/camo2.jpeg" alt="Full" style="
+    width: 100%;
+    height: 100%;
+">
 ---
 ![Full](https://microshak.github.io/MicroNotes/Images/Mike/dismount.jpg)
 
@@ -22,16 +57,42 @@
 ---
 # Another Story
 
-### WW2
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/demming.jpeg)
+### WW2 Dr Demming helps war effort by introducing new methods of efficency
+<img src="https://microshak.github.io/MicroNotes/Images/Mike/demming.jpeg" alt="Full" style="
+    width: 100%;
+    height: 100%;
+">
+---
+# Statical Quality Control 
+1. US Military
+2. Japan during reconstruction 
+
 
 ---
+# Total Quality Control
+<iframe width="560" height="315" src="https://www.youtube.com/embed/taHYsmLpWDY?start=99" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![Full](https://microshak.github.io/MicroNotes/Images/Mike/mazda.jpg)
+---
+# Meanwhile in the US in the 1980s
+1. US Automotive Industry was is a depression
+   1. Quality issues in US cars
+   2. People are starting to by more forign cars
+ 
+---
+
+# Business Process Reengineering
+1. Ford's Accounts Payable had a new IT Computer system in and was able to reduce its 500 person headcount 20%
+2. Mazda which was 3/5 the size of Ford 5 people in its accounts payable.
+<img src="https://microshak.github.io/MicroNotes/Images/Mike/hammer.jpeg" alt="Full" style="
+    width: 100%;
+    height: 100%;">
+
+
+![Fullz](https://microshak.github.io/MicroNotes/Images/Mike/mazda.jpg)
+
 [* article](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate)
 
 
----
 
 
 ---
@@ -58,18 +119,13 @@
 ![full](https://microshak.github.io/MicroNotes/Images/sdlc.jpg)
 
 ---
-# Discussion Question
-The Obama Care website failed to work right when it was released.  It was slow, people could not sign up, it crashed ect.
 
-A post mortem revealed that the developers were given new requirements from the many policy makers up until launch introducing bugs at launch time. Also the site was designed for 50,000 concurrent users but got 250,000 and could not scale. They reported they overwhelmed their No-SQL database.
 
-### Question
-1. How would you solve the problem of late requirements
-2. You can't overwhelm no-sql databases, right?
----
 # In this section
 Team organization strategies.
+
 ---
+
 # Methodologies
 * Waterfall
 * Agile
@@ -173,8 +229,10 @@ Team organization strategies.
 3. Evaluate what would be good for the project/company/self
 
 ---
-# Question
-How do yo make decisions with your projects?
+
+# Backfire Effect
+* When your believe are confronted by facts your beliefs convictions get stronger.
+
 
 ---
 # Three Things
@@ -184,6 +242,34 @@ How do yo make decisions with your projects?
   * Structure how they are going to work together
 * Numerous tools exist to help collaboration
 * Most modern project methodologies involve improvement
+
+---
+# Post moderns
+## Question
+### When has a project failed or failed to meet up to expectations?
+* What happened?
+* How could it have been fixed?
+
+---
+# Who is to blame?
+```
+Developers --> PMs
+PMs --> Management
+Management -->  Portfolio
+Computers --> Developers
+```
+---
+# Software Development Challenge
+* Hundreds of participants
+* 1 PM - 2 Developers
+* The PM is given the projects information
+* The PM gives work items to the devs
+* When the project is turned in they evaluate speed, bugs, and correctness
+# Outcomes
+* Top 10% are 8 times faster than the bottom 10% of teams
+* No correlation between speed and bugs or correctness.
+* No correlation between experience and success.
+* Hi correlation between teams performance and success.
 
 ---
 # This Section
@@ -232,7 +318,7 @@ Tradition approach
 * Data Lake -> Cron Job -> Data Lake
 
 ---
-# Problems
+# Dealing with Problems
 * Failures
     * Retry
     * Alerting
@@ -244,52 +330,17 @@ Tradition approach
 * Re-run Failed Jobs
 
 ---
-* Traditional Big Data Approaches
-* Visual
-    * [Nifi](https://nifi.apache.org/docs/nifi-docs/html/getting-started.html#i-started-nifi-now-what)
-    * Airflow
-* Serverless
-* Distributed Systems
----
 # Group discussion
 Plastic Extruder company build a webstie that monitors the extruders.  They have real time dashboards that monitor the devices temperature ect.  If the device malfunction hours of material could need to be thrown away.
 
 They set up a website that hammer poles the website to get the last 15 minutes readings. They had to remove the feature from their website because it was too expensive.  Upon review of their system they had removed all of the indexes from their no-sql database.  They had also introduced an infinite loop in their database trigger.  But even after fixing that it was too expensive.  Also, their system kept going down which their customers told them about.
 
+---
 ### Questions
 1. How would you fix the problem of system going down?
 2. How would you fix the database cost issue?
 3. What if the web charts need to look like [this](https://danchitnis.github.io/webgl-plot-examples/index.html) 
 
----
-# Web Frameworks
-* Angular
-* ReactJS
-* Vue
-* Bootstrap
-
----
-# Custom Dashboards
-* [Plotly](https://plot.ly/organize/home)
-* [Dash](https://dash.plot.ly/) 
-  * [Industrial](https://dash-gallery.plotly.host/dash-oil-and-gas/)
-  * [Discovery](https://dash-gallery.plotly.host/dash-object-detection/)
-* [Dash DAQ](https://www.dashdaq.io/python-data-acquisition)
-  * [controller](https://dash-gallery.plotly.host/dash-daq-omega-pid/)
-  * [Pressure Gage](https://dash-gallery.plotly.host/dash-daq-pressure-gauge-pv/)
-
-[Dash Gallery](https://dash.plot.ly/gallery)
-
----
-
-# Advanced Visualizations
-* [d3.js](https://github.com/d3/d3/wiki/Gallery)
-  *  [Auto Timeline](https://bost.ocks.org/mike/nations/)
-  *  [Cross Filtering](http://square.github.io/crossfilter/)
-*  [three.js](https://threejs.org/)
-   *  [STL Loader](https://threejs.org/examples/#webgl_loader_stl)
-* [Madeline](https://github.com/JinJunho/Madeleine.js/)
-* [Thingaverse](https://www.thingiverse.com/)
 ---
 
 ![full](https://microshak.github.io/MicroNotes/Images/BigData/Lifecycle.png)
@@ -318,14 +369,12 @@ They set up a website that hammer poles the website to get the last 15 minutes r
 * Change
 * Coherence
 
-
 ---
 
 # Security
 * [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
 * [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
 * [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
-* [Security Onion](https://securityonion.net/)
 *  Security information and event management (SIEM) 
 ---
 # Regulatory Compliance
@@ -333,8 +382,21 @@ They set up a website that hammer poles the website to get the last 15 minutes r
 * [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
 * [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
 
-
 ---
 
 # Prometheus Grafana Demo
 [Demo](https://github.com/stefanprodan/dockprom)
+
+---
+# Going forward
+* Basics of a technology
+  * Books
+  * Git
+  * Youtube
+  * [LearnX.org](https://www.learnpython.org/)
+* Getting Advanced on a Technology
+  * Every Technology is different
+  * [Kafka](https://www.stitcher.com/podcast/confluent/streaming-audio-kafka-confluent-and-the-cloud-with-tim-berglund)
+  * [Databricks](https://docs.databricks.com/spark/latest/graph-analysis/graphframes/user-guide-python.html)
+  * [Neo4J](https://sandbox.neo4j.com/?usecase=icij-panama-papers&ref=hcard&_ga=2.59156397.1604089145.1591595049-488012270.1591595049#/login)
+  * [Redis](https://redisconf.com/login)
