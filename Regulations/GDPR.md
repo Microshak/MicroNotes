@@ -53,5 +53,6 @@ However violations of obligations related to legal justification for processing 
 ---
 
 In 2018 the biggest data breach [Mariot](https://www.forbes.com/sites/yiannismouratidis/2019/01/09/gdpr-may-add-up-to-8-8b-marriotts-data-breach-expenses/#149965ef62e1) would be liable for approximately  
-   $915,000,000
+   $915,000,000 they ended up paying $123,000,000.
+   
    

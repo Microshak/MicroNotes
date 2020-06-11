@@ -9,13 +9,11 @@
 # Discussion Question
 The Obama Care website failed to work right when it was released.  It was slow, people could not sign up, it crashed ect.
 
-A post mortem revealed that the developers were given new requirements from the many policy makers up until launch introducing bugs at launch time. Also the site was designed for 50,000 concurrent users but got 250,000 and could not scale. They reported they overwhelmed their No-SQL database.
+A post mortem revealed that the developers were given new requirements from the many policy makers up until launch, introducing bugs at launch time. Also the site was designed for 50,000 concurrent users but got 250,000 and could not scale. They reported they overwhelmed their No-SQL database.
 
 ### Question
 1. How would you solve the problem of late requirements
 2. You can't overwhelm no-sql databases, right?
-
----
 
 ---
 # This Class
@@ -29,9 +27,9 @@ How not to be a failure
 # Things that can increase Success
 * Organizational tools
 * Techno Tools
-* Knowing Regularitory Lanscape
+* Knowing Regulatory Landscape
 * Security
-* Growth of your skillset
+* Growth of your skill set
 
 ---
 # Start with a Story
@@ -55,7 +53,21 @@ How not to be a failure
 ![Full](https://microshak.github.io/MicroNotes/Images/Mike/handset.jpg)
 
 ---
-# Another Story
+# Another Story -- Business Process Reengineering
+1. Ford's Accounts Payable had a new IT Computer system in and was able to reduce its 500 person headcount 20%
+2. Mazda which was 3/5 the size of Ford 5 people in its accounts payable.
+
+![right](https://microshak.github.io/MicroNotes/Images/Mike/hammer.jpeg)
+
+
+![left](https://microshak.github.io/MicroNotes/Images/Mike/mazda.jpg)
+
+[* article](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate)
+
+
+
+
+---
 
 ### WW2 Dr Demming helps war effort by introducing new methods of efficency
 <img src="https://microshak.github.io/MicroNotes/Images/Mike/demming.jpeg" alt="Full" style="
@@ -80,28 +92,7 @@ How not to be a failure
  
 ---
 
-# Business Process Reengineering
-1. Ford's Accounts Payable had a new IT Computer system in and was able to reduce its 500 person headcount 20%
-2. Mazda which was 3/5 the size of Ford 5 people in its accounts payable.
-<img src="https://microshak.github.io/MicroNotes/Images/Mike/hammer.jpeg" alt="Full" style="
-    width: 100%;
-    height: 100%;">
 
-
-![Fullz](https://microshak.github.io/MicroNotes/Images/Mike/mazda.jpg)
-
-[* article](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate)
-
-
-
-
----
-# 3 Concepts
-* Building Data Products are Challenging Tools can help with challenges
-* If you find yourself repeating the same task or making the same mistakes over and over again look for a solution
-* Always look to improve your position
-
----
 # Goal of this class
 * Building a data product (rather than on offs)
   * Collaboration and organization theories
@@ -372,14 +363,17 @@ They set up a website that hammer poles the website to get the last 15 minutes r
 ---
 
 # Security
-* [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ScaredStrait)
-* [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Azure/SecurityInAzure)
+* [Why](https://microshak.github.io/MicroNotes/Notes.html?path=Security/ThreatLandscape)
+* [Security Cloud](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityInAzure)
 * [Security Databricks](https://microshak.github.io/MicroNotes/Notes.html?path=Security/SecurityDataBricks)
-*  Security information and event management (SIEM) 
+
 ---
 # Regulatory Compliance
 * [CCPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/CCPA)
 * [GDPR](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/GDPR)
+* [BIPA](https://microshak.github.io/MicroNotes/doc.html?path=Regulations/BIPA)
+
+
 * [HIPAA & HITECH](https://microshak.github.io/MicroNotes/Notes.html?path=Regulations/HipaaHITECH)
 
 ---
