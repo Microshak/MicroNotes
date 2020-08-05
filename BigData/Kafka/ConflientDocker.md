@@ -1,15 +1,8 @@
 # Clone the Repo
 ```sh
+git clone https://github.com/confluentinc/cp-all-in-one
+cd /cp-all-in-one/cp-all-in-one
 
-git clone https://github.com/confluentinc/cp-docker-images
-cd cp-docker-images
-
-
-```
-
-# CD into the directory
-```sh
-cd examples/cp-all-in-one/
 
 ```
 # Docker Compose

@@ -58,7 +58,7 @@
 
 ---
 
-#Transforming data
+# Transforming data
 * Filter (stateless)
 * Map 
   * Can use Lambdas 
@@ -77,3 +77,25 @@
 * All communications are done through existing security Mechanism
 * Streams live in the kafka computers, they do not execute on brokers.
 * Streams scale automatically on your cluster
+
+
+---
+# Setting up a cluster
+https://github.com/dockerfile/java/blob/master/oracle-java8/Dockerfile
+
+
+https://www.agiratech.com/kafka-zookeeper-multi-node-cluster-setup/
+
+
+[Kafka Docker Compose](https://github.com/simplesteph/kafka-stack-docker-compose/blob/master/zk-multiple-kafka-multiple.yml)
+
+
+---
+# Kafka on lower end vm
+You can adjust the JVM heap size by editing kafka-server-start.sh, zookeeper-server-start.shand so on:
+
+Change 
+
+export KAFKA_HEAP_OPTS="-Xmx1G -Xms1G"
+
+export KAFKA_HEAP_OPTS="-Xmx256M -Xms256M"
