@@ -26,10 +26,6 @@ az aks create --resource-group microRG --name microK8s --node-count 3 --generate
 
 
  ## dashboard
-<<<<<<< HEAD
-=======
- az aks get-credentials --resource-group k8s --name microkube
->>>>>>> 1040a81393b50473362ecebdf383f8fa5533a858
  
  az aks browse --resource-group microRG --name microK8s
 
