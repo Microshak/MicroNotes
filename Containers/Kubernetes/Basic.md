@@ -62,7 +62,9 @@ minikube service hello-node
 ---
 #Tear it down
 ```sh
+
 kubectl get all
 kubectl delete [☢️️️name of deployment☢️️️] [☢️️️name of service☢️️]
+
 ```
 ---
