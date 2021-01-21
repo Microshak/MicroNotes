@@ -1,7 +1,7 @@
 #  KUBEADM
 
 
-# Crash loop backoff
+#    Crash loop backoff
 
 # Stateful Sets
 
@@ -19,4 +19,10 @@
 # EmptyDir
 
 # CSI
+
+# Configmap
+
+# Service Mesh
+
+# Daemon Sets
 

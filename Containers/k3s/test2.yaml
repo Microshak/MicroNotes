@@ -2,21 +2,22 @@
     apiVersion: apps/v1
     kind: Deployment
     metadata:
-      name: simple-rest-golang-deployment
+      name: juypter
       namespace: retail-project-dev
     spec:
       replicas: 2
       selector:
         matchLabels:
-          app: simple-rest-golang
+          app: notebookserver
       template:
         metadata:
           labels:
-            app: simple-rest-golang
+            app: notebookserver
         spec:
           containers:
-            - name: simple-rest-golang
-              image: fransafu/simple-rest-golang:1.0.0
+            - name: notebookserver
+              image: nginxdemos/hello
+
               resources:
                 requests:
                   memory: "64Mi"
@@ -31,7 +32,7 @@
     apiVersion: v1
     kind: Service
     metadata:
-      name: simple-rest-golang-service
+      name: notebookserver-service
       namespace: retail-project-dev
     spec:
       ports:
@@ -39,21 +40,20 @@
         targetPort: 8080
         name: tcp
       selector:
-        app: simple-rest-golang
+        app: notebookserver
 ---
     apiVersion: networking.k8s.io/v1beta1
     kind: Ingress
     metadata:
-      name: simple-rest-golang-ingress
+      name: notebookserver-ingress
       namespace: retail-project-dev
       annotations:
         kubernetes.io/ingress.class: "traefik"
-        traefik.frontend.rule.type: PathPrefixStrip
     spec:
       rules:
       - http:
           paths:
-          - path: /yo
+          - path: /
             backend:
-              serviceName: simple-rest-golang-service
+              serviceName: notebookserver-service
               servicePort: 80
