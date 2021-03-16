@@ -1,0 +1,212 @@
+{
+    "Header": {
+        "InquiryCode": "305879",
+        "ProcessCode": "BHG_CREDIT",
+        "OrganizationCode": "5",
+        "ProcessVersion": 47,
+        "LayOutVersion": 69
+    },
+    "Body": {
+        "NestFunction": {
+            "Variables": {
+                "CallGroup": "1",
+                "CallCode": "4"
+            },
+            "Categories": {
+                "Application": {
+                    "Variables": {
+                        "AppNum": 305879,
+                        "AppDate": "2018-06-19",
+                        "RequestAmt": 200000,
+                        "RequestUse": "6",
+                        "BHG_LoanAmt": 200000,
+                        "AnnualCorporateGross": 0,
+                        "Referral": "0",
+                        "CMSFairIssacScore": 703,
+                        "MRYAnnualIncome": 522433.0000,
+                        "MRYToPYIncomeRatio": 1.283796,
+                        "NetWorth": 84388,
+                        "UnsecuredDebtRatio": 0.240800000,
+                        "YearsInBusiness": 0,
+                        "YearsLicensed": 11,
+                        "PricingGroup": "9",
+                        "Term": 84.0,
+                        "StartRate": 17.990000,
+                        "TotalFinanceAmount": 207495.0,
+                        "Rate": 17.99,
+                        "GuarantorCount": 1,
+                        "CMS_Annual_Income": 522433.0000,
+                        "CMS_Annual_Income_PY": 406944.0000,
+                        "CMS_PersDebtPmt": 7679.0000,
+                        "CMS_PersMortgagePmt": 4596.0000,
+                        "CMS_BusMortgagePmt": 0.0000,
+                        "CMS_BusDebtPmt": 4465.1400,
+                        "CMS_ConsolidatedPmt": 0.0000,
+                        "CMS_BHGExistDebtPmt": null,
+                        "NF_HistoryOfEarlyIRAWithdrawals": 0,
+                        "NF_HistoryOfEarlyTaxWithdrawals": 0,
+                        "NF_PastDueTaxesOf1K": 1,
+                        "CMSNetRevDebt": 125815.0000,
+                        "IntAcceptCC": "0",
+                        "CurrentDeclineApp": "0",
+                        "RefCAN_Eligible": "0",
+                        "ProfileGroupID": "6",
+                        "AvailForPlacement": null,
+                        "ProgramName": "FTP",
+                        "CollateralType1": "Security Agreement",
+                        "CollateralType2": null,
+                        "CallDate": "2018-06-28",
+                        "AFLenderBank": null,
+                        "CA1Count": null,
+                        "Closing_Score": -1.000000000,
+                        "RandomNumber": 0,
+                        "BrokerNum": 0,
+                        "LeadType": "24 MONTH PLUS MORE MONEY",
+                        "LN_SLBB": "733",
+                        "MarketingMethod": "CALL",
+                        "FinAssInvest": 200000,
+                        "MaxApproveAmt": 300000,
+                        "Reserved_Financed": 0,
+                        "LPGPct": 0.070000,
+                        "LPG_Financed": 1,
+                        "DocFee_Amt": 2995,
+                        "DocFee_Financed": 1,
+                        "FL_DocStamp_Financed": 0,
+                        "UCC_Fee_Financed": 0,
+                        "FundCompany": null,
+                        "BHG_CurrentExposure": "202828.8400",
+                        "SLBB1702_0_2": null,
+                        "SLBB1702_RC1": null,
+                        "SLBB1702_RC2": null,
+                        "SLBB1702_RC3": null,
+                        "SLBB1702_RC4": null,
+                        "BHG_LnPmt_Actual": 0,
+                        "BHG_LnPmt_Thirty": 0,
+                        "FirstPaymentDate": "\/Date(1533096000000)\/",
+                        "PenaltyMo1": 48,
+                        "PenaltyPct1": 0.000000,
+                        "CMSCorpAnnualGross": 0.0000,
+                        "Trailer60": 4.956948000000,
+                        "Lockout": 36
+                    },
+                    "Categories": {
+                        "Guarantors": {
+                            "Variables": "",
+                            "Categories": [
+                                {
+                                    "Variables": {
+                                        "Counter": 1,
+                                        "IncAGI": 520000,
+                                        "GuarantorSSN": "389905365",
+                                        "RecAlimonyAmt": 0,
+                                        "RecChildAmt": 0,
+                                        "RecSepMaintAmt": 0,
+                                        "BHG_ActiveLoanPmt": 7462.36,
+                                        "AlimonyChildAmt": 0,
+                                        "ChildSupportAmt": 0,
+                                        "FraudApp": "0",
+                                        "DelinquentApp": "0",
+                                        "CAN_App": "0",
+                                        "DeclinedApp": "0",
+                                        "PrimIncSource": "4",
+                                        "SecIncSource": "5",
+                                        "Specialty": "8011-01",
+                                        "IntTaxLiens": "0",
+                                        "RentalAnnualIncome": 0.0000,
+                                        "OtherAnnualIncome": 0.0000,
+                                        "PFS_lblLiaAmount_FinLiaTaxes": 11611.7500,
+                                        "PFS_lblLiaPmt_FinLiaTaxes": 335.0000,
+                                        "PFS_lblLiaPmt_FinLiaTotal": 16871.0000,
+                                        "PFS_lblLiaAmount_FinLiaTotal": 1482782.7500,
+                                        "EarlyWithdrawal3Years": "0",
+                                        "FinLiaTaxes": 0,
+                                        "IntBankruptcyIntent": "0",
+                                        "Haveyoueverbeenconvicted": "0",
+                                        "IntBankruptcy": "0",
+                                        "OrganicFilter": "1",
+                                        "CollectionStatus": "",
+                                        "Rent": 0.0000,
+                                        "PreviousCC": "1",
+                                        "SpecialtyLeads": "MD",
+                                        "FinAssOther": 50000.0000,
+                                        "FinAssInvest": 200000.0000,
+                                        "FinLiaOther": 79096.0000,
+                                        "PriorLoan_FundDate": "2016-04-26",
+                                        "PriorLoan_Product": "CORE"
+                                    },
+                                    "Categories": {
+                                        "BureauData": {
+                                            "Variables": {
+                                                "Counter": 1,
+                                                "FICO": 703,
+                                                "MostRecMosBK": -999994,
+                                                "NegTrades": 0,
+                                                "Trade90PlusPastDue": 0,
+                                                "Del90": 0,
+                                                "CCChgOffFlag": "N",
+                                                "CCOutsBalEvrColl": 0,
+                                                "AmtPastDue": 0,
+                                                "RevBal": 125815,
+                                                "AvaillPcnt": 12,
+                                                "NUMTRDBALGT500": -995,
+                                                "Tot60DPDPastYr": -999997,
+                                                "DPD30Ratio": -995,
+                                                "TotOpenTradesLowUtil": 3,
+                                                "Inq06MO": 0,
+                                                "InqTotal": 4,
+                                                "InstallBal": 158115,
+                                                "Inq12MO": 0,
+                                                "CurTrades": 19,
+                                                "HisNeg": 1,
+                                                "Collection": -999,
+                                                "PubRecs": "000",
+                                                "Foreclosures": "N",
+                                                "CCPubRecs": "000",
+                                                "CCForeclosures": "N",
+                                                "MnthlyPay": 16536,
+                                                "FICO_2NDCBR": 0,
+                                                "AnyBankRF": "N",
+                                                "CBRReportDate": "2018-06-19",
+                                                "BKScore": "00625",
+                                                "MortBal": 1187241,
+                                                "DPD30ANDBalGT1000": "000",
+                                                "TotTrdOpn12MO": "000",
+                                                "BankRevOldestMO": "00000309",
+                                                "GuarantorCBReportNum": "1",
+                                                "CreditBureauID": "TU"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "Companies": {
+                            "Variables": {
+                                "AppNum": 305879
+                            },
+                            "Categories": [
+                                {
+                                    "Variables": {
+                                        "Counter": 1,
+                                        "IntGrossSales": 0.0000,
+                                        "State": "NJ",
+                                        "CFI_IbILiaMonth_FinLiaMortPractice": 0.0000,
+                                        "CFI_lblLiaAmount_FinLiaMortPractice": 0.0000,
+                                        "CFI_lblLiaMonth_FinLiaTotal": 4465.1400,
+                                        "CFI_lblLiaAmount_FinLiaTotal": 202828.8400,
+                                        "EstablishDate": "2007-02-15",
+                                        "IntBankStatements": null,
+                                        "CompanyFlag": 1,
+                                        "BusinessType": "SP",
+                                        "FinCorpLiaPracticeLoan": 202828.8400,
+                                        "FinCorpLiaOther": 0.0000
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

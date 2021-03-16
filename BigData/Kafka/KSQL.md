@@ -84,3 +84,4 @@ WITH ( key = 'user_id', 'kafka_topic=‘clickstream_users', value_format='JSON')
 ```sql
  list streams
 ```
+
