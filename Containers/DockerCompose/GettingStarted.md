@@ -43,7 +43,7 @@ CMD ["python", "app.py"]
 ---
 #Create a docker-compose.yml
 ```yaml
-version: '1'
+version: '3'
 services:
   web:
     build: .
