@@ -37,7 +37,7 @@ kubectl expose deployment hello-node --type=LoadBalancer --port=8080
 kubectl get services
 
 ```
-*note: LoadBalancer is for dev purposes only.  For prod you should use a 
+
 ---
 
 ```sh
