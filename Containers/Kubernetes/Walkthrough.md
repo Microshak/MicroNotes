@@ -1,24 +1,8 @@
-minikube version
-minikube start
 ---
 
-kubectl get nodes
-kubectl get events
-kubectl get all
-
----
-# Dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
-
-
-kubectl dashboard
-
-
----
-
-#Run a website
+#Deploy a website
 ```bash
-kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node
+kubectl create deployment hello-node --image=k8s.gcr.io/echoserver:1.4
 ---
 ```
 # Did it deploy?
@@ -52,15 +36,7 @@ kubectl get services
 
 ```
 ---
-<menu> On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On Minikube, the LoadBalancer type makes the Service accessible through the minikube service command. 
-</menu>
 
----
-```sh
-minikube service hello-node
-```
----
-#Tear it down
 ```sh
 kubectl get all
 kubectl delete [☢️️️name of deployment☢️️️] [☢️️️name of service☢️️]
