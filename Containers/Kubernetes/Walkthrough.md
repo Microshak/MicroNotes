@@ -3,8 +3,9 @@
 #Deploy a website
 ```bash
 kubectl create deployment hello-node --image=k8s.gcr.io/echoserver:1.4
----
+
 ```
+---
 # Did it deploy?
 ```sh
 kubectl get deployments
