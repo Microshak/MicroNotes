@@ -81,7 +81,7 @@ nano app.py
 ```
 ---
 
-#Lets clean up
+# Lets clean up
 
 ```bash
 docker kill [☢️️name of container️️️️️️️️☢️]

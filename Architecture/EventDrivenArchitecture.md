@@ -8,11 +8,15 @@ Data does not need to land in SQL before it can be used by other systems.  The d
 # Multiplexing
 Sening data to multiple places
 
-# Event Driven
+# Stream Processing
 Streams of data can be acted upon and transformed in the stream.
 
 # Real time Customer Engagement
 Using GRPC, ML, and AKS create real time notificaiton and alerts to customers.
+
+
+
+
 
 
 
