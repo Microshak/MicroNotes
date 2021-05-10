@@ -4,7 +4,7 @@ Create a flask app.py
 
 ```python
 
-From flask import Flask
+from Flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
@@ -24,12 +24,14 @@ if __name__ == '__main__':
 FROM ubuntu:latest
 
 RUN apt-get update -y
-RUN apt-get install -y python-pip python-dev build-essential
+RUN apt-get install -y python3-pip 
+RUN apt-get install -y python-dev 
+RUN apt-get install -y build-essential
 
 COPY . /app
 WORKDIR /app
-RUN pip install Flask
-ENTRYPOINT ["python"]
+RUN pip3 install Flask
+ENTRYPOINT ["python3"]
 CMD ["app.py"]
 
 
