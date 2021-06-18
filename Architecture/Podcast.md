@@ -16,7 +16,6 @@ Wrote Book
 * Brute force 
 * 1 year / 1 week
 * AI 5 years ago Pod cast PHd Applied mathmatics
-* 
 
 
 1) What distinguishes AI from AI for IoT/digital transformation?
@@ -115,3 +114,8 @@ Slolum consulting
 
 
 As part of Microsoft AI & IoT Insider Lab Dr Roshak ran code-a-thons and advised CEOs and CTOs while working with over 200 of Microsoft's customers. 
+
+
+
+Book link
+OBS vid
