@@ -106,14 +106,14 @@ function Reference()
    $('#websockets').prop( "checked", true )
    $('#webapp').prop( "checked", true )
    $('#datalakestore').prop( "checked", true )
-   $('#datawarehouse').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
    $('#aadb2c').prop( "checked", true )
    
    
   draw();
  
  }
- function SQL()
+ function Transactional()
  {
    reset()
    
@@ -121,7 +121,7 @@ function Reference()
    $('#iot').prop( "checked", true )
    $('#webapp').prop( "checked", true )
    $('#datalakestore').prop( "checked", true )
-   $('#datawarehouse').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
    
       
    
@@ -138,7 +138,7 @@ function Reference()
    $('#webapp').prop( "checked", true )
    $('#datalakestore').prop( "checked", true )
    $('#powerbi').prop( "checked", true )
-   $('#datawarehouse').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
    $('#aml').prop( "checked", true )
    
   draw();
@@ -176,6 +176,12 @@ else
   }
 
 
+  if($('#Mongo').prop( "checked"))
+  {
+
+    if($('#cosmosdb').prop( "checked")){
+    document.getElementById("mer").value += "IH-->CDB[Cosmos DB]\n"
+  }
   if($('#datalakestore').prop( "checked")){
     document.getElementById("mer").value += "IH-->DLS[DataLake Store]\n"
   }
@@ -203,7 +209,7 @@ else
   
   
   
-  if($('#datawarehouse').prop( "checked"))
+  if($('#sqlserver').prop( "checked"))
   {
 
     document.getElementById("mer").value += "SQL[SQL Server]\n"
@@ -261,7 +267,12 @@ else
 
   redraw()
 }
+function ShowAndDo(that)
+{
+$('.menu2').hide();
+  $("#" + that).show()
 
+}
    </script>
    <style >
    textarea {
@@ -276,14 +287,36 @@ else
 </head>
 <body onload="Reference()">
 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
   <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Reference Designs
+      Architecture
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" onclick="ShowAndDo('Analytics')" href="#">Analytics</a>
+      <a class="dropdown-item" onclick="ShowAndDo('ETL')" href="#">ETL</a>
+      <a class="dropdown-item" onclick="ShowAndDo('AI')" href="#">AI</a>
+      <a class="dropdown-item" onclick="ShowAndDo('Apps')" href="#">Apps</a>
+      <a class="dropdown-item" onclick="ShowAndDo('Streaming')" href="#">Streaming</a>
+        
+    </div>
+  </div>
+  </div>
+    <div class="col">
+
+  <div class="dropdown menu2" id="Analytics">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Analytics Reference Architecture
     </button>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
       <a class="dropdown-item" onclick="Reference()" href="#">Reference</a>
-      <a class="dropdown-item" onclick="SQL()" href="#">SQL Server Based</a>
+
+      <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
       <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
       <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
      
@@ -293,6 +326,27 @@ else
     </div>
   </div>
 
+  <div class="dropdown menu2" id="ETL" style="display: none;">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ETL Reference Architecture
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" onclick="Reference()" href="#">Reference</a>
+
+      <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
+      <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
+      <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
+     
+      <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
+      <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
+  
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
 <br />
 <div class="boxes">
   <div class="form-check">
@@ -335,15 +389,26 @@ else
 
 <div class="boxes">
 <div class="form-check">
-  <h5>Events</h5>
+  <h5>Data Movement</h5>
   <label class="form-check-label">
-    <input id="streamanalytics" type="checkbox" class="form-check-input" value="">Kafka
+    <input id="kafka" type="checkbox" class="form-check-input" value="">Kafka
   </label>
 </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="datalakestore">ADF
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="datalakestore">SSIS
+    </label>
+  </div>
 </div>
+
 <div class="boxes">
   <div class="form-check">
-    <h5>Analytics</h5>
+    <h5>Storage</h5>
     <label class="form-check-label">
       <input type="checkbox" class="form-check-input" value="" id="cosmosdb">CosmosDB
     </label>
@@ -355,12 +420,12 @@ else
   </div>
   <div class="form-check">
     <label class="form-check-label">
-      <input type="checkbox" class="form-check-input" value="" id="datawarehouse" >Data Warehouse
+      <input type="checkbox" class="form-check-input" value="" id="sqlserver" >SQL Server
     </label>
   </div>
   <div class="form-check">
     <label class="form-check-label">
-      <input type="checkbox" class="form-check-input" value="" id="tablestore">Table Store
+      <input type="checkbox" class="form-check-input" value="" id="tablestore">Redis
     </label>
   </div>
 </div>
@@ -401,6 +466,29 @@ else
   </div>
 
 </div>
+
+
+<div class="boxes">
+  <div class="form-check">
+    <h5>Infra</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="aml">New Relic
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="databricks">Elastic Search Logs
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="powerbi">24X7 Support/Runbooks
+    </label>
+  </div>
+
+</div>
+
+
 
 
   <textarea class="mer" id="mer" cols="30" rows="10">
