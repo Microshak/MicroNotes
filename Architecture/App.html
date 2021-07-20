@@ -287,67 +287,74 @@ $('.menu2').hide();
 </head>
 <body onload="Reference()">
 
-  <div class="container">
-    <div class="row">
-      <div class="col">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Architecture
-    </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Architecture
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="ShowAndDo('Analytics')" href="#">Analytics</a>
+          <a class="dropdown-item" onclick="ShowAndDo('ETL')" href="#">ETL</a>
+          <a class="dropdown-item" onclick="ShowAndDo('AI')" href="#">AI</a>
+          <a class="dropdown-item" onclick="ShowAndDo('Apps')" href="#">Apps</a>
+          <a class="dropdown-item" onclick="ShowAndDo('Streaming')" href="#">Streaming</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown submen" id="analytics-sub">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Reference Architecture
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="AnaltyicsReference()" href="#">Reference</a>
+          <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
+          <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
+          <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
+          <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
+          <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
+      
+        </div>
+      </li>
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" onclick="ShowAndDo('Analytics')" href="#">Analytics</a>
-      <a class="dropdown-item" onclick="ShowAndDo('ETL')" href="#">ETL</a>
-      <a class="dropdown-item" onclick="ShowAndDo('AI')" href="#">AI</a>
-      <a class="dropdown-item" onclick="ShowAndDo('Apps')" href="#">Apps</a>
-      <a class="dropdown-item" onclick="ShowAndDo('Streaming')" href="#">Streaming</a>
-        
-    </div>
+      <li class="nav-item dropdown submen" id="etl-sub">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Reference Architecture
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="AnaltyicsReference()" href="#">Reference</a>
+          <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
+          <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
+          <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
+          <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
+          <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
+      
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
-  </div>
-    <div class="col">
+</nav>
 
-  <div class="dropdown menu2" id="Analytics">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Analytics Reference Architecture
-    </button>
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" onclick="Reference()" href="#">Reference</a>
 
-      <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
-      <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
-      <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
-     
-      <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
-      <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
-  
-    </div>
-  </div>
 
-  <div class="dropdown menu2" id="ETL" style="display: none;">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      ETL Reference Architecture
-    </button>
-
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" onclick="Reference()" href="#">Reference</a>
-
-      <a class="dropdown-item" onclick="Transactional()" href="#">Transactional</a>
-      <a class="dropdown-item" onclick="LiveStreaming()" href="#">AI</a>
-      <a class="dropdown-item" onclick="SmartDevice()" href="#">FileProcessing</a>
-     
-      <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
-      <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
-  
-    </div>
-  </div>
-
-    </div>
-  </div>
-</div>
-<br />
+<div style="display: none;">
 <div class="boxes">
   <div class="form-check">
     <h5>Database</h5>
@@ -487,7 +494,7 @@ $('.menu2').hide();
   </div>
 
 </div>
-
+</div>
 
 
 
