@@ -1,3 +1,15 @@
+
+## Long Running Queries
+* Infinite Loops
+* Long Running Queries
+
+```sql
+exec sp_who2
+
+```
+
+
+# Check Fragmentation
 ```sql
 SELECT dbschemas.[name] as 'Schema', 
 dbtables.[name] as 'Table', 
@@ -20,7 +32,7 @@ ORDER BY indexstats.avg_fragmentation_in_percent desc
 
 
 
-
+## Rebuild All Indexes
 
 ```sql
 
@@ -50,6 +62,7 @@ GO
 ```
 
 
+## Update Execution Plan
 
 ```sql
 GO
