@@ -2,6 +2,12 @@
 ---
 # Lean Startup
 
+
+
+![full](https://microshak.github.io/MicroNotes/Images/Lean/loop.png)
+
+---
+
 ![full](https://microshak.github.io/MicroNotes/Images/Lean/1.jpeg)
 
 ---
