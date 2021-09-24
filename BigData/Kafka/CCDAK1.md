@@ -842,34 +842,6 @@ What happens if message schema is not present in AvroDeserializer local cache?
 
 ---
 
----
-
-
-## Question
-## Explanation
-
-First local cache is checked for the message schema. In case of cache miss, schema is pulled from the schema registry.
-
-An exception will be thrown in the Schema Registry does not have the schema (which should never happen if you set it up properly)
-
-
-1. Zookeeper.
-
-2. Kafka broker.
-
-3. Kafka Producer.
-
-4. Confluent Schema registry.
-
----
-## Explanation
-
-The Confluent Schema Registry is your safeguard against incompatible schema changes and will be the component that ensures no breaking schema evolution will be possible. 
-
-Kafka Brokers do not look at your payload and your payload schema, and therefore will not reject data
-
----
-
 
 ## Question
 A kafka topic has a replication factor of 3 and min.insync.replicas setting of 1. 
@@ -886,6 +858,8 @@ What is the maximum number of brokers that can be down so that a producer with a
 4. 2
 
 ---
+## Explanation
+
 Two brokers can go down, and one replica will still be able to receive and serve data
 
 ---
