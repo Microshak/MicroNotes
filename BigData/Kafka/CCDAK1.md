@@ -11,7 +11,7 @@ How do Kafka brokers ensure great performance between the producers and consumer
 4. It leveages the zero copy optimisation to send data straight from the page-cache.
 
 ---
-Explanation
+## Explanation
 
 Kafka transfers data with zero-copy and sends the raw bytes it receives from the producer straight to the consumer, 
 
@@ -29,7 +29,7 @@ A bank uses a Kafka cluster for credit card payments. What should be the value o
 2. FALSE
 
 ---
-Explanation
+## Explanation
 
 Setting unclean.leader.election.enable to true means we allow out-of-sync replicas to become leaders, 
 
@@ -51,7 +51,7 @@ Where are the dynamic configurations for a topic stored?
 4. In the internal kafka topic __topic_configuration
 
 ---
-Explanation
+## Explanation
 
 Dynamic topic configurations are maintained in Zookeeper.
 
@@ -71,7 +71,7 @@ If I produce to a topic that does not exist, and the broker setting auto.create.
 4. kafka will automatically create the topic with the num.partitions= # and replication.factor = 3
 
 ---
-Explanation
+## Explanation
 
 The broker settings comes into play when a topic is auto created
 
@@ -95,7 +95,7 @@ What will happen if the broker is restarted?
 4. The broker will start, and won't have any data.
 
 ---
-Explanation
+## Explanation
 
 Kafka replication mechanism makes it resilient to the scenarios where the broker lose data on disk,
 
@@ -119,29 +119,11 @@ How many Controllers will be present in the cluster?
 4. 1
 
 ---
-Explanation
+## Explanation
 
 There is only one controller in a cluster at all times
 
 ---
-
-
-## Question
-How will you find out all the partitions where one or more of the replicas for the partition are not in-sync with the leader?
-
-
-1. kafka-topics.sh -- zookeeper localhost :2181 -- describe --under-replicated partitions.
-
-2. kafka-topics.sh -- zookeeper localhost :9092 -- describe --under-replicated partitions.
-
-3. kafka-topics.sh -- broker-list localhost :2181 -- describe --under-replicated partitions.
-
-4. kafka-topics.sh -- bootstrap server localhost :9092 -- describe --under-replicated partitions.
-
----
-
----
-
 
 ## Question
 A client connects to a broker in the cluster and sends a fetch request for a partition in a topic.
@@ -156,7 +138,7 @@ It gets an exception NotLeaderForPartitionException in the response. How does cl
 3. Send metadata request to broker for same topic and choosing the broker hosting the replica.
 
 ---
-Explanation
+## Explanation
 
 In case the consumer has the wrong leader of a partition, it will issue a metadata request.
 
@@ -181,7 +163,7 @@ We would like to be in an at-most once consuming scenario. Which offset commit s
 4. Do not commit any offset and read from the beginning.
 
 ---
-Explanation
+## Explanation
 
 Here, we must commit the offsets right after receiving a batch from a call to .poll()
 
@@ -223,7 +205,7 @@ The topic has 4 partitions, how would you organise the consumers for optimal per
 3.  Create 2 consumers in the same group for 2 applications with 4 consumer in each.
 
 ---
-Explanation
+## Explanation
 
 two partitions groups - one for each application so that all messages are delivered to both the application.
 
@@ -249,7 +231,7 @@ The consumer group has committed the offset 643 for the topic before. Where will
 4. It will be crash
 
 ---
-Explanation
+## Explanation
 
 The offsets are already committed for this consumer group and topic partition, so the property auto.offset.reset is ignored
 
@@ -271,7 +253,7 @@ Each of the topics has 3 partitions. How will the partitions be assigned to cons
 4. All consumer read from all topic.
 
 ---
-Explanation
+## Explanation
 
 The correct option is the only one where the two consumers share an equal number of partitions amongst the two topics of three partitions. 
 
@@ -313,7 +295,7 @@ What isn't an internal Kafka Connect topic?
 4. connect-configs
 
 ---
-Explanation
+## Explanation
 
 connect-configs stores configurations, connect-status helps to elect leaders for connect, and connect-offsets store source offsets for source connectors
 
@@ -335,7 +317,7 @@ There is one connector created with max.tasks equal to 2 deployed on a cluster o
 4. 10
 
 ---
-Explanation
+## Explanation
 
 we have two tables, so the max number of tasks is 2
 
@@ -377,7 +359,7 @@ To import data from external databases, I should use
 4.  Confluent Rest Proxy
 
 ---
-Explanation
+## Explanation
 
 Kafka Connect Sink is used to export data from Kafka to external databases and Kafka Connect Source is used to import from external databases into Kafka.
 
@@ -401,34 +383,6 @@ Here KStream is being processed to create another KStream.
 
 ---
 
-
-## Question
-
-
-Explanation
-
-Stateless means processing of each message depends only on the message, so converting from JSON to Avro or filtering a stream are both stateless operations
-
----
-
----
-
-
-## Question
-Which of the following event processing application is stateless? (select two)
-
-
-1.  find minimum and maximum of eash day stock.
-
-2. Read message from the  streams and modify them from JSON to avro.
-
-3. Read log message from a stream and writes in Error event.
-
----
-
----
-
-
 ## Question
 The exactly once guarantee in the Kafka Streams is for which flow of data?
 
@@ -440,7 +394,7 @@ The exactly once guarantee in the Kafka Streams is for which flow of data?
 3. External ==> Kafka
 
 ---
-Explanation
+## Explanation
 
 Kafka Streams can only guarantee exactly once processing if you have a Kafka to Kafka topology.
 
@@ -462,7 +416,7 @@ How can you improve dramatically the application restart?
 3. Mount persisitent the data into your Rock DB
 
 ---
-Explanation
+## Explanation
 
 Although any Kafka Streams application is stateless as the state is stored in Kafka, 
 
@@ -492,7 +446,7 @@ Which of the following Kafka Streams operators are stateful? (select all that ap
 6. flatmap
 
 ---
-Explanation
+## Explanation
 
 See: https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html#stateful-transformations
 
@@ -524,7 +478,7 @@ is KSQL ANSI SQL compliant?
 2. NO
 
 ---
-Explanation
+## Explanation
 
 KSQL is not ANSI SQL compliant, for now there are no defined standards on streaming SQL languages
 
@@ -544,7 +498,7 @@ Which KSQL queries write to Kafka?
 4. Create TABLE AS / CREATE STREAM AS
 
 ---
-Explanation
+## Explanation
 
 SHOW STREAMS and EXPLAIN <query> statements run against the KSQL server that the KSQL client is connected to. 
 
@@ -571,7 +525,7 @@ Producing with a key allows to...
 3. Add more information to my message
 
 ---
-Explanation
+## Explanation
 
 Keys are necessary if you require strong ordering or grouping for messages that share the same key. 
 
@@ -599,7 +553,7 @@ Select all that applies
 5. min.insync.replica is a topic setting
 
 ---
-Explanation
+## Explanation
 
 acks is a producer setting min.insync.replicas is a topic or broker setting and is only effective when acks=all
 
@@ -643,7 +597,7 @@ If I want to have an extremely high confidence that leaders and replicas have my
 4. acks=all , replication factor =1 , min.insyc.replicas =2
 
 ---
-Explanation
+## Explanation
 
 acks=all means the leader will wait for all in-sync replicas to acknowledge the record.
 
@@ -667,7 +621,7 @@ Which of the following errors are retriable from a producer perspective? (select
 4. NOT_ENOUGH_REPLICAS.
 
 ---
-Explanation
+## Explanation
 
 Both of these are retriable errors, others non-retriable errors.
 
@@ -688,7 +642,7 @@ To enhance compression, I can increase the chances of batching by using
 3. acks = all
 
 ---
-Explanation
+## Explanation
 
 linger.ms forces the producer to wait before sending messages, 
 
@@ -708,7 +662,7 @@ To get acknowledgement of writes to only the leader partition, we need to use th
 3. acks = all
 
 ---
-Explanation
+## Explanation
 
 Producers can set acks=1 to get acknowledgement from partition leader only.
 
@@ -726,7 +680,7 @@ Which of the following setting increases the chance of batching for a Kafka Prod
 3. increase batch.size
 
 ---
-Explanation
+## Explanation
 
 linger.ms forces the producer to wait to send messages, hence increasing the chance of creating batches
 
@@ -744,7 +698,7 @@ What is the risk of increasing max.in.flight.requests.per.connection while also 
 3. at least once delivery is gauranted.
 
 ---
-Explanation
+## Explanation
 
 Some messages may require multiple retries. If there are more than 1 requests in flight, it may result in messages received out of order.
 
@@ -767,7 +721,7 @@ Your producer is producing at a very high rate and the batches are completely fu
 4. disable batch.size
 
 ---
-Explanation
+## Explanation
 
 batch.size controls how many bytes of data to collect before sending messages to the Kafka broker. 
 
@@ -792,7 +746,7 @@ Using the Confluent Schema Registry, where are Avro schema stored?
 4. In __schema topic.
 
 ---
-Explanation
+## Explanation
 
 The Schema Registry stores all the schemas in the _schemas Kafka topic
 
@@ -811,7 +765,7 @@ What client protocol is supported for the schema registry? (select two)
 4. JDBC
 
 ---
-Explanation
+## Explanation
 
 clients can interact with the schema registry using the HTTP or HTTPS interface
 
@@ -829,7 +783,7 @@ What isn't a feature of the Confluent schema registry?
 3. Enforce compatability rules.
 
 ---
-Explanation
+## Explanation
 
 Data is stored on brokers.
 
@@ -848,7 +802,7 @@ Which is an optional field in an Avro record?
 4. doc
 
 ---
-Explanation
+## Explanation
 
 doc represents optional description of message
 
@@ -865,7 +819,7 @@ In Avro, adding a field to a record without default is a __ schema evolution
 3. Backward
 
 ---
-Explanation
+## Explanation
 
 Clients with old schema will be able to read records saved with new schema.
 
@@ -892,7 +846,7 @@ What happens if message schema is not present in AvroDeserializer local cache?
 
 
 ## Question
-Explanation
+## Explanation
 
 First local cache is checked for the message schema. In case of cache miss, schema is pulled from the schema registry.
 
@@ -908,7 +862,7 @@ An exception will be thrown in the Schema Registry does not have the schema (whi
 4. Confluent Schema registry.
 
 ---
-Explanation
+## Explanation
 
 The Confluent Schema Registry is your safeguard against incompatible schema changes and will be the component that ensures no breaking schema evolution will be possible. 
 
@@ -948,7 +902,7 @@ If a topic has a replication factor of 3..
 3. Each partition will be live on 2 diffrent broker.
 
 ---
-Explanation
+## Explanation
 
 Replicas are spread across available brokers, and each replica = one broker. RF 3 = 3 brokers
 
@@ -972,7 +926,7 @@ What is the minimum number of partitions will you suggest to the customer for th
 4. 50
 
 ---
-Explanation
+## Explanation
 
 each consumer can process only 50 MB/s, so we need at least 20 consumers consuming one partition so that 50 * 20 = 1000 MB target is achieved.
 
@@ -1012,7 +966,7 @@ What information isn't stored inside of Zookeeper? (select two)
 4. Schema registry schemas
 
 ---
-Explanation
+## Explanation
 
 Consumer offsets are stored in a Kafka topic __consumer_offsets, and the Schema Registry stored schemas in the _schemas topic.
 
