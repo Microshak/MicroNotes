@@ -1,8 +1,8 @@
 # Sampling
 
-# Why Sample
+## Why Sample
 
-### Populatin
+### Population
 ![full](https://microshak.github.io/MicroNotes/Images/distribution.png)
 
 ---
@@ -30,7 +30,7 @@ The average of the results obtained from a large number of trials should be clos
 
 ---
 
-### Bad Sampling 
+### Outliers
 ![full](https://microshak.github.io/MicroNotes/Images/ML/outliers_effect.png)
 
 ---
