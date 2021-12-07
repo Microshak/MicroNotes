@@ -23,7 +23,7 @@ The average of the results obtained from a large number of trials should be clos
 
 ---
 ### Bad Sampling 
-![full](https://microshak.github.io/MicroNotes/Images/ML/ConvenienceSampling.svg)
+![full](https://microshak.github.io/MicroNotes/Images/ML/ConvenienceSampling.jpg)
 
 
 ---
