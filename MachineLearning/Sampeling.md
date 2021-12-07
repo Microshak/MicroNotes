@@ -1,9 +1,7 @@
 # Sampling
-
 ## Why Sample
-
 ### Population
-![full](https://microshak.github.io/MicroNotes/Images/distribution.png)
+![full](https://microshak.github.io/MicroNotes/Images/ML/distribution.png)
 
 ---
 ### Sample Size
@@ -33,7 +31,7 @@ The average of the results obtained from a large number of trials should be clos
 ### Outliers
 ![full](https://microshak.github.io/MicroNotes/Images/ML/outliers_effect.png)
 
----
+
 
 
 
