@@ -5,7 +5,7 @@
 
 ---
 ### Sample Size
-![full](https://microshak.github.io/MicroNotes/Images/population.png)
+![full](https://microshak.github.io/MicroNotes/Images/population.jpg)
 
 ---
 ### Too much data
