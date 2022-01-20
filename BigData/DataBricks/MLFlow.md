@@ -7,20 +7,21 @@
 * Multiple Versions
 * Governance 
 * Risk
-
+---
 # 
 Standardize
 Training
 Prep
 Productionize
 
-
+---
 # Benifits
 Runs on any platform from laptio to cloud
 Designed to work with Individuals and big teams
 Scales with big data
 
-#Components
+---
+# Components
 ML Flow Tracking
     API to query ML Runs
 ML Flow Project

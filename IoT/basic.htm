@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>IoT</title>
+  </head>
+  
+<script src="https://unpkg.com/mermaid@8.4.8/dist/mermaid.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+   <script>
+
+var config = {
+    startOnLoad:false,
+    flowchart:{
+       
+    },
+
+    securityLevel:'loose',
+  };
+
+function redraw(){
+
+  mermaid.initialize(config);
+  
+  var output = document.getElementById("output");
+  var txt = document.getElementById("mer").value
+  console.log(txt)
+  mermaid.render('thegraph', txt,function(svgCode) {
+        output.innerHTML = svgCode;
+    }); 
+}
+
+function reset()
+{
+
+  $( 'input[type="checkbox"]' ).prop( "checked", false )
+}
+$(function() {
+
+
+  $( 'input[type="checkbox"]' ).click(function() {
+  draw()
+});
+
+});
+
+function Reference()
+ {
+  mermaid.initialize(config);
+  
+   reset()
+   
+   $('#streamanalytics').prop( "checked", true )
+   $('#cosmosdb').prop( "checked", true )
+   $('#iot').prop( "checked", true )
+   $('#IoTHubz').prop( "checked", true )
+   
+   $('#datalakestore').prop( "checked", true )
+  
+   
+  draw();
+ 
+ }
+
+
+ function ServicedProduct()
+ {
+   reset()
+   
+   $('#streamanalytics').prop( "checked", true )
+   $('#cosmosdb').prop( "checked", true )
+   $('#aks').prop( "checked", true )
+   $('#aml').prop( "checked", true )
+   $('#iotedge').prop( "checked", true )
+   $('#webapp').prop( "checked", true )
+   $('#web').prop( "checked", true )
+   $('#datalakestore').prop( "checked", true )
+  
+   
+  draw();
+ 
+ }
+
+
+ function  Central()
+ {
+   reset()
+   $('#IoTHubz').prop( "checked", false )
+   $('#IoTCentral').prop( "checked", true)
+     
+   $('#iotedge').prop( "checked", true )
+   $('#iot').prop( "checked", true )
+   
+   
+  draw();
+ 
+ }
+
+
+ function LiveStreaming()
+ {
+   reset()
+   
+   $('#streamanalytics').prop( "checked", true )
+   $('#cosmosdb').prop( "checked", true )
+   $('#iotedge').prop( "checked", true )
+   $('#webapp').prop( "checked", true )
+   $('#datalakestore').prop( "checked", true )
+   $('#signalr').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
+   $('#aadb2c').prop( "checked", true )
+   
+   
+  draw();
+ 
+ }
+ function TypicalProduct()
+ {
+   reset()
+   
+   $('#streamanalytics').prop( "checked", true )
+   $('#cosmosdb').prop( "checked", true )
+   $('#iot').prop( "checked", true )
+   $('#webapp').prop( "checked", true )
+   $('#datalakestore').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
+   
+      
+   
+  draw();
+ 
+ }
+
+ function SmartDevice()
+ {
+   reset()
+   
+   $('#streamanalytics').prop( "checked", true )
+   $('#cosmosdb').prop( "checked", true )
+   $('#iotedge').prop( "checked", true )
+   $('#webapp').prop( "checked", true )
+   $('#datalakestore').prop( "checked", true )
+   $('#powerbi').prop( "checked", true )
+   $('#sqlserver').prop( "checked", true )
+   $('#aml').prop( "checked", true )
+   
+  draw();
+ 
+ }
+
+
+
+function draw()
+{
+  if($('#IoTHubz').prop( "checked"))
+{
+  document.getElementById("mer").value = "graph LR\nIH[IoTHub]\n"
+  //$('#IoTCentral').prop( "checked",false) 
+}
+else
+{
+  document.getElementById("mer").value = "graph LR\nIH[IoT Central]\n"
+  $('#IoTHubz').prop( "checked",false) 
+
+}
+  if($('#iot').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IoT1[Device]-->IH\n"
+    document.getElementById("mer").value += "IoT2[Device]-->IH\n"
+    document.getElementById("mer").value += "IoT3[Device]-->IH\n"
+
+  }
+
+  if($('#iotedge').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IoTE1[Edge Device]-->IH\n"
+    document.getElementById("mer").value += "IoTE2[Edge Device]-->IH\n"
+    document.getElementById("mer").value += "IoTE3[Edge Device]-->IH\n"
+  }
+
+
+  if($('#IoTCentral').prop( "checked"))
+  {
+
+    if($('#cosmosdb').prop( "checked")){
+    document.getElementById("mer").value += "IH-->CDB[Cosmos DB]\n"
+  }
+  if($('#datalakestore').prop( "checked")){
+    document.getElementById("mer").value += "IH-->DLS[DataLake Store]\n"
+  }
+  
+  }
+
+
+  if($('#streamanalytics').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IH-->SA[Stream Analytics]\n"
+  
+    if($('#cosmosdb').prop( "checked"))
+  {
+    document.getElementById("mer").value += "SA-->CDB[Cosmos DB]\n"
+  }
+
+
+  if($('#datalakestore').prop( "checked"))
+  {
+    
+    document.getElementById("mer").value += "SA-->DLS[DataLake Store]\n"
+  }
+
+  }
+  
+  if($('#functionapp').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IH-->FA[Function App]\n"
+    document.getElementById("mer").value += "FA-->IH\n"
+
+ 
+    if($('#cosmosdb').prop( "checked"))
+  {
+    document.getElementById("mer").value += "FA-->CDB[Cosmos DB]\n"
+  }
+  
+  if($('#datalakestore').prop( "checked"))
+  {
+    document.getElementById("mer").value += "FA-->DLS[DataLake Store]\n"
+  }
+  }
+  
+  if($('#sqlserver').prop( "checked"))
+  {
+
+    document.getElementById("mer").value += "SQL[SQL Server]\n"
+    document.getElementById("mer").value += "SQL-->WA\n"
+
+    document.getElementById("mer").value += "WA-->SQL\n"
+
+    document.getElementById("mer").value += "CDB-->WA[Web App]\n"
+
+  }
+  
+  if($('#tablestore').prop( "checked"))
+  {
+    document.getElementById("mer").value += "FA-->TS[Table Store]\n"
+  }
+  
+  
+  if($('#databricks').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IH-->DB[Data Bricks]\n"
+    document.getElementById("mer").value += "DLS-->DB\n"
+    document.getElementById("mer").value += "DB-->CDB\n"
+
+  }
+  
+  
+  if($('#webapp').prop( "checked"))
+  {
+    document.getElementById("mer").value += "CDB-->WA[Web App]\n"
+  }
+
+  if($('#aks').prop( "checked"))
+  {
+    document.getElementById("mer").value += "DLS---AKS[AKS]\n"
+    document.getElementById("mer").value += "CDB---AKS\n"
+ 
+  }
+
+  if($('#aml').prop( "checked"))
+  {
+    document.getElementById("mer").value += "AML---CDB\n"
+    document.getElementById("mer").value += "AML-->IH\n"
+  }
+  if($('#aadb2c').prop( "checked"))
+  {
+    document.getElementById("mer").value += "WA---AAD[AAD B2C]\n"
+  }
+
+  if($('#powerbi').prop( "checked"))
+  {
+    document.getElementById("mer").value += "CDB-->PBI[PowerBI]\n"
+  }
+
+  if($('#signalr').prop( "checked"))
+  {
+    document.getElementById("mer").value += "IH-->FA[Function App]\n"
+    document.getElementById("mer").value += "FA-->IH\n"
+
+    document.getElementById("mer").value += "FA-->SR[SignalR]\n"
+    document.getElementById("mer").value += "SR-->FA\n"
+    document.getElementById("mer").value += "SR---WA[Web App]\n"
+
+  }
+
+
+
+  redraw()
+}
+
+   </script>
+   <style >
+   textarea {
+     display: none;
+   }
+   .boxes
+   {
+     float:left;
+     margin-left:20px;
+   }
+   </style> 
+</head>
+<body onload="Reference()">
+
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Reference Designs
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" onclick="Reference()" href="#">Reference Architecture</a>
+
+      <a class="dropdown-item" onclick="TypicalProduct()" href="#">Typical Product Product</a>
+      <a class="dropdown-item" onclick="LiveStreaming()" href="#">Live Streaming</a>
+      <a class="dropdown-item" onclick="SmartDevice()" href="#">Smart Devices</a>
+     
+      <a class="dropdown-item" onclick="ServicedProduct()" href="#">Serviced Product</a>
+      <a class="dropdown-item" onclick="Central()" href="#">IoT Central</a>
+  
+    </div>
+  </div>
+
+<br />
+<div class="boxes">
+  <div class="form-check">
+    <h5>Platform</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="IoTHubz">IoTHub
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="IoTCentral">IoT Central
+    </label>
+  </div>
+
+ </div>
+<div class="boxes">
+  <div class="form-check">
+    <h5>Devices</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="iot">IoT
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="iotedge">IoT Edge
+    </label>
+  </div>
+
+ </div>
+
+
+<div class="boxes">
+<div class="form-check">
+  <h5>Streams</h5>
+  <label class="form-check-label">
+    <input id="streamanalytics" type="checkbox" class="form-check-input" value="">Stream Analytics
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" id="functionapp" value="">Function App
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" id="signalr" value="">SignalR
+  </label>
+</div>
+</div>
+<div class="boxes">
+  <div class="form-check">
+    <h5>Storage</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="cosmosdb">CosmosDB
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="datalakestore">Data Lake Store
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="sqlserver" >SQL Server
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="tablestore">Table Store
+    </label>
+  </div>
+</div>
+<div class="boxes">
+  <div class="form-check">
+    <h5>UI</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="webapp">Web App
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="aks">AKS
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="aadb2c" >AAD B2C
+    </label>
+  </div>
+</div>
+<div class="boxes">
+  <div class="form-check">
+    <h5>ML/Analytics</h5>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="aml">AML
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="databricks">Data Bricks
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" value="" id="powerbi">PowerBI
+    </label>
+  </div>
+
+</div>
+
+
+  <textarea class="mer" id="mer" cols="30" rows="10">
+  
+  graph LR
+      A[IoT Device]
+      IH[IoTHub]
+      A---IH
+      A---IH
+      B-->C[Function App]
+      C-->D[Table Store]
+      D-->F[Web App]
+      C-->E(<img src='https://iconscout.com/ms-icon-310x310.png' width='40' height='40' /> <div>IoT Hub </div>  );
+      
+</textarea>
+<div id="output" style="float: left; width:100%;"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
