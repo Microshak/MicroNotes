@@ -21,6 +21,18 @@ cdc.lsn_time_mapping – contains a row for each transaction in the source table
 
 The table dbo.cdc_jobs that stores configuration parameters for capture and cleanup jobs is the only system table created in the msdb database
 
+---
+# Check for cdc 
+
+-- Check schemas
+SELECT * FROM sys.schemas WHERE name = N'cdc'
+
+-- Check user CDC
+SELECT * FROM sys.database_principals WHERE name = N'cdc'
+
+-- Check CDC jobs
+SELECT name FROM msdb..sysjobs where name like 'cdc.%'
+
 
 
 
@@ -30,6 +42,12 @@ The table dbo.cdc_jobs that stores configuration parameters for capture and clea
 The jobs are:
 
 cdc.{DatabaseName}_capture
+
+---
+
+![](https://www.mssqltips.com/tipimages2/3003_Change1.jpg)
+
+
 
 ---
 
@@ -46,3 +64,12 @@ EXEC sys.sp_cdc_disable_table
  @source_name = ‘Department',
  @capture_instance = ‘all';
 ```
+
+
+## Deep troubleshooting
+
+https://www.mssqltips.com/sqlservertip/3003/manual-cleanup-change-data-capture-for-a-sql-server-database/
+
+
+---
+
