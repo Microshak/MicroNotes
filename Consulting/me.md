@@ -1,6 +1,9 @@
 PDITI Passion, Discipline, Inovation, Team, Intregrety
 
-# elevator
+Tim Witney
+
+
+# Elevator
 - 500 organizations, SGC, Lab, Consulting, Angle Advisor
 - Author & Educator
 - Currenly, working at a Fin Tech 10X loans in pandemic, 
@@ -17,15 +20,29 @@ PDITI Passion, Discipline, Inovation, Team, Intregrety
 - Seattle GiveCamp - bizdev 100 - 250 4 years
 
 
-
-
-
 Josh Scriven- Director of Solutions 
 https://www.linkedin.com/in/josh-scriven-9832404/
 
 
 Raymond Haley- GM of PNW
 https://www.linkedin.com/in/raymondhaley/
+
+220,000
+12,000
+
+
+36,000
+
+
+180,000
+24,000
+
+
+236,000
+36,000
+-------
+272,000
+
 
 
 
@@ -47,7 +64,6 @@ View Brian’s profileBrian Lang
 
 
 
-
 All candidates will approach this presentation thinking of us a client they presenting to, not a rehash of their resume.
  
 Technical topic- App innovation 
@@ -64,5 +80,3 @@ Anything else they feel is necessary.
 Overall looking for about a 20-30 minute of content. The audience will include Architect level people and Director level in the business (they know technology but are not technical).
 
 We would like to know they can communicate relevant technical concepts to both a technical and non-technical audience. We should leave understanding what the technology is and the value. We should also walk away thinking this person would be a trusted person to lead our clients through adopting or implementing solutions using the technology discussed.
- 
-

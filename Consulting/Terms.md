@@ -1,4 +1,4 @@
 ### Functional Decompensition
-Break thinks down into smaller parts.
+Break things down into smaller parts.
 
 
