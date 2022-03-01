@@ -68,3 +68,26 @@ docker run \
 
 
 
+# Uses
+80 of fortune 100 using 
+20 of 25 biggest banks
+7 of the 10 biggest retailers
+
+
+James Foulder book called connected
+predicted not just data about you but your graph
+will have a higher degree of predictability than just data about you
+
+
+People - 
+Brett - Platform Engeneering
+Harjeet - PM
+Amber - DA
+Steve Jennings - DevOps
+Nate - Owner
+Nalfis - Monitoring
+
+
+
+
+
