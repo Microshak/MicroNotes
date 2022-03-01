@@ -79,13 +79,6 @@ predicted not just data about you but your graph
 will have a higher degree of predictability than just data about you
 
 
-People - 
-Brett - Platform Engeneering
-Harjeet - PM
-Amber - DA
-Steve Jennings - DevOps
-Nate - Owner
-Nalfis - Monitoring
 
 
 
