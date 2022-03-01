@@ -95,3 +95,8 @@ Examples
 * Network and IT operations
   
 ---
+
+# Popularity
+* According to DB [Engines Graph](https://db-engines.com/en/ranking/graph+dbms) databases have been the fastest growing segment for all of data management for most of the past decade.
+* According to [Gartiner](https://www.gartner.com/smarterwithgartner/gartner-top-10-data-and-analytics-trends-for-2021) Graph forms the foundation of modern data and analytics with capabilities to enhance and improve user collaboration, machine learning models and explainable AI.
+ 
