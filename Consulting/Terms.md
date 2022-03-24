@@ -1,9 +1,6 @@
 
-
 ### Bike shedding
 Forgoing architecture discussions to talk about something trivial. YOu are working on a nucular powerplant design and someone wants to take an hour to talk about the color of the bike shed.
-
-
 
 ### Gold Plating
 In time management, gold plating is the phenomenon of working on a project or task past the point of diminishing returns
@@ -14,7 +11,6 @@ Developer gold-plating. Developers are fascinated by new technology and are some
 
 ### Code Smell
 Because sometimes a mess is smelled before it’s seen, code smell refers to code that displays early signs of problems within a program.  
-
 
 
 ### Duck punching
@@ -52,3 +48,10 @@ Writing system that only the developer knows how to use.  You would need to ask 
 When project management adds more pressure, such as by firing engineers.
 
 
+Base Configuration
+SKU
+Polciy 
+Blue Print
+Function Apps - 
+Cosmos
+Storage
