@@ -72,7 +72,7 @@ Examples
 
 ---
 
-#Terminology
+# Terminology
 * **Subgraph** — A set of vertices and edges that are a subset of the full graph's vertices and edges.
 * **Degree** — A vertex measurement quantifying the number of connected edges (e.g., a username vertex on Facebook has a degree of 50 if it has a direct friend relationship with 50 other users).
 * **Connected Component** — A strongly connected subgraph, meaning that every vertex can reach the other vertices in the subgraph.

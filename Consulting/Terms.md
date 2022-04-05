@@ -9,16 +9,16 @@ Requirements Gold-plating: after having met the requirements, the project manage
 
 Developer gold-plating. Developers are fascinated by new technology and are sometimes anxious to try out new features of their language or environment or to create their own implementation of a slick feature they saw in another product--whether or not it's required in their product. The effort required to design, implement, test, document, and support features that are not required lengthens the schedule.
 
+### Yak shaving
+Yak shaving is programming lingo for the seemingly endless series of small tasks that have to be completed before the next step in a project can move forward.
+https://www.youtube.com/watch?v=AbSehcT19u0
+
 ### Code Smell
 Because sometimes a mess is smelled before it’s seen, code smell refers to code that displays early signs of problems within a program.  
 
 
 ### Duck punching
 A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program).
-
-### Yak shaving
-Yak shaving is programming lingo for the seemingly endless series of small tasks that have to be completed before the next step in a project can move forward.
-https://www.youtube.com/watch?v=AbSehcT19u0
 
 
 ### rubber duck debugging
