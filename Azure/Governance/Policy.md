@@ -21,3 +21,7 @@ By default policies are only applied to new or modified resources.  You can choo
 # [Managed Groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
 * Graph of Subscriptions in the org.  Policies can be set for a subscription or Group.
 
+---
+# Exceptions
+You can have make exceptions for resource groups in a subscription.
+
