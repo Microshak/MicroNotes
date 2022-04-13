@@ -41,4 +41,3 @@
     * Example: Look at the pull request for the past 12 months to see if they were reviewed by an independant approval who did not work on the change 
     * Did they have the security test run against them
 
----
