@@ -13,12 +13,8 @@
 * Information security program
 
 ---
-# Criteria for Passing an Audit
-* You must meet Security Criteria
-* You can choose other  trust services to meet out of the 5
-
----
-# You must document your security program for every new employee
+# Documentation
+* You must document your security program for every new employee
 * The Auditor looks at the policy documentation
 
 
