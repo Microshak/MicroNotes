@@ -27,12 +27,12 @@
 ---
 
 # Customer Data
-* Principle of Least Privledge
+* Principle of Least Privilege
 * MFA - SSO Okta
 * Encryption at REST and Transit
 * Change Management
-    * Review from seperate individual
-    * Intergration security test before having them pass
+    * Review from separate individual
+    * Integration security test before having them pass
  
 ---
 # Type 2
