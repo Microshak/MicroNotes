@@ -10,7 +10,7 @@ Describes properties to be checked
 * Deny - Stops deployment from happening
 * Audit - Logs 
 * Append - Adds to deployment, IP restrictions for example
-* Monify - Adds tags automatically
+* Modify - Adds tags automatically
 
 ---
 
