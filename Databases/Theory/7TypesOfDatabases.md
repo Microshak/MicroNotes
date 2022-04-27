@@ -51,3 +51,11 @@
 ---
 # Time Series Database
 * Hyper Optomized for time series data
+
+--- 
+# Ledger Database
+* Stores all change history
+* Uses Cryptographically hash for tamper evident audits
+* Use Case: Medical, Fanincial or sensitive data
+* Example: FHIR, Block Chain, Azure Confidential Ledger
+
