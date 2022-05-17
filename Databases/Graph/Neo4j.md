@@ -22,10 +22,10 @@
     * In graph database objects are linked
 ---
 
-    ![full](https://microshak.github.io/MicroNotes/Images/JoinedTables.png)
+    ![full](https://microshak.github.io/MicroNotes/Images/Graph/nodesedges.gif)
 
 ---
-    ![full](https://microshak.github.io/MicroNotes/Images/GraphDBStructure.png)
+    ![full](https://microshak.github.io/MicroNotes/Images/Graph/Basic.png)
 ---
 
 # Programming
