@@ -47,15 +47,13 @@ docker run \
     neo4j:latest
 ```
 
-
 ---
 
 ```neo4j
 
 :play movies
 ```
----
----
+
 ```docker
 docker run \
     --name testneo4j \
@@ -66,7 +64,7 @@ docker run \
 
 ```
 
-
+---
 
 # Uses
 80 of fortune 100 using 

@@ -52,7 +52,8 @@
 # Time Series Database
 * Hyper Optomized for time series data
 
---- 
+
+---
 # Ledger Database
 * Stores all change history
 * Uses Cryptographically hash for tamper evident audits
