@@ -1,6 +1,4 @@
-phychometrics
 
-axiomaric
 
 1. Personalization
 2. Recommendation
@@ -13,4 +11,3 @@ axiomaric
     4. Delivery
 
 
-J4UTRtDG8zArHQc
