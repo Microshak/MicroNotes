@@ -4,6 +4,3 @@ Salesforce Data Tools
 3. Data management -->Salesforce Dataloader
 4. Schema Builder
 5. Postman -> Buulk request/acknolegde/poll pattern
-
-
-

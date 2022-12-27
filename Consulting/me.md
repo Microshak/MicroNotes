@@ -14,7 +14,7 @@ Tim Witney
 - Lead Estimates - Tamazari
 - Data architecture and design - UW
 - Hands on - Lab
-- Technology vision - BHG 
+- Technology vision  
     Resistance - PHD psycology
 - no Cookie Cutter - Lab
 - Seattle GiveCamp - bizdev 100 - 250 4 years

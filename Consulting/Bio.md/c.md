@@ -8,7 +8,7 @@
     * Agrotech
     * Airline
     * Software Companies
-    * BHG
+    * 
         * Kafka (New Stack)
         * Lenses 
         * Data Mesh (Zhamak Digani) - SocialTEchnical - Data Products
