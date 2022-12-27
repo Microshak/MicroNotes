@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 ## [Cobra Effect] (https://youtu.be/kRK_dl4ENqU )
@@ -28,3 +29,6 @@ Individual users, who have open access to a resource unhampered by shared social
 ---
 **Moral Hazard**
 economics, moral hazard occurs when an entity has an incentive to increase its exposure to risk because it does not bear the full costs of that risk.
+=======
+Iceburg Principle - 
+>>>>>>> 4d7e176 (its been a while)
