@@ -7,5 +7,3 @@ Salesforce Data Tools
 
 
 
-azure-integration@bhg-inc.com.develop
-2t6#9Z%!wLbyV9J7w2
