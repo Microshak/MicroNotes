@@ -55,3 +55,7 @@ Blue Print
 Function Apps - 
 Cosmos
 Storage
+
+
+### Curse of Knoledge
+Harder to teach somthing if you already know it.
