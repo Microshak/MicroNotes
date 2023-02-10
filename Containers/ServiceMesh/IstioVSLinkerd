@@ -1,0 +1,75 @@
+A service mesh is a layer in your infrastructure that can take care of routing, rate limiting, observability, mTLS, and other capabilities.
+
+## Features
+| Feature                                                                                | Istio              | Linkerd                                 |   |   |   |   |   |   |   |
+|----------------------------------------------------------------------------------------|--------------------|-----------------------------------------|---|---|---|---|---|---|---|
+| Complexity                                                                             | X                  |                                         |   |   |   |   |   |   |   |
+| Speed                                                                                  |                    | X                                       |   |   |   |   |   |   |   |
+
+## Ingress
+An ingress handles how you can accept incoming traffic inside your Kubernetes clusters 
+
+Istio: Uses Buildin Envoy 
+LinkerD:  You may need something like Nginx for to handle things like rewriteing incomming header
+
+
+# Egress can be challenging itn Linkerd
+
+
+
+One of the primary use cases of Istio is supporting migration of monolithic legacy applications to a cloud-native architecture. It makes it easier to build applications using loosely coupled microservices, while controlling and managing them across hybrid and multi-cloud environments.
+
+## Egress
+
+An egress controls outbound traffic from a cluster: 
+
+Istio controls outbound traffic using virtual service objects and gateways. 
+Linkerd enables egress management but it is not straightforward and can only be achieved through DNS and delegation tables (DTAB).
+
+# Security 
+
+* Istio provides generally superior security features, including HTTP and TCP support for mutual TLS (mTLS). In terms of policy management, Istio allows various providers to integrate their products into its policy management framework, and supports setting rules to limit which applications can communicate with each other.
+* Linkerd supports mTLS by default for all TCP connections.
+
+# Monitoring
+* Istio provides monitoring through a tight integration with Kiali. Kiali is an observability tool that can generate metrics, infer network topology, and integrate with Grafana for advanced query capabilities.
+* Linkerd provides out-of-the-box Grafana dashboards that provide insights into service communications. 
+
+
+
+### Istio Pros and Cons
+#### Istio pros:
+
+* Built on widely supported industry standards like Envoy, which is the most mature, comprehensively supported solution on the market.
+* Backed by a large community committing significant enhancements to to project
+* Supports both Kubernetes, virtualized environments and bare metal.
+* Free community support from many organizations and vendors
+* Provides insight into network performance issues.
+* Secures inter-service and inter-pod communication.
+*Enables canary deployment and A/B testing.
+
+
+#### Istio cons:
+
+Offers extensive features and customizations which can be daunting for new users
+Requires YAML configuration to ensure encrypted communication
+Linkerd Pros and Cons
+Linkerd pros:
+
+Provides extensive documentation
+Simplified feature set makes it easy to install and setup
+Linkerd cons:
+
+Only backed by a single company with limited updates
+Only supports Kubernetes
+Missing some network routing features like circuit breaking and rate limiting
+Does not support security features like TCP for mTLS
+Does not have built-in ingress and egress
+Commercial versions of Istio
+Beyond the open source version of Istio, many vendors offer commercial versions of Istio which provide Istio users with:
+
+Enhanced Istio lifecycle management
+Extended features like enhancements like federated multi-cluster & hybrid support, multi-tenancy, pre-built extensions and FIPs compliance
+Production support including and SLAs for vulnerability fixes
+Backporting of patches and CVEs to older versions of Istio
+For many organizations, the additional features, as well as the support and guidance offered by a commercial Istio provider like Solo.io, ensure a successful Istio implementation.
