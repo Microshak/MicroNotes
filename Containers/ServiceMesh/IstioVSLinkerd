@@ -6,6 +6,15 @@ A service mesh is a layer in your infrastructure that can take care of routing, 
 | Complexity                                                                             | X                  |                                         |   |   |   |   |   |   |   |
 | Speed                                                                                  |                    | X                                       |   |   |   |   |   |   |   |
 
+Tradeoff analysis
+* Kiali
+
+TODO:
+* distrubuted Tracing - NewRelic Istio Jaegar
+* Azure WAF - 
+    * Imperva - Sumo Logic
+
+
 ## Ingress
 An ingress handles how you can accept incoming traffic inside your Kubernetes clusters 
 
@@ -14,20 +23,15 @@ LinkerD:  You may need something like Nginx for to handle things like rewriteing
 
 
 # Egress can be challenging itn Linkerd
-
-
-
 One of the primary use cases of Istio is supporting migration of monolithic legacy applications to a cloud-native architecture. It makes it easier to build applications using loosely coupled microservices, while controlling and managing them across hybrid and multi-cloud environments.
 
 ## Egress
-
 An egress controls outbound traffic from a cluster: 
 
 Istio controls outbound traffic using virtual service objects and gateways. 
 Linkerd enables egress management but it is not straightforward and can only be achieved through DNS and delegation tables (DTAB).
 
 # Security 
-
 * Istio provides generally superior security features, including HTTP and TCP support for mutual TLS (mTLS). In terms of policy management, Istio allows various providers to integrate their products into its policy management framework, and supports setting rules to limit which applications can communicate with each other.
 * Linkerd supports mTLS by default for all TCP connections.
 

@@ -1,0 +1,6 @@
+DataScience Salon
+As an architect, trainer, author, and consultant Dr Roshak has brought digitally transformation over 500 organizations. In facilitating MLOps and DataOps Dr Roshak has enabled companies to deploy AI rapidly while at the same time reducing problems that plague many companies that are trying to put AI models into production. 
+
+
+According to Forbes magazine, the failure rate of AI projects is between 60-80%. Issues like model and data drift, scalability, and model management are causing companies are becoming reluctant trust their data and ML models restricting them from becoming truly data driven.  XOps which is the combination of MLOps and DataOps is a new paradigm that allows companies to deploy their models at scale while reducing the issues and errors that plague modern AI deployments.  New patterns and practices around data allow organizations ensure their data is accurate and build in safeguards to alert them when it is not.  In machine learning model catalogs, CI/CD pipelines, and monitoring can ensure that better models can deploy faster with safeguards against drift.
+In this secession, Dr Roshak will explain the need for MLOps and DataOps, and dive into tools, techniques and architectures that has allowed companies to succeed as well as the pitfalls that has led to failures.
