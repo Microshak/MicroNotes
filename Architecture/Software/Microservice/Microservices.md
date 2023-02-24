@@ -3,15 +3,9 @@
 
 ---
  
-## An evolutionary Response 
-* Seperation of concerns
-  * Modularity
-  * Encapsulation
-* Scalability
-  * Horitanalyy scaling
-  * workload partitioning
-* Virtualizatin and elasticicty
-  * Automateable
-  * Elastic
-  
----
+## Distrituted Transactions
+### Saga Pattern
+* Replaces transactions in disturbuted databases
+* Many local transactions(T) along the chain with checks
+* Rollback needs to be coded with compansating(C) tranactions
+
