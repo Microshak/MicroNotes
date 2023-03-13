@@ -2,6 +2,10 @@
 
 When you have a good reason
 
+
+
+
+o78646
 Focus on the outcome not the technology
 
 
