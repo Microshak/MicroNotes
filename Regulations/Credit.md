@@ -1,0 +1,6 @@
+*  Equal Credit Opportunity Act (ECOA)
+> “Companies are not absolved of their legal responsibilities when they let a black-box model make lending decisions,” said CFPB Director Rohit Chopra.  “The law gives every applicant the right to a specific explanation if their application for credit was denied, and that right is not diminished simply because a company uses a complex algorithm that it doesn’t understand.”
+>>  [Consumer Financial Protection Bureau(CFPB)](https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/) 
+
+> Creditors who use complex algorithms, including artificial intelligence or machine learning, in any aspect of their credit decisions must still provide a notice that discloses the specific principal reasons for taking an adverse action. 
+>> [Consumer Financial Protection Bureau(CFPB)](https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/) 
