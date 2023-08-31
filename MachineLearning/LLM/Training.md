@@ -1,6 +1,6 @@
 # LLM Training Lanscape
 
-# FIne Tuneing
+# Fine Tuneing
 
 1. Repurposing a pre-trained text-generating LLM for a different type of application, such as sentiment analysis
     a. changing the architecture of the LLM (e.g., freezing the attention layers of the transformer model while training the task-specific layer on top of the pre-trained model).
