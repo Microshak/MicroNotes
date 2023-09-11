@@ -6,11 +6,11 @@ Hallucinations in Large Language Models stem from data compression and inconsist
 * Incorporate external knowledge sources for improved answer verification.
 
 # Hallunination Types
-* Logical fallicy - Reasoning mistakes
+* Logical fallacy - Reasoning mistakes
 * Fabrication of Facts
-* Data=driven Bias - training data is bias.
+* Data-driven bias - training data is biased.
 
-# benchmarks for evaluating hallucination
+# Benchmarks for evaluating hallucination
 
 * Knowledge-oriented LLM Assessment benchmark (KoLA)
 * TruthfulQA: Measuring How Models Mimic Human Falsehoods
@@ -21,3 +21,22 @@ Hallucinations in Large Language Models stem from data compression and inconsist
 * A model’s temperature refers to a scalar value used to adjust the probability distribution predicted by the model
 *  Balances between sticking to what the model has learned from the training data and generating more diverse or creative responses
 *  Creative answers are more prone to hallucinations.
+*  tasks that require veracity, strive towards an information-dense context, and set temperature=0 to get answers grounded in context
+
+
+# Improving Accuracy in LLM
+* Chain of Thought (CoT) - Think step-by-step prompt
+* Self Consistency with CoT (CoT-SC) - Ask to give several answers and evaluate
+* Tree of Thoughts (ToT) - self-evaluate intermediate steps
+* Tagged Context Prompts - Tagged question sets creating context prompts with summaries
+* Self-Correct model - double-check and criticize its results
+* Several Agents - Multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer
+* Use An External Knowledge Base
+  * Retrieval-Augmented Generation (RAG)
+  * Fine Tuning  
+
+
+
+
+Ref
+https://betterprogramming.pub/fixing-hallucinations-in-llms-9ff0fd438e33
