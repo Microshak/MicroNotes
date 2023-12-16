@@ -18,3 +18,15 @@ The most successful predictors are price trends, liquidity, and volatility
 Early Loan payoff predictor is another 
 In addition refinance insentives
 
+## ISsues
+Hight signal to noise
+High R^2 so variation between dependant and independant vaiarbles make it needed to do shallow trees
+
+
+# pricing and revenue manaement
+Demand reacts to environment
+
+margin * elasticisy
+
+profit/revenue optomal pricing 
+ 

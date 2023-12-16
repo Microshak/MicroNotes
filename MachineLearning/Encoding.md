@@ -19,13 +19,5 @@
 
 ---
 
-# ONNX ML.Net
-[ONNX](https://github.com/onnx/onnx)
-[ML.Net](https://docs.microsoft.com/en-us/dotnet/api/microsoft.ml.categoricalcatalog.onehotencoding?view=ml-dotnet)
-
----
-# MLLC & SDLC 
-
-
 
 
