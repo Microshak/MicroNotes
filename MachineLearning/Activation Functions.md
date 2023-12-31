@@ -1,3 +1,7 @@
+
+
+
+
 Sigmiod
 Takes some number and squishit bewteen  0 and 1.
 Problem:  makes the gradient vanish
