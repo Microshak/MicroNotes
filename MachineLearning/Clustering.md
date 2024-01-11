@@ -15,6 +15,6 @@
 * Like DBSCAN but for high demensionalty
 
 
-
+BetaSend
 # Tricks and Tips
-* Normalize the data
+* Normalize the datacd
