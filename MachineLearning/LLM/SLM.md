@@ -4,8 +4,8 @@
 
 ---
 # SLM vs LLM
-*LLM*: are resource intensive and have a broard range of applications.
-*SLM*
+* *LLM*: are resource intensive and have a broard range of applications.
+* *SLM*
     * Can operate on smaller systems
     * More Explainable
     * Trained on Smaller Datasets (150 documents)
@@ -15,6 +15,8 @@
     * Pre Processing text data (disambiguation)
     * IOT Edge
     * Privacy Detect PII
+
+---
 
 # Example
  ![full](https://microshak.github.io/MicroNotes/MachineLearning/LLM/SLM.drawio.png)

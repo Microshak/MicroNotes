@@ -9,10 +9,13 @@
 * Explore different LLMs
 * Fine Tune
 
+---
+
 # Chunking
 * Paragraph
 * Document
 
+--- 
 
 ## Tuning
 
