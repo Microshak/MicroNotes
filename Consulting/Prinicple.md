@@ -1,3 +1,6 @@
+# 90-90 Rule 
+When you think you are 90% done you have 90% more to go.
+
 ## Iceburg Principle - 
 Only a small part of an iceberg is visible above water, Hemingway's stories presented only a small part of what was actually happening.
 
@@ -8,14 +11,7 @@ Incrementally migrate a legacy system by gradually replacing specific pieces of 
 Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.
 
 
--- STM
-RAM!
 
-End to End 
-
-STM ML
-
-NVidia
 
 ## Hofstadter's Law
  Douglas Hofstadter in his book Gödel, Escher, Bach: An Eternal Golden Braid (1979) to describe the widely experienced difficulty of accurately estimating the time it will take to complete tasks of substantial complexity
