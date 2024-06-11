@@ -29,5 +29,36 @@
 # DevOps pipeline
 * Jenkins/Azure Pipelines
 * OWASP
-* [detectify.com](https://detectify.com/)
 
+
+---
+# SSRF Prevention
+* Sanitize (data inputs)
+* Enforce URL Schema, port, and destination
+* Verify response sent to client application (dont take in raw data)
+* Disable HTTP
+* Firewall
+
+# SSRF: Black and White
+* Backlist  known bad actors
+* Whitelist everything but ... ie trusted devices etc
+
+---
+
+# Injection Attacks
+* SQL
+* NO SQL
+* LDAP
+* OS Command
+* OMS
+* OGNL
+* XSS
+
+---
+
+# Protect Against SQL Injection Attacks
+* Add restrictions and validations at all levels.
+* Encode query parameters in the URL.
+* Use parameterized queries in the DAO layer.
+
+---
