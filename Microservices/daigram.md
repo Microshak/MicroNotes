@@ -1,6 +1,6 @@
 # Architectural Diagram 
 ## Typical 
-
+```mermaid
 graph TD
     A[Client] --> B[API Gateway]
     B --> C[User Service]
@@ -24,3 +24,4 @@ graph TD
         E
         H
     end
+```
