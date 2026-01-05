@@ -15,6 +15,9 @@ see failed test implement fix
 
 create workflows
 get ticket 
+
+skills
+
 search codebase
 come up with a solution
 make a tasl list
