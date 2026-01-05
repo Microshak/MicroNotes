@@ -5,3 +5,5 @@
 
 Generalized Agents VS Targeted Agents
 s
+
+capability reliability gap
